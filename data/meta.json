@@ -1,6 +1,6 @@
 {
   "versao_dados": 1,
-  "gerado_em": "2026-10-17T05:01:57.525659+00:00",
+  "gerado_em": "2026-10-17T13:34:46.101328+00:00",
   "historico": {
     "fonte": "UFCStats.com via github.com/Greco1899/scrape_ufc_stats (GPL-3.0)",
     "atualizado_com_sucesso": true,
@@ -12,7 +12,7 @@
   "proximos_eventos": {
     "fonte": "ESPN (API pública não oficial)",
     "atualizado_com_sucesso": true,
-    "atualizado_em": "2026-10-17T05:01:57.525659+00:00",
+    "atualizado_em": "2026-10-17T13:34:46.101328+00:00",
     "total_eventos": 7,
     "total_lutas": 75,
     "lutas_com_dados_suficientes": 48

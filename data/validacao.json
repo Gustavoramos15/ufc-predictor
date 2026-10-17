@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T05:01:57.525659+00:00",
+  "gerado_em": "2026-10-17T13:34:46.101328+00:00",
   "versao_modelo": "elo-logistica-v1",
   "periodos": {
     "treino": "até 2023-01-01 (exclusive)",
@@ -42,13 +42,13 @@
       {
         "faixa": "10-20%",
         "n": 14,
-        "prob_media_prevista": 0.17653002034443102,
+        "prob_media_prevista": 0.17653002034443097,
         "frequencia_real": 0.14285714285714285
       },
       {
         "faixa": "20-30%",
         "n": 129,
-        "prob_media_prevista": 0.2638923262560658,
+        "prob_media_prevista": 0.26389232625606585,
         "frequencia_real": 0.17829457364341086
       },
       {
