@@ -21,6 +21,12 @@ RESULTADOS_CSV = (
     "Evento Inexistente ,Eva vs. Fia,W/L,Flyweight Bout,KO/TKO ,1,1:00,3 Rnd,Ref,,http://f/5\n"
 )
 ATLETAS_CSV = "FIRST,LAST,NICKNAME,URL\nAna,Silva,,u1\nBia,Souza,,u2\nCaio,Lima,,u3\nCaio,Lima,,u4\nDavi,Rocha,,u5\n"
+STATS_CSV = (
+    "EVENT,BOUT,ROUND,FIGHTER,KD,SIG.STR.,SIG.STR. %,TOTAL STR.,TD,TD %,SUB.ATT,REV.,CTRL,HEAD,BODY,LEG,DISTANCE,CLINCH,GROUND\n"
+    "Evento Teste 1,Ana Silva vs. Bia Souza,Round 1,Ana Silva,1,10 of 20,50%,12 of 22,1 of 2,50%,0,0,0:30,,,,,,\n"
+    "Evento Teste 1,Ana Silva vs. Bia Souza,Round 1,Bia Souza,0,5 of 15,33%,6 of 16,0 of 1,0%,0.0,0,--,,,,,,\n"
+)
+TOTT_CSV = 'FIGHTER,HEIGHT,WEIGHT,REACH,STANCE,DOB,URL\nAna Silva,--,125 lbs.,"66""",Orthodox,"Jul 13, 1995",u1\n'
 
 
 @pytest.fixture
@@ -118,7 +124,8 @@ def test_converter_evento_sem_detalhes_usa_ordem_inversa():
 
 def _fake_rede(espn_falha=False):
     arquivos = {"ufc_event_details.csv": EVENTOS_CSV, "ufc_fight_results.csv": RESULTADOS_CSV,
-                "ufc_fighter_details.csv": ATLETAS_CSV}
+                "ufc_fighter_details.csv": ATLETAS_CSV, "ufc_fight_stats.csv": STATS_CSV,
+                "ufc_fighter_tott.csv": TOTT_CSV}
 
     def baixar(url):
         return arquivos[url.rsplit("/", 1)[1]].encode("utf-8")
@@ -144,12 +151,15 @@ def test_executar_completo(tmp_path):
     meta = atualizar.executar(tmp_path, baixar, baixar_json, AGORA)
     eventos = json.loads((tmp_path / "data" / "eventos.json").read_text(encoding="utf-8"))["eventos"]
     principal, outra = eventos[0]["lutas"]
-    assert principal["previsao_possivel"] is True
+    # Histórico de teste é pequeno demais para treinar: nenhuma previsão inventada, e um aviso explica.
+    assert principal["previsao_possivel"] is False and principal["previsao"] is None
+    assert principal["avisos"] == []  # os dois atletas têm dados; o que falta é o modelo
+    assert any("Modelo não pôde ser treinado" in a for a in meta["avisos"])
+    assert meta["modelo"]["treinado"] is False
     assert principal["lutador_a"]["historico_ufc"]["vitorias"] == 2
     assert outra["previsao_possivel"] is False
     assert outra["lutador_a"]["status_dados"] == "ambiguo"
     assert outra["lutador_b"]["status_dados"] == "nao_encontrado"
-    assert meta["proximos_eventos"]["lutas_com_dados_suficientes"] == 1
     assert meta["historico"]["luta_mais_recente"] == "2026-03-05"
     assert meta["historico"]["atualizacao_da_fonte"] == "2026-03-06T00:00:00Z"
     assert not any("desatualizado" in a for a in meta["avisos"])

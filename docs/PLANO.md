@@ -34,7 +34,11 @@ O UFC não tem uma API oficial gratuita de estatísticas. Odds de casas de apost
 - **O computador não precisa ficar ligado** se o GitHub Actions for usado. O repositório precisa ser **público** para o app baixar os JSON sem token. Os dados já são públicos, então isso não expõe nada seu.
 - **Alternativa 100% local:** rodar `atualizar.bat` no PC e enviar com `git push`. Nesse caso, a atualização depende do PC estar ligado.
 
-### Modelo (etapa 2)
+### Modelo (etapa 2, concluída; resultados em [VALIDACAO.md](VALIDACAO.md))
+O modelo foi escrito em **Python puro**, sem scikit-learn. O Controle de Aplicativo do Windows deste PC
+bloqueia o numpy, do qual o scikit-learn depende. A regressão logística é ajustada pelo método de Newton
+(`pipeline/ufc_pipeline/modelo.py`). O resultado é o mesmo de uma biblioteca, e o código roda em qualquer computador sem instalar nada.
+
 1. **Elo** por atleta, calculado em ordem cronológica. Mede a qualidade dos adversários.
 2. **Regressão logística** (scikit-learn) para P(vitória). Usa diferenças de Elo, forma recente e médias por minuto **anteriores à luta**: golpes significativos, precisão, defesa, quedas, defesa de quedas e controle.
 3. **Método de vitória:** P(KO/TKO | vitória), P(finalização | vitória) e P(decisão | vitória), estimadas a partir do histórico de cada atleta e do adversário, com suavização para a média da categoria. As três somam P(vitória) por construção.

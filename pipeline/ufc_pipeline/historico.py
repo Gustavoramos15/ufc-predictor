@@ -69,6 +69,8 @@ def ler_lutas(caminho_resultados: Path, eventos: dict[str, date]) -> tuple[list[
             "metodo": categoria_metodo(l["METHOD"]),
             "metodo_original": normalizar_espacos(l["METHOD"]),
             "round": normalizar_espacos(l["ROUND"]),
+            "tempo": normalizar_espacos(l["TIME"]),
+            "formato": normalizar_espacos(l["TIME FORMAT"]),
             "categoria": normalizar_espacos(l["WEIGHTCLASS"]),
             "url": l["URL"].strip(),
         })

@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T04:51:06.204820+00:00",
+  "gerado_em": "2026-10-17T05:01:57.525659+00:00",
   "eventos": [
     {
       "id": "600060773",
@@ -46,6 +46,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1677,
+              "minutos_com_estatisticas": 199.8,
+              "golpes_sig_por_min": 3.618,
+              "golpes_sig_sofridos_por_min": 3.097,
+              "precisao_golpes": 0.364,
+              "defesa_golpes": 0.589,
+              "quedas_por_15min": 1.426,
+              "precisao_quedas": 0.452,
+              "defesa_quedas": 0.702,
+              "controle_por_15min_s": 98.549,
+              "tentativas_finalizacao_por_15min": 0.075,
+              "idade": 32.5,
+              "envergadura_cm": 193
             }
           },
           "lutador_b": {
@@ -81,10 +96,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1684,
+              "minutos_com_estatisticas": 76.3,
+              "golpes_sig_por_min": 3.942,
+              "golpes_sig_sofridos_por_min": 2.829,
+              "precisao_golpes": 0.523,
+              "defesa_golpes": 0.571,
+              "quedas_por_15min": 1.572,
+              "precisao_quedas": 0.571,
+              "defesa_quedas": 0.727,
+              "controle_por_15min_s": 141.257,
+              "tentativas_finalizacao_por_15min": 0.589,
+              "idade": 34.9,
+              "envergadura_cm": 185
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.52334,
+                "odd_justa": 1.91
+              },
+              "ko_tko": {
+                "prob": 0.320944,
+                "odd_justa": 3.12
+              },
+              "finalizacao": {
+                "prob": 0.040156,
+                "odd_justa": 24.9
+              },
+              "decisao": {
+                "prob": 0.16224,
+                "odd_justa": 6.16
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.47666,
+                "odd_justa": 2.1
+              },
+              "ko_tko": {
+                "prob": 0.206922,
+                "odd_justa": 4.83
+              },
+              "finalizacao": {
+                "prob": 0.074011,
+                "odd_justa": 13.51
+              },
+              "decisao": {
+                "prob": 0.195727,
+                "odd_justa": 5.11
+              }
+            }
+          }
         },
         {
           "id": "401897729",
@@ -125,6 +193,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1723,
+              "minutos_com_estatisticas": 122.6,
+              "golpes_sig_por_min": 5.245,
+              "golpes_sig_sofridos_por_min": 4.25,
+              "precisao_golpes": 0.444,
+              "defesa_golpes": 0.588,
+              "quedas_por_15min": 1.958,
+              "precisao_quedas": 0.34,
+              "defesa_quedas": 0.783,
+              "controle_por_15min_s": 345.392,
+              "tentativas_finalizacao_por_15min": 0.856,
+              "idade": 27.5,
+              "envergadura_cm": 168
             }
           },
           "lutador_b": {
@@ -160,10 +243,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1670,
+              "minutos_com_estatisticas": 150.7,
+              "golpes_sig_por_min": 3.351,
+              "golpes_sig_sofridos_por_min": 3.377,
+              "precisao_golpes": 0.445,
+              "defesa_golpes": 0.517,
+              "quedas_por_15min": 2.488,
+              "precisao_quedas": 0.446,
+              "defesa_quedas": 0.75,
+              "controle_por_15min_s": 437.51,
+              "tentativas_finalizacao_por_15min": 0.597,
+              "idade": 37.6,
+              "envergadura_cm": 173
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.710892,
+                "odd_justa": 1.41
+              },
+              "ko_tko": {
+                "prob": 0.109435,
+                "odd_justa": 9.14
+              },
+              "finalizacao": {
+                "prob": 0.184989,
+                "odd_justa": 5.41
+              },
+              "decisao": {
+                "prob": 0.416467,
+                "odd_justa": 2.4
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.289108,
+                "odd_justa": 3.46
+              },
+              "ko_tko": {
+                "prob": 0.022053,
+                "odd_justa": 45.34
+              },
+              "finalizacao": {
+                "prob": 0.064045,
+                "odd_justa": 15.61
+              },
+              "decisao": {
+                "prob": 0.20301,
+                "odd_justa": 4.93
+              }
+            }
+          }
         },
         {
           "id": "401923630",
@@ -204,6 +340,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1522,
+              "minutos_com_estatisticas": 114.8,
+              "golpes_sig_por_min": 3.599,
+              "golpes_sig_sofridos_por_min": 4.575,
+              "precisao_golpes": 0.458,
+              "defesa_golpes": 0.538,
+              "quedas_por_15min": 1.176,
+              "precisao_quedas": 0.231,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 184.444,
+              "tentativas_finalizacao_por_15min": 0.523,
+              "idade": 35.5,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -211,12 +362,14 @@
             "cartel_espn": "15-2-0",
             "pais": "Mexico",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Cristian Pérez: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401908372",
@@ -257,6 +410,21 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1438,
+              "minutos_com_estatisticas": 176.1,
+              "golpes_sig_por_min": 5.652,
+              "golpes_sig_sofridos_por_min": 5.941,
+              "precisao_golpes": 0.47,
+              "defesa_golpes": 0.492,
+              "quedas_por_15min": 0.341,
+              "precisao_quedas": 0.286,
+              "defesa_quedas": 0.681,
+              "controle_por_15min_s": 92.957,
+              "tentativas_finalizacao_por_15min": 0.085,
+              "idade": 36.7,
+              "envergadura_cm": 188
             }
           },
           "lutador_b": {
@@ -292,10 +460,63 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1509,
+              "minutos_com_estatisticas": 68.8,
+              "golpes_sig_por_min": 2.864,
+              "golpes_sig_sofridos_por_min": 3.228,
+              "precisao_golpes": 0.495,
+              "defesa_golpes": 0.423,
+              "quedas_por_15min": 1.963,
+              "precisao_quedas": 0.237,
+              "defesa_quedas": 0.714,
+              "controle_por_15min_s": 367.894,
+              "tentativas_finalizacao_por_15min": 1.527,
+              "idade": 33.6,
+              "envergadura_cm": 193
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.345957,
+                "odd_justa": 2.89
+              },
+              "ko_tko": {
+                "prob": 0.174738,
+                "odd_justa": 5.72
+              },
+              "finalizacao": {
+                "prob": 0.041515,
+                "odd_justa": 24.09
+              },
+              "decisao": {
+                "prob": 0.129704,
+                "odd_justa": 7.71
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.654043,
+                "odd_justa": 1.53
+              },
+              "ko_tko": {
+                "prob": 0.199318,
+                "odd_justa": 5.02
+              },
+              "finalizacao": {
+                "prob": 0.171359,
+                "odd_justa": 5.84
+              },
+              "decisao": {
+                "prob": 0.283365,
+                "odd_justa": 3.53
+              }
+            }
+          }
         },
         {
           "id": "401909783",
@@ -308,7 +529,8 @@
             "cartel_espn": "9-3-0",
             "pais": "Canada",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "lutador_b": {
             "nome": "Timmy Cuamba",
@@ -343,12 +565,28 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1479,
+              "minutos_com_estatisticas": 61.3,
+              "golpes_sig_por_min": 2.886,
+              "golpes_sig_sofridos_por_min": 3.538,
+              "precisao_golpes": 0.459,
+              "defesa_golpes": 0.563,
+              "quedas_por_15min": 1.467,
+              "precisao_quedas": 0.316,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 154.321,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 27.7,
+              "envergadura_cm": 180
             }
           },
           "avisos": [
             "Louis Jourdain: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401905374",
@@ -385,6 +623,21 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1466,
+              "minutos_com_estatisticas": 2.1,
+              "golpes_sig_por_min": 7.68,
+              "golpes_sig_sofridos_por_min": 9.12,
+              "precisao_golpes": 0.516,
+              "defesa_golpes": 0.321,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 72.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 37.2,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -420,12 +673,28 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1482,
+              "minutos_com_estatisticas": 102.8,
+              "golpes_sig_por_min": 5.554,
+              "golpes_sig_sofridos_por_min": 5.962,
+              "precisao_golpes": 0.458,
+              "defesa_golpes": 0.512,
+              "quedas_por_15min": 0.729,
+              "precisao_quedas": 0.417,
+              "defesa_quedas": 0.719,
+              "controle_por_15min_s": 103.874,
+              "tentativas_finalizacao_por_15min": 0.729,
+              "idade": 38.4,
+              "envergadura_cm": 183
             }
           },
           "avisos": [
             "Mandel Nallo: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401908371",
@@ -466,6 +735,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1462,
+              "minutos_com_estatisticas": 119.6,
+              "golpes_sig_por_min": 4.816,
+              "golpes_sig_sofridos_por_min": 3.002,
+              "precisao_golpes": 0.535,
+              "defesa_golpes": 0.575,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "defesa_quedas": 0.696,
+              "controle_por_15min_s": 67.726,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 35.2,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -501,10 +785,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1532,
+              "minutos_com_estatisticas": 56.4,
+              "golpes_sig_por_min": 3.672,
+              "golpes_sig_sofridos_por_min": 3.406,
+              "precisao_golpes": 0.588,
+              "defesa_golpes": 0.584,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 0.692,
+              "controle_por_15min_s": 20.491,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 35.3,
+              "envergadura_cm": 201
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.518193,
+                "odd_justa": 1.93
+              },
+              "ko_tko": {
+                "prob": 0.347309,
+                "odd_justa": 2.88
+              },
+              "finalizacao": {
+                "prob": 0.030734,
+                "odd_justa": 32.54
+              },
+              "decisao": {
+                "prob": 0.140149,
+                "odd_justa": 7.14
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.481807,
+                "odd_justa": 2.08
+              },
+              "ko_tko": {
+                "prob": 0.190494,
+                "odd_justa": 5.25
+              },
+              "finalizacao": {
+                "prob": 0.02364,
+                "odd_justa": 42.3
+              },
+              "decisao": {
+                "prob": 0.267673,
+                "odd_justa": 3.74
+              }
+            }
+          }
         },
         {
           "id": "401911807",
@@ -541,6 +878,21 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1460,
+              "minutos_com_estatisticas": 2.4,
+              "golpes_sig_por_min": 1.69,
+              "golpes_sig_sofridos_por_min": 2.958,
+              "precisao_golpes": 0.667,
+              "defesa_golpes": 0.462,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 0.0,
+              "controle_por_15min_s": 0.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.7,
+              "envergadura_cm": null
             }
           },
           "lutador_b": {
@@ -548,13 +900,15 @@
             "cartel_espn": "8-1-0",
             "pais": "USA",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Julien LeBlanc: menos de 2 lutas no UFC registradas.",
             "Nick Galanti: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401929676",
@@ -567,20 +921,23 @@
             "cartel_espn": "5-0-0",
             "pais": "Canada",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "lutador_b": {
             "nome": "Joel Faglier",
             "cartel_espn": "6-0-0",
             "pais": "USA",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Javad Mahjoub: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome).",
             "Joel Faglier: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401929675",
@@ -621,6 +978,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1626,
+              "minutos_com_estatisticas": 241.0,
+              "golpes_sig_por_min": 4.582,
+              "golpes_sig_sofridos_por_min": 4.482,
+              "precisao_golpes": 0.349,
+              "defesa_golpes": 0.623,
+              "quedas_por_15min": 0.311,
+              "precisao_quedas": 0.156,
+              "defesa_quedas": 0.5,
+              "controle_por_15min_s": 70.964,
+              "tentativas_finalizacao_por_15min": 0.311,
+              "idade": 37.8,
+              "envergadura_cm": 173
             }
           },
           "lutador_b": {
@@ -628,12 +1000,14 @@
             "cartel_espn": "6-1-0",
             "pais": "USA",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Mackenzie Stiller: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401914039",
@@ -674,6 +1048,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1462,
+              "minutos_com_estatisticas": 73.4,
+              "golpes_sig_por_min": 3.108,
+              "golpes_sig_sofridos_por_min": 2.903,
+              "precisao_golpes": 0.44,
+              "defesa_golpes": 0.541,
+              "quedas_por_15min": 0.818,
+              "precisao_quedas": 0.364,
+              "defesa_quedas": 0.273,
+              "controle_por_15min_s": 112.858,
+              "tentativas_finalizacao_por_15min": 0.409,
+              "idade": 39.9,
+              "envergadura_cm": 163
             }
           },
           "lutador_b": {
@@ -705,12 +1094,28 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1468,
+              "minutos_com_estatisticas": 14.2,
+              "golpes_sig_por_min": 0.774,
+              "golpes_sig_sofridos_por_min": 3.728,
+              "precisao_golpes": 0.379,
+              "defesa_golpes": 0.404,
+              "quedas_por_15min": 5.275,
+              "precisao_quedas": 0.556,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 295.428,
+              "tentativas_finalizacao_por_15min": 1.055,
+              "idade": 29.7,
+              "envergadura_cm": 175
             }
           },
           "avisos": [
             "Steven Koslow: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401908373",
@@ -749,6 +1154,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1542,
+              "minutos_com_estatisticas": 44.5,
+              "golpes_sig_por_min": 4.266,
+              "golpes_sig_sofridos_por_min": 2.133,
+              "precisao_golpes": 0.473,
+              "defesa_golpes": 0.594,
+              "quedas_por_15min": 2.021,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 222.642,
+              "tentativas_finalizacao_por_15min": 0.337,
+              "idade": 35.5,
+              "envergadura_cm": null
             }
           },
           "lutador_b": {
@@ -784,10 +1204,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1502,
+              "minutos_com_estatisticas": 55.5,
+              "golpes_sig_por_min": 3.516,
+              "golpes_sig_sofridos_por_min": 4.273,
+              "precisao_golpes": 0.45,
+              "defesa_golpes": 0.405,
+              "quedas_por_15min": 0.811,
+              "precisao_quedas": 0.6,
+              "defesa_quedas": 0.25,
+              "controle_por_15min_s": 262.32,
+              "tentativas_finalizacao_por_15min": 0.27,
+              "idade": 35.9,
+              "envergadura_cm": 173
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.714312,
+                "odd_justa": 1.4
+              },
+              "ko_tko": {
+                "prob": 0.235439,
+                "odd_justa": 4.25
+              },
+              "finalizacao": {
+                "prob": 0.055979,
+                "odd_justa": 17.86
+              },
+              "decisao": {
+                "prob": 0.422895,
+                "odd_justa": 2.36
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.285688,
+                "odd_justa": 3.5
+              },
+              "ko_tko": {
+                "prob": 0.063986,
+                "odd_justa": 15.63
+              },
+              "finalizacao": {
+                "prob": 0.055103,
+                "odd_justa": 18.15
+              },
+              "decisao": {
+                "prob": 0.166598,
+                "odd_justa": 6.0
+              }
+            }
+          }
         },
         {
           "id": "401919643",
@@ -800,7 +1273,8 @@
             "cartel_espn": "9-0-0",
             "pais": "Canada",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "lutador_b": {
             "nome": "SuYoung You",
@@ -834,12 +1308,28 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1551,
+              "minutos_com_estatisticas": 51.1,
+              "golpes_sig_por_min": 2.369,
+              "golpes_sig_sofridos_por_min": 2.134,
+              "precisao_golpes": 0.522,
+              "defesa_golpes": 0.701,
+              "quedas_por_15min": 3.231,
+              "precisao_quedas": 0.379,
+              "defesa_quedas": 0.0,
+              "controle_por_15min_s": 272.879,
+              "tentativas_finalizacao_por_15min": 0.294,
+              "idade": 30.9,
+              "envergadura_cm": 165
             }
           },
           "avisos": [
             "Cody Chovancek: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         }
       ]
     },
@@ -888,6 +1378,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1829,
+              "minutos_com_estatisticas": 303.0,
+              "golpes_sig_por_min": 5.99,
+              "golpes_sig_sofridos_por_min": 3.31,
+              "precisao_golpes": 0.571,
+              "defesa_golpes": 0.587,
+              "quedas_por_15min": 1.634,
+              "precisao_quedas": 0.34,
+              "defesa_quedas": 0.689,
+              "controle_por_15min_s": 177.733,
+              "tentativas_finalizacao_por_15min": 0.198,
+              "idade": 38.1,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -923,10 +1428,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1807,
+              "minutos_com_estatisticas": 160.0,
+              "golpes_sig_por_min": 3.906,
+              "golpes_sig_sofridos_por_min": 2.8,
+              "precisao_golpes": 0.476,
+              "defesa_golpes": 0.613,
+              "quedas_por_15min": 4.781,
+              "precisao_quedas": 0.526,
+              "defesa_quedas": 0.611,
+              "controle_por_15min_s": 321.188,
+              "tentativas_finalizacao_por_15min": 0.188,
+              "idade": 32.7,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.424905,
+                "odd_justa": 2.35
+              },
+              "ko_tko": {
+                "prob": 0.134585,
+                "odd_justa": 7.43
+              },
+              "finalizacao": {
+                "prob": 0.040332,
+                "odd_justa": 24.79
+              },
+              "decisao": {
+                "prob": 0.249988,
+                "odd_justa": 4.0
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.575095,
+                "odd_justa": 1.74
+              },
+              "ko_tko": {
+                "prob": 0.164496,
+                "odd_justa": 6.08
+              },
+              "finalizacao": {
+                "prob": 0.027677,
+                "odd_justa": 36.13
+              },
+              "decisao": {
+                "prob": 0.382922,
+                "odd_justa": 2.61
+              }
+            }
+          }
         },
         {
           "id": "401911633",
@@ -967,6 +1525,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1778,
+              "minutos_com_estatisticas": 282.1,
+              "golpes_sig_por_min": 5.162,
+              "golpes_sig_sofridos_por_min": 4.244,
+              "precisao_golpes": 0.549,
+              "defesa_golpes": 0.596,
+              "quedas_por_15min": 1.702,
+              "precisao_quedas": 0.492,
+              "defesa_quedas": 0.864,
+              "controle_por_15min_s": 135.021,
+              "tentativas_finalizacao_por_15min": 0.106,
+              "idade": 33.7,
+              "envergadura_cm": 170
             }
           },
           "lutador_b": {
@@ -1002,10 +1575,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1825,
+              "minutos_com_estatisticas": 299.1,
+              "golpes_sig_por_min": 4.42,
+              "golpes_sig_sofridos_por_min": 2.802,
+              "precisao_golpes": 0.416,
+              "defesa_golpes": 0.54,
+              "quedas_por_15min": 5.968,
+              "precisao_quedas": 0.352,
+              "defesa_quedas": 0.76,
+              "controle_por_15min_s": 323.202,
+              "tentativas_finalizacao_por_15min": 0.351,
+              "idade": 35.8,
+              "envergadura_cm": 173
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.396715,
+                "odd_justa": 2.52
+              },
+              "ko_tko": {
+                "prob": 0.086009,
+                "odd_justa": 11.63
+              },
+              "finalizacao": {
+                "prob": 0.061264,
+                "odd_justa": 16.32
+              },
+              "decisao": {
+                "prob": 0.249443,
+                "odd_justa": 4.01
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.603285,
+                "odd_justa": 1.66
+              },
+              "ko_tko": {
+                "prob": 0.061995,
+                "odd_justa": 16.13
+              },
+              "finalizacao": {
+                "prob": 0.050608,
+                "odd_justa": 19.76
+              },
+              "decisao": {
+                "prob": 0.490681,
+                "odd_justa": 2.04
+              }
+            }
+          }
         },
         {
           "id": "401911634",
@@ -1046,6 +1672,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1540,
+              "minutos_com_estatisticas": 78.2,
+              "golpes_sig_por_min": 4.102,
+              "golpes_sig_sofridos_por_min": 3.936,
+              "precisao_golpes": 0.5,
+              "defesa_golpes": 0.535,
+              "quedas_por_15min": 1.15,
+              "precisao_quedas": 0.462,
+              "defesa_quedas": 0.826,
+              "controle_por_15min_s": 111.374,
+              "tentativas_finalizacao_por_15min": 0.383,
+              "idade": 27.4,
+              "envergadura_cm": 170
             }
           },
           "lutador_b": {
@@ -1079,10 +1720,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1601,
+              "minutos_com_estatisticas": 22.2,
+              "golpes_sig_por_min": 4.733,
+              "golpes_sig_sofridos_por_min": 3.651,
+              "precisao_golpes": 0.412,
+              "defesa_golpes": 0.621,
+              "quedas_por_15min": 0.676,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 22.99,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 29.7,
+              "envergadura_cm": 160
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.439979,
+                "odd_justa": 2.27
+              },
+              "ko_tko": {
+                "prob": 0.075966,
+                "odd_justa": 13.16
+              },
+              "finalizacao": {
+                "prob": 0.067148,
+                "odd_justa": 14.89
+              },
+              "decisao": {
+                "prob": 0.296865,
+                "odd_justa": 3.37
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.560021,
+                "odd_justa": 1.79
+              },
+              "ko_tko": {
+                "prob": 0.244166,
+                "odd_justa": 4.1
+              },
+              "finalizacao": {
+                "prob": 0.124947,
+                "odd_justa": 8.0
+              },
+              "decisao": {
+                "prob": 0.190908,
+                "odd_justa": 5.24
+              }
+            }
+          }
         },
         {
           "id": "401911635",
@@ -1123,6 +1817,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1775,
+              "minutos_com_estatisticas": 246.1,
+              "golpes_sig_por_min": 5.079,
+              "golpes_sig_sofridos_por_min": 3.055,
+              "precisao_golpes": 0.577,
+              "defesa_golpes": 0.544,
+              "quedas_por_15min": 0.609,
+              "precisao_quedas": 0.625,
+              "defesa_quedas": 0.694,
+              "controle_por_15min_s": 83.674,
+              "tentativas_finalizacao_por_15min": 0.122,
+              "idade": 38.0,
+              "envergadura_cm": 203
             }
           },
           "lutador_b": {
@@ -1156,10 +1865,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1567,
+              "minutos_com_estatisticas": 41.2,
+              "golpes_sig_por_min": 3.738,
+              "golpes_sig_sofridos_por_min": 2.597,
+              "precisao_golpes": 0.48,
+              "defesa_golpes": 0.478,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 0.92,
+              "controle_por_15min_s": 204.612,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.6,
+              "envergadura_cm": 193
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.669584,
+                "odd_justa": 1.49
+              },
+              "ko_tko": {
+                "prob": 0.26449,
+                "odd_justa": 3.78
+              },
+              "finalizacao": {
+                "prob": 0.060938,
+                "odd_justa": 16.41
+              },
+              "decisao": {
+                "prob": 0.344156,
+                "odd_justa": 2.91
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.330416,
+                "odd_justa": 3.03
+              },
+              "ko_tko": {
+                "prob": 0.132951,
+                "odd_justa": 7.52
+              },
+              "finalizacao": {
+                "prob": 0.043198,
+                "odd_justa": 23.15
+              },
+              "decisao": {
+                "prob": 0.154267,
+                "odd_justa": 6.48
+              }
+            }
+          }
         },
         {
           "id": "401929495",
@@ -1197,6 +1959,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1520,
+              "minutos_com_estatisticas": 18.4,
+              "golpes_sig_por_min": 6.158,
+              "golpes_sig_sofridos_por_min": 3.106,
+              "precisao_golpes": 0.538,
+              "defesa_golpes": 0.452,
+              "quedas_por_15min": 6.54,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 266.485,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.1,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -1229,10 +2006,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1523,
+              "minutos_com_estatisticas": 17.9,
+              "golpes_sig_por_min": 3.911,
+              "golpes_sig_sofridos_por_min": 3.966,
+              "precisao_golpes": 0.47,
+              "defesa_golpes": 0.649,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 16.76,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 28.8,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.493,
+                "odd_justa": 2.03
+              },
+              "ko_tko": {
+                "prob": 0.099798,
+                "odd_justa": 10.02
+              },
+              "finalizacao": {
+                "prob": 0.055826,
+                "odd_justa": 17.91
+              },
+              "decisao": {
+                "prob": 0.337377,
+                "odd_justa": 2.96
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.507,
+                "odd_justa": 1.97
+              },
+              "ko_tko": {
+                "prob": 0.271632,
+                "odd_justa": 3.68
+              },
+              "finalizacao": {
+                "prob": 0.057411,
+                "odd_justa": 17.42
+              },
+              "decisao": {
+                "prob": 0.177957,
+                "odd_justa": 5.62
+              }
+            }
+          }
         },
         {
           "id": "401911637",
@@ -1273,6 +2103,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1643,
+              "minutos_com_estatisticas": 63.3,
+              "golpes_sig_por_min": 4.47,
+              "golpes_sig_sofridos_por_min": 3.285,
+              "precisao_golpes": 0.565,
+              "defesa_golpes": 0.558,
+              "quedas_por_15min": 0.711,
+              "precisao_quedas": 0.214,
+              "defesa_quedas": 0.889,
+              "controle_por_15min_s": 87.181,
+              "tentativas_finalizacao_por_15min": 0.237,
+              "idade": 37.5,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -1308,10 +2153,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1670,
+              "minutos_com_estatisticas": 117.8,
+              "golpes_sig_por_min": 4.992,
+              "golpes_sig_sofridos_por_min": 3.404,
+              "precisao_golpes": 0.536,
+              "defesa_golpes": 0.496,
+              "quedas_por_15min": 0.255,
+              "precisao_quedas": 0.286,
+              "defesa_quedas": 0.829,
+              "controle_por_15min_s": 63.031,
+              "tentativas_finalizacao_por_15min": 0.255,
+              "idade": 36.8,
+              "envergadura_cm": 196
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.486736,
+                "odd_justa": 2.05
+              },
+              "ko_tko": {
+                "prob": 0.351435,
+                "odd_justa": 2.85
+              },
+              "finalizacao": {
+                "prob": 0.022912,
+                "odd_justa": 43.65
+              },
+              "decisao": {
+                "prob": 0.112389,
+                "odd_justa": 8.9
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.513264,
+                "odd_justa": 1.95
+              },
+              "ko_tko": {
+                "prob": 0.312711,
+                "odd_justa": 3.2
+              },
+              "finalizacao": {
+                "prob": 0.058969,
+                "odd_justa": 16.96
+              },
+              "decisao": {
+                "prob": 0.141584,
+                "odd_justa": 7.06
+              }
+            }
+          }
         },
         {
           "id": "401911639",
@@ -1352,6 +2250,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1592,
+              "minutos_com_estatisticas": 157.3,
+              "golpes_sig_por_min": 4.379,
+              "golpes_sig_sofridos_por_min": 2.752,
+              "precisao_golpes": 0.542,
+              "defesa_golpes": 0.481,
+              "quedas_por_15min": 2.193,
+              "precisao_quedas": 0.383,
+              "defesa_quedas": 0.532,
+              "controle_por_15min_s": 318.242,
+              "tentativas_finalizacao_por_15min": 1.144,
+              "idade": 34.6,
+              "envergadura_cm": 196
             }
           },
           "lutador_b": {
@@ -1385,10 +2298,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1582,
+              "minutos_com_estatisticas": 3.5,
+              "golpes_sig_por_min": 5.352,
+              "golpes_sig_sofridos_por_min": 2.254,
+              "precisao_golpes": 0.576,
+              "defesa_golpes": 0.579,
+              "quedas_por_15min": 12.676,
+              "precisao_quedas": 0.75,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 604.225,
+              "tentativas_finalizacao_por_15min": 8.451,
+              "idade": 25.8,
+              "envergadura_cm": 198
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.314524,
+                "odd_justa": 3.18
+              },
+              "ko_tko": {
+                "prob": 0.13924,
+                "odd_justa": 7.18
+              },
+              "finalizacao": {
+                "prob": 0.08775,
+                "odd_justa": 11.4
+              },
+              "decisao": {
+                "prob": 0.087535,
+                "odd_justa": 11.42
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.685476,
+                "odd_justa": 1.46
+              },
+              "ko_tko": {
+                "prob": 0.272566,
+                "odd_justa": 3.67
+              },
+              "finalizacao": {
+                "prob": 0.285473,
+                "odd_justa": 3.5
+              },
+              "decisao": {
+                "prob": 0.127438,
+                "odd_justa": 7.85
+              }
+            }
+          }
         },
         {
           "id": "401911638",
@@ -1429,6 +2395,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1603,
+              "minutos_com_estatisticas": 78.1,
+              "golpes_sig_por_min": 3.061,
+              "golpes_sig_sofridos_por_min": 3.343,
+              "precisao_golpes": 0.487,
+              "defesa_golpes": 0.564,
+              "quedas_por_15min": 2.498,
+              "precisao_quedas": 0.591,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 232.494,
+              "tentativas_finalizacao_por_15min": 0.576,
+              "idade": 36.1,
+              "envergadura_cm": 198
             }
           },
           "lutador_b": {
@@ -1462,10 +2443,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1594,
+              "minutos_com_estatisticas": 26.8,
+              "golpes_sig_por_min": 5.519,
+              "golpes_sig_sofridos_por_min": 1.976,
+              "precisao_golpes": 0.485,
+              "defesa_golpes": 0.539,
+              "quedas_por_15min": 1.678,
+              "precisao_quedas": 0.429,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 430.702,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 31.8,
+              "envergadura_cm": 198
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.398978,
+                "odd_justa": 2.51
+              },
+              "ko_tko": {
+                "prob": 0.127414,
+                "odd_justa": 7.85
+              },
+              "finalizacao": {
+                "prob": 0.112056,
+                "odd_justa": 8.92
+              },
+              "decisao": {
+                "prob": 0.159508,
+                "odd_justa": 6.27
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.601022,
+                "odd_justa": 1.66
+              },
+              "ko_tko": {
+                "prob": 0.273022,
+                "odd_justa": 3.66
+              },
+              "finalizacao": {
+                "prob": 0.11171,
+                "odd_justa": 8.95
+              },
+              "decisao": {
+                "prob": 0.21629,
+                "odd_justa": 4.62
+              }
+            }
+          }
         },
         {
           "id": "401911640",
@@ -1506,6 +2540,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1721,
+              "minutos_com_estatisticas": 169.7,
+              "golpes_sig_por_min": 3.111,
+              "golpes_sig_sofridos_por_min": 2.204,
+              "precisao_golpes": 0.512,
+              "defesa_golpes": 0.448,
+              "quedas_por_15min": 3.624,
+              "precisao_quedas": 0.39,
+              "defesa_quedas": 0.7,
+              "controle_por_15min_s": 585.681,
+              "tentativas_finalizacao_por_15min": 1.237,
+              "idade": 32.7,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -1540,10 +2589,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1624,
+              "minutos_com_estatisticas": 60.0,
+              "golpes_sig_por_min": 1.967,
+              "golpes_sig_sofridos_por_min": 1.667,
+              "precisao_golpes": 0.415,
+              "defesa_golpes": 0.558,
+              "quedas_por_15min": 3.5,
+              "precisao_quedas": 0.583,
+              "defesa_quedas": 0.8,
+              "controle_por_15min_s": 528.25,
+              "tentativas_finalizacao_por_15min": 0.5,
+              "idade": 25.9,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.508325,
+                "odd_justa": 1.97
+              },
+              "ko_tko": {
+                "prob": 0.125426,
+                "odd_justa": 7.97
+              },
+              "finalizacao": {
+                "prob": 0.154998,
+                "odd_justa": 6.45
+              },
+              "decisao": {
+                "prob": 0.227901,
+                "odd_justa": 4.39
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.491675,
+                "odd_justa": 2.03
+              },
+              "ko_tko": {
+                "prob": 0.185772,
+                "odd_justa": 5.38
+              },
+              "finalizacao": {
+                "prob": 0.045297,
+                "odd_justa": 22.08
+              },
+              "decisao": {
+                "prob": 0.260606,
+                "odd_justa": 3.84
+              }
+            }
+          }
         },
         {
           "id": "401928047",
@@ -1582,6 +2684,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1523,
+              "minutos_com_estatisticas": 45.0,
+              "golpes_sig_por_min": 3.244,
+              "golpes_sig_sofridos_por_min": 2.933,
+              "precisao_golpes": 0.411,
+              "defesa_golpes": 0.543,
+              "quedas_por_15min": 0.667,
+              "precisao_quedas": 0.071,
+              "defesa_quedas": 0.333,
+              "controle_por_15min_s": 215.333,
+              "tentativas_finalizacao_por_15min": 1.667,
+              "idade": 27.3,
+              "envergadura_cm": 175
             }
           },
           "lutador_b": {
@@ -1589,12 +2706,14 @@
             "cartel_espn": "11-0-0",
             "pais": "Russia",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Asaf Chopurov: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401930357",
@@ -1631,6 +2750,21 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1530,
+              "minutos_com_estatisticas": 15.0,
+              "golpes_sig_por_min": 1.8,
+              "golpes_sig_sofridos_por_min": 2.2,
+              "precisao_golpes": 0.386,
+              "defesa_golpes": 0.602,
+              "quedas_por_15min": 4.0,
+              "precisao_quedas": 0.4,
+              "defesa_quedas": 0.714,
+              "controle_por_15min_s": 466.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 33.5,
+              "envergadura_cm": null
             }
           },
           "lutador_b": {
@@ -1666,12 +2800,28 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1596,
+              "minutos_com_estatisticas": 100.2,
+              "golpes_sig_por_min": 4.232,
+              "golpes_sig_sofridos_por_min": 2.325,
+              "precisao_golpes": 0.568,
+              "defesa_golpes": 0.554,
+              "quedas_por_15min": 5.389,
+              "precisao_quedas": 0.429,
+              "defesa_quedas": 0.556,
+              "controle_por_15min_s": 426.347,
+              "tentativas_finalizacao_por_15min": 0.749,
+              "idade": 31.2,
+              "envergadura_cm": 185
             }
           },
           "avisos": [
             "Abubakar Vagaev: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         }
       ]
     },
@@ -1720,6 +2870,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1700,
+              "minutos_com_estatisticas": 188.0,
+              "golpes_sig_por_min": 4.1,
+              "golpes_sig_sofridos_por_min": 3.553,
+              "precisao_golpes": 0.492,
+              "defesa_golpes": 0.597,
+              "quedas_por_15min": 1.675,
+              "precisao_quedas": 0.404,
+              "defesa_quedas": 0.643,
+              "controle_por_15min_s": 197.119,
+              "tentativas_finalizacao_por_15min": 0.558,
+              "idade": 37.4,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -1755,10 +2920,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1629,
+              "minutos_com_estatisticas": 54.0,
+              "golpes_sig_por_min": 4.721,
+              "golpes_sig_sofridos_por_min": 3.795,
+              "precisao_golpes": 0.454,
+              "defesa_golpes": 0.485,
+              "quedas_por_15min": 1.111,
+              "precisao_quedas": 0.267,
+              "defesa_quedas": 0.583,
+              "controle_por_15min_s": 162.728,
+              "tentativas_finalizacao_por_15min": 1.388,
+              "idade": 26.6,
+              "envergadura_cm": 185
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.455722,
+                "odd_justa": 2.19
+              },
+              "ko_tko": {
+                "prob": 0.162262,
+                "odd_justa": 6.16
+              },
+              "finalizacao": {
+                "prob": 0.146641,
+                "odd_justa": 6.82
+              },
+              "decisao": {
+                "prob": 0.146819,
+                "odd_justa": 6.81
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.544278,
+                "odd_justa": 1.84
+              },
+              "ko_tko": {
+                "prob": 0.171999,
+                "odd_justa": 5.81
+              },
+              "finalizacao": {
+                "prob": 0.129916,
+                "odd_justa": 7.7
+              },
+              "decisao": {
+                "prob": 0.242363,
+                "odd_justa": 4.13
+              }
+            }
+          }
         },
         {
           "id": "401928103",
@@ -1799,6 +3017,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1634,
+              "minutos_com_estatisticas": 231.2,
+              "golpes_sig_por_min": 4.394,
+              "golpes_sig_sofridos_por_min": 3.352,
+              "precisao_golpes": 0.471,
+              "defesa_golpes": 0.535,
+              "quedas_por_15min": 0.714,
+              "precisao_quedas": 0.344,
+              "defesa_quedas": 0.746,
+              "controle_por_15min_s": 143.102,
+              "tentativas_finalizacao_por_15min": 0.519,
+              "idade": 36.3,
+              "envergadura_cm": 198
             }
           },
           "lutador_b": {
@@ -1833,10 +3066,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1535,
+              "minutos_com_estatisticas": 35.0,
+              "golpes_sig_por_min": 8.751,
+              "golpes_sig_sofridos_por_min": 7.779,
+              "precisao_golpes": 0.47,
+              "defesa_golpes": 0.488,
+              "quedas_por_15min": 0.429,
+              "precisao_quedas": 0.111,
+              "defesa_quedas": 0.909,
+              "controle_por_15min_s": 66.921,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 32.5,
+              "envergadura_cm": 188
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.62901,
+                "odd_justa": 1.59
+              },
+              "ko_tko": {
+                "prob": 0.223805,
+                "odd_justa": 4.47
+              },
+              "finalizacao": {
+                "prob": 0.095733,
+                "odd_justa": 10.45
+              },
+              "decisao": {
+                "prob": 0.309472,
+                "odd_justa": 3.23
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.37099,
+                "odd_justa": 2.7
+              },
+              "ko_tko": {
+                "prob": 0.145985,
+                "odd_justa": 6.85
+              },
+              "finalizacao": {
+                "prob": 0.061384,
+                "odd_justa": 16.29
+              },
+              "decisao": {
+                "prob": 0.163621,
+                "odd_justa": 6.11
+              }
+            }
+          }
         },
         {
           "id": "401928104",
@@ -1877,6 +3163,21 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1594,
+              "minutos_com_estatisticas": 153.6,
+              "golpes_sig_por_min": 4.409,
+              "golpes_sig_sofridos_por_min": 3.12,
+              "precisao_golpes": 0.579,
+              "defesa_golpes": 0.528,
+              "quedas_por_15min": 0.782,
+              "precisao_quedas": 0.471,
+              "defesa_quedas": 0.516,
+              "controle_por_15min_s": 265.516,
+              "tentativas_finalizacao_por_15min": 0.098,
+              "idade": 37.0,
+              "envergadura_cm": 173
             }
           },
           "lutador_b": {
@@ -1912,10 +3213,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1638,
+              "minutos_com_estatisticas": 77.1,
+              "golpes_sig_por_min": 2.529,
+              "golpes_sig_sofridos_por_min": 2.451,
+              "precisao_golpes": 0.536,
+              "defesa_golpes": 0.644,
+              "quedas_por_15min": 2.14,
+              "precisao_quedas": 0.379,
+              "defesa_quedas": 0.857,
+              "controle_por_15min_s": 496.585,
+              "tentativas_finalizacao_por_15min": 0.973,
+              "idade": 26.5,
+              "envergadura_cm": 170
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.219881,
+                "odd_justa": 4.55
+              },
+              "ko_tko": {
+                "prob": 0.022716,
+                "odd_justa": 44.02
+              },
+              "finalizacao": {
+                "prob": 0.017019,
+                "odd_justa": 58.76
+              },
+              "decisao": {
+                "prob": 0.180146,
+                "odd_justa": 5.55
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.780119,
+                "odd_justa": 1.28
+              },
+              "ko_tko": {
+                "prob": 0.264498,
+                "odd_justa": 3.78
+              },
+              "finalizacao": {
+                "prob": 0.133905,
+                "odd_justa": 7.47
+              },
+              "decisao": {
+                "prob": 0.381715,
+                "odd_justa": 2.62
+              }
+            }
+          }
         },
         {
           "id": "401928107",
@@ -1953,6 +3307,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1569,
+              "minutos_com_estatisticas": 30.0,
+              "golpes_sig_por_min": 3.933,
+              "golpes_sig_sofridos_por_min": 4.0,
+              "precisao_golpes": 0.449,
+              "defesa_golpes": 0.57,
+              "quedas_por_15min": 3.0,
+              "precisao_quedas": 0.462,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 223.0,
+              "tentativas_finalizacao_por_15min": 2.0,
+              "idade": 27.8,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -1984,12 +3353,28 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1529,
+              "minutos_com_estatisticas": 15.0,
+              "golpes_sig_por_min": 1.4,
+              "golpes_sig_sofridos_por_min": 1.0,
+              "precisao_golpes": 0.512,
+              "defesa_golpes": 0.706,
+              "quedas_por_15min": 17.0,
+              "precisao_quedas": 0.63,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 672.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 31.2,
+              "envergadura_cm": null
             }
           },
           "avisos": [
             "Farman Hasanov: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928110",
@@ -2030,6 +3415,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1530,
+              "minutos_com_estatisticas": 73.5,
+              "golpes_sig_por_min": 2.34,
+              "golpes_sig_sofridos_por_min": 3.142,
+              "precisao_golpes": 0.293,
+              "defesa_golpes": 0.536,
+              "quedas_por_15min": 2.04,
+              "precisao_quedas": 0.417,
+              "defesa_quedas": 0.889,
+              "controle_por_15min_s": 286.874,
+              "tentativas_finalizacao_por_15min": 0.612,
+              "idade": 27.7,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -2065,10 +3465,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1518,
+              "minutos_com_estatisticas": 60.4,
+              "golpes_sig_por_min": 3.908,
+              "golpes_sig_sofridos_por_min": 3.544,
+              "precisao_golpes": 0.476,
+              "defesa_golpes": 0.548,
+              "quedas_por_15min": 0.745,
+              "precisao_quedas": 0.75,
+              "defesa_quedas": 0.5,
+              "controle_por_15min_s": 97.129,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.1,
+              "envergadura_cm": 175
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.678619,
+                "odd_justa": 1.47
+              },
+              "ko_tko": {
+                "prob": 0.227237,
+                "odd_justa": 4.4
+              },
+              "finalizacao": {
+                "prob": 0.189407,
+                "odd_justa": 5.28
+              },
+              "decisao": {
+                "prob": 0.261976,
+                "odd_justa": 3.82
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.321381,
+                "odd_justa": 3.11
+              },
+              "ko_tko": {
+                "prob": 0.071172,
+                "odd_justa": 14.05
+              },
+              "finalizacao": {
+                "prob": 0.021835,
+                "odd_justa": 45.8
+              },
+              "decisao": {
+                "prob": 0.228373,
+                "odd_justa": 4.38
+              }
+            }
+          }
         },
         {
           "id": "401928108",
@@ -2108,6 +3561,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1490,
+              "minutos_com_estatisticas": 30.2,
+              "golpes_sig_por_min": 4.575,
+              "golpes_sig_sofridos_por_min": 6.829,
+              "precisao_golpes": 0.523,
+              "defesa_golpes": 0.313,
+              "quedas_por_15min": 3.481,
+              "precisao_quedas": 0.438,
+              "defesa_quedas": 0.625,
+              "controle_por_15min_s": 255.083,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.8,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -2143,10 +3611,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1515,
+              "minutos_com_estatisticas": 134.4,
+              "golpes_sig_por_min": 2.753,
+              "golpes_sig_sofridos_por_min": 2.991,
+              "precisao_golpes": 0.492,
+              "defesa_golpes": 0.515,
+              "quedas_por_15min": 3.125,
+              "precisao_quedas": 0.528,
+              "defesa_quedas": 0.864,
+              "controle_por_15min_s": 351.786,
+              "tentativas_finalizacao_por_15min": 1.228,
+              "idade": 35.4,
+              "envergadura_cm": 185
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.378114,
+                "odd_justa": 2.64
+              },
+              "ko_tko": {
+                "prob": 0.259848,
+                "odd_justa": 3.85
+              },
+              "finalizacao": {
+                "prob": 0.031888,
+                "odd_justa": 31.36
+              },
+              "decisao": {
+                "prob": 0.086378,
+                "odd_justa": 11.58
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.621886,
+                "odd_justa": 1.61
+              },
+              "ko_tko": {
+                "prob": 0.192772,
+                "odd_justa": 5.19
+              },
+              "finalizacao": {
+                "prob": 0.186649,
+                "odd_justa": 5.36
+              },
+              "decisao": {
+                "prob": 0.242465,
+                "odd_justa": 4.12
+              }
+            }
+          }
         },
         {
           "id": "401928106",
@@ -2183,6 +3704,21 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1468,
+              "minutos_com_estatisticas": 4.5,
+              "golpes_sig_por_min": 2.247,
+              "golpes_sig_sofridos_por_min": 8.764,
+              "precisao_golpes": 0.278,
+              "defesa_golpes": 0.426,
+              "quedas_por_15min": 3.371,
+              "precisao_quedas": 0.25,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 208.989,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 28.9,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -2214,13 +3750,29 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1474,
+              "minutos_com_estatisticas": 6.6,
+              "golpes_sig_por_min": 3.494,
+              "golpes_sig_sofridos_por_min": 10.785,
+              "precisao_golpes": 0.359,
+              "defesa_golpes": 0.336,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 38.734,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 26.6,
+              "envergadura_cm": 190
             }
           },
           "avisos": [
             "Rodrigo Sezinando: menos de 2 lutas no UFC registradas.",
             "Theodor Berggren: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928109",
@@ -2261,6 +3813,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1541,
+              "minutos_com_estatisticas": 141.0,
+              "golpes_sig_por_min": 6.065,
+              "golpes_sig_sofridos_por_min": 6.228,
+              "precisao_golpes": 0.48,
+              "defesa_golpes": 0.492,
+              "quedas_por_15min": 1.809,
+              "precisao_quedas": 0.447,
+              "defesa_quedas": 0.615,
+              "controle_por_15min_s": 138.421,
+              "tentativas_finalizacao_por_15min": 0.745,
+              "idade": 37.3,
+              "envergadura_cm": 188
             }
           },
           "lutador_b": {
@@ -2295,10 +3862,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1494,
+              "minutos_com_estatisticas": 46.1,
+              "golpes_sig_por_min": 3.168,
+              "golpes_sig_sofridos_por_min": 3.797,
+              "precisao_golpes": 0.488,
+              "defesa_golpes": 0.513,
+              "quedas_por_15min": 0.651,
+              "precisao_quedas": 0.667,
+              "defesa_quedas": 0.738,
+              "controle_por_15min_s": 105.136,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 31.0,
+              "envergadura_cm": 185
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.455266,
+                "odd_justa": 2.2
+              },
+              "ko_tko": {
+                "prob": 0.145423,
+                "odd_justa": 6.88
+              },
+              "finalizacao": {
+                "prob": 0.109138,
+                "odd_justa": 9.16
+              },
+              "decisao": {
+                "prob": 0.200705,
+                "odd_justa": 4.98
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.544734,
+                "odd_justa": 1.84
+              },
+              "ko_tko": {
+                "prob": 0.229713,
+                "odd_justa": 4.35
+              },
+              "finalizacao": {
+                "prob": 0.031543,
+                "odd_justa": 31.7
+              },
+              "decisao": {
+                "prob": 0.283479,
+                "odd_justa": 3.53
+              }
+            }
+          }
         },
         {
           "id": "401914106",
@@ -2336,6 +3956,21 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1439,
+              "minutos_com_estatisticas": 14.9,
+              "golpes_sig_por_min": 2.547,
+              "golpes_sig_sofridos_por_min": 3.486,
+              "precisao_golpes": 0.567,
+              "defesa_golpes": 0.388,
+              "quedas_por_15min": 5.028,
+              "precisao_quedas": 0.312,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 468.603,
+              "tentativas_finalizacao_por_15min": 1.006,
+              "idade": 31.1,
+              "envergadura_cm": 196
             }
           },
           "lutador_b": {
@@ -2343,12 +3978,14 @@
             "cartel_espn": "9-3-0",
             "pais": "USA",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Joe Kropschot: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928105",
@@ -2389,6 +4026,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1593,
+              "minutos_com_estatisticas": 74.6,
+              "golpes_sig_por_min": 3.244,
+              "golpes_sig_sofridos_por_min": 3.244,
+              "precisao_golpes": 0.357,
+              "defesa_golpes": 0.54,
+              "quedas_por_15min": 2.815,
+              "precisao_quedas": 0.378,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 296.984,
+              "tentativas_finalizacao_por_15min": 0.603,
+              "idade": 36.0,
+              "envergadura_cm": 147
             }
           },
           "lutador_b": {
@@ -2424,10 +4076,63 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1592,
+              "minutos_com_estatisticas": 92.6,
+              "golpes_sig_por_min": 4.232,
+              "golpes_sig_sofridos_por_min": 3.25,
+              "precisao_golpes": 0.486,
+              "defesa_golpes": 0.516,
+              "quedas_por_15min": 4.211,
+              "precisao_quedas": 0.591,
+              "defesa_quedas": 0.818,
+              "controle_por_15min_s": 286.827,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.0,
+              "envergadura_cm": 160
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.382013,
+                "odd_justa": 2.62
+              },
+              "ko_tko": {
+                "prob": 0.02964,
+                "odd_justa": 33.74
+              },
+              "finalizacao": {
+                "prob": 0.133906,
+                "odd_justa": 7.47
+              },
+              "decisao": {
+                "prob": 0.218466,
+                "odd_justa": 4.58
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.617987,
+                "odd_justa": 1.62
+              },
+              "ko_tko": {
+                "prob": 0.045666,
+                "odd_justa": 21.9
+              },
+              "finalizacao": {
+                "prob": 0.059167,
+                "odd_justa": 16.9
+              },
+              "decisao": {
+                "prob": 0.513154,
+                "odd_justa": 1.95
+              }
+            }
+          }
         },
         {
           "id": "401914105",
@@ -2440,7 +4145,8 @@
             "cartel_espn": "12-0-0",
             "pais": "Slovakia",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "lutador_b": {
             "nome": "Tainara Lisboa",
@@ -2474,12 +4180,28 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1491,
+              "minutos_com_estatisticas": 53.9,
+              "golpes_sig_por_min": 2.006,
+              "golpes_sig_sofridos_por_min": 2.878,
+              "precisao_golpes": 0.443,
+              "defesa_golpes": 0.456,
+              "quedas_por_15min": 1.671,
+              "precisao_quedas": 0.316,
+              "defesa_quedas": 0.533,
+              "controle_por_15min_s": 190.251,
+              "tentativas_finalizacao_por_15min": 0.279,
+              "idade": 35.7,
+              "envergadura_cm": 170
             }
           },
           "avisos": [
             "Lucia Szabová: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         }
       ]
     },
@@ -2528,6 +4250,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1724,
+              "minutos_com_estatisticas": 83.2,
+              "golpes_sig_por_min": 4.687,
+              "golpes_sig_sofridos_por_min": 3.557,
+              "precisao_golpes": 0.477,
+              "defesa_golpes": 0.643,
+              "quedas_por_15min": 2.524,
+              "precisao_quedas": 0.519,
+              "defesa_quedas": 0.789,
+              "controle_por_15min_s": 131.584,
+              "tentativas_finalizacao_por_15min": 0.901,
+              "idade": 29.2,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -2563,10 +4300,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1751,
+              "minutos_com_estatisticas": 146.8,
+              "golpes_sig_por_min": 4.079,
+              "golpes_sig_sofridos_por_min": 2.772,
+              "precisao_golpes": 0.532,
+              "defesa_golpes": 0.599,
+              "quedas_por_15min": 3.575,
+              "precisao_quedas": 0.515,
+              "defesa_quedas": 0.867,
+              "controle_por_15min_s": 426.864,
+              "tentativas_finalizacao_por_15min": 0.817,
+              "idade": 34.0,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.531647,
+                "odd_justa": 1.88
+              },
+              "ko_tko": {
+                "prob": 0.227449,
+                "odd_justa": 4.4
+              },
+              "finalizacao": {
+                "prob": 0.124514,
+                "odd_justa": 8.03
+              },
+              "decisao": {
+                "prob": 0.179684,
+                "odd_justa": 5.57
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.468353,
+                "odd_justa": 2.14
+              },
+              "ko_tko": {
+                "prob": 0.145332,
+                "odd_justa": 6.88
+              },
+              "finalizacao": {
+                "prob": 0.122317,
+                "odd_justa": 8.18
+              },
+              "decisao": {
+                "prob": 0.200704,
+                "odd_justa": 4.98
+              }
+            }
+          }
         },
         {
           "id": "401928111",
@@ -2607,6 +4397,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1726,
+              "minutos_com_estatisticas": 112.8,
+              "golpes_sig_por_min": 2.862,
+              "golpes_sig_sofridos_por_min": 1.63,
+              "precisao_golpes": 0.601,
+              "defesa_golpes": 0.441,
+              "quedas_por_15min": 4.519,
+              "precisao_quedas": 0.459,
+              "defesa_quedas": 0.571,
+              "controle_por_15min_s": 536.198,
+              "tentativas_finalizacao_por_15min": 0.665,
+              "idade": 35.9,
+              "envergadura_cm": 168
             }
           },
           "lutador_b": {
@@ -2642,10 +4447,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1679,
+              "minutos_com_estatisticas": 172.8,
+              "golpes_sig_por_min": 2.274,
+              "golpes_sig_sofridos_por_min": 2.859,
+              "precisao_golpes": 0.413,
+              "defesa_golpes": 0.555,
+              "quedas_por_15min": 3.125,
+              "precisao_quedas": 0.391,
+              "defesa_quedas": 0.727,
+              "controle_por_15min_s": 389.931,
+              "tentativas_finalizacao_por_15min": 1.389,
+              "idade": 38.4,
+              "envergadura_cm": 163
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.67338,
+                "odd_justa": 1.49
+              },
+              "ko_tko": {
+                "prob": 0.057523,
+                "odd_justa": 17.38
+              },
+              "finalizacao": {
+                "prob": 0.187913,
+                "odd_justa": 5.32
+              },
+              "decisao": {
+                "prob": 0.427943,
+                "odd_justa": 2.34
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.32662,
+                "odd_justa": 3.06
+              },
+              "ko_tko": {
+                "prob": 0.036349,
+                "odd_justa": 27.51
+              },
+              "finalizacao": {
+                "prob": 0.072399,
+                "odd_justa": 13.81
+              },
+              "decisao": {
+                "prob": 0.217872,
+                "odd_justa": 4.59
+              }
+            }
+          }
         },
         {
           "id": "401928119",
@@ -2686,6 +4544,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1586,
+              "minutos_com_estatisticas": 190.4,
+              "golpes_sig_por_min": 5.583,
+              "golpes_sig_sofridos_por_min": 4.039,
+              "precisao_golpes": 0.455,
+              "defesa_golpes": 0.548,
+              "quedas_por_15min": 0.945,
+              "precisao_quedas": 0.387,
+              "defesa_quedas": 0.652,
+              "controle_por_15min_s": 108.255,
+              "tentativas_finalizacao_por_15min": 0.158,
+              "idade": 40.9,
+              "envergadura_cm": 175
             }
           },
           "lutador_b": {
@@ -2719,10 +4592,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1589,
+              "minutos_com_estatisticas": 25.2,
+              "golpes_sig_por_min": 3.686,
+              "golpes_sig_sofridos_por_min": 1.704,
+              "precisao_golpes": 0.547,
+              "defesa_golpes": 0.517,
+              "quedas_por_15min": 1.783,
+              "precisao_quedas": 0.75,
+              "defesa_quedas": 0.462,
+              "controle_por_15min_s": 295.443,
+              "tentativas_finalizacao_por_15min": 1.189,
+              "idade": 24.2,
+              "envergadura_cm": 180
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.225776,
+                "odd_justa": 4.43
+              },
+              "ko_tko": {
+                "prob": 0.067133,
+                "odd_justa": 14.9
+              },
+              "finalizacao": {
+                "prob": 0.037015,
+                "odd_justa": 27.02
+              },
+              "decisao": {
+                "prob": 0.121628,
+                "odd_justa": 8.22
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.774224,
+                "odd_justa": 1.29
+              },
+              "ko_tko": {
+                "prob": 0.143042,
+                "odd_justa": 6.99
+              },
+              "finalizacao": {
+                "prob": 0.297772,
+                "odd_justa": 3.36
+              },
+              "decisao": {
+                "prob": 0.333409,
+                "odd_justa": 3.0
+              }
+            }
+          }
         },
         {
           "id": "401928117",
@@ -2761,6 +4687,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1537,
+              "minutos_com_estatisticas": 45.0,
+              "golpes_sig_por_min": 3.0,
+              "golpes_sig_sofridos_por_min": 1.467,
+              "precisao_golpes": 0.498,
+              "defesa_golpes": 0.653,
+              "quedas_por_15min": 3.333,
+              "precisao_quedas": 0.588,
+              "defesa_quedas": 0.5,
+              "controle_por_15min_s": 504.0,
+              "tentativas_finalizacao_por_15min": 0.333,
+              "idade": 33.1,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -2796,10 +4737,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1436,
+              "minutos_com_estatisticas": 96.7,
+              "golpes_sig_por_min": 3.228,
+              "golpes_sig_sofridos_por_min": 4.17,
+              "precisao_golpes": 0.512,
+              "defesa_golpes": 0.452,
+              "quedas_por_15min": 1.552,
+              "precisao_quedas": 0.208,
+              "defesa_quedas": 0.429,
+              "controle_por_15min_s": 261.2,
+              "tentativas_finalizacao_por_15min": 0.776,
+              "idade": 30.3,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.688543,
+                "odd_justa": 1.45
+              },
+              "ko_tko": {
+                "prob": 0.173489,
+                "odd_justa": 5.76
+              },
+              "finalizacao": {
+                "prob": 0.091326,
+                "odd_justa": 10.95
+              },
+              "decisao": {
+                "prob": 0.423728,
+                "odd_justa": 2.36
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.311457,
+                "odd_justa": 3.21
+              },
+              "ko_tko": {
+                "prob": 0.056241,
+                "odd_justa": 17.78
+              },
+              "finalizacao": {
+                "prob": 0.062213,
+                "odd_justa": 16.07
+              },
+              "decisao": {
+                "prob": 0.193003,
+                "odd_justa": 5.18
+              }
+            }
+          }
         },
         {
           "id": "401928113",
@@ -2839,6 +4833,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1563,
+              "minutos_com_estatisticas": 35.4,
+              "golpes_sig_por_min": 2.712,
+              "golpes_sig_sofridos_por_min": 3.588,
+              "precisao_golpes": 0.565,
+              "defesa_golpes": 0.462,
+              "quedas_por_15min": 0.847,
+              "precisao_quedas": 0.222,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 144.492,
+              "tentativas_finalizacao_por_15min": 0.847,
+              "idade": 31.4,
+              "envergadura_cm": 196
             }
           },
           "lutador_b": {
@@ -2870,12 +4879,28 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1529,
+              "minutos_com_estatisticas": 11.2,
+              "golpes_sig_por_min": 6.179,
+              "golpes_sig_sofridos_por_min": 1.164,
+              "precisao_golpes": 0.6,
+              "defesa_golpes": 0.768,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 0.0,
+              "controle_por_15min_s": 12.09,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 29.8,
+              "envergadura_cm": 203
             }
           },
           "avisos": [
             "Lucas Fernando: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928112",
@@ -2912,6 +4937,21 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1525,
+              "minutos_com_estatisticas": 15.0,
+              "golpes_sig_por_min": 5.0,
+              "golpes_sig_sofridos_por_min": 1.133,
+              "precisao_golpes": 0.701,
+              "defesa_golpes": 0.564,
+              "quedas_por_15min": 2.0,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.917,
+              "controle_por_15min_s": 366.0,
+              "tentativas_finalizacao_por_15min": 1.0,
+              "idade": 27.3,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -2945,12 +4985,28 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1469,
+              "minutos_com_estatisticas": 18.6,
+              "golpes_sig_por_min": 2.102,
+              "golpes_sig_sofridos_por_min": 3.504,
+              "precisao_golpes": 0.534,
+              "defesa_golpes": 0.444,
+              "quedas_por_15min": 0.809,
+              "precisao_quedas": 0.1,
+              "defesa_quedas": 0.0,
+              "controle_por_15min_s": 153.639,
+              "tentativas_finalizacao_por_15min": 4.852,
+              "idade": 30.2,
+              "envergadura_cm": 196
             }
           },
           "avisos": [
             "Mantas Kondratavičius: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928121",
@@ -2963,7 +5019,8 @@
             "cartel_espn": "8-1-0",
             "pais": "Brazil",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "lutador_b": {
             "nome": "Alvin Hines",
@@ -2995,12 +5052,28 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1442,
+              "minutos_com_estatisticas": 16.7,
+              "golpes_sig_por_min": 5.58,
+              "golpes_sig_sofridos_por_min": 7.62,
+              "precisao_golpes": 0.327,
+              "defesa_golpes": 0.389,
+              "quedas_por_15min": 0.9,
+              "precisao_quedas": 0.1,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 4.5,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 35.0,
+              "envergadura_cm": 188
             }
           },
           "avisos": [
             "Gabriel Lorenço: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928115",
@@ -3041,6 +5114,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1558,
+              "minutos_com_estatisticas": 86.7,
+              "golpes_sig_por_min": 2.274,
+              "golpes_sig_sofridos_por_min": 2.643,
+              "precisao_golpes": 0.397,
+              "defesa_golpes": 0.537,
+              "quedas_por_15min": 2.077,
+              "precisao_quedas": 0.545,
+              "defesa_quedas": 0.294,
+              "controle_por_15min_s": 206.347,
+              "tentativas_finalizacao_por_15min": 1.385,
+              "idade": 32.9,
+              "envergadura_cm": 170
             }
           },
           "lutador_b": {
@@ -3076,10 +5164,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1506,
+              "minutos_com_estatisticas": 72.0,
+              "golpes_sig_por_min": 3.514,
+              "golpes_sig_sofridos_por_min": 5.306,
+              "precisao_golpes": 0.466,
+              "defesa_golpes": 0.531,
+              "quedas_por_15min": 0.417,
+              "precisao_quedas": 0.182,
+              "defesa_quedas": 0.69,
+              "controle_por_15min_s": 42.083,
+              "tentativas_finalizacao_por_15min": 0.208,
+              "idade": 33.2,
+              "envergadura_cm": 168
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.631419,
+                "odd_justa": 1.58
+              },
+              "ko_tko": {
+                "prob": 0.102067,
+                "odd_justa": 9.8
+              },
+              "finalizacao": {
+                "prob": 0.178761,
+                "odd_justa": 5.59
+              },
+              "decisao": {
+                "prob": 0.350591,
+                "odd_justa": 2.85
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.368581,
+                "odd_justa": 2.71
+              },
+              "ko_tko": {
+                "prob": 0.026509,
+                "odd_justa": 37.72
+              },
+              "finalizacao": {
+                "prob": 0.066453,
+                "odd_justa": 15.05
+              },
+              "decisao": {
+                "prob": 0.275619,
+                "odd_justa": 3.63
+              }
+            }
+          }
         },
         {
           "id": "401928120",
@@ -3116,6 +5257,21 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1530,
+              "minutos_com_estatisticas": 15.0,
+              "golpes_sig_por_min": 7.133,
+              "golpes_sig_sofridos_por_min": 4.467,
+              "precisao_golpes": 0.622,
+              "defesa_golpes": 0.662,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 38.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.2,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -3147,13 +5303,29 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1534,
+              "minutos_com_estatisticas": 1.3,
+              "golpes_sig_por_min": 3.896,
+              "golpes_sig_sofridos_por_min": 2.338,
+              "precisao_golpes": 0.714,
+              "defesa_golpes": 0.769,
+              "quedas_por_15min": 11.688,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 315.584,
+              "tentativas_finalizacao_por_15min": 11.688,
+              "idade": 27.2,
+              "envergadura_cm": 178
             }
           },
           "avisos": [
             "Jose Delano: menos de 2 lutas no UFC registradas.",
             "Murtazali Magomedov: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401911642",
@@ -3190,6 +5362,21 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1532,
+              "minutos_com_estatisticas": 13.8,
+              "golpes_sig_por_min": 3.261,
+              "golpes_sig_sofridos_por_min": 5.725,
+              "precisao_golpes": 0.378,
+              "defesa_golpes": 0.613,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 0.0,
+              "controle_por_15min_s": 4.348,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 27.9,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -3221,13 +5408,29 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1471,
+              "minutos_com_estatisticas": 2.8,
+              "golpes_sig_por_min": 3.234,
+              "golpes_sig_sofridos_por_min": 7.904,
+              "precisao_golpes": 0.3,
+              "defesa_golpes": 0.45,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 0.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 25.9,
+              "envergadura_cm": null
             }
           },
           "avisos": [
             "Keiichiro Nakamura: menos de 2 lutas no UFC registradas.",
             "Ollie Schmid: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928114",
@@ -3266,6 +5469,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1483,
+              "minutos_com_estatisticas": 33.6,
+              "golpes_sig_por_min": 1.694,
+              "golpes_sig_sofridos_por_min": 2.348,
+              "precisao_golpes": 0.396,
+              "defesa_golpes": 0.541,
+              "quedas_por_15min": 3.12,
+              "precisao_quedas": 0.212,
+              "defesa_quedas": 0.571,
+              "controle_por_15min_s": 313.819,
+              "tentativas_finalizacao_por_15min": 0.892,
+              "idade": 25.1,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -3297,12 +5515,28 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1468,
+              "minutos_com_estatisticas": 15.0,
+              "golpes_sig_por_min": 0.6,
+              "golpes_sig_sofridos_por_min": 2.2,
+              "precisao_golpes": 0.25,
+              "defesa_golpes": 0.522,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "defesa_quedas": 0.333,
+              "controle_por_15min_s": 47.0,
+              "tentativas_finalizacao_por_15min": 1.0,
+              "idade": 26.4,
+              "envergadura_cm": null
             }
           },
           "avisos": [
             "Lucas Brennan: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928116",
@@ -3343,6 +5577,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1412,
+              "minutos_com_estatisticas": 121.4,
+              "golpes_sig_por_min": 4.349,
+              "golpes_sig_sofridos_por_min": 7.455,
+              "precisao_golpes": 0.444,
+              "defesa_golpes": 0.46,
+              "quedas_por_15min": 0.371,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.696,
+              "controle_por_15min_s": 21.746,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 38.2,
+              "envergadura_cm": 165
             }
           },
           "lutador_b": {
@@ -3374,12 +5623,28 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1524,
+              "minutos_com_estatisticas": 3.7,
+              "golpes_sig_por_min": 5.701,
+              "golpes_sig_sofridos_por_min": 3.529,
+              "precisao_golpes": 0.538,
+              "defesa_golpes": 0.729,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 0.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.2,
+              "envergadura_cm": null
             }
           },
           "avisos": [
             "Nina Milošević: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401928118",
@@ -3416,6 +5681,21 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1534,
+              "minutos_com_estatisticas": 9.9,
+              "golpes_sig_por_min": 6.332,
+              "golpes_sig_sofridos_por_min": 4.422,
+              "precisao_golpes": 0.508,
+              "defesa_golpes": 0.669,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 129.648,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 35.2,
+              "envergadura_cm": 175
             }
           },
           "lutador_b": {
@@ -3423,13 +5703,15 @@
             "cartel_espn": "9-1-0",
             "pais": "Brazil",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "avisos": [
             "Jonny Parsons: menos de 2 lutas no UFC registradas.",
             "Jose Henrique: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         }
       ]
     },
@@ -3478,6 +5760,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1811,
+              "minutos_com_estatisticas": 181.9,
+              "golpes_sig_por_min": 5.403,
+              "golpes_sig_sofridos_por_min": 2.309,
+              "precisao_golpes": 0.617,
+              "defesa_golpes": 0.609,
+              "quedas_por_15min": 0.66,
+              "precisao_quedas": 0.235,
+              "defesa_quedas": 0.471,
+              "controle_por_15min_s": 80.387,
+              "tentativas_finalizacao_por_15min": 0.577,
+              "idade": 36.6,
+              "envergadura_cm": 206
             }
           },
           "lutador_b": {
@@ -3512,10 +5809,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1646,
+              "minutos_com_estatisticas": 30.1,
+              "golpes_sig_por_min": 10.277,
+              "golpes_sig_sofridos_por_min": 6.12,
+              "precisao_golpes": 0.638,
+              "defesa_golpes": 0.483,
+              "quedas_por_15min": 1.497,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.778,
+              "controle_por_15min_s": 254.435,
+              "tentativas_finalizacao_por_15min": 0.499,
+              "idade": 29.0,
+              "envergadura_cm": 185
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.62413,
+                "odd_justa": 1.6
+              },
+              "ko_tko": {
+                "prob": 0.308786,
+                "odd_justa": 3.24
+              },
+              "finalizacao": {
+                "prob": 0.10237,
+                "odd_justa": 9.77
+              },
+              "decisao": {
+                "prob": 0.212973,
+                "odd_justa": 4.7
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.37587,
+                "odd_justa": 2.66
+              },
+              "ko_tko": {
+                "prob": 0.176068,
+                "odd_justa": 5.68
+              },
+              "finalizacao": {
+                "prob": 0.070627,
+                "odd_justa": 14.16
+              },
+              "decisao": {
+                "prob": 0.129175,
+                "odd_justa": 7.74
+              }
+            }
+          }
         },
         {
           "id": "401922638",
@@ -3554,6 +5904,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1621,
+              "minutos_com_estatisticas": 31.7,
+              "golpes_sig_por_min": 4.29,
+              "golpes_sig_sofridos_por_min": 1.104,
+              "precisao_golpes": 0.621,
+              "defesa_golpes": 0.66,
+              "quedas_por_15min": 2.839,
+              "precisao_quedas": 0.375,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 534.7,
+              "tentativas_finalizacao_por_15min": 0.946,
+              "idade": 36.4,
+              "envergadura_cm": 168
             }
           },
           "lutador_b": {
@@ -3589,10 +5954,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1799,
+              "minutos_com_estatisticas": 204.4,
+              "golpes_sig_por_min": 4.54,
+              "golpes_sig_sofridos_por_min": 2.441,
+              "precisao_golpes": 0.52,
+              "defesa_golpes": 0.593,
+              "quedas_por_15min": 2.789,
+              "precisao_quedas": 0.567,
+              "defesa_quedas": 0.812,
+              "controle_por_15min_s": 308.072,
+              "tentativas_finalizacao_por_15min": 0.734,
+              "idade": 38.5,
+              "envergadura_cm": 175
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.415281,
+                "odd_justa": 2.41
+              },
+              "ko_tko": {
+                "prob": 0.095349,
+                "odd_justa": 10.49
+              },
+              "finalizacao": {
+                "prob": 0.167511,
+                "odd_justa": 5.97
+              },
+              "decisao": {
+                "prob": 0.152421,
+                "odd_justa": 6.56
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.584719,
+                "odd_justa": 1.71
+              },
+              "ko_tko": {
+                "prob": 0.189205,
+                "odd_justa": 5.29
+              },
+              "finalizacao": {
+                "prob": 0.105298,
+                "odd_justa": 9.5
+              },
+              "decisao": {
+                "prob": 0.290216,
+                "odd_justa": 3.45
+              }
+            }
+          }
         },
         {
           "id": "401922639",
@@ -3633,6 +6051,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1705,
+              "minutos_com_estatisticas": 138.9,
+              "golpes_sig_por_min": 3.304,
+              "golpes_sig_sofridos_por_min": 2.635,
+              "precisao_golpes": 0.551,
+              "defesa_golpes": 0.598,
+              "quedas_por_15min": 1.08,
+              "precisao_quedas": 0.455,
+              "defesa_quedas": 0.737,
+              "controle_por_15min_s": 241.656,
+              "tentativas_finalizacao_por_15min": 0.432,
+              "idade": 33.8,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -3666,10 +6099,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1597,
+              "minutos_com_estatisticas": 29.0,
+              "golpes_sig_por_min": 8.35,
+              "golpes_sig_sofridos_por_min": 1.932,
+              "precisao_golpes": 0.645,
+              "defesa_golpes": 0.697,
+              "quedas_por_15min": 0.518,
+              "precisao_quedas": 1.0,
+              "defesa_quedas": 0.562,
+              "controle_por_15min_s": 51.236,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.5,
+              "envergadura_cm": 201
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.4047,
+                "odd_justa": 2.47
+              },
+              "ko_tko": {
+                "prob": 0.11388,
+                "odd_justa": 8.78
+              },
+              "finalizacao": {
+                "prob": 0.072361,
+                "odd_justa": 13.82
+              },
+              "decisao": {
+                "prob": 0.218459,
+                "odd_justa": 4.58
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.5953,
+                "odd_justa": 1.68
+              },
+              "ko_tko": {
+                "prob": 0.301033,
+                "odd_justa": 3.32
+              },
+              "finalizacao": {
+                "prob": 0.068156,
+                "odd_justa": 14.67
+              },
+              "decisao": {
+                "prob": 0.226111,
+                "odd_justa": 4.42
+              }
+            }
+          }
         },
         {
           "id": "401922640",
@@ -3710,6 +6196,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1666,
+              "minutos_com_estatisticas": 42.1,
+              "golpes_sig_por_min": 5.314,
+              "golpes_sig_sofridos_por_min": 3.535,
+              "precisao_golpes": 0.582,
+              "defesa_golpes": 0.558,
+              "quedas_por_15min": 0.356,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.556,
+              "controle_por_15min_s": 34.164,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 33.6,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -3745,10 +6246,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1618,
+              "minutos_com_estatisticas": 308.4,
+              "golpes_sig_por_min": 4.177,
+              "golpes_sig_sofridos_por_min": 3.298,
+              "precisao_golpes": 0.503,
+              "defesa_golpes": 0.5,
+              "quedas_por_15min": 0.827,
+              "precisao_quedas": 0.395,
+              "defesa_quedas": 0.578,
+              "controle_por_15min_s": 118.975,
+              "tentativas_finalizacao_por_15min": 0.632,
+              "idade": 34.0,
+              "envergadura_cm": 206
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.498299,
+                "odd_justa": 2.01
+              },
+              "ko_tko": {
+                "prob": 0.263835,
+                "odd_justa": 3.79
+              },
+              "finalizacao": {
+                "prob": 0.069366,
+                "odd_justa": 14.42
+              },
+              "decisao": {
+                "prob": 0.165099,
+                "odd_justa": 6.06
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.501701,
+                "odd_justa": 1.99
+              },
+              "ko_tko": {
+                "prob": 0.16326,
+                "odd_justa": 6.13
+              },
+              "finalizacao": {
+                "prob": 0.207936,
+                "odd_justa": 4.81
+              },
+              "decisao": {
+                "prob": 0.130504,
+                "odd_justa": 7.66
+              }
+            }
+          }
         },
         {
           "id": "401922641",
@@ -3785,6 +6339,21 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1532,
+              "minutos_com_estatisticas": 7.5,
+              "golpes_sig_por_min": 7.098,
+              "golpes_sig_sofridos_por_min": 4.42,
+              "precisao_golpes": 0.411,
+              "defesa_golpes": 0.5,
+              "quedas_por_15min": 2.009,
+              "precisao_quedas": 1.0,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 126.562,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 25.3,
+              "envergadura_cm": null
             }
           },
           "lutador_b": {
@@ -3820,12 +6389,28 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1423,
+              "minutos_com_estatisticas": 55.2,
+              "golpes_sig_por_min": 5.017,
+              "golpes_sig_sofridos_por_min": 5.65,
+              "precisao_golpes": 0.413,
+              "defesa_golpes": 0.57,
+              "quedas_por_15min": 0.815,
+              "precisao_quedas": 0.176,
+              "defesa_quedas": 0.733,
+              "controle_por_15min_s": 104.588,
+              "tentativas_finalizacao_por_15min": 0.272,
+              "idade": 33.0,
+              "envergadura_cm": 163
             }
           },
           "avisos": [
             "Bilal Hasan: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401913647",
@@ -3866,6 +6451,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1586,
+              "minutos_com_estatisticas": 319.5,
+              "golpes_sig_por_min": 4.047,
+              "golpes_sig_sofridos_por_min": 3.001,
+              "precisao_golpes": 0.46,
+              "defesa_golpes": 0.549,
+              "quedas_por_15min": 0.235,
+              "precisao_quedas": 0.357,
+              "defesa_quedas": 0.633,
+              "controle_por_15min_s": 54.363,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 43.8,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -3901,10 +6501,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1571,
+              "minutos_com_estatisticas": 60.3,
+              "golpes_sig_por_min": 2.503,
+              "golpes_sig_sofridos_por_min": 2.453,
+              "precisao_golpes": 0.539,
+              "defesa_golpes": 0.547,
+              "quedas_por_15min": 1.989,
+              "precisao_quedas": 0.444,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 462.431,
+              "tentativas_finalizacao_por_15min": 0.497,
+              "idade": 36.4,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.412987,
+                "odd_justa": 2.42
+              },
+              "ko_tko": {
+                "prob": 0.236689,
+                "odd_justa": 4.22
+              },
+              "finalizacao": {
+                "prob": 0.024827,
+                "odd_justa": 40.28
+              },
+              "decisao": {
+                "prob": 0.151471,
+                "odd_justa": 6.6
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.587013,
+                "odd_justa": 1.7
+              },
+              "ko_tko": {
+                "prob": 0.183684,
+                "odd_justa": 5.44
+              },
+              "finalizacao": {
+                "prob": 0.094277,
+                "odd_justa": 10.61
+              },
+              "decisao": {
+                "prob": 0.309052,
+                "odd_justa": 3.24
+              }
+            }
+          }
         },
         {
           "id": "401922642",
@@ -3945,6 +6598,21 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1594,
+              "minutos_com_estatisticas": 221.9,
+              "golpes_sig_por_min": 4.479,
+              "golpes_sig_sofridos_por_min": 4.326,
+              "precisao_golpes": 0.41,
+              "defesa_golpes": 0.531,
+              "quedas_por_15min": 0.608,
+              "precisao_quedas": 0.17,
+              "defesa_quedas": 0.582,
+              "controle_por_15min_s": 118.896,
+              "tentativas_finalizacao_por_15min": 0.068,
+              "idade": 38.1,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -3980,10 +6648,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1617,
+              "minutos_com_estatisticas": 69.8,
+              "golpes_sig_por_min": 4.601,
+              "golpes_sig_sofridos_por_min": 4.228,
+              "precisao_golpes": 0.462,
+              "defesa_golpes": 0.523,
+              "quedas_por_15min": 2.795,
+              "precisao_quedas": 0.406,
+              "defesa_quedas": 0.556,
+              "controle_por_15min_s": 196.512,
+              "tentativas_finalizacao_por_15min": 0.645,
+              "idade": 33.5,
+              "envergadura_cm": 180
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.393345,
+                "odd_justa": 2.54
+              },
+              "ko_tko": {
+                "prob": 0.164527,
+                "odd_justa": 6.08
+              },
+              "finalizacao": {
+                "prob": 0.136764,
+                "odd_justa": 7.31
+              },
+              "decisao": {
+                "prob": 0.092053,
+                "odd_justa": 10.86
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.606655,
+                "odd_justa": 1.65
+              },
+              "ko_tko": {
+                "prob": 0.107581,
+                "odd_justa": 9.3
+              },
+              "finalizacao": {
+                "prob": 0.234165,
+                "odd_justa": 4.27
+              },
+              "decisao": {
+                "prob": 0.264909,
+                "odd_justa": 3.77
+              }
+            }
+          }
         },
         {
           "id": "401922643",
@@ -4024,6 +6745,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1622,
+              "minutos_com_estatisticas": 452.9,
+              "golpes_sig_por_min": 2.919,
+              "golpes_sig_sofridos_por_min": 3.431,
+              "precisao_golpes": 0.421,
+              "defesa_golpes": 0.567,
+              "quedas_por_15min": 1.49,
+              "precisao_quedas": 0.45,
+              "defesa_quedas": 0.476,
+              "controle_por_15min_s": 187.173,
+              "tentativas_finalizacao_por_15min": 1.722,
+              "idade": 43.2,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -4059,10 +6795,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1549,
+              "minutos_com_estatisticas": 34.5,
+              "golpes_sig_por_min": 7.954,
+              "golpes_sig_sofridos_por_min": 4.761,
+              "precisao_golpes": 0.558,
+              "defesa_golpes": 0.416,
+              "quedas_por_15min": 3.048,
+              "precisao_quedas": 0.467,
+              "defesa_quedas": 0.727,
+              "controle_por_15min_s": 406.241,
+              "tentativas_finalizacao_por_15min": 2.177,
+              "idade": 32.2,
+              "envergadura_cm": 185
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.349788,
+                "odd_justa": 2.86
+              },
+              "ko_tko": {
+                "prob": 0.139417,
+                "odd_justa": 7.17
+              },
+              "finalizacao": {
+                "prob": 0.137586,
+                "odd_justa": 7.27
+              },
+              "decisao": {
+                "prob": 0.072784,
+                "odd_justa": 13.74
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.650212,
+                "odd_justa": 1.54
+              },
+              "ko_tko": {
+                "prob": 0.224987,
+                "odd_justa": 4.44
+              },
+              "finalizacao": {
+                "prob": 0.167863,
+                "odd_justa": 5.96
+              },
+              "decisao": {
+                "prob": 0.257363,
+                "odd_justa": 3.89
+              }
+            }
+          }
         },
         {
           "id": "401922644",
@@ -4101,6 +6890,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1584,
+              "minutos_com_estatisticas": 23.1,
+              "golpes_sig_por_min": 2.863,
+              "golpes_sig_sofridos_por_min": 1.822,
+              "precisao_golpes": 0.426,
+              "defesa_golpes": 0.632,
+              "quedas_por_15min": 1.952,
+              "precisao_quedas": 1.0,
+              "defesa_quedas": 0.769,
+              "controle_por_15min_s": 257.701,
+              "tentativas_finalizacao_por_15min": 0.651,
+              "idade": 27.8,
+              "envergadura_cm": 188
             }
           },
           "lutador_b": {
@@ -4134,10 +6938,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1588,
+              "minutos_com_estatisticas": 32.9,
+              "golpes_sig_por_min": 5.967,
+              "golpes_sig_sofridos_por_min": 4.658,
+              "precisao_golpes": 0.54,
+              "defesa_golpes": 0.591,
+              "quedas_por_15min": 2.283,
+              "precisao_quedas": 0.263,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 241.096,
+              "tentativas_finalizacao_por_15min": 0.913,
+              "idade": 25.8,
+              "envergadura_cm": 201
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.398677,
+                "odd_justa": 2.51
+              },
+              "ko_tko": {
+                "prob": 0.147494,
+                "odd_justa": 6.78
+              },
+              "finalizacao": {
+                "prob": 0.099776,
+                "odd_justa": 10.02
+              },
+              "decisao": {
+                "prob": 0.151406,
+                "odd_justa": 6.6
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.601323,
+                "odd_justa": 1.66
+              },
+              "ko_tko": {
+                "prob": 0.222466,
+                "odd_justa": 4.5
+              },
+              "finalizacao": {
+                "prob": 0.210624,
+                "odd_justa": 4.75
+              },
+              "decisao": {
+                "prob": 0.168234,
+                "odd_justa": 5.94
+              }
+            }
+          }
         },
         {
           "id": "401922645",
@@ -4178,6 +7035,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1528,
+              "minutos_com_estatisticas": 152.7,
+              "golpes_sig_por_min": 3.209,
+              "golpes_sig_sofridos_por_min": 2.757,
+              "precisao_golpes": 0.461,
+              "defesa_golpes": 0.449,
+              "quedas_por_15min": 1.866,
+              "precisao_quedas": 0.358,
+              "defesa_quedas": 0.625,
+              "controle_por_15min_s": 307.367,
+              "tentativas_finalizacao_por_15min": 0.393,
+              "idade": 35.3,
+              "envergadura_cm": 183
             }
           },
           "lutador_b": {
@@ -4211,10 +7083,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1588,
+              "minutos_com_estatisticas": 12.6,
+              "golpes_sig_por_min": 4.518,
+              "golpes_sig_sofridos_por_min": 1.268,
+              "precisao_golpes": 0.57,
+              "defesa_golpes": 0.714,
+              "quedas_por_15min": 3.567,
+              "precisao_quedas": 0.75,
+              "defesa_quedas": 0.0,
+              "controle_por_15min_s": 488.639,
+              "tentativas_finalizacao_por_15min": 3.567,
+              "idade": 35.6,
+              "envergadura_cm": null
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.355602,
+                "odd_justa": 2.81
+              },
+              "ko_tko": {
+                "prob": 0.102936,
+                "odd_justa": 9.71
+              },
+              "finalizacao": {
+                "prob": 0.072717,
+                "odd_justa": 13.75
+              },
+              "decisao": {
+                "prob": 0.179949,
+                "odd_justa": 5.56
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.644398,
+                "odd_justa": 1.55
+              },
+              "ko_tko": {
+                "prob": 0.088956,
+                "odd_justa": 11.24
+              },
+              "finalizacao": {
+                "prob": 0.270066,
+                "odd_justa": 3.7
+              },
+              "decisao": {
+                "prob": 0.285375,
+                "odd_justa": 3.5
+              }
+            }
+          }
         },
         {
           "id": "401922646",
@@ -4255,6 +7180,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1606,
+              "minutos_com_estatisticas": 85.2,
+              "golpes_sig_por_min": 5.918,
+              "golpes_sig_sofridos_por_min": 5.225,
+              "precisao_golpes": 0.418,
+              "defesa_golpes": 0.565,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "defesa_quedas": 0.75,
+              "controle_por_15min_s": 21.84,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 33.0,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -4286,12 +7226,28 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1534,
+              "minutos_com_estatisticas": 9.1,
+              "golpes_sig_por_min": 1.423,
+              "golpes_sig_sofridos_por_min": 1.642,
+              "precisao_golpes": 0.52,
+              "defesa_golpes": 0.545,
+              "quedas_por_15min": 8.212,
+              "precisao_quedas": 0.625,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 374.453,
+              "tentativas_finalizacao_por_15min": 1.642,
+              "idade": 28.4,
+              "envergadura_cm": null
             }
           },
           "avisos": [
             "Juan Diaz: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401913648",
@@ -4332,6 +7288,21 @@
                 "V",
                 "E"
               ]
+            },
+            "estatisticas": {
+              "elo": 1546,
+              "minutos_com_estatisticas": 57.5,
+              "golpes_sig_por_min": 4.745,
+              "golpes_sig_sofridos_por_min": 6.014,
+              "precisao_golpes": 0.469,
+              "defesa_golpes": 0.472,
+              "quedas_por_15min": 1.304,
+              "precisao_quedas": 0.455,
+              "defesa_quedas": 0.688,
+              "controle_por_15min_s": 117.063,
+              "tentativas_finalizacao_por_15min": 0.261,
+              "idade": 32.5,
+              "envergadura_cm": 175
             }
           },
           "lutador_b": {
@@ -4363,12 +7334,28 @@
               "ultimos_5": [
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1468,
+              "minutos_com_estatisticas": 14.5,
+              "golpes_sig_por_min": 2.419,
+              "golpes_sig_sofridos_por_min": 2.558,
+              "precisao_golpes": 0.486,
+              "defesa_golpes": 0.575,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 34.217,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 28.0,
+              "envergadura_cm": 178
             }
           },
           "avisos": [
             "Jefferson Nascimento: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         }
       ]
     },
@@ -4417,6 +7404,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1658,
+              "minutos_com_estatisticas": 92.3,
+              "golpes_sig_por_min": 5.612,
+              "golpes_sig_sofridos_por_min": 5.666,
+              "precisao_golpes": 0.555,
+              "defesa_golpes": 0.454,
+              "quedas_por_15min": 0.488,
+              "precisao_quedas": 0.6,
+              "defesa_quedas": 0.684,
+              "controle_por_15min_s": 109.534,
+              "tentativas_finalizacao_por_15min": 0.163,
+              "idade": 34.1,
+              "envergadura_cm": 203
             }
           },
           "lutador_b": {
@@ -4452,10 +7454,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1671,
+              "minutos_com_estatisticas": 65.4,
+              "golpes_sig_por_min": 6.407,
+              "golpes_sig_sofridos_por_min": 2.462,
+              "precisao_golpes": 0.542,
+              "defesa_golpes": 0.594,
+              "quedas_por_15min": 0.917,
+              "precisao_quedas": 0.364,
+              "defesa_quedas": 0.697,
+              "controle_por_15min_s": 168.807,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 29.0,
+              "envergadura_cm": 201
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.243529,
+                "odd_justa": 4.11
+              },
+              "ko_tko": {
+                "prob": 0.146456,
+                "odd_justa": 6.83
+              },
+              "finalizacao": {
+                "prob": 0.041969,
+                "odd_justa": 23.83
+              },
+              "decisao": {
+                "prob": 0.055104,
+                "odd_justa": 18.15
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.756471,
+                "odd_justa": 1.32
+              },
+              "ko_tko": {
+                "prob": 0.482418,
+                "odd_justa": 2.07
+              },
+              "finalizacao": {
+                "prob": 0.043205,
+                "odd_justa": 23.15
+              },
+              "decisao": {
+                "prob": 0.230847,
+                "odd_justa": 4.33
+              }
+            }
+          }
         },
         {
           "id": "401927850",
@@ -4496,6 +7551,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1825,
+              "minutos_com_estatisticas": 330.7,
+              "golpes_sig_por_min": 4.255,
+              "golpes_sig_sofridos_por_min": 2.147,
+              "precisao_golpes": 0.526,
+              "defesa_golpes": 0.592,
+              "quedas_por_15min": 2.54,
+              "precisao_quedas": 0.322,
+              "defesa_quedas": 0.449,
+              "controle_por_15min_s": 298.17,
+              "tentativas_finalizacao_por_15min": 0.635,
+              "idade": 37.3,
+              "envergadura_cm": 180
             }
           },
           "lutador_b": {
@@ -4530,10 +7600,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1635,
+              "minutos_com_estatisticas": 28.2,
+              "golpes_sig_por_min": 5.677,
+              "golpes_sig_sofridos_por_min": 3.548,
+              "precisao_golpes": 0.466,
+              "defesa_golpes": 0.587,
+              "quedas_por_15min": 1.064,
+              "precisao_quedas": 0.333,
+              "defesa_quedas": 0.9,
+              "controle_por_15min_s": 109.107,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 25.0,
+              "envergadura_cm": 173
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.513065,
+                "odd_justa": 1.95
+              },
+              "ko_tko": {
+                "prob": 0.113097,
+                "odd_justa": 8.84
+              },
+              "finalizacao": {
+                "prob": 0.102167,
+                "odd_justa": 9.79
+              },
+              "decisao": {
+                "prob": 0.297801,
+                "odd_justa": 3.36
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.486935,
+                "odd_justa": 2.05
+              },
+              "ko_tko": {
+                "prob": 0.237061,
+                "odd_justa": 4.22
+              },
+              "finalizacao": {
+                "prob": 0.0256,
+                "odd_justa": 39.06
+              },
+              "decisao": {
+                "prob": 0.224274,
+                "odd_justa": 4.46
+              }
+            }
+          }
         },
         {
           "id": "401922278",
@@ -4574,6 +7697,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1600,
+              "minutos_com_estatisticas": 245.7,
+              "golpes_sig_por_min": 4.823,
+              "golpes_sig_sofridos_por_min": 4.937,
+              "precisao_golpes": 0.486,
+              "defesa_golpes": 0.49,
+              "quedas_por_15min": 0.672,
+              "precisao_quedas": 0.333,
+              "defesa_quedas": 0.771,
+              "controle_por_15min_s": 156.278,
+              "tentativas_finalizacao_por_15min": 0.549,
+              "idade": 36.8,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -4609,10 +7747,63 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1644,
+              "minutos_com_estatisticas": 193.3,
+              "golpes_sig_por_min": 3.838,
+              "golpes_sig_sofridos_por_min": 6.378,
+              "precisao_golpes": 0.373,
+              "defesa_golpes": 0.493,
+              "quedas_por_15min": 0.931,
+              "precisao_quedas": 0.25,
+              "defesa_quedas": 0.545,
+              "controle_por_15min_s": 77.431,
+              "tentativas_finalizacao_por_15min": 0.931,
+              "idade": 35.7,
+              "envergadura_cm": 175
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.589394,
+                "odd_justa": 1.7
+              },
+              "ko_tko": {
+                "prob": 0.250263,
+                "odd_justa": 4.0
+              },
+              "finalizacao": {
+                "prob": 0.063599,
+                "odd_justa": 15.72
+              },
+              "decisao": {
+                "prob": 0.275531,
+                "odd_justa": 3.63
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.410606,
+                "odd_justa": 2.44
+              },
+              "ko_tko": {
+                "prob": 0.162842,
+                "odd_justa": 6.14
+              },
+              "finalizacao": {
+                "prob": 0.129769,
+                "odd_justa": 7.71
+              },
+              "decisao": {
+                "prob": 0.117996,
+                "odd_justa": 8.47
+              }
+            }
+          }
         },
         {
           "id": "401927851",
@@ -4653,6 +7844,21 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1607,
+              "minutos_com_estatisticas": 293.0,
+              "golpes_sig_por_min": 4.249,
+              "golpes_sig_sofridos_por_min": 4.358,
+              "precisao_golpes": 0.494,
+              "defesa_golpes": 0.559,
+              "quedas_por_15min": 0.768,
+              "precisao_quedas": 0.455,
+              "defesa_quedas": 0.648,
+              "controle_por_15min_s": 111.854,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 42.7,
+              "envergadura_cm": 196
             }
           },
           "lutador_b": {
@@ -4688,10 +7894,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1658,
+              "minutos_com_estatisticas": 41.0,
+              "golpes_sig_por_min": 5.683,
+              "golpes_sig_sofridos_por_min": 3.805,
+              "precisao_golpes": 0.607,
+              "defesa_golpes": 0.458,
+              "quedas_por_15min": 3.659,
+              "precisao_quedas": 0.769,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 341.707,
+              "tentativas_finalizacao_por_15min": 0.366,
+              "idade": 34.0,
+              "envergadura_cm": 193
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.29807,
+                "odd_justa": 3.35
+              },
+              "ko_tko": {
+                "prob": 0.177088,
+                "odd_justa": 5.65
+              },
+              "finalizacao": {
+                "prob": 0.026251,
+                "odd_justa": 38.09
+              },
+              "decisao": {
+                "prob": 0.094731,
+                "odd_justa": 10.56
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.70193,
+                "odd_justa": 1.42
+              },
+              "ko_tko": {
+                "prob": 0.299385,
+                "odd_justa": 3.34
+              },
+              "finalizacao": {
+                "prob": 0.034083,
+                "odd_justa": 29.34
+              },
+              "decisao": {
+                "prob": 0.368461,
+                "odd_justa": 2.71
+              }
+            }
+          }
         },
         {
           "id": "401927852",
@@ -4732,6 +7991,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1552,
+              "minutos_com_estatisticas": 55.6,
+              "golpes_sig_por_min": 2.969,
+              "golpes_sig_sofridos_por_min": 5.093,
+              "precisao_golpes": 0.453,
+              "defesa_golpes": 0.454,
+              "quedas_por_15min": 1.08,
+              "precisao_quedas": 0.333,
+              "defesa_quedas": 0.833,
+              "controle_por_15min_s": 363.077,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 36.8,
+              "envergadura_cm": 198
             }
           },
           "lutador_b": {
@@ -4766,10 +8040,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1527,
+              "minutos_com_estatisticas": 16.8,
+              "golpes_sig_por_min": 3.687,
+              "golpes_sig_sofridos_por_min": 3.449,
+              "precisao_golpes": 0.674,
+              "defesa_golpes": 0.318,
+              "quedas_por_15min": 2.676,
+              "precisao_quedas": 0.3,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 384.44,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 27.0,
+              "envergadura_cm": 211
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.272619,
+                "odd_justa": 3.67
+              },
+              "ko_tko": {
+                "prob": 0.195857,
+                "odd_justa": 5.11
+              },
+              "finalizacao": {
+                "prob": 0.017149,
+                "odd_justa": 58.31
+              },
+              "decisao": {
+                "prob": 0.059613,
+                "odd_justa": 16.77
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.727381,
+                "odd_justa": 1.37
+              },
+              "ko_tko": {
+                "prob": 0.480728,
+                "odd_justa": 2.08
+              },
+              "finalizacao": {
+                "prob": 0.049415,
+                "odd_justa": 20.24
+              },
+              "decisao": {
+                "prob": 0.197238,
+                "odd_justa": 5.07
+              }
+            }
+          }
         },
         {
           "id": "401927853",
@@ -4810,6 +8137,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1657,
+              "minutos_com_estatisticas": 275.7,
+              "golpes_sig_por_min": 3.355,
+              "golpes_sig_sofridos_por_min": 2.575,
+              "precisao_golpes": 0.445,
+              "defesa_golpes": 0.606,
+              "quedas_por_15min": 1.36,
+              "precisao_quedas": 0.417,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 237.936,
+              "tentativas_finalizacao_por_15min": 0.707,
+              "idade": 32.3,
+              "envergadura_cm": 185
             }
           },
           "lutador_b": {
@@ -4841,12 +8183,28 @@
               "ultimos_5": [
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1532,
+              "minutos_com_estatisticas": 14.5,
+              "golpes_sig_por_min": 2.558,
+              "golpes_sig_sofridos_por_min": 2.419,
+              "precisao_golpes": 0.425,
+              "defesa_golpes": 0.514,
+              "quedas_por_15min": 2.074,
+              "precisao_quedas": 0.333,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 199.078,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 29.8,
+              "envergadura_cm": 185
             }
           },
           "avisos": [
             "Tahir Abdullayev: menos de 2 lutas no UFC registradas."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         },
         {
           "id": "401927854",
@@ -4884,6 +8242,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1562,
+              "minutos_com_estatisticas": 30.0,
+              "golpes_sig_por_min": 2.933,
+              "golpes_sig_sofridos_por_min": 2.567,
+              "precisao_golpes": 0.55,
+              "defesa_golpes": 0.687,
+              "quedas_por_15min": 1.5,
+              "precisao_quedas": 0.333,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 221.0,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.8,
+              "envergadura_cm": 173
             }
           },
           "lutador_b": {
@@ -4917,10 +8290,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1533,
+              "minutos_com_estatisticas": 32.7,
+              "golpes_sig_por_min": 4.745,
+              "golpes_sig_sofridos_por_min": 2.755,
+              "precisao_golpes": 0.531,
+              "defesa_golpes": 0.68,
+              "quedas_por_15min": 2.296,
+              "precisao_quedas": 0.714,
+              "defesa_quedas": 0.571,
+              "controle_por_15min_s": 148.776,
+              "tentativas_finalizacao_por_15min": 0.918,
+              "idade": 22.3,
+              "envergadura_cm": 188
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.343899,
+                "odd_justa": 2.91
+              },
+              "ko_tko": {
+                "prob": 0.054652,
+                "odd_justa": 18.3
+              },
+              "finalizacao": {
+                "prob": 0.097543,
+                "odd_justa": 10.25
+              },
+              "decisao": {
+                "prob": 0.191704,
+                "odd_justa": 5.22
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.656101,
+                "odd_justa": 1.52
+              },
+              "ko_tko": {
+                "prob": 0.216069,
+                "odd_justa": 4.63
+              },
+              "finalizacao": {
+                "prob": 0.098673,
+                "odd_justa": 10.13
+              },
+              "decisao": {
+                "prob": 0.341359,
+                "odd_justa": 2.93
+              }
+            }
+          }
         },
         {
           "id": "401927855",
@@ -4961,6 +8387,21 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1666,
+              "minutos_com_estatisticas": 104.4,
+              "golpes_sig_por_min": 2.28,
+              "golpes_sig_sofridos_por_min": 1.935,
+              "precisao_golpes": 0.514,
+              "defesa_golpes": 0.538,
+              "quedas_por_15min": 4.743,
+              "precisao_quedas": 0.458,
+              "defesa_quedas": 0.444,
+              "controle_por_15min_s": 440.227,
+              "tentativas_finalizacao_por_15min": 1.437,
+              "idade": 32.8,
+              "envergadura_cm": 165
             }
           },
           "lutador_b": {
@@ -4996,10 +8437,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1674,
+              "minutos_com_estatisticas": 152.6,
+              "golpes_sig_por_min": 3.636,
+              "golpes_sig_sofridos_por_min": 2.077,
+              "precisao_golpes": 0.476,
+              "defesa_golpes": 0.64,
+              "quedas_por_15min": 1.671,
+              "precisao_quedas": 0.405,
+              "defesa_quedas": 0.612,
+              "controle_por_15min_s": 195.567,
+              "tentativas_finalizacao_por_15min": 0.098,
+              "idade": 36.1,
+              "envergadura_cm": 168
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.563859,
+                "odd_justa": 1.77
+              },
+              "ko_tko": {
+                "prob": 0.120705,
+                "odd_justa": 8.28
+              },
+              "finalizacao": {
+                "prob": 0.208852,
+                "odd_justa": 4.79
+              },
+              "decisao": {
+                "prob": 0.234302,
+                "odd_justa": 4.27
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.436141,
+                "odd_justa": 2.29
+              },
+              "ko_tko": {
+                "prob": 0.157978,
+                "odd_justa": 6.33
+              },
+              "finalizacao": {
+                "prob": 0.060165,
+                "odd_justa": 16.62
+              },
+              "decisao": {
+                "prob": 0.217998,
+                "odd_justa": 4.59
+              }
+            }
+          }
         },
         {
           "id": "401927856",
@@ -5040,6 +8534,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1585,
+              "minutos_com_estatisticas": 101.5,
+              "golpes_sig_por_min": 2.473,
+              "golpes_sig_sofridos_por_min": 3.882,
+              "precisao_golpes": 0.338,
+              "defesa_golpes": 0.594,
+              "quedas_por_15min": 1.182,
+              "precisao_quedas": 0.25,
+              "defesa_quedas": 0.625,
+              "controle_por_15min_s": 218.46,
+              "tentativas_finalizacao_por_15min": 0.443,
+              "idade": 33.1,
+              "envergadura_cm": 173
             }
           },
           "lutador_b": {
@@ -5075,10 +8584,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1562,
+              "minutos_com_estatisticas": 70.3,
+              "golpes_sig_por_min": 3.937,
+              "golpes_sig_sofridos_por_min": 3.81,
+              "precisao_golpes": 0.493,
+              "defesa_golpes": 0.543,
+              "quedas_por_15min": 0.853,
+              "precisao_quedas": 0.267,
+              "defesa_quedas": 0.852,
+              "controle_por_15min_s": 84.222,
+              "tentativas_finalizacao_por_15min": 0.853,
+              "idade": 30.8,
+              "envergadura_cm": 170
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.428008,
+                "odd_justa": 2.34
+              },
+              "ko_tko": {
+                "prob": 0.152369,
+                "odd_justa": 6.56
+              },
+              "finalizacao": {
+                "prob": 0.093138,
+                "odd_justa": 10.74
+              },
+              "decisao": {
+                "prob": 0.182501,
+                "odd_justa": 5.48
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.571992,
+                "odd_justa": 1.75
+              },
+              "ko_tko": {
+                "prob": 0.218852,
+                "odd_justa": 4.57
+              },
+              "finalizacao": {
+                "prob": 0.089849,
+                "odd_justa": 11.13
+              },
+              "decisao": {
+                "prob": 0.263291,
+                "odd_justa": 3.8
+              }
+            }
+          }
         }
       ]
     },
@@ -5127,6 +8689,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1845,
+              "minutos_com_estatisticas": 295.0,
+              "golpes_sig_por_min": 3.234,
+              "golpes_sig_sofridos_por_min": 3.051,
+              "precisao_golpes": 0.556,
+              "defesa_golpes": 0.49,
+              "quedas_por_15min": 2.288,
+              "precisao_quedas": 0.398,
+              "defesa_quedas": 0.549,
+              "controle_por_15min_s": 311.304,
+              "tentativas_finalizacao_por_15min": 2.593,
+              "idade": 37.2,
+              "envergadura_cm": 188
             }
           },
           "lutador_b": {
@@ -5162,10 +8739,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1697,
+              "minutos_com_estatisticas": 117.1,
+              "golpes_sig_por_min": 3.945,
+              "golpes_sig_sofridos_por_min": 4.679,
+              "precisao_golpes": 0.47,
+              "defesa_golpes": 0.472,
+              "quedas_por_15min": 0.897,
+              "precisao_quedas": 0.467,
+              "defesa_quedas": 0.742,
+              "controle_por_15min_s": 98.363,
+              "tentativas_finalizacao_por_15min": 1.025,
+              "idade": 32.0,
+              "envergadura_cm": 183
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.60527,
+                "odd_justa": 1.65
+              },
+              "ko_tko": {
+                "prob": 0.088852,
+                "odd_justa": 11.25
+              },
+              "finalizacao": {
+                "prob": 0.222271,
+                "odd_justa": 4.5
+              },
+              "decisao": {
+                "prob": 0.294147,
+                "odd_justa": 3.4
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.39473,
+                "odd_justa": 2.53
+              },
+              "ko_tko": {
+                "prob": 0.186399,
+                "odd_justa": 5.36
+              },
+              "finalizacao": {
+                "prob": 0.099068,
+                "odd_justa": 10.09
+              },
+              "decisao": {
+                "prob": 0.109262,
+                "odd_justa": 9.15
+              }
+            }
+          }
         },
         {
           "id": "401928327",
@@ -5206,6 +8836,21 @@
                 "D",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1720,
+              "minutos_com_estatisticas": 63.4,
+              "golpes_sig_por_min": 4.493,
+              "golpes_sig_sofridos_por_min": 3.579,
+              "precisao_golpes": 0.447,
+              "defesa_golpes": 0.562,
+              "quedas_por_15min": 0.473,
+              "precisao_quedas": 0.25,
+              "defesa_quedas": 0.75,
+              "controle_por_15min_s": 108.303,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.6,
+              "envergadura_cm": 213
             }
           },
           "lutador_b": {
@@ -5241,10 +8886,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1758,
+              "minutos_com_estatisticas": 139.2,
+              "golpes_sig_por_min": 5.008,
+              "golpes_sig_sofridos_por_min": 3.722,
+              "precisao_golpes": 0.614,
+              "defesa_golpes": 0.526,
+              "quedas_por_15min": 0.108,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.8,
+              "controle_por_15min_s": 17.03,
+              "tentativas_finalizacao_por_15min": 0.216,
+              "idade": 39.4,
+              "envergadura_cm": 201
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.546624,
+                "odd_justa": 1.83
+              },
+              "ko_tko": {
+                "prob": 0.366612,
+                "odd_justa": 2.73
+              },
+              "finalizacao": {
+                "prob": 0.024007,
+                "odd_justa": 41.65
+              },
+              "decisao": {
+                "prob": 0.156005,
+                "odd_justa": 6.41
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.453376,
+                "odd_justa": 2.21
+              },
+              "ko_tko": {
+                "prob": 0.309141,
+                "odd_justa": 3.23
+              },
+              "finalizacao": {
+                "prob": 0.019393,
+                "odd_justa": 51.57
+              },
+              "decisao": {
+                "prob": 0.124842,
+                "odd_justa": 8.01
+              }
+            }
+          }
         },
         {
           "id": "401913650",
@@ -5285,6 +8983,21 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1690,
+              "minutos_com_estatisticas": 71.7,
+              "golpes_sig_por_min": 3.527,
+              "golpes_sig_sofridos_por_min": 3.332,
+              "precisao_golpes": 0.432,
+              "defesa_golpes": 0.527,
+              "quedas_por_15min": 1.255,
+              "precisao_quedas": 0.25,
+              "defesa_quedas": 0.667,
+              "controle_por_15min_s": 97.862,
+              "tentativas_finalizacao_por_15min": 0.836,
+              "idade": 30.2,
+              "envergadura_cm": 190
             }
           },
           "lutador_b": {
@@ -5320,10 +9033,63 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1635,
+              "minutos_com_estatisticas": 51.0,
+              "golpes_sig_por_min": 3.352,
+              "golpes_sig_sofridos_por_min": 1.999,
+              "precisao_golpes": 0.615,
+              "defesa_golpes": 0.6,
+              "quedas_por_15min": 2.352,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 300.784,
+              "tentativas_finalizacao_por_15min": 1.47,
+              "idade": 30.9,
+              "envergadura_cm": 193
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.437154,
+                "odd_justa": 2.29
+              },
+              "ko_tko": {
+                "prob": 0.244934,
+                "odd_justa": 4.08
+              },
+              "finalizacao": {
+                "prob": 0.090281,
+                "odd_justa": 11.08
+              },
+              "decisao": {
+                "prob": 0.101939,
+                "odd_justa": 9.81
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.562846,
+                "odd_justa": 1.78
+              },
+              "ko_tko": {
+                "prob": 0.205022,
+                "odd_justa": 4.88
+              },
+              "finalizacao": {
+                "prob": 0.125734,
+                "odd_justa": 7.95
+              },
+              "decisao": {
+                "prob": 0.23209,
+                "odd_justa": 4.31
+              }
+            }
+          }
         },
         {
           "id": "401913651",
@@ -5364,6 +9130,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1642,
+              "minutos_com_estatisticas": 355.9,
+              "golpes_sig_por_min": 3.864,
+              "golpes_sig_sofridos_por_min": 3.69,
+              "precisao_golpes": 0.44,
+              "defesa_golpes": 0.599,
+              "quedas_por_15min": 1.391,
+              "precisao_quedas": 0.412,
+              "defesa_quedas": 0.675,
+              "controle_por_15min_s": 162.491,
+              "tentativas_finalizacao_por_15min": 0.379,
+              "idade": 33.0,
+              "envergadura_cm": 178
             }
           },
           "lutador_b": {
@@ -5399,10 +9180,63 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1569,
+              "minutos_com_estatisticas": 202.9,
+              "golpes_sig_por_min": 4.604,
+              "golpes_sig_sofridos_por_min": 3.928,
+              "precisao_golpes": 0.495,
+              "defesa_golpes": 0.555,
+              "quedas_por_15min": 0.444,
+              "precisao_quedas": 0.146,
+              "defesa_quedas": 0.669,
+              "controle_por_15min_s": 53.159,
+              "tentativas_finalizacao_por_15min": 0.444,
+              "idade": 35.9,
+              "envergadura_cm": 178
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.612563,
+                "odd_justa": 1.63
+              },
+              "ko_tko": {
+                "prob": 0.127243,
+                "odd_justa": 7.86
+              },
+              "finalizacao": {
+                "prob": 0.124042,
+                "odd_justa": 8.06
+              },
+              "decisao": {
+                "prob": 0.361278,
+                "odd_justa": 2.77
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.387437,
+                "odd_justa": 2.58
+              },
+              "ko_tko": {
+                "prob": 0.093662,
+                "odd_justa": 10.68
+              },
+              "finalizacao": {
+                "prob": 0.034676,
+                "odd_justa": 28.84
+              },
+              "decisao": {
+                "prob": 0.259099,
+                "odd_justa": 3.86
+              }
+            }
+          }
         },
         {
           "id": "401930355",
@@ -5443,6 +9277,21 @@
                 "V",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1680,
+              "minutos_com_estatisticas": 149.5,
+              "golpes_sig_por_min": 4.247,
+              "golpes_sig_sofridos_por_min": 2.702,
+              "precisao_golpes": 0.512,
+              "defesa_golpes": 0.575,
+              "quedas_por_15min": 1.505,
+              "precisao_quedas": 0.469,
+              "defesa_quedas": 0.481,
+              "controle_por_15min_s": 204.482,
+              "tentativas_finalizacao_por_15min": 0.1,
+              "idade": 28.6,
+              "envergadura_cm": 165
             }
           },
           "lutador_b": {
@@ -5478,10 +9327,63 @@
                 "V",
                 "D"
               ]
+            },
+            "estatisticas": {
+              "elo": 1585,
+              "minutos_com_estatisticas": 44.8,
+              "golpes_sig_por_min": 8.702,
+              "golpes_sig_sofridos_por_min": 4.708,
+              "precisao_golpes": 0.481,
+              "defesa_golpes": 0.599,
+              "quedas_por_15min": 0.669,
+              "precisao_quedas": 0.5,
+              "defesa_quedas": 0.828,
+              "controle_por_15min_s": 71.29,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 27.8,
+              "envergadura_cm": 173
             }
           },
           "avisos": [],
-          "previsao_possivel": true
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.490304,
+                "odd_justa": 2.04
+              },
+              "ko_tko": {
+                "prob": 0.11845,
+                "odd_justa": 8.44
+              },
+              "finalizacao": {
+                "prob": 0.041009,
+                "odd_justa": 24.38
+              },
+              "decisao": {
+                "prob": 0.330844,
+                "odd_justa": 3.02
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.509696,
+                "odd_justa": 1.96
+              },
+              "ko_tko": {
+                "prob": 0.211997,
+                "odd_justa": 4.72
+              },
+              "finalizacao": {
+                "prob": 0.037516,
+                "odd_justa": 26.66
+              },
+              "decisao": {
+                "prob": 0.260184,
+                "odd_justa": 3.84
+              }
+            }
+          }
         },
         {
           "id": "401930356",
@@ -5494,7 +9396,8 @@
             "cartel_espn": "4-0-0",
             "pais": "USA",
             "status_dados": "nao_encontrado",
-            "historico_ufc": null
+            "historico_ufc": null,
+            "estatisticas": null
           },
           "lutador_b": {
             "nome": "Junior Tafa",
@@ -5529,12 +9432,28 @@
                 "D",
                 "V"
               ]
+            },
+            "estatisticas": {
+              "elo": 1437,
+              "minutos_com_estatisticas": 56.6,
+              "golpes_sig_por_min": 3.53,
+              "golpes_sig_sofridos_por_min": 2.701,
+              "precisao_golpes": 0.521,
+              "defesa_golpes": 0.525,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 0.727,
+              "controle_por_15min_s": 12.974,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.2,
+              "envergadura_cm": 190
             }
           },
           "avisos": [
             "Quentin Pasley: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
           ],
-          "previsao_possivel": false
+          "previsao_possivel": false,
+          "previsao": null
         }
       ]
     }
