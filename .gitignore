@@ -5,3 +5,4 @@ pipeline/cache/
 *.tmp
 node_modules/
 .claude/
+*.apk

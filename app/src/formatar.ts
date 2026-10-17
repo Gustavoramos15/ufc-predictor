@@ -84,6 +84,11 @@ export function categoria(c: string | null | undefined): string {
   return feminino ? `${nome} (fem.)` : nome;
 }
 
+/** "Finalização ou decisão" -> "finalização ou decisão"; "KO/TKO ou decisão" fica igual. */
+export function primeiraMinuscula(texto: string): string {
+  return texto.startsWith("KO/TKO") ? texto : texto.charAt(0).toLowerCase() + texto.slice(1);
+}
+
 export function sobrenome(nome: string): string {
   const partes = nome.trim().split(/\s+/);
   return partes.length > 1 ? partes.slice(1).join(" ") : nome;

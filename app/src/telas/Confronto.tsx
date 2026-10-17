@@ -1,11 +1,12 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 
+import { combinacoes, comoTermina, confianca, resultadoMaisProvavel } from "../combinacoes";
 import { Aviso, BarraProbabilidade, Cabecalho, Cartao, Subtitulo, TextoSuave, s } from "../componentes";
 import { useDados } from "../dados";
 import { categoria, dataEvento, dataSimples, num, odd, pct } from "../formatar";
 import type { Navegacao } from "../navegacao";
 import { cores, espaco } from "../tema";
-import type { Lutador, Previsao } from "../tipos";
+import type { Lutador, Previsao, PrevisaoLado } from "../tipos";
 
 export function TelaConfronto({ nav, eventoId, lutaId }: { nav: Navegacao; eventoId: string; lutaId: string }) {
   const { dados } = useDados();
@@ -84,6 +85,8 @@ function BlocoPrevisao({ p, a, b }: { p: Previsao; a: string; b: string }) {
     ["Decisão", "decisao"],
     ["Vitória (total)", "vitoria"],
   ];
+  const maisProvavel = resultadoMaisProvavel(p, a, b);
+  const conf = confianca(p.a.vitoria.prob);
   return (
     <>
       <Subtitulo>Probabilidade de vitória</Subtitulo>
@@ -114,12 +117,68 @@ function BlocoPrevisao({ p, a, b }: { p: Previsao; a: string; b: string }) {
           </View>
         ))}
       </Cartao>
+      <Cartao estilo={{ gap: espaco.xs }}>
+        <TextoSuave>Resultado individual mais provável</TextoSuave>
+        <Text style={[s.forte, { fontSize: 16 }]}>
+          {maisProvavel.nome} por {maisProvavel.metodo} · {pct(maisProvavel.prob)}
+          <Text style={s.suave}> (odd justa {odd(1 / maisProvavel.prob)})</Text>
+        </Text>
+        <TextoSuave>
+          Previsão do vencedor: {conf.texto.toLowerCase()} ({pct(Math.max(p.a.vitoria.prob, p.b.vitoria.prob))}).
+        </TextoSuave>
+      </Cartao>
+
+      <Subtitulo>Métodos combinados</Subtitulo>
+      <TextoSuave>
+        Soma de dois métodos do mesmo lutador (ex.: "vence por KO/TKO ou decisão"). Destaque = combinação mais provável
+        daquele lutador.
+      </TextoSuave>
+      <CombinacoesLutador nome={a} lado={p.a} cor={cores.vermelho} />
+      <CombinacoesLutador nome={b} lado={p.b} cor={cores.azul} />
+
+      <Subtitulo>Como a luta termina</Subtitulo>
+      <Cartao estilo={{ padding: 0 }}>
+        {comoTermina(p).map((o, i) => (
+          <View key={o.rotulo} style={[st.tabLinha, i % 2 === 1 && { backgroundColor: cores.cartaoAlt }]}>
+            <Text style={[st.tabCelula, st.tabRotulo, s.texto, { flex: 2.4 }]}>{o.rotulo}</Text>
+            <View style={[st.tabCelula, st.tabNum]}>
+              <Text style={[s.forte, { textAlign: "right" }]}>{pct(o.prob)}</Text>
+              <TextoSuave estilo={{ textAlign: "right" }}>odd {odd(o.odd)}</TextoSuave>
+            </View>
+          </View>
+        ))}
+      </Cartao>
+
       <Aviso tipo="info">
         Probabilidades estimadas por um modelo estatístico (Elo + regressão logística) a partir do histórico. A odd
-        justa é 1 ÷ probabilidade: não é cotação de casa de apostas e não garante nenhum resultado. Empates, DQ e lutas
-        sem resultado não estão incluídos.
+        justa é 1 ÷ probabilidade: não é cotação de casa de apostas, não é recomendação de aposta e não garante nenhum
+        resultado. O modelo acerta o vencedor bem melhor do que o método; combinações de método são menos confiáveis.
+        Empates, DQ e lutas sem resultado não estão incluídos.
       </Aviso>
     </>
+  );
+}
+
+function CombinacoesLutador({ nome, lado, cor }: { nome: string; lado: PrevisaoLado; cor: string }) {
+  const lista = combinacoes(lado);
+  return (
+    <Cartao estilo={{ padding: 0, borderLeftWidth: 4, borderLeftColor: cor }}>
+      <View style={[st.tabLinha, st.tabCabecalho]}>
+        <Text style={[s.forte, { color: cor }]}>{nome} vence por…</Text>
+      </View>
+      {lista.map((o, i) => (
+        <View key={o.rotulo} style={[st.tabLinha, i === 0 && { backgroundColor: cores.cartaoAlt }]}>
+          <View style={[st.tabCelula, { flex: 2.4 }]}>
+            <Text style={[s.texto, i === 0 && { fontWeight: "700" }]}>{o.rotulo}</Text>
+            {i === 0 && <Text style={{ color: cor, fontSize: 12, fontWeight: "700" }}>MAIS PROVÁVEL</Text>}
+          </View>
+          <View style={[st.tabCelula, st.tabNum]}>
+            <Text style={[s.forte, { textAlign: "right" }]}>{pct(o.prob)}</Text>
+            <TextoSuave estilo={{ textAlign: "right" }}>odd {odd(o.odd)}</TextoSuave>
+          </View>
+        </View>
+      ))}
+    </Cartao>
   );
 }
 
