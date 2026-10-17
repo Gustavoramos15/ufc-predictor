@@ -3,10 +3,11 @@ import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { combinacoes, comoTermina, confianca, resultadoMaisProvavel } from "../combinacoes";
 import { Aviso, BarraProbabilidade, Cabecalho, Cartao, Subtitulo, TextoSuave, s } from "../componentes";
 import { useDados } from "../dados";
-import { categoria, dataEvento, dataSimples, num, odd, pct } from "../formatar";
+import { categoria, dataEvento, dataHora, dataSimples, num, odd, pct } from "../formatar";
 import type { Navegacao } from "../navegacao";
+import { leituraValor, margemCasa, probCasaSemMargem, valorEstimado } from "../odds";
 import { cores, espaco } from "../tema";
-import type { Lutador, Previsao, PrevisaoLado } from "../tipos";
+import type { Lutador, OddsCasa, Previsao, PrevisaoLado } from "../tipos";
 
 export function TelaConfronto({ nav, eventoId, lutaId }: { nav: Navegacao; eventoId: string; lutaId: string }) {
   const { dados } = useDados();
@@ -46,7 +47,19 @@ export function TelaConfronto({ nav, eventoId, lutaId }: { nav: Navegacao; event
           </>
         )}
 
-        <Subtitulo>Comparação (lutas no UFC)</Subtitulo>
+        {luta.odds_casa ? (
+          <BlocoOdds o={luta.odds_casa} p={previsao} a={a.nome} b={b.nome} />
+        ) : (
+          <>
+            <Subtitulo>Odds da casa</Subtitulo>
+            <TextoSuave>
+              Nenhuma casa publicou odds desta luta na ESPN até a última atualização. Elas costumam aparecer perto do
+              evento.
+            </TextoSuave>
+          </>
+        )}
+
+        <Subtitulo>Comparação</Subtitulo>
         <Comparacao a={a} b={b} />
       </ScrollView>
     </View>
@@ -59,7 +72,15 @@ function CartaoLutador({ l, cor }: { l: Lutador; cor: string }) {
     <Cartao estilo={{ flex: 1, borderTopWidth: 4, borderTopColor: cor }}>
       <Text style={[s.forte, { fontSize: 16 }]}>{l.nome}</Text>
       {l.pais && <TextoSuave>{l.pais}</TextoSuave>}
-      <TextoSuave estilo={{ marginTop: espaco.s }}>Cartel no MMA: {l.cartel_espn ?? "—"}</TextoSuave>
+      <TextoSuave estilo={{ marginTop: espaco.s }}>
+        Cartel no MMA: {l.carreira_mma?.cartel ?? l.cartel_espn ?? "—"}
+      </TextoSuave>
+      {l.carreira_mma && l.carreira_mma.vitorias > 0 && (
+        <TextoSuave>
+          Vitórias: {l.carreira_mma.vitorias_por_metodo.ko_tko} KO/TKO · {l.carreira_mma.vitorias_por_metodo.finalizacao}{" "}
+          fin. · {l.carreira_mma.vitorias_por_metodo.decisao_ou_outro} dec./outro
+        </TextoSuave>
+      )}
       <TextoSuave>
         No UFC: {h ? `${h.vitorias}-${h.derrotas}${h.empates ? `-${h.empates}` : ""}` : "sem lutas registradas"}
       </TextoSuave>
@@ -182,7 +203,81 @@ function CombinacoesLutador({ nome, lado, cor }: { nome: string; lado: PrevisaoL
   );
 }
 
+function BlocoOdds({ o, p, a, b }: { o: OddsCasa; p: Previsao | null; a: string; b: string }) {
+  const margem = margemCasa(o);
+  const lados = [
+    { lado: "a" as const, nome: a, cor: cores.vermelho },
+    { lado: "b" as const, nome: b, cor: cores.azul },
+  ];
+  return (
+    <>
+      <Subtitulo>Odds da casa ({o.casa ?? "casa não informada"})</Subtitulo>
+      <Cartao estilo={{ padding: 0 }}>
+        {lados.map(({ lado, nome, cor }, i) => {
+          const oc = o[lado];
+          const pModelo = p ? p[lado].vitoria.prob : null;
+          const valor = pModelo != null ? valorEstimado(pModelo, oc.atual) : null;
+          const leitura = leituraValor(valor);
+          return (
+            <View key={lado} style={[st.blocoOdd, i === 1 && { borderTopWidth: 1, borderTopColor: cores.borda }]}>
+              <Text style={[s.forte, { color: cor }]}>{nome} vence</Text>
+              <View style={[s.linha, { marginTop: espaco.xs }]}>
+                <View>
+                  <TextoSuave>Odd da casa</TextoSuave>
+                  <Text style={[s.forte, { fontSize: 20 }]}>{odd(oc.atual)}</Text>
+                  {oc.abertura != null && oc.abertura !== oc.atual && (
+                    <TextoSuave>abriu em {odd(oc.abertura)}</TextoSuave>
+                  )}
+                </View>
+                <View style={{ alignItems: "flex-end" }}>
+                  <TextoSuave>Casa (sem margem): {pct(probCasaSemMargem(o, lado))}</TextoSuave>
+                  <TextoSuave>
+                    Modelo: {pModelo != null ? `${pct(pModelo)} · odd justa ${odd(1 / pModelo)}` : "sem previsão"}
+                  </TextoSuave>
+                </View>
+              </View>
+              {leitura && (
+                <Text style={{ color: COR_LEITURA[leitura], fontWeight: "700", marginTop: espaco.s }}>
+                  {TEXTO_LEITURA[leitura]} ({valor! >= 0 ? "+" : ""}
+                  {pct(valor!)} de valor estimado pelo modelo)
+                </Text>
+              )}
+            </View>
+          );
+        })}
+      </Cartao>
+      {o.total_rounds && (
+        <TextoSuave>
+          Total de rounds: mais de {num(o.total_rounds.linha, 1)} a {odd(o.total_rounds.mais)} · menos de{" "}
+          {num(o.total_rounds.linha, 1)} a {odd(o.total_rounds.menos)} (o modelo não estima rounds).
+        </TextoSuave>
+      )}
+      <Aviso tipo="info">
+        Odds consultadas em {dataHora(o.consultado_em)} via ESPN e podem ter mudado. Margem da casa: {pct(margem)}.
+        "Valor estimado" só existe se a probabilidade do modelo estiver correta; o modelo nunca foi testado contra odds
+        reais, então isto não é recomendação de aposta nem garantia de lucro.
+      </Aviso>
+    </>
+  );
+}
+
+const COR_LEITURA = { acima: cores.sucesso, proxima: cores.textoSuave, abaixo: cores.erro };
+const TEXTO_LEITURA = {
+  acima: "Odd da casa acima da odd justa",
+  proxima: "Odd da casa próxima da odd justa",
+  abaixo: "Odd da casa abaixo da odd justa",
+};
+
 type Linha = [string, (l: Lutador) => string];
+
+/** Usa a estatística do UFC; se não houver, a média fora do UFC (ESPN), marcada com "*". */
+function stat(l: Lutador, campo: "golpes_sig_por_min" | "precisao_golpes" | "quedas_por_15min" | "precisao_quedas",
+              formato: (x: number) => string): string {
+  const doUfc = l.estatisticas?.[campo];
+  if (doUfc != null && (l.estatisticas?.minutos_com_estatisticas ?? 0) > 0) return formato(doUfc);
+  const fora = l.medias_fora_ufc?.[campo];
+  return fora != null ? `${formato(fora)}*` : "—";
+}
 
 const LINHAS: Linha[] = [
   ["Elo (força estimada)", (l) => (l.estatisticas ? String(l.estatisticas.elo) : "—")],
@@ -192,12 +287,16 @@ const LINHAS: Linha[] = [
   ["Vitórias por decisão", (l) => String(l.historico_ufc?.vitorias_por_metodo.DECISAO ?? "—")],
   ["Derrotas por KO/TKO", (l) => String(l.historico_ufc?.derrotas_por_metodo["KO/TKO"] ?? "—")],
   ["Derrotas por finalização", (l) => String(l.historico_ufc?.derrotas_por_metodo.FINALIZACAO ?? "—")],
-  ["Golpes sig. acertados/min", (l) => num(l.estatisticas?.golpes_sig_por_min)],
+  ["Cartel no MMA (todas as org.)", (l) => l.carreira_mma?.cartel ?? l.cartel_espn ?? "—"],
+  ["Vitórias MMA por KO/TKO", (l) => String(l.carreira_mma?.vitorias_por_metodo.ko_tko ?? "—")],
+  ["Vitórias MMA por finalização", (l) => String(l.carreira_mma?.vitorias_por_metodo.finalizacao ?? "—")],
+  ["Vitórias MMA por dec./outro", (l) => String(l.carreira_mma?.vitorias_por_metodo.decisao_ou_outro ?? "—")],
+  ["Golpes sig. acertados/min", (l) => stat(l, "golpes_sig_por_min", (x) => num(x))],
   ["Golpes sig. sofridos/min", (l) => num(l.estatisticas?.golpes_sig_sofridos_por_min)],
-  ["Precisão de golpes", (l) => pct(l.estatisticas?.precisao_golpes, 0)],
+  ["Precisão de golpes", (l) => stat(l, "precisao_golpes", (x) => pct(x, 0))],
   ["Defesa de golpes", (l) => pct(l.estatisticas?.defesa_golpes, 0)],
-  ["Quedas a cada 15 min", (l) => num(l.estatisticas?.quedas_por_15min)],
-  ["Precisão de quedas", (l) => pct(l.estatisticas?.precisao_quedas, 0)],
+  ["Quedas a cada 15 min", (l) => stat(l, "quedas_por_15min", (x) => num(x))],
+  ["Precisão de quedas", (l) => stat(l, "precisao_quedas", (x) => pct(x, 0))],
   ["Defesa de quedas", (l) => pct(l.estatisticas?.defesa_quedas, 0)],
   ["Controle a cada 15 min", (l) => segundos(l.estatisticas?.controle_por_15min_s)],
   ["Tent. finalização/15 min", (l) => num(l.estatisticas?.tentativas_finalizacao_por_15min)],
@@ -228,14 +327,25 @@ function Comparacao({ a, b }: { a: Lutador; b: Lutador }) {
       <View style={{ padding: espaco.m }}>
         <TextoSuave>
           Números brutos do histórico no UFC (fonte: UFCStats). Atletas com poucos minutos analisados têm médias pouco
-          confiáveis.
+          confiáveis. Cartel no MMA: ESPN, inclui outras organizações.
         </TextoSuave>
+        {[a, b]
+          .filter((l) => l.medias_fora_ufc && !(l.estatisticas?.minutos_com_estatisticas ?? 0))
+          .map((l) => (
+            <TextoSuave key={l.nome} estilo={{ marginTop: espaco.s }}>
+              * {l.nome}: médias fora do UFC em {l.medias_fora_ufc!.lutas_com_estatisticas} luta(s) com estatísticas na
+              ESPN ({l.medias_fora_ufc!.minutos_com_estatisticas.toString().replace(".", ",")} min):{" "}
+              {[...new Set(l.medias_fora_ufc!.eventos)].join("; ")}. Nível de adversário diferente do UFC; poucas lutas
+              tornam as médias instáveis.
+            </TextoSuave>
+          ))}
       </View>
     </Cartao>
   );
 }
 
 const st = StyleSheet.create({
+  blocoOdd: { padding: espaco.m },
   forma: { width: 26, height: 22, borderRadius: 4, alignItems: "center", justifyContent: "center" },
   formaTexto: { color: "#fff", fontSize: 11, fontWeight: "700" },
   tabLinha: { flexDirection: "row", alignItems: "center", paddingHorizontal: espaco.m, paddingVertical: 10 },

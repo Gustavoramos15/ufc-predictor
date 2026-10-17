@@ -80,6 +80,11 @@ export function TelaEvento({ nav, eventoId }: { nav: Navegacao; eventoId: string
                       ) : (
                         <Text style={{ color: cores.aviso, fontSize: 13 }}>Sem previsão: dados insuficientes</Text>
                       )}
+                      {l.odds_casa && (
+                        <TextoSuave estilo={{ marginTop: 2 }}>
+                          Odds {l.odds_casa.casa ?? "da casa"}: {odd(l.odds_casa.a.atual)} × {odd(l.odds_casa.b.atual)}
+                        </TextoSuave>
+                      )}
                     </Cartao>
                   )}
                 </Pressable>

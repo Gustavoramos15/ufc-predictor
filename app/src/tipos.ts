@@ -51,13 +51,60 @@ export interface Estatisticas {
   envergadura_cm: number | null;
 }
 
+export interface PorMetodoMma {
+  ko_tko: number;
+  finalizacao: number;
+  decisao_ou_outro: number;
+}
+
+/** Cartel completo no MMA (inclui lutas fora do UFC), fonte ESPN. */
+export interface CarreiraMma {
+  cartel: string | null;
+  vitorias: number;
+  derrotas: number;
+  empates: number;
+  vitorias_por_metodo: PorMetodoMma;
+  derrotas_por_metodo: PorMetodoMma;
+}
+
+/** Médias das lutas que a ESPN transmitiu com estatísticas (ex.: Contender Series). */
+export interface MediasForaUfc {
+  fonte: string;
+  lutas_com_estatisticas: number;
+  eventos: string[];
+  minutos_com_estatisticas: number;
+  golpes_sig_por_min: number | null;
+  precisao_golpes: number | null;
+  quedas_por_15min: number | null;
+  precisao_quedas: number | null;
+  knockdowns_por_15min: number | null;
+}
+
 export interface Lutador {
+  espn_id?: string | null;
   nome: string;
   cartel_espn: string | null;
   pais: string | null;
   status_dados: StatusDados;
   historico_ufc: HistoricoUfc | null;
   estatisticas: Estatisticas | null;
+  carreira_mma?: CarreiraMma | null;
+  medias_fora_ufc?: MediasForaUfc | null;
+}
+
+export interface OddLado {
+  atual: number | null;
+  abertura: number | null;
+}
+
+/** Odds de uma casa de apostas exibidas pela ESPN (somente leitura, para comparação). */
+export interface OddsCasa {
+  casa: string | null;
+  fonte: string;
+  consultado_em: string;
+  a: OddLado;
+  b: OddLado;
+  total_rounds: { linha: number; mais: number | null; menos: number | null } | null;
 }
 
 export interface Luta {
@@ -71,6 +118,7 @@ export interface Luta {
   avisos: string[];
   previsao_possivel: boolean;
   previsao: Previsao | null;
+  odds_casa?: OddsCasa | null;
 }
 
 export interface Evento {
@@ -132,6 +180,7 @@ export interface PrevisaoRegistrada {
   lutador_b: string;
   categoria: string | null;
   previsao: Previsao;
+  odds_casa?: OddsCasa | null;
   previsto_em: string;
   versao_modelo: string;
   resultado_real: ResultadoReal | null;

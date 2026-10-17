@@ -6,10 +6,11 @@ import json
 import sys
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from . import estatisticas, historico, modelo, proximos
+from . import espn_extra, estatisticas, historico, modelo, proximos
 from .modelo import MIN_LUTAS_UFC  # abaixo disso o histórico do atleta é insuficiente para prever
 from .nomes import normalizar_nome
 
@@ -118,6 +119,52 @@ def enriquecer_evento(evento: dict, resumos: dict, ambiguos: set, modelo_final: 
     return evento
 
 
+def adicionar_dados_espn(eventos: list[dict], baixar_json_fn, agora: datetime) -> list[str]:
+    """Odds da casa, cartel completo no MMA e médias fora do UFC. Falhas viram avisos, nunca erro fatal."""
+    lutas = [luta for ev in eventos for luta in ev["lutas"]]
+    lutadores = [lut for luta in lutas for lut in (luta["lutador_a"], luta["lutador_b"])]
+    ids_todos = {l["espn_id"] for l in lutadores if l.get("espn_id")}
+    # Médias fora do UFC só para quem não tem histórico suficiente no UFC.
+    ids_sem_ufc = {l["espn_id"] for l in lutadores if l.get("espn_id") and l["status_dados"] != "ok"}
+
+    def odds_da_luta(luta):
+        ref = luta.get("_odds_ref")
+        a, b = luta["lutador_a"], luta["lutador_b"]
+        if not (ref and a.get("espn_id") and b.get("espn_id")):
+            return None
+        return espn_extra.converter_odds(baixar_json_fn(espn_extra.https(ref)), a["espn_id"], b["espn_id"], agora)
+
+    def tentar(funcao, arg):
+        try:
+            return True, funcao(arg)
+        except Exception:
+            return False, None
+
+    # Várias consultas ao mesmo tempo (8): reduz o tempo total sem sobrecarregar a ESPN.
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        odds = dict(zip([l["id"] for l in lutas], ex.map(lambda l: tentar(odds_da_luta, l), lutas)))
+        cartel = dict(zip(ids_todos, ex.map(lambda i: tentar(
+            lambda x: espn_extra.converter_registro(baixar_json_fn(espn_extra.URL_REGISTRO.format(id=x))), i),
+            ids_todos)))
+        medias = dict(zip(ids_sem_ufc, ex.map(lambda i: tentar(
+            lambda x: espn_extra.buscar_medias_fora_ufc(baixar_json_fn, x, agora.date()), i), ids_sem_ufc)))
+
+    for luta in lutas:
+        luta.pop("_odds_ref", None)
+        luta["odds_casa"] = odds[luta["id"]][1]
+        for lut in (luta["lutador_a"], luta["lutador_b"]):
+            aid = lut.get("espn_id")
+            lut["carreira_mma"] = cartel[aid][1] if aid in cartel else None
+            lut["medias_fora_ufc"] = medias[aid][1] if aid in medias else None
+    falhas = {
+        "odds": sum(not ok for ok, _ in odds.values()),
+        "cartel": sum(not ok for ok, _ in cartel.values()),
+        "medias": sum(not ok for ok, _ in medias.values()),
+    }
+    nomes = {"odds": "odds da casa", "cartel": "cartel completo no MMA", "medias": "médias fora do UFC"}
+    return [f"ESPN: falha ao buscar {nomes[k]} em {n} caso(s)." for k, n in falhas.items() if n]
+
+
 def registrar_previsoes(caminho: Path, eventos: list[dict], agora: datetime,
                         lutas_historico: list[dict] | None = None) -> int:
     """Guarda a última previsão feita ANTES de cada evento, para comparar com o resultado real depois.
@@ -135,6 +182,8 @@ def registrar_previsoes(caminho: Path, eventos: list[dict], agora: datetime,
                     "evento_id": ev["id"], "evento": ev["nome"], "data_evento": ev["data"],
                     "lutador_a": luta["lutador_a"]["nome"], "lutador_b": luta["lutador_b"]["nome"],
                     "categoria": luta["categoria"], "previsao": luta["previsao"],
+                    # Odds da casa no momento da previsão: permitem avaliar, depois, se haveria lucro.
+                    "odds_casa": luta.get("odds_casa"),
                     "previsto_em": agora.isoformat(), "versao_modelo": VERSAO_MODELO,
                     "resultado_real": None,  # preenchido na etapa 5
                 }
@@ -293,6 +342,7 @@ def executar(raiz: Path = RAIZ, baixar=baixar_bytes, baixar_json_fn=baixar_json,
                 avisos.append(f"{ev['nome']}: card principal/preliminar desconhecido em {falhas} luta(s).")
             eventos.append(enriquecer_evento(ev, resumos, ambiguos, modelo_final))
         eventos_atualizados_em = agora.isoformat()
+        avisos += adicionar_dados_espn(eventos, baixar_json_fn, agora)
     except Exception as e:
         espn_ok = False
         anteriores = json.loads(eventos_path.read_text(encoding="utf-8")) if eventos_path.exists() else {}
