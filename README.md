@@ -14,7 +14,20 @@ O pipeline baixa o histórico de lutas e os próximos cards do UFC, cruza os atl
 - `data/validacao.json` e [docs/VALIDACAO.md](docs/VALIDACAO.md): o desempenho do modelo em lutas de 2024 em diante, que ele nunca viu no treino.
 - `data/previsoes_registro.json`: a última previsão feita antes de cada evento. Ela nunca é alterada depois que o evento começa e serve para comparar com o resultado real (etapa 5).
 
-## Como usar (Windows)
+## Instalar o app no celular
+
+1. No celular, abra https://github.com/Gustavoramos15/ufc-predictor/releases/latest
+2. Toque no arquivo `UFC-Predictor-v1.0.X.apk` para baixar.
+3. Abra o arquivo baixado. O Android vai pedir permissão para "instalar apps desconhecidos" do navegador. Permita só para essa instalação.
+4. Versões novas aparecem na mesma página e instalam por cima da anterior.
+
+Os dados e as previsões são atualizados sozinhos 2x por dia pelo GitHub Actions ("Atualizar dados e previsões").
+O app baixa os dados quando há internet e mostra os últimos salvos quando está offline.
+
+Observação: o APK é assinado com a chave padrão de desenvolvimento do React Native. Isso serve para uso pessoal,
+mas não para publicar na Play Store.
+
+## Rodar o pipeline no PC (Windows)
 
 **Primeira vez (instalação, uns 2 minutos):** abra o PowerShell na pasta do projeto e rode:
 

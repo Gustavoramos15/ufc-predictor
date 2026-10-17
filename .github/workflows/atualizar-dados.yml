@@ -1,0 +1,55 @@
+# Atualiza histórico, próximos cards, modelo e previsões 2x por dia, nos servidores do GitHub (grátis).
+# O app baixa os arquivos de data/ que este workflow grava no repositório.
+name: Atualizar dados e previsões
+
+on:
+  schedule:
+    - cron: "0 10,22 * * *" # 07:00 e 19:00 no horário de Brasília
+  workflow_dispatch: # permite rodar manualmente pela aba "Actions"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      # Guarda os CSVs baixados: se a fonte estiver fora do ar, usa a cópia anterior.
+      - uses: actions/cache@v6
+        with:
+          path: pipeline/cache
+          key: csv-${{ github.run_id }}
+          restore-keys: csv-
+
+      - name: Testes do pipeline
+        working-directory: pipeline
+        run: |
+          pip install -r requirements.txt
+          python -m pytest -q
+
+      - name: Atualizar dados
+        working-directory: pipeline
+        run: python -m ufc_pipeline.atualizar
+
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/VALIDACAO.md
+          if git diff --cached --quiet; then
+            echo "Nada mudou."
+          else
+            git commit -m "Atualiza dados $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi

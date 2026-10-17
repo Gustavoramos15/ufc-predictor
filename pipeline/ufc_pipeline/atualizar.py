@@ -118,7 +118,8 @@ def enriquecer_evento(evento: dict, resumos: dict, ambiguos: set, modelo_final: 
     return evento
 
 
-def registrar_previsoes(caminho: Path, eventos: list[dict], agora: datetime) -> int:
+def registrar_previsoes(caminho: Path, eventos: list[dict], agora: datetime,
+                        lutas_historico: list[dict] | None = None) -> int:
     """Guarda a última previsão feita ANTES de cada evento, para comparar com o resultado real depois.
 
     Previsões de eventos que já começaram nunca são alteradas. Retorna o total registrado.
@@ -137,8 +138,38 @@ def registrar_previsoes(caminho: Path, eventos: list[dict], agora: datetime) -> 
                     "previsto_em": agora.isoformat(), "versao_modelo": VERSAO_MODELO,
                     "resultado_real": None,  # preenchido na etapa 5
                 }
+    preencher_resultados(registro, lutas_historico or [])
     _gravar_json(caminho, registro)
     return len(registro)
+
+
+def preencher_resultados(registro: dict, lutas_historico: list[dict]) -> int:
+    """Procura no histórico do UFCStats o resultado real de cada previsão ainda sem resultado.
+
+    Casa pelos dois nomes e pela data (até 1 dia antes ou 2 depois, por causa do fuso horário).
+    Retorna quantos resultados foram preenchidos agora.
+    """
+    por_nomes: dict[frozenset, list[dict]] = {}
+    for l in lutas_historico:
+        por_nomes.setdefault(frozenset((normalizar_nome(l["lutador_a"]), normalizar_nome(l["lutador_b"]))), []).append(l)
+    preenchidos = 0
+    for prev in registro.values():
+        if prev.get("resultado_real"):
+            continue
+        na, nb = normalizar_nome(prev["lutador_a"]), normalizar_nome(prev["lutador_b"])
+        dia = datetime.fromisoformat(prev["data_evento"].replace("Z", "+00:00")).date()
+        for l in por_nomes.get(frozenset((na, nb)), []):
+            if -1 <= (l["data"] - dia).days <= 2:
+                if l["resultado"] in ("A", "B"):
+                    vencedor_nome = l["lutador_a"] if l["resultado"] == "A" else l["lutador_b"]
+                    vencedor = "a" if normalizar_nome(vencedor_nome) == na else "b"
+                else:
+                    vencedor = l["resultado"]  # "empate" ou "sem_resultado"
+                prev["resultado_real"] = {"vencedor": vencedor, "metodo": l["metodo"],
+                                          "metodo_original": l["metodo_original"], "round": l["round"]}
+                preenchidos += 1
+                break
+    return preenchidos
 
 
 def _pct(x: float) -> str:
@@ -276,7 +307,8 @@ def executar(raiz: Path = RAIZ, baixar=baixar_bytes, baixar_json_fn=baixar_json,
     total_lutas = sum(len(e["lutas"]) for e in eventos)
     com_previsao = sum(l["previsao_possivel"] for e in eventos for l in e["lutas"])
     # Só registra previsões recém-calculadas (se a ESPN falhou, os eventos são cópias antigas).
-    n_registradas = registrar_previsoes(pasta_dados / "previsoes_registro.json", eventos if espn_ok else [], agora)
+    n_registradas = registrar_previsoes(pasta_dados / "previsoes_registro.json", eventos if espn_ok else [], agora,
+                                        lutas)
     meta = {
         "versao_dados": 1,
         "gerado_em": agora.isoformat(),

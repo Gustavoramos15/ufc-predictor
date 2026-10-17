@@ -4,3 +4,4 @@ __pycache__/
 pipeline/cache/
 *.tmp
 node_modules/
+.claude/

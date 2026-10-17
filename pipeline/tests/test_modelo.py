@@ -177,3 +177,21 @@ def test_registro_nao_altera_previsao_apos_inicio_do_evento(tmp_path):
     reg = json.loads(caminho.read_text(encoding="utf-8"))
     assert reg["l1"]["previsao"]["a"]["vitoria"]["prob"] == 0.6
     assert reg["l1"]["previsto_em"] == antes.isoformat()
+
+
+def test_preencher_resultados_casa_nomes_e_data():
+    registro = {
+        "l1": {"lutador_a": "José Aldo", "lutador_b": "Max Holloway", "data_evento": "2026-10-18T00:00Z",
+               "resultado_real": None},
+        "l2": {"lutador_a": "Ana Silva", "lutador_b": "Bia Souza", "data_evento": "2026-10-18T00:00Z",
+               "resultado_real": None},
+    }
+    # No UFCStats a ordem dos nomes pode ser outra e a data vem sem fuso (aqui, um dia antes).
+    historico = [{"data": date(2026, 10, 17), "lutador_a": "Max Holloway", "lutador_b": "Jose Aldo",
+                  "resultado": "A", "metodo": "KO/TKO", "metodo_original": "KO/TKO", "round": "2"},
+                 {"data": date(2025, 1, 1), "lutador_a": "Ana Silva", "lutador_b": "Bia Souza",
+                  "resultado": "A", "metodo": "DECISAO", "metodo_original": "Decision", "round": "3"}]
+    assert atualizar.preencher_resultados(registro, historico) == 1
+    assert registro["l1"]["resultado_real"]["vencedor"] == "b"
+    assert registro["l1"]["resultado_real"]["metodo"] == "KO/TKO"
+    assert registro["l2"]["resultado_real"] is None  # luta antiga entre os mesmos atletas não conta
