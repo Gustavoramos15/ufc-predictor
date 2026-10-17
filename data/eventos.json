@@ -1,0 +1,5542 @@
+{
+  "gerado_em": "2026-10-17T04:51:06.204820+00:00",
+  "eventos": [
+    {
+      "id": "600060773",
+      "nome": "UFC Fight Night: Buckley vs. Malott",
+      "data": "2026-10-17T21:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401897388",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Joaquin Buckley",
+            "cartel_espn": "21-8-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Joaquin Buckley",
+              "lutas": 17,
+              "vitorias": 11,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 8,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2020-08-08",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Mike Malott",
+            "cartel_espn": "14-2-1",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Mike Malott",
+              "lutas": 8,
+              "vitorias": 7,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-04-09",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401897729",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "W Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Erin Blanchfield",
+            "cartel_espn": "14-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Erin Blanchfield",
+              "lutas": 9,
+              "vitorias": 8,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 4,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2021-09-18",
+              "ultima_luta": "2025-11-15",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Jasmine Jasudavicius",
+            "cartel_espn": "15-4-0",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jasmine Jasudavicius",
+              "lutas": 12,
+              "vitorias": 9,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 3,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-01-22",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401923630",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Kyle Nelson",
+            "cartel_espn": "17-7-1",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kyle Nelson",
+              "lutas": 12,
+              "vitorias": 5,
+              "derrotas": 6,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-12-08",
+              "ultima_luta": "2026-03-28",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Cristian Pérez",
+            "cartel_espn": "15-2-0",
+            "pais": "Mexico",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Cristian Pérez: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401908372",
+          "numero": 4,
+          "segmento": "principal",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Marc-Andre Barriault",
+            "cartel_espn": "17-11-0",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Marc-Andre Barriault",
+              "lutas": 17,
+              "vitorias": 6,
+              "derrotas": 10,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 1,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-05-04",
+              "ultima_luta": "2026-02-07",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Kyle Daukaus",
+            "cartel_espn": "17-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kyle Daukaus",
+              "lutas": 10,
+              "vitorias": 4,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2020-06-27",
+              "ultima_luta": "2026-06-14",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401909783",
+          "numero": 5,
+          "segmento": "principal",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Louis Jourdain",
+            "cartel_espn": "9-3-0",
+            "pais": "Canada",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "lutador_b": {
+            "nome": "Timmy Cuamba",
+            "cartel_espn": "10-4-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Timmy Cuamba",
+              "lutas": 5,
+              "vitorias": 2,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-02-10",
+              "ultima_luta": "2026-05-16",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Louis Jourdain: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401905374",
+          "numero": 6,
+          "segmento": "principal",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Mandel Nallo",
+            "cartel_espn": "14-4-0",
+            "pais": "Canada",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Mandel Nallo",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-04-18",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Nate Landwehr",
+            "cartel_espn": "18-8-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Nate Landwehr",
+              "lutas": 11,
+              "vitorias": 5,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2020-01-25",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Mandel Nallo: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401908371",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Tanner Boser",
+            "cartel_espn": "22-11-1",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Tanner Boser",
+              "lutas": 11,
+              "vitorias": 5,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-10-18",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Jhonata Diniz",
+            "cartel_espn": "9-2-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jhonata Diniz",
+              "lutas": 5,
+              "vitorias": 3,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-04-27",
+              "ultima_luta": "2025-10-11",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911807",
+          "numero": 8,
+          "segmento": "preliminar",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Julien LeBlanc",
+            "cartel_espn": "10-3-0",
+            "pais": "Canada",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Julien Leblanc",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-04-18",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Nick Galanti",
+            "cartel_espn": "8-1-0",
+            "pais": "USA",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Julien LeBlanc: menos de 2 lutas no UFC registradas.",
+            "Nick Galanti: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401929676",
+          "numero": 9,
+          "segmento": "preliminar",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Javad Mahjoub",
+            "cartel_espn": "5-0-0",
+            "pais": "Canada",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "lutador_b": {
+            "nome": "Joel Faglier",
+            "cartel_espn": "6-0-0",
+            "pais": "USA",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Javad Mahjoub: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome).",
+            "Joel Faglier: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401929675",
+          "numero": 10,
+          "segmento": "preliminar",
+          "categoria": "W Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Katlyn Cerminara",
+            "cartel_espn": "18-6-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Katlyn Cerminara",
+              "lutas": 17,
+              "vitorias": 11,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 11,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-07-13",
+              "ultima_luta": "2024-03-09",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Mackenzie Stiller",
+            "cartel_espn": "6-1-0",
+            "pais": "USA",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Mackenzie Stiller: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401914039",
+          "numero": 11,
+          "segmento": "preliminar",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Chad Anheliger",
+            "cartel_espn": "13-8-0",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Chad Anheliger",
+              "lutas": 5,
+              "vitorias": 2,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-02-19",
+              "ultima_luta": "2024-11-02",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Steven Koslow",
+            "cartel_espn": "6-1-0",
+            "pais": "USA",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Steven Koslow",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-12-10",
+              "ultima_luta": "2022-12-10",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Steven Koslow: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401908373",
+          "numero": 12,
+          "segmento": "preliminar",
+          "categoria": "W Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Melissa Croden",
+            "cartel_espn": "8-3-0",
+            "pais": "Canada",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Melissa Croden",
+              "lutas": 3,
+              "vitorias": 2,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-10-18",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Chelsea Chandler",
+            "cartel_espn": "7-4-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Chelsea Chandler",
+              "lutas": 6,
+              "vitorias": 3,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-10-01",
+              "ultima_luta": "2026-06-06",
+              "ultimos_5": [
+                "V",
+                "D",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401919643",
+          "numero": 13,
+          "segmento": "preliminar",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Cody Chovancek",
+            "cartel_espn": "9-0-0",
+            "pais": "Canada",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "lutador_b": {
+            "nome": "SuYoung You",
+            "cartel_espn": "16-4-0",
+            "pais": "South Korea",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "SuYoung You",
+              "lutas": 4,
+              "vitorias": 3,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-11-23",
+              "ultima_luta": "2026-03-14",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Cody Chovancek: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        }
+      ]
+    },
+    {
+      "id": "600061267",
+      "nome": "UFC 333: Volkanovski vs. Evloev",
+      "data": "2026-10-24T14:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401911632",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Alexander Volkanovski",
+            "cartel_espn": "28-4-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Alexander Volkanovski",
+              "lutas": 18,
+              "vitorias": 15,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 0,
+                "DECISAO": 10,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-11-26",
+              "ultima_luta": "2026-01-31",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Movsar Evloev",
+            "cartel_espn": "20-0-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Movsar Evloev",
+              "lutas": 10,
+              "vitorias": 10,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 10,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-04-20",
+              "ultima_luta": "2026-03-21",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911633",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Petr Yan",
+            "cartel_espn": "20-5-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Petr Yan",
+              "lutas": 16,
+              "vitorias": 12,
+              "derrotas": 4,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 0,
+                "DECISAO": 8,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 1
+              },
+              "primeira_luta": "2018-06-23",
+              "ultima_luta": "2025-12-06",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Merab Dvalishvili",
+            "cartel_espn": "21-5-0",
+            "pais": "Georgia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Merab Dvalishvili",
+              "lutas": 17,
+              "vitorias": 14,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 12,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2017-12-09",
+              "ultima_luta": "2025-12-06",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911634",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Lone'er Kavanagh",
+            "cartel_espn": "10-2-0",
+            "pais": "England",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Lone'er Kavanagh",
+              "lutas": 5,
+              "vitorias": 3,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-11-23",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Ramazan Temirov",
+            "cartel_espn": "20-3-0",
+            "pais": "Uzbekistan",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Ramazan Temirov",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-10-12",
+              "ultima_luta": "2026-07-25",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911635",
+          "numero": 4,
+          "segmento": "principal",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Alexander Volkov",
+            "cartel_espn": "40-11-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Alexander Volkov",
+              "lutas": 19,
+              "vitorias": 14,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 6,
+                "FINALIZACAO": 1,
+                "DECISAO": 7,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-11-19",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Rizvan Kuniev",
+            "cartel_espn": "14-3-1",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Rizvan Kuniev",
+              "lutas": 3,
+              "vitorias": 2,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-06-21",
+              "ultima_luta": "2026-07-25",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401929495",
+          "numero": 5,
+          "segmento": "principal",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Aaron Pico",
+            "cartel_espn": "14-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Aaron Pico",
+              "lutas": 2,
+              "vitorias": 1,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-08-16",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Losene Keita",
+            "cartel_espn": "17-2-0",
+            "pais": "Belgium",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Losene Keita",
+              "lutas": 2,
+              "vitorias": 1,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-03-21",
+              "ultima_luta": "2026-09-05",
+              "ultimos_5": [
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911637",
+          "numero": 6,
+          "segmento": "preliminar",
+          "categoria": "Light Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Azamat Murzakanov",
+            "cartel_espn": "16-1-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Azamat Murzakanov",
+              "lutas": 7,
+              "vitorias": 6,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-03-12",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Dominick Reyes",
+            "cartel_espn": "16-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Dominick Reyes",
+              "lutas": 15,
+              "vitorias": 10,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 6,
+                "FINALIZACAO": 1,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2017-06-25",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911639",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Light Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Nikita Krylov",
+            "cartel_espn": "31-12-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Nikita Krylov",
+              "lutas": 22,
+              "vitorias": 12,
+              "derrotas": 10,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 5,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 4,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2013-08-31",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Abdul-Rakhman Yakhyaev",
+            "cartel_espn": "10-0-0",
+            "pais": "Türkiye",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Abdul Rakhman Yakhyaev",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-11-22",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911638",
+          "numero": 8,
+          "segmento": "preliminar",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Abus Magomedov",
+            "cartel_espn": "29-7-1",
+            "pais": "Germany",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Abus Magomedov",
+              "lutas": 8,
+              "vitorias": 5,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-09-03",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Cam Rowston",
+            "cartel_espn": "15-3-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Cam Rowston",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-09-27",
+              "ultima_luta": "2026-05-02",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401911640",
+          "numero": 9,
+          "segmento": "preliminar",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Grant Dawson",
+            "cartel_espn": "24-3-1",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Grant Dawson",
+              "lutas": 15,
+              "vitorias": 12,
+              "derrotas": 2,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 5,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-03-09",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Nurullo Aliev",
+            "cartel_espn": "12-0-0",
+            "pais": "Tajikistan",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Nurullo Aliev",
+              "lutas": 4,
+              "vitorias": 4,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-02-25",
+              "ultima_luta": "2026-07-25",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928047",
+          "numero": 10,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Colby Thicknesse",
+            "cartel_espn": "9-1-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Colby Thicknesse",
+              "lutas": 3,
+              "vitorias": 2,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-02-08",
+              "ultima_luta": "2026-05-02",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Asaf Chopurov",
+            "cartel_espn": "11-0-0",
+            "pais": "Russia",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Asaf Chopurov: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401930357",
+          "numero": 11,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Abubakar Vagaev",
+            "cartel_espn": "25-4-0",
+            "pais": "Russia",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Abubakar Vagaev",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-07-25",
+              "ultima_luta": "2026-07-25",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Jacob Malkoun",
+            "cartel_espn": "10-3-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jacob Malkoun",
+              "lutas": 9,
+              "vitorias": 6,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 1
+              },
+              "primeira_luta": "2020-10-24",
+              "ultima_luta": "2026-05-02",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Abubakar Vagaev: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        }
+      ]
+    },
+    {
+      "id": "600061420",
+      "nome": "UFC Fight Night: Moicano vs. Nolan",
+      "data": "2026-10-31T21:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401921310",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Renato Moicano",
+            "cartel_espn": "21-7-1",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Renato Moicano",
+              "lutas": 20,
+              "vitorias": 13,
+              "derrotas": 7,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 7,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2014-12-20",
+              "ultima_luta": "2026-04-04",
+              "ultimos_5": [
+                "V",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Tom Nolan",
+            "cartel_espn": "11-1-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Tom Nolan",
+              "lutas": 6,
+              "vitorias": 5,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-01-13",
+              "ultima_luta": "2026-06-06",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928103",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Randy Brown",
+            "cartel_espn": "20-8-0",
+            "pais": "Jamaica",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Randy Brown",
+              "lutas": 22,
+              "vitorias": 14,
+              "derrotas": 8,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 3,
+                "DECISAO": 7,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-01-30",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Carlos Leal",
+            "cartel_espn": "23-7-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Carlos Leal",
+              "lutas": 4,
+              "vitorias": 2,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-10-26",
+              "ultima_luta": "2026-02-21",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928104",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "W Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Yana Santos",
+            "cartel_espn": "17-8-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Yana Santos",
+              "lutas": 12,
+              "vitorias": 7,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 7,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-03-03",
+              "ultima_luta": "2025-10-04",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Luana Santos",
+            "cartel_espn": "11-2-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Luana Santos",
+              "lutas": 7,
+              "vitorias": 6,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-08-12",
+              "ultima_luta": "2026-06-20",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928107",
+          "numero": 4,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jean-Paul Lebosnoyani",
+            "cartel_espn": "11-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jean-Paul Lebosnoyani",
+              "lutas": 2,
+              "vitorias": 2,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-02-21",
+              "ultima_luta": "2026-07-18",
+              "ultimos_5": [
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Farman Hasanov",
+            "cartel_espn": "6-0-0",
+            "pais": "Azerbaijan",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Farman Hasanov",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-06-27",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Farman Hasanov: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928110",
+          "numero": 5,
+          "segmento": "preliminar",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Francis Marshall",
+            "cartel_espn": "10-3-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Francis Marshall",
+              "lutas": 7,
+              "vitorias": 4,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-12-03",
+              "ultima_luta": "2026-04-25",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Gaston Bolaños",
+            "cartel_espn": "9-5-0",
+            "pais": "Peru",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Gaston Bolanos",
+              "lutas": 5,
+              "vitorias": 3,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-04-15",
+              "ultima_luta": "2026-06-20",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928108",
+          "numero": 6,
+          "segmento": "preliminar",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Azamat Bekoev",
+            "cartel_espn": "20-5-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Azamat Bekoev",
+              "lutas": 4,
+              "vitorias": 2,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-01-18",
+              "ultima_luta": "2026-04-04",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Andre Petroski",
+            "cartel_espn": "13-7-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Andre Petroski",
+              "lutas": 13,
+              "vitorias": 8,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2021-08-28",
+              "ultima_luta": "2026-05-16",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928106",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Rodrigo Sezinando",
+            "cartel_espn": "9-2-0",
+            "pais": "Brazil",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Rodrigo Sezinando",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-09-13",
+              "ultima_luta": "2025-09-13",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Theodor Berggren",
+            "cartel_espn": "8-4-0",
+            "pais": "Sweden",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Theodor Berggren",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-06-27",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Rodrigo Sezinando: menos de 2 lutas no UFC registradas.",
+            "Theodor Berggren: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928109",
+          "numero": 8,
+          "segmento": "preliminar",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Julian Erosa",
+            "cartel_espn": "31-14-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Julian Erosa",
+              "lutas": 18,
+              "vitorias": 9,
+              "derrotas": 9,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 4,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 7,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2015-12-11",
+              "ultima_luta": "2026-03-28",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "JeongYeong Lee",
+            "cartel_espn": "11-3-0",
+            "pais": "South Korea",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "JeongYeong Lee",
+              "lutas": 4,
+              "vitorias": 2,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-02-04",
+              "ultima_luta": "2025-05-10",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401914106",
+          "numero": 9,
+          "segmento": "preliminar",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Nick Klein",
+            "cartel_espn": "6-3-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Nick Klein",
+              "lutas": 2,
+              "vitorias": 0,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-02-22",
+              "ultima_luta": "2025-08-02",
+              "ultimos_5": [
+                "D",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Joe Kropschot",
+            "cartel_espn": "9-3-0",
+            "pais": "USA",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Joe Kropschot: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928105",
+          "numero": 10,
+          "segmento": "preliminar",
+          "categoria": "W Strawweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Talita Alencar",
+            "cartel_espn": "8-1-1",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Talita Alencar",
+              "lutas": 5,
+              "vitorias": 4,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-12-09",
+              "ultima_luta": "2026-04-25",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Piera Rodriguez",
+            "cartel_espn": "12-2-0",
+            "pais": "Venezuela",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Piera Rodriguez",
+              "lutas": 7,
+              "vitorias": 5,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 1
+              },
+              "primeira_luta": "2022-04-09",
+              "ultima_luta": "2026-03-14",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401914105",
+          "numero": 11,
+          "segmento": "preliminar",
+          "categoria": "W Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Lucia Szabová",
+            "cartel_espn": "12-0-0",
+            "pais": "Slovakia",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "lutador_b": {
+            "nome": "Tainara Lisboa",
+            "cartel_espn": "7-4-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Tainara Lisboa",
+              "lutas": 4,
+              "vitorias": 2,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-05-13",
+              "ultima_luta": "2025-10-18",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Lucia Szabová: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        }
+      ]
+    },
+    {
+      "id": "600061268",
+      "nome": "UFC Fight Night: Bonfim vs. Brady",
+      "data": "2026-11-07T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401911641",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Gabriel Bonfim",
+            "cartel_espn": "20-1-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Gabriel Bonfim",
+              "lutas": 8,
+              "vitorias": 7,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 3,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-01-21",
+              "ultima_luta": "2026-06-06",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Sean Brady",
+            "cartel_espn": "19-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Sean Brady",
+              "lutas": 11,
+              "vitorias": 9,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 4,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-10-18",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928111",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "W Strawweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Tatiana Suarez",
+            "cartel_espn": "13-1-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Tatiana Suarez",
+              "lutas": 10,
+              "vitorias": 9,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 5,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-07-08",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Virna Jandiroba",
+            "cartel_espn": "23-4-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Virna Jandiroba",
+              "lutas": 13,
+              "vitorias": 9,
+              "derrotas": 4,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 3,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-04-27",
+              "ultima_luta": "2026-04-04",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928119",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Davey Grant",
+            "cartel_espn": "18-8-0",
+            "pais": "England",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Davey Grant",
+              "lutas": 16,
+              "vitorias": 9,
+              "derrotas": 7,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 1,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 4,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2013-11-30",
+              "ultima_luta": "2026-04-25",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Elijah Smith",
+            "cartel_espn": "10-1-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Elijah Smith",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-02-15",
+              "ultima_luta": "2026-03-14",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928117",
+          "numero": 4,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Seokhyeon Ko",
+            "cartel_espn": "13-3-0",
+            "pais": "South Korea",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Seokhyeon Ko",
+              "lutas": 3,
+              "vitorias": 2,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-06-21",
+              "ultima_luta": "2026-07-18",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Wellington Turman",
+            "cartel_espn": "18-8-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Wellington Turman",
+              "lutas": 9,
+              "vitorias": 3,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 1,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-07-13",
+              "ultima_luta": "2023-12-02",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928113",
+          "numero": 5,
+          "segmento": "principal",
+          "categoria": "Light Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Billy Elekana",
+            "cartel_espn": "10-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Billy Elekana",
+              "lutas": 4,
+              "vitorias": 3,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 2,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-01-18",
+              "ultima_luta": "2026-01-31",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Lucas Fernando",
+            "cartel_espn": "14-3-0",
+            "pais": "Brazil",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Lucas Fernando",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-08-15",
+              "ultima_luta": "2026-08-15",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Lucas Fernando: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928112",
+          "numero": 6,
+          "segmento": "principal",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Mantas Kondratavičius",
+            "cartel_espn": "9-1-0",
+            "pais": "Lithuania",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Mantas Kondratavicius",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-03-21",
+              "ultima_luta": "2026-03-21",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Wes Schultz",
+            "cartel_espn": "9-4-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Wes Schultz",
+              "lutas": 3,
+              "vitorias": 1,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-02-28",
+              "ultima_luta": "2026-08-22",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Mantas Kondratavičius: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928121",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Gabriel Lorenço",
+            "cartel_espn": "8-1-0",
+            "pais": "Brazil",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "lutador_b": {
+            "nome": "Alvin Hines",
+            "cartel_espn": "7-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Alvin Hines",
+              "lutas": 2,
+              "vitorias": 0,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-06-28",
+              "ultima_luta": "2026-07-18",
+              "ultimos_5": [
+                "D",
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Gabriel Lorenço: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928115",
+          "numero": 8,
+          "segmento": "preliminar",
+          "categoria": "W Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Karine Silva",
+            "cartel_espn": "19-7-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Karine Silva",
+              "lutas": 8,
+              "vitorias": 5,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 3,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-06-04",
+              "ultima_luta": "2026-04-18",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Gabriella Fernandes",
+            "cartel_espn": "11-4-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Gabriella Fernandes",
+              "lutas": 6,
+              "vitorias": 3,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-02-25",
+              "ultima_luta": "2026-03-28",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928120",
+          "numero": 9,
+          "segmento": "preliminar",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jose Delano",
+            "cartel_espn": "17-3-0",
+            "pais": "Brazil",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Jose Delano",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-04-04",
+              "ultima_luta": "2026-04-04",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Murtazali Magomedov",
+            "cartel_espn": "11-0-0",
+            "pais": "Kyrgyzstan",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Murtazali Magomedov",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-06-20",
+              "ultima_luta": "2026-06-20",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Jose Delano: menos de 2 lutas no UFC registradas.",
+            "Murtazali Magomedov: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401911642",
+          "numero": 10,
+          "segmento": "preliminar",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Keiichiro Nakamura",
+            "cartel_espn": "8-1-0",
+            "pais": "Japan",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Keiichiro Nakamura",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-01-31",
+              "ultima_luta": "2026-01-31",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Ollie Schmid",
+            "cartel_espn": "4-3-0",
+            "pais": "New Zealand",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Ollie Schmid",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-05-02",
+              "ultima_luta": "2026-05-02",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Keiichiro Nakamura: menos de 2 lutas no UFC registradas.",
+            "Ollie Schmid: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928114",
+          "numero": 11,
+          "segmento": "principal",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Austin Bashi",
+            "cartel_espn": "14-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Austin Bashi",
+              "lutas": 3,
+              "vitorias": 1,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-01-11",
+              "ultima_luta": "2026-07-18",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Lucas Brennan",
+            "cartel_espn": "11-3-0",
+            "pais": "USA",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Lucas Brennan",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-04-25",
+              "ultima_luta": "2026-04-25",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Lucas Brennan: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928116",
+          "numero": 12,
+          "segmento": "preliminar",
+          "categoria": "W Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Priscila Cachoeira",
+            "cartel_espn": "13-9-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Priscila Cachoeira",
+              "lutas": 14,
+              "vitorias": 5,
+              "derrotas": 9,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 5,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-02-03",
+              "ultima_luta": "2026-06-06",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Nina Milošević",
+            "cartel_espn": "9-1-0",
+            "pais": "Serbia",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Nina Milosevic",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-08-01",
+              "ultima_luta": "2026-08-01",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Nina Milošević: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401928118",
+          "numero": 13,
+          "segmento": "preliminar",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jonny Parsons",
+            "cartel_espn": "9-3-0",
+            "pais": "USA",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Jonny Parsons",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-07-22",
+              "ultima_luta": "2023-07-22",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Jose Henrique",
+            "cartel_espn": "9-1-0",
+            "pais": "Brazil",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "avisos": [
+            "Jonny Parsons: menos de 2 lutas no UFC registradas.",
+            "Jose Henrique: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        }
+      ]
+    },
+    {
+      "id": "600061400",
+      "nome": "UFC 334: Gane vs. Hokit",
+      "data": "2026-11-14T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401913646",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Ciryl Gane",
+            "cartel_espn": "14-2-0",
+            "pais": "France",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Ciryl Gane",
+              "lutas": 14,
+              "vitorias": 11,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 2,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-08-10",
+              "ultima_luta": "2026-06-14",
+              "ultimos_5": [
+                "V",
+                "SR",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Josh Hokit",
+            "cartel_espn": "10-0-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Josh Hokit",
+              "lutas": 4,
+              "vitorias": 4,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-11-08",
+              "ultima_luta": "2026-06-14",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922638",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "W Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Kayla Harrison",
+            "cartel_espn": "19-1-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kayla Harrison",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 2,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-04-13",
+              "ultima_luta": "2025-06-07",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Amanda Nunes",
+            "cartel_espn": "23-5-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Amanda Nunes",
+              "lutas": 18,
+              "vitorias": 16,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 7,
+                "FINALIZACAO": 3,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2013-08-03",
+              "ultima_luta": "2023-06-10",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922639",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Caio Borralho",
+            "cartel_espn": "18-2-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Caio Borralho",
+              "lutas": 9,
+              "vitorias": 8,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-04-16",
+              "ultima_luta": "2026-03-07",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Yousri Belgaroui",
+            "cartel_espn": "11-3-0",
+            "pais": "Netherlands",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Yousri Belgaroui",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-10-18",
+              "ultima_luta": "2026-09-12",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922640",
+          "numero": 4,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Uroš Medić",
+            "cartel_espn": "14-3-0",
+            "pais": "Serbia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Uros Medic",
+              "lutas": 11,
+              "vitorias": 8,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 8,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2021-03-06",
+              "ultima_luta": "2026-08-01",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Kevin Holland",
+            "cartel_espn": "29-15-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kevin Holland",
+              "lutas": 29,
+              "vitorias": 16,
+              "derrotas": 12,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 6,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 3,
+                "DECISAO": 7,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-08-04",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "V",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922641",
+          "numero": 5,
+          "segmento": "principal",
+          "categoria": "Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Bilal Hasan",
+            "cartel_espn": "10-0-0",
+            "pais": "Indonesia",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Bilal Hasan",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-08-29",
+              "ultima_luta": "2026-08-29",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Luis Gurule",
+            "cartel_espn": "11-4-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Luis Gurule",
+              "lutas": 5,
+              "vitorias": 1,
+              "derrotas": 4,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-04-05",
+              "ultima_luta": "2026-05-30",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Bilal Hasan: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401913647",
+          "numero": 6,
+          "segmento": "preliminar",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Stephen Thompson",
+            "cartel_espn": "17-9-1",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Stephen Thompson",
+              "lutas": 22,
+              "vitorias": 12,
+              "derrotas": 9,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 6,
+                "FINALIZACAO": 0,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 1,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2012-02-04",
+              "ultima_luta": "2025-07-12",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Charles Radtke",
+            "cartel_espn": "12-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Charles Radtke",
+              "lutas": 7,
+              "vitorias": 5,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-09-09",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922642",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Drew Dober",
+            "cartel_espn": "29-15-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Drew Dober",
+              "lutas": 27,
+              "vitorias": 15,
+              "derrotas": 11,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 11,
+                "FINALIZACAO": 1,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 4,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2013-11-30",
+              "ultima_luta": "2026-03-07",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Chris Duncan",
+            "cartel_espn": "15-3-0",
+            "pais": "Scotland",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Chris Duncan",
+              "lutas": 8,
+              "vitorias": 6,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 3,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 2,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-03-18",
+              "ultima_luta": "2026-04-04",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922643",
+          "numero": 8,
+          "segmento": "preliminar",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jim Miller",
+            "cartel_espn": "39-19-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jim Miller",
+              "lutas": 47,
+              "vitorias": 28,
+              "derrotas": 18,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 6,
+                "FINALIZACAO": 14,
+                "DECISAO": 8,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 3,
+                "DECISAO": 13,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2008-10-18",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Terrance McKinney",
+            "cartel_espn": "18-9-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Terrance McKinney",
+              "lutas": 14,
+              "vitorias": 8,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 3,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 2,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2021-06-12",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922644",
+          "numero": 9,
+          "segmento": "preliminar",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Donte Johnson",
+            "cartel_espn": "9-0-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Donte Johnson",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-11-01",
+              "ultima_luta": "2026-08-15",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Baisangur Susurkaev",
+            "cartel_espn": "12-0-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Baisangur Susurkaev",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-08-16",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922645",
+          "numero": 10,
+          "segmento": "preliminar_antecipada",
+          "categoria": "W Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Macy Chiasson",
+            "cartel_espn": "11-6-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Macy Chiasson",
+              "lutas": 14,
+              "vitorias": 8,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-11-30",
+              "ultima_luta": "2026-02-28",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Bia Mesquita",
+            "cartel_espn": "8-0-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Bia Mesquita",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 3,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-10-11",
+              "ultima_luta": "2026-06-20",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922646",
+          "numero": 11,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Adrian Yañez",
+            "cartel_espn": "18-6-1",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Adrian Yanez",
+              "lutas": 11,
+              "vitorias": 7,
+              "derrotas": 3,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 6,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2020-10-31",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "V",
+                "E",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Juan Diaz",
+            "cartel_espn": "16-1-1",
+            "pais": "Peru",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Juan Diaz",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-05-16",
+              "ultima_luta": "2026-05-16",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Juan Diaz: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401913648",
+          "numero": 12,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Nazim Sadykhov",
+            "cartel_espn": "11-3-1",
+            "pais": "Azerbaijan",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Nazim Sadykhov",
+              "lutas": 7,
+              "vitorias": 4,
+              "derrotas": 2,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-02-18",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V",
+                "E"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Jefferson Nascimento",
+            "cartel_espn": "13-1-0",
+            "pais": "Brazil",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Jefferson Nascimento",
+              "lutas": 1,
+              "vitorias": 0,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-06-27",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "D"
+              ]
+            }
+          },
+          "avisos": [
+            "Jefferson Nascimento: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        }
+      ]
+    },
+    {
+      "id": "600061665",
+      "nome": "UFC Fight Night: Procházka vs. Stirling",
+      "data": "2026-11-21T15:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401922277",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Light Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jiří Procházka",
+            "cartel_espn": "32-6-1",
+            "pais": "Czechia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jiri Prochazka",
+              "lutas": 9,
+              "vitorias": 6,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2020-07-11",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Navajo Stirling",
+            "cartel_espn": "11-0-0",
+            "pais": "New Zealand",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Navajo Stirling",
+              "lutas": 6,
+              "vitorias": 6,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-12-14",
+              "ultima_luta": "2026-08-01",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401927850",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "Featherweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Aljamain Sterling",
+            "cartel_espn": "26-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Aljamain Sterling",
+              "lutas": 23,
+              "vitorias": 18,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 4,
+                "DECISAO": 11,
+                "OUTRO": 1
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2014-02-22",
+              "ultima_luta": "2026-04-25",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Kevin Vallejos",
+            "cartel_espn": "18-1-0",
+            "pais": "Argentina",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kevin Vallejos",
+              "lutas": 4,
+              "vitorias": 4,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-03-15",
+              "ultima_luta": "2026-03-14",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401922278",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Dan Hooker",
+            "cartel_espn": "24-15-0",
+            "pais": "New Zealand",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Dan Hooker",
+              "lutas": 25,
+              "vitorias": 14,
+              "derrotas": 11,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 7,
+                "FINALIZACAO": 2,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 2,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2014-06-28",
+              "ultima_luta": "2026-09-05",
+              "ultimos_5": [
+                "D",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Brian Ortega",
+            "cartel_espn": "16-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Brian Ortega",
+              "lutas": 14,
+              "vitorias": 8,
+              "derrotas": 5,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 4,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2014-07-26",
+              "ultima_luta": "2025-08-23",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401927851",
+          "numero": 4,
+          "segmento": "principal",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jared Cannonier",
+            "cartel_espn": "18-10-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jared Cannonier",
+              "lutas": 21,
+              "vitorias": 11,
+              "derrotas": 10,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 7,
+                "FINALIZACAO": 0,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 7,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2015-01-03",
+              "ultima_luta": "2026-07-18",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Ikram Aliskerov",
+            "cartel_espn": "18-2-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Ikram Aliskerov",
+              "lutas": 6,
+              "vitorias": 5,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-05-06",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401927852",
+          "numero": 5,
+          "segmento": "principal",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Shamil Gaziev",
+            "cartel_espn": "15-3-0",
+            "pais": "Bahrain",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Shamil Gaziev",
+              "lutas": 7,
+              "vitorias": 4,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-12-16",
+              "ultima_luta": "2026-08-22",
+              "ultimos_5": [
+                "V",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Tallison Teixeira",
+            "cartel_espn": "9-2-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Tallison Teixeira",
+              "lutas": 4,
+              "vitorias": 2,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-02-08",
+              "ultima_luta": "2026-05-30",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401927853",
+          "numero": 6,
+          "segmento": "preliminar",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Jake Matthews",
+            "cartel_espn": "23-8-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jake Matthews",
+              "lutas": 24,
+              "vitorias": 16,
+              "derrotas": 8,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 6,
+                "DECISAO": 8,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 4,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2014-06-28",
+              "ultima_luta": "2026-05-30",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Tahir Abdullayev",
+            "cartel_espn": "20-3-0",
+            "pais": "Azerbaijan",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Tahir Abdullayev",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-06-27",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Tahir Abdullayev: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false
+        },
+        {
+          "id": "401927854",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Aleksandre Topuria",
+            "cartel_espn": "7-1-0",
+            "pais": "Georgia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Aleksandre Topuria",
+              "lutas": 2,
+              "vitorias": 2,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-02-08",
+              "ultima_luta": "2025-11-22",
+              "ultimos_5": [
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Santiago Luna",
+            "cartel_espn": "8-1-0",
+            "pais": "Mexico",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Santiago Luna",
+              "lutas": 3,
+              "vitorias": 2,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-09-13",
+              "ultima_luta": "2026-06-06",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401927855",
+          "numero": 8,
+          "segmento": "preliminar",
+          "categoria": "Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Asu Almabayev",
+            "cartel_espn": "24-3-0",
+            "pais": "Kazakhstan",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Asu Almabayev",
+              "lutas": 8,
+              "vitorias": 7,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 3,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-08-05",
+              "ultima_luta": "2026-06-27",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Kyoji Horiguchi",
+            "cartel_espn": "36-6-0",
+            "pais": "Japan",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kyoji Horiguchi",
+              "lutas": 11,
+              "vitorias": 9,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 1,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2013-10-19",
+              "ultima_luta": "2026-06-20",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401927856",
+          "numero": 9,
+          "segmento": "preliminar",
+          "categoria": "Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Amir Albazi",
+            "cartel_espn": "17-3-0",
+            "pais": "Iraq",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Amir Albazi",
+              "lutas": 7,
+              "vitorias": 5,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2020-07-18",
+              "ultima_luta": "2026-02-07",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Alessandro Costa",
+            "cartel_espn": "17-5-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Alessandro Costa",
+              "lutas": 8,
+              "vitorias": 5,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-12-17",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        }
+      ]
+    },
+    {
+      "id": "600061401",
+      "nome": "UFC 335: Oliveira vs. Lopes",
+      "data": "2026-12-12T22:00Z",
+      "status": "STATUS_SCHEDULED",
+      "lutas": [
+        {
+          "id": "401913649",
+          "numero": 1,
+          "segmento": "principal",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Charles Oliveira",
+            "cartel_espn": "37-11-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Charles Oliveira",
+              "lutas": 37,
+              "vitorias": 25,
+              "derrotas": 11,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 17,
+                "DECISAO": 4,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 5,
+                "FINALIZACAO": 4,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2010-08-01",
+              "ultima_luta": "2026-03-07",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Diego Lopes",
+            "cartel_espn": "28-8-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Diego Lopes",
+              "lutas": 10,
+              "vitorias": 7,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 1,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-05-06",
+              "ultima_luta": "2026-06-14",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401928327",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Sergei Pavlovich",
+            "cartel_espn": "21-3-0",
+            "pais": "Russia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Sergei Pavlovich",
+              "lutas": 12,
+              "vitorias": 9,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 7,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-11-24",
+              "ultima_luta": "2026-05-30",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "D",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Alex Pereira",
+            "cartel_espn": "13-4-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Alex Pereira",
+              "lutas": 13,
+              "vitorias": 10,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 8,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2021-11-06",
+              "ultima_luta": "2026-06-14",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401913650",
+          "numero": 3,
+          "segmento": "principal",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Joe Pyfer",
+            "cartel_espn": "16-3-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Joe Pyfer",
+              "lutas": 8,
+              "vitorias": 7,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 2,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-09-17",
+              "ultima_luta": "2026-03-28",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Bo Nickal",
+            "cartel_espn": "9-1-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Bo Nickal",
+              "lutas": 7,
+              "vitorias": 6,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-03-04",
+              "ultima_luta": "2026-06-14",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401913651",
+          "numero": 4,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Brandon Moreno",
+            "cartel_espn": "24-10-2",
+            "pais": "Mexico",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Brandon Moreno",
+              "lutas": 21,
+              "vitorias": 12,
+              "derrotas": 7,
+              "empates": 2,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 3,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-10-01",
+              "ultima_luta": "2026-09-12",
+              "ultimos_5": [
+                "V",
+                "D",
+                "D",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Charles Johnson",
+            "cartel_espn": "20-9-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Charles Johnson",
+              "lutas": 16,
+              "vitorias": 9,
+              "derrotas": 7,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 1,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2022-07-23",
+              "ultima_luta": "2026-08-15",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401930355",
+          "numero": 5,
+          "segmento": "preliminar_antecipada",
+          "categoria": "W Flyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Maycee Barber",
+            "cartel_espn": "15-3-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Maycee Barber",
+              "lutas": 13,
+              "vitorias": 10,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 0,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2018-11-10",
+              "ultima_luta": "2026-03-28",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            }
+          },
+          "lutador_b": {
+            "nome": "Carli Judice",
+            "cartel_espn": "7-2-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Carli Judice",
+              "lutas": 5,
+              "vitorias": 4,
+              "derrotas": 1,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-06-15",
+              "ultima_luta": "2026-08-22",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V",
+                "D"
+              ]
+            }
+          },
+          "avisos": [],
+          "previsao_possivel": true
+        },
+        {
+          "id": "401930356",
+          "numero": 6,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Light Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "nome": "Quentin Pasley",
+            "cartel_espn": "4-0-0",
+            "pais": "USA",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null
+          },
+          "lutador_b": {
+            "nome": "Junior Tafa",
+            "cartel_espn": "7-6-0",
+            "pais": "Australia",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Junior Tafa",
+              "lutas": 9,
+              "vitorias": 3,
+              "derrotas": 6,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 3,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-04-22",
+              "ultima_luta": "2026-06-06",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "D",
+                "V"
+              ]
+            }
+          },
+          "avisos": [
+            "Quentin Pasley: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false
+        }
+      ]
+    }
+  ]
+}
