@@ -1,18 +1,18 @@
 {
   "versao_dados": 1,
-  "gerado_em": "2026-10-18T13:53:48.959033+00:00",
+  "gerado_em": "2026-10-19T00:04:54.508050+00:00",
   "historico": {
     "fonte": "UFCStats.com via github.com/Greco1899/scrape_ufc_stats (GPL-3.0)",
     "atualizado_com_sucesso": true,
-    "atualizacao_da_fonte": "2026-10-11T18:03:42Z",
-    "luta_mais_recente": "2026-10-10",
-    "total_lutas": 8935,
-    "total_atletas": 2768
+    "atualizacao_da_fonte": "2026-10-18T18:02:47Z",
+    "luta_mais_recente": "2026-10-17",
+    "total_lutas": 8948,
+    "total_atletas": 2775
   },
   "proximos_eventos": {
     "fonte": "ESPN (API pública não oficial)",
     "atualizado_com_sucesso": true,
-    "atualizado_em": "2026-10-18T13:53:48.959033+00:00",
+    "atualizado_em": "2026-10-19T00:04:54.508050+00:00",
     "total_eventos": 6,
     "total_lutas": 62,
     "lutas_com_dados_suficientes": 43
@@ -20,12 +20,12 @@
   "modelo": {
     "versao": "elo-logistica-v1",
     "treinado": true,
-    "treinado_ate": "2026-10-10",
+    "treinado_ate": "2026-10-17",
     "teste": {
-      "n": 990,
-      "acuracia": 0.6595959595959596,
-      "log_loss": 0.6316078750842515,
-      "brier": 0.22054676078228264
+      "n": 995,
+      "acuracia": 0.6572864321608041,
+      "log_loss": 0.6332892308286421,
+      "brier": 0.22134451430810156
     },
     "previsoes_registradas": 48,
     "aviso": "Probabilidades estimadas por modelo estatístico. Odds justas = 1 / probabilidade; não são cotações de casas de apostas e não garantem resultado."

@@ -1,6 +1,6 @@
 # Validação do modelo
 
-Gerado automaticamente em 18/10/2026 13:53 UTC. Versão do modelo: `elo-logistica-v1`.
+Gerado automaticamente em 19/10/2026 00:04 UTC. Versão do modelo: `elo-logistica-v1`.
 
 ## Como foi testado
 - **Treino:** lutas até 2023-01-01 (exclusive).
@@ -13,28 +13,28 @@ Gerado automaticamente em 18/10/2026 13:53 UTC. Versão do modelo: `elo-logistic
 
 | Modelo | Lutas | Acerto do favorito | Log-loss (menor é melhor) | Brier (menor é melhor) |
 |---|---|---|---|---|
-| **Elo + regressão logística** | 990 | 66,0% | 0,632 | 0,221 |
-| Só Elo | 990 | 55,2% | 0,679 | 0,243 |
-| Moeda (50% / 50%) | 990 | 50,0% | 0,693 | 0,250 |
-| Elo + logística, incluindo atletas com pouco histórico | 1462 | 63,4% | 0,642 | 0,225 |
+| **Elo + regressão logística** | 995 | 65,7% | 0,633 | 0,221 |
+| Só Elo | 995 | 55,0% | 0,680 | 0,244 |
+| Moeda (50% / 50%) | 995 | 50,0% | 0,693 | 0,250 |
+| Elo + logística, incluindo atletas com pouco histórico | 1475 | 63,3% | 0,642 | 0,225 |
 
 ## Calibração (quando o modelo diz X%, acontece X%?)
 
 | Faixa prevista | Previsões | Média prevista | Frequência real |
 |---|---|---|---|
 | 10-20% | 14 | 17,7% | 14,3% |
-| 20-30% | 129 | 26,4% | 17,8% |
-| 30-40% | 331 | 35,6% | 32,6% |
-| 40-50% | 516 | 44,8% | 39,5% |
-| 50-60% | 516 | 55,2% | 60,5% |
-| 60-70% | 331 | 64,4% | 67,4% |
-| 70-80% | 129 | 73,6% | 82,2% |
+| 20-30% | 131 | 26,4% | 19,1% |
+| 30-40% | 332 | 35,6% | 32,8% |
+| 40-50% | 518 | 44,8% | 39,6% |
+| 50-60% | 518 | 55,2% | 60,4% |
+| 60-70% | 332 | 64,4% | 67,2% |
+| 70-80% | 131 | 73,6% | 80,9% |
 | 80-90% | 14 | 82,3% | 85,7% |
 
 Faixas com poucas previsões têm muita variação aleatória.
 
 ## Método de vitória (dado o vencedor)
-- Lutas avaliadas: 989.
+- Lutas avaliadas: 994.
 - Log-loss do modelo: 0,936. Usando só a média da divisão: 0,990 (menor é melhor).
 
 ## Parâmetros escolhidos na validação
@@ -44,24 +44,24 @@ Faixas com poucas previsões têm muita variação aleatória.
 - `metodo_alfa`: 2.0
 
 ## Pesos do modelo final (variáveis padronizadas; positivo favorece quem tem o valor maior)
-- `elo`: 0.1542
-- `experiencia`: 0.0895
-- `forma_recente`: -0.0328
-- `golpes_por_min`: 0.1034
-- `golpes_sofridos_por_min`: -0.1881
-- `precisao_golpes`: 0.0933
-- `defesa_golpes`: 0.1215
-- `quedas_por_15min`: 0.1913
-- `precisao_quedas`: -0.0479
-- `defesa_quedas`: 0.0656
-- `controle`: -0.0501
-- `tentativas_finalizacao_por_15min`: -0.0033
-- `knockdowns_por_15min`: -0.0048
-- `taxa_vitorias_antes_do_fim`: 0.0774
-- `taxa_derrotas_antes_do_fim`: -0.103
-- `idade`: -0.33
-- `envergadura`: 0.0798
-- `inatividade`: -0.0324
+- `elo`: 0.1533
+- `experiencia`: 0.0905
+- `forma_recente`: -0.0322
+- `golpes_por_min`: 0.103
+- `golpes_sofridos_por_min`: -0.1872
+- `precisao_golpes`: 0.0934
+- `defesa_golpes`: 0.1212
+- `quedas_por_15min`: 0.1912
+- `precisao_quedas`: -0.0474
+- `defesa_quedas`: 0.0647
+- `controle`: -0.0497
+- `tentativas_finalizacao_por_15min`: -0.0039
+- `knockdowns_por_15min`: -0.0039
+- `taxa_vitorias_antes_do_fim`: 0.0763
+- `taxa_derrotas_antes_do_fim`: -0.1039
+- `idade`: -0.3296
+- `envergadura`: 0.08
+- `inatividade`: -0.0325
 
 ## Limites
 - Estes números medem acerto estatístico, **não lucro**. O modelo não foi comparado com odds de casas
