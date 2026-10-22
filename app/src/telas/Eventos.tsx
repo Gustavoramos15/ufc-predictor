@@ -27,7 +27,7 @@ export type Aba = "principal" | "preliminar" | "preliminar_antecipada";
 const NOME_ABA: Record<Aba, string> = {
   principal: "Card principal",
   preliminar: "Preliminares",
-  preliminar_antecipada: "Antecipadas",
+  preliminar_antecipada: "Card inicial",
 };
 
 function abaDaLuta(seg: Segmento): Aba {

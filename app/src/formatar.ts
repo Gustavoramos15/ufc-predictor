@@ -51,7 +51,7 @@ export function horasDesde(iso: string | null | undefined): number | null {
 export const NOME_SEGMENTO: Record<Segmento, string> = {
   principal: "Card principal",
   preliminar: "Preliminares",
-  preliminar_antecipada: "Preliminares antecipadas",
+  preliminar_antecipada: "Card inicial",
   desconhecido: "Card não informado",
 };
 
