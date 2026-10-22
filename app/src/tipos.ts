@@ -191,6 +191,7 @@ export interface Validacao {
   versao_modelo: string;
   periodos: { treino: string; validacao: string; teste: string };
   parametros: Record<string, number>;
+  coeficientes?: Record<string, number>;
   teste: {
     criterio: string;
     modelo: Metricas;

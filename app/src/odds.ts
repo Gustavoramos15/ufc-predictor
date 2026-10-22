@@ -23,6 +23,20 @@ export function valorEstimado(probModelo: number, oddCasa: number | null): numbe
   return oddCasa ? probModelo * oddCasa - 1 : null;
 }
 
+/** O lado com maior valor estimado (quando há previsão e odds). */
+export function melhorValor(
+  p: { a: { vitoria: { prob: number } }; b: { vitoria: { prob: number } } } | null | undefined,
+  o: OddsCasa | null | undefined,
+): { lado: "a" | "b"; valor: number; odd: number } | null {
+  if (!p || !o || !o.a.atual || !o.b.atual) return null;
+  const va = valorEstimado(p.a.vitoria.prob, o.a.atual)!;
+  const vb = valorEstimado(p.b.vitoria.prob, o.b.atual)!;
+  return va >= vb ? { lado: "a", valor: va, odd: o.a.atual } : { lado: "b", valor: vb, odd: o.b.atual };
+}
+
+/** Limite para o selo "+EV": abaixo disso a diferença está dentro do erro do modelo. */
+export const LIMITE_VALOR = 0.05;
+
 export type Leitura = "acima" | "proxima" | "abaixo";
 
 /** Faixa de ±5% para não dar destaque a diferenças pequenas, que estão dentro do erro do modelo. */

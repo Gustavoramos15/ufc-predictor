@@ -13,6 +13,67 @@ export function avaliar(p: PrevisaoRegistrada): Avaliacao {
   return favorito === r.vencedor ? "acertou" : "errou";
 }
 
+/**
+ * Simulação de 1 unidade apostada, usando a odd da casa REGISTRADA antes da luta.
+ * Estratégia "favorito": no lado que o modelo acha mais provável.
+ * Estratégia "valor": no lado com valor estimado acima do limite (+EV), se houver.
+ * Retorna null quando não há odds registradas ou o resultado ainda não saiu.
+ */
+export type Estrategia = "favorito" | "valor";
+
+export interface Aposta {
+  lado: "a" | "b";
+  odd: number;
+  valorEstimado: number;
+  unidades: number | null; // null = aguardando resultado; 0 = devolvida (empate/sem resultado)
+}
+
+export function apostaSimulada(p: PrevisaoRegistrada, estrategia: Estrategia, limiteValor = 0.05): Aposta | null {
+  const o = p.odds_casa;
+  if (!o || !o.a.atual || !o.b.atual) return null;
+  const pa = p.previsao.a.vitoria.prob;
+  const va = pa * o.a.atual - 1;
+  const vb = (1 - pa) * o.b.atual - 1;
+  let lado: "a" | "b";
+  if (estrategia === "favorito") {
+    if (pa === 0.5) return null;
+    lado = pa > 0.5 ? "a" : "b";
+  } else {
+    const melhor = va >= vb ? "a" : "b";
+    if ((melhor === "a" ? va : vb) <= limiteValor) return null;
+    lado = melhor;
+  }
+  const odd = lado === "a" ? o.a.atual : o.b.atual;
+  const r = p.resultado_real;
+  let unidades: number | null = null;
+  if (r) unidades = r.vencedor === lado ? odd - 1 : r.vencedor === "a" || r.vencedor === "b" ? -1 : 0;
+  return { lado, odd, valorEstimado: lado === "a" ? va : vb, unidades };
+}
+
+export interface ResumoApostas {
+  apostas: number; // com resultado
+  acertos: number;
+  unidades: number;
+  roi: number | null; // unidades / apostas
+  aguardando: number;
+}
+
+export function resumirApostas(lista: PrevisaoRegistrada[], estrategia: Estrategia): ResumoApostas {
+  let apostas = 0, acertos = 0, unidades = 0, aguardando = 0;
+  for (const p of lista) {
+    const a = apostaSimulada(p, estrategia);
+    if (!a) continue;
+    if (a.unidades == null) {
+      aguardando++;
+      continue;
+    }
+    apostas++;
+    unidades += a.unidades;
+    if (a.unidades > 0) acertos++;
+  }
+  return { apostas, acertos, unidades, roi: apostas ? unidades / apostas : null, aguardando };
+}
+
 export interface Resumo {
   total: number;
   avaliadas: number;
