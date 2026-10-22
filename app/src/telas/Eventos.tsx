@@ -1,6 +1,6 @@
 import { Pressable, RefreshControl, ScrollView, StyleSheet, Text, View } from "react-native";
 
-import { confianca, resultadoMaisProvavel } from "../combinacoes";
+import { confianca, metodoDoFavorito } from "../combinacoes";
 import {
   Aviso,
   Avatar,
@@ -170,9 +170,9 @@ function Heroi({ luta, ev, nav }: { luta: Luta; ev: Evento; nav: Navegacao }) {
           </View>
           <BarraProbabilidade pa={p.a.vitoria.prob} />
           <TextoSuave estilo={{ fontSize: 12, marginTop: 6, textAlign: "center" }}>
-            Mais provável: {(() => {
-              const m = resultadoMaisProvavel(p, a.nome, b.nome);
-              return `${sobrenome(m.nome)} por ${m.metodo} (${pct(m.prob)})`;
+            {(() => {
+              const m = metodoDoFavorito(p, a.nome, b.nome);
+              return `Favorito: ${sobrenome(m.nome)} · método mais provável: ${m.metodo} (${pct(m.prob)})`;
             })()}
           </TextoSuave>
         </View>
@@ -209,8 +209,7 @@ function LadoHeroi({ l, canto, oddCasa }: { l: Lutador; canto: "a" | "b"; oddCas
 
 function CartaoLuta({ luta, aoTocar }: { luta: Luta; aoTocar: () => void }) {
   const { lutador_a: a, lutador_b: b, previsao: p, odds_casa: o } = luta;
-  const fav = p ? (p.a.vitoria.prob >= 0.5 ? p.a : p.b) : null;
-  const mp = p ? resultadoMaisProvavel(p, a.nome, b.nome) : null;
+  const mp = p ? metodoDoFavorito(p, a.nome, b.nome) : null;
   return (
     <Pressable onPress={aoTocar}>
       {({ pressed }) => (
@@ -233,7 +232,6 @@ function CartaoLuta({ luta, aoTocar }: { luta: Luta; aoTocar: () => void }) {
             <LadoLista l={a} odd={o?.a.atual} />
             <View style={{ alignItems: "center", paddingHorizontal: 2 }}>
               <Text style={[st.vs, { fontSize: 12 }]}>VS</Text>
-              {fav && <Text style={st.justa}>Justa: {odd(fav.vitoria.odd_justa)}</Text>}
             </View>
             <LadoLista l={b} odd={o?.b.atual} direita />
           </View>
@@ -244,7 +242,7 @@ function CartaoLuta({ luta, aoTocar }: { luta: Luta; aoTocar: () => void }) {
               <View style={[s.linha, { marginTop: 4 }]}>
                 <Text style={[st.legendaPeq, { color: cores.vermelhoClaro }]}>{pct(p.a.vitoria.prob)}</Text>
                 <Text style={[st.legendaPeq, { color: cores.textoSuave, flex: 1, textAlign: "center" }]} numberOfLines={1}>
-                  {mp ? `${sobrenome(mp.nome)} · ${mp.metodo} (${pct(mp.prob, 0)})` : ""}
+                  {mp ? `${sobrenome(mp.nome)} vence por ${mp.metodo} (${pct(mp.prob, 0)})` : ""}
                 </Text>
                 <Text style={[st.legendaPeq, { color: cores.azulClaro }]}>{pct(p.b.vitoria.prob)}</Text>
               </View>
@@ -299,6 +297,5 @@ const st = StyleSheet.create({
   oddPilula: { paddingHorizontal: 8, paddingVertical: 2, borderRadius: 6, marginTop: 2 },
   oddTexto: { fontFamily: fontes.negrito, fontSize: 12 },
   categoria: { color: cores.textoSuave, fontFamily: fontes.medio, fontSize: 11.5, flex: 1 },
-  justa: { color: cores.verdeClaro, fontFamily: fontes.negrito, fontSize: 11 },
   sub: { color: cores.textoSuave, fontFamily: fontes.regular, fontSize: 11.5 },
 });

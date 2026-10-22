@@ -1,6 +1,6 @@
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 
-import { combinacoes, comoTermina, confianca, resultadoMaisProvavel } from "../combinacoes";
+import { combinacoes, comoTermina, confianca, metodoDoFavorito } from "../combinacoes";
 import {
   Aviso,
   Avatar,
@@ -150,7 +150,7 @@ function BlocoPrevisao({ p, a, b, o, versao }: { p: Previsao; a: string; b: stri
   const fav = favA ? a : b;
   const pFav = favA ? p.a.vitoria.prob : p.b.vitoria.prob;
   const conf = confianca(p.a.vitoria.prob);
-  const mp = resultadoMaisProvavel(p, a, b);
+  const mp = metodoDoFavorito(p, a, b);
   const termina = comoTermina(p);
   const tiles: [string, number][] = [
     ["Decisão", termina[0].prob],
@@ -221,9 +221,9 @@ function BlocoPrevisao({ p, a, b, o, versao }: { p: Previsao; a: string; b: stri
         )}
 
         <Caixa estilo={{ marginTop: 8 }}>
-          <TextoSuave estilo={{ fontSize: 12 }}>Resultado individual mais provável</TextoSuave>
+          <TextoSuave estilo={{ fontSize: 12 }}>Método mais provável do favorito</TextoSuave>
           <Text style={[s.forte, { marginTop: 2 }]}>
-            {mp.nome} por {mp.metodo} · {pct(mp.prob)}{" "}
+            {mp.nome} vence por {mp.metodo} · {pct(mp.prob)}{" "}
             <Text style={[s.suave, { fontSize: 12 }]}>(odd justa {odd(1 / mp.prob)})</Text>
           </Text>
         </Caixa>

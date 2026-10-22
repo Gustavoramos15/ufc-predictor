@@ -47,13 +47,17 @@ export function comoTermina(p: Previsao): Opcao[] {
   ];
 }
 
-/** O resultado individual (lutador + método) com maior probabilidade. */
-export function resultadoMaisProvavel(p: Previsao, nomeA: string, nomeB: string) {
-  let melhor = { nome: nomeA, metodo: METODOS[0][2], prob: -1 };
-  for (const [lado, nome] of [["a", nomeA], ["b", nomeB]] as const) {
-    for (const [chave, , rotulo] of METODOS) {
-      if (p[lado][chave].prob > melhor.prob) melhor = { nome, metodo: rotulo, prob: p[lado][chave].prob };
-    }
+/**
+ * Método mais provável do FAVORITO (quem tem maior probabilidade de vencer).
+ * Não usamos o "maior resultado isolado" entre os 6 possíveis: ele pode apontar o azarão quando a
+ * vitória do favorito está dividida entre vários métodos, o que confunde a leitura.
+ */
+export function metodoDoFavorito(p: Previsao, nomeA: string, nomeB: string) {
+  const lado = p.a.vitoria.prob >= p.b.vitoria.prob ? "a" : "b";
+  const nome = lado === "a" ? nomeA : nomeB;
+  let melhor = { lado, nome, metodo: METODOS[0][2], prob: -1, probVitoria: p[lado].vitoria.prob };
+  for (const [chave, , rotulo] of METODOS) {
+    if (p[lado][chave].prob > melhor.prob) melhor = { ...melhor, metodo: rotulo, prob: p[lado][chave].prob };
   }
   return melhor;
 }
