@@ -53,7 +53,7 @@ export function comoTermina(p: Previsao): Opcao[] {
  * vitória do favorito está dividida entre vários métodos, o que confunde a leitura.
  */
 export function metodoDoFavorito(p: Previsao, nomeA: string, nomeB: string) {
-  const lado = p.a.vitoria.prob >= p.b.vitoria.prob ? "a" : "b";
+  const lado: "a" | "b" = p.a.vitoria.prob >= p.b.vitoria.prob ? "a" : "b";
   const nome = lado === "a" ? nomeA : nomeB;
   let melhor = { lado, nome, metodo: METODOS[0][2], prob: -1, probVitoria: p[lado].vitoria.prob };
   for (const [chave, , rotulo] of METODOS) {

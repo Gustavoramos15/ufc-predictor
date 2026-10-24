@@ -2,6 +2,7 @@
 export type Rota =
   | { tela: "eventos" }
   | { tela: "confronto"; eventoId: string; lutaId: string }
+  | { tela: "multipla" }
   | { tela: "historico" }
   | { tela: "modelo" };
 

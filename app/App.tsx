@@ -20,11 +20,13 @@ import { TelaConfronto } from "./src/telas/Confronto";
 import { Aba, TelaEventos } from "./src/telas/Eventos";
 import { TelaHistorico } from "./src/telas/Historico";
 import { TelaModelo } from "./src/telas/Modelo";
+import { EstadoMultipla, TelaMultipla } from "./src/telas/Multipla";
 
-type Guia = "eventos" | "luta" | "historico" | "modelo";
+type Guia = "eventos" | "luta" | "multipla" | "historico" | "modelo";
 const GUIAS: { guia: Guia; rotulo: string; icone: NomeIcone }[] = [
   { guia: "eventos", rotulo: "Eventos", icone: "eventos" },
   { guia: "luta", rotulo: "Luta", icone: "raio" },
+  { guia: "multipla", rotulo: "Múltipla", icone: "camadas" },
   { guia: "historico", rotulo: "Banca", icone: "grafico" },
   { guia: "modelo", rotulo: "Modelo", icone: "codigo" },
 ];
@@ -65,6 +67,7 @@ function Conteudo() {
   const [eventoId, setEventoId] = useState<string | null>(null);
   const [aba, setAba] = useState<Aba>("principal");
   const [ultimaLuta, setUltimaLuta] = useState<{ eventoId: string; lutaId: string } | null>(null);
+  const [estadoMultipla, setEstadoMultipla] = useState<EstadoMultipla>({ tipo: "vitoria", tamanho: 2 });
 
   const nav: Navegacao = useMemo(
     () => ({
@@ -117,6 +120,15 @@ function Conteudo() {
           <TelaEventos nav={nav} eventoId={eventoId} aoEscolherEvento={setEventoId} aba={aba} aoMudarAba={setAba} />
         )}
         {atual.tela === "confronto" && <TelaConfronto nav={nav} eventoId={atual.eventoId} lutaId={atual.lutaId} />}
+        {atual.tela === "multipla" && (
+          <TelaMultipla
+            nav={nav}
+            eventoId={eventoId}
+            aoEscolherEvento={setEventoId}
+            estado={estadoMultipla}
+            aoMudar={setEstadoMultipla}
+          />
+        )}
         {atual.tela === "historico" && <TelaHistorico />}
         {atual.tela === "modelo" && <TelaModelo />}
       </View>
