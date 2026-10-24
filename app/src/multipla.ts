@@ -1,8 +1,11 @@
 // Montagem de múltiplas (duplas, triplas, quádruplas ou card todo) a partir das previsões do modelo.
-import { metodoDoFavorito } from "./combinacoes";
+import { combinacoes, metodoDoFavorito } from "./combinacoes";
+import { primeiraMinuscula } from "./formatar";
 import type { Evento } from "./tipos";
 
-export type TipoPalpite = "vitoria" | "metodo";
+/** vitoria = favorito vence; metodo = favorito pelo método mais provável;
+ *  combinado = favorito pela combinação de dois métodos mais provável (igual à análise de confronto). */
+export type TipoPalpite = "vitoria" | "metodo" | "combinado";
 export type Tamanho = 2 | 3 | 4 | "card";
 
 export interface Perna {
@@ -33,14 +36,21 @@ export function pernasDoEvento(ev: Evento, tipo: TipoPalpite): Perna[] {
     if (!p) continue;
     const m = metodoDoFavorito(p, l.lutador_a.nome, l.lutador_b.nome);
     const adversario = m.lado === "a" ? l.lutador_b.nome : l.lutador_a.nome;
-    const prob = tipo === "vitoria" ? m.probVitoria : m.prob;
+    const combo = combinacoes(p[m.lado])[0];
+    const prob = tipo === "vitoria" ? m.probVitoria : tipo === "metodo" ? m.prob : combo.prob;
     const oddCasa = tipo === "vitoria" ? l.odds_casa?.[m.lado].atual ?? null : null;
+    const palpite =
+      tipo === "vitoria"
+        ? `${m.nome} vence`
+        : tipo === "metodo"
+          ? `${m.nome} por ${m.metodo}`
+          : `${m.nome} por ${primeiraMinuscula(combo.rotulo)}`;
     pernas.push({
       lutaId: l.id,
       numero: l.numero,
       favorito: m.nome,
       adversario,
-      palpite: tipo === "vitoria" ? `${m.nome} vence` : `${m.nome} por ${m.metodo}`,
+      palpite,
       prob,
       oddJusta: 1 / prob,
       oddCasa,

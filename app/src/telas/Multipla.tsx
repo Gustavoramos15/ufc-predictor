@@ -15,6 +15,12 @@ const TAMANHOS: { valor: Tamanho; rotulo: string; n?: number }[] = [
   { valor: "card", rotulo: "Card todo" },
 ];
 
+const NOME_TIPO: Record<TipoPalpite, string> = {
+  vitoria: "vitória",
+  metodo: "método",
+  combinado: "método combinado",
+};
+
 export interface EstadoMultipla {
   tipo: TipoPalpite;
   tamanho: Tamanho;
@@ -72,7 +78,8 @@ export function TelaMultipla({
         <Segmentado
           opcoes={[
             { valor: "vitoria", rotulo: "Só vitória" },
-            { valor: "metodo", rotulo: "Método de vitória" },
+            { valor: "metodo", rotulo: "Método" },
+            { valor: "combinado", rotulo: "Combinado" },
           ]}
           ativo={estado.tipo}
           aoMudar={(tipo) => aoMudar({ ...estado, tipo })}
@@ -103,7 +110,7 @@ export function TelaMultipla({
             <CartaoVidro gradiente={gradientes.heroi} borda={translucido(cores.vermelho, 0.25)}>
               <View style={[s.linha, { alignItems: "center" }]}>
                 <Text style={st.tituloBloco}>
-                  {TAMANHOS.find((t) => t.valor === estado.tamanho)?.rotulo} · {estado.tipo === "vitoria" ? "vitória" : "método"}
+                  {TAMANHOS.find((t) => t.valor === estado.tamanho)?.rotulo} · {NOME_TIPO[estado.tipo]}
                 </Text>
                 {ehValor && <Selo texto="+EV" cor={cores.verdeClaro} ponto />}
               </View>
@@ -133,7 +140,7 @@ export function TelaMultipla({
                   </Text>
                 ) : (
                   <TextoSuave estilo={{ fontSize: 12 }}>
-                    {estado.tipo === "metodo"
+                    {estado.tipo !== "vitoria"
                       ? "A ESPN não traz odds de método; compare a odd justa com a da sua casa."
                       : `${m.pernasSemOdd} luta(s) ainda sem odds da casa; compare a odd justa com a da sua casa.`}
                   </TextoSuave>
@@ -151,7 +158,7 @@ export function TelaMultipla({
                         <Text style={st.indiceTexto}>{i + 1}</Text>
                       </View>
                       <View style={{ flex: 1 }}>
-                        <Text style={[s.forte, { fontSize: 14 }]} numberOfLines={1}>
+                        <Text style={[s.forte, { fontSize: 14 }]} numberOfLines={2}>
                           {p.palpite}
                         </Text>
                         <TextoSuave estilo={{ fontSize: 12 }}>
@@ -174,11 +181,16 @@ export function TelaMultipla({
 
             <Aviso tipo="info">
               Montada com o palpite do modelo em cada luta: o favorito
-              {estado.tipo === "metodo" ? " pelo método mais provável dele" : ""}. Para dupla, tripla e quádrupla entram as
+              {estado.tipo === "metodo"
+                ? " pelo método mais provável dele"
+                : estado.tipo === "combinado"
+                  ? " pela combinação de dois métodos mais provável dele (a mesma da análise de confronto)"
+                  : ""}
+              . Para dupla, tripla e quádrupla entram as
               lutas de maior probabilidade do evento, que formam a combinação mais provável. A probabilidade da múltipla é
               a multiplicação das probabilidades de cada luta, considerando lutas diferentes como independentes. Basta um
               erro para perder a múltipla inteira: quanto mais seleções, menor a chance.
-              {estado.tipo === "metodo" ? " O modelo acerta o método bem menos do que o vencedor." : ""} Não é recomendação de
+              {estado.tipo !== "vitoria" ? " O modelo acerta o método bem menos do que o vencedor." : ""} Não é recomendação de
               aposta nem garantia de lucro.
             </Aviso>
             {disponiveis < ev.lutas.length && (
