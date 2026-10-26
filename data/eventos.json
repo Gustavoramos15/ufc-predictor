@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-26T00:02:48.415141+00:00",
+  "gerado_em": "2026-10-26T16:41:51.410289+00:00",
   "eventos": [
     {
       "id": "600061420",
@@ -192,21 +192,204 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
-              "atual": 1.95,
+              "atual": 1.9,
               "abertura": 2.02
             },
             "b": {
-              "atual": 1.86,
+              "atual": 1.95,
               "abertura": 1.81
             },
             "total_rounds": {
               "linha": 1.5,
-              "mais": 1.45,
-              "menos": 2.7
+              "mais": 1.47,
+              "menos": 2.6
             }
           }
+        },
+        {
+          "id": "401931616",
+          "numero": 2,
+          "segmento": "principal",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "espn_id": "3960071",
+            "nome": "Randy Brown",
+            "cartel_espn": "20-8-0",
+            "pais": "Jamaica",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Randy Brown",
+              "lutas": 22,
+              "vitorias": 14,
+              "derrotas": 8,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 3,
+                "DECISAO": 7,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2016-01-30",
+              "ultima_luta": "2026-04-11",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1634,
+              "minutos_com_estatisticas": 231.2,
+              "golpes_sig_por_min": 4.394,
+              "golpes_sig_sofridos_por_min": 3.352,
+              "precisao_golpes": 0.471,
+              "defesa_golpes": 0.535,
+              "quedas_por_15min": 0.714,
+              "precisao_quedas": 0.344,
+              "defesa_quedas": 0.746,
+              "controle_por_15min_s": 143.102,
+              "tentativas_finalizacao_por_15min": 0.519,
+              "idade": 36.3,
+              "envergadura_cm": 198
+            },
+            "carreira_mma": {
+              "cartel": "20-8-0",
+              "vitorias": 20,
+              "derrotas": 8,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 8,
+                "finalizacao": 5,
+                "decisao_ou_outro": 7
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 3,
+                "finalizacao": 2,
+                "decisao_ou_outro": 3
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "5149961",
+            "nome": "Jacobe Smith",
+            "cartel_espn": "13-0-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jacobe Smith",
+              "lutas": 4,
+              "vitorias": 4,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-01-11",
+              "ultima_luta": "2026-10-03",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1612,
+              "minutos_com_estatisticas": 14.8,
+              "golpes_sig_por_min": 6.884,
+              "golpes_sig_sofridos_por_min": 3.51,
+              "precisao_golpes": 0.634,
+              "defesa_golpes": 0.49,
+              "quedas_por_15min": 5.062,
+              "precisao_quedas": 0.833,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 408.999,
+              "tentativas_finalizacao_por_15min": 1.012,
+              "idade": 30.8,
+              "envergadura_cm": 183
+            },
+            "carreira_mma": {
+              "cartel": "13-0-0",
+              "vitorias": 13,
+              "derrotas": 0,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 10,
+                "finalizacao": 1,
+                "decisao_ou_outro": 2
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 0,
+                "finalizacao": 0,
+                "decisao_ou_outro": 0
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "avisos": [],
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.339357,
+                "odd_justa": 2.95
+              },
+              "ko_tko": {
+                "prob": 0.10714,
+                "odd_justa": 9.33
+              },
+              "finalizacao": {
+                "prob": 0.067491,
+                "odd_justa": 14.82
+              },
+              "decisao": {
+                "prob": 0.164726,
+                "odd_justa": 6.07
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.660643,
+                "odd_justa": 1.51
+              },
+              "ko_tko": {
+                "prob": 0.323988,
+                "odd_justa": 3.09
+              },
+              "finalizacao": {
+                "prob": 0.154044,
+                "odd_justa": 6.49
+              },
+              "decisao": {
+                "prob": 0.182611,
+                "odd_justa": 5.48
+              }
+            }
+          },
+          "odds_casa": null
         },
         {
           "id": "401931555",
@@ -393,13 +576,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
-              "atual": 1.8,
+              "atual": 1.89,
               "abertura": 1.8
             },
             "b": {
-              "atual": 2.05,
+              "atual": 1.92,
               "abertura": 2.05
             },
             "total_rounds": {
@@ -594,7 +777,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 3.15,
               "abertura": 2.85
@@ -761,13 +944,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
-              "atual": 1.37,
+              "atual": 1.35,
               "abertura": 1.4
             },
             "b": {
-              "atual": 3.15,
+              "atual": 3.3,
               "abertura": 3.0
             },
             "total_rounds": {
@@ -780,7 +963,7 @@
         {
           "id": "401931615",
           "numero": 6,
-          "segmento": "principal",
+          "segmento": "preliminar",
           "categoria": "Featherweight",
           "status": "STATUS_SCHEDULED",
           "lutador_a": {
@@ -935,7 +1118,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.4,
               "abertura": 1.38
@@ -1301,7 +1484,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.58,
               "abertura": 1.55
@@ -1501,7 +1684,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 2.5,
               "abertura": 2.7
@@ -1634,7 +1817,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 3.5,
               "abertura": 3.5
@@ -1835,7 +2018,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 3.3,
               "abertura": 3.1
@@ -1958,13 +2141,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
-              "atual": 1.16,
+              "atual": 1.15,
               "abertura": 1.18
             },
             "b": {
-              "atual": 5.4,
+              "atual": 5.7,
               "abertura": 5.1
             },
             "total_rounds": {
@@ -1973,189 +2156,6 @@
               "menos": 1.76
             }
           }
-        },
-        {
-          "id": "401931616",
-          "numero": 12,
-          "segmento": "principal",
-          "categoria": "Welterweight",
-          "status": "STATUS_SCHEDULED",
-          "lutador_a": {
-            "espn_id": "3960071",
-            "nome": "Randy Brown",
-            "cartel_espn": "20-8-0",
-            "pais": "Jamaica",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Randy Brown",
-              "lutas": 22,
-              "vitorias": 14,
-              "derrotas": 8,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 4,
-                "FINALIZACAO": 3,
-                "DECISAO": 7,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 3,
-                "FINALIZACAO": 2,
-                "DECISAO": 3,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2016-01-30",
-              "ultima_luta": "2026-04-11",
-              "ultimos_5": [
-                "D",
-                "D",
-                "V",
-                "D",
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1634,
-              "minutos_com_estatisticas": 231.2,
-              "golpes_sig_por_min": 4.394,
-              "golpes_sig_sofridos_por_min": 3.352,
-              "precisao_golpes": 0.471,
-              "defesa_golpes": 0.535,
-              "quedas_por_15min": 0.714,
-              "precisao_quedas": 0.344,
-              "defesa_quedas": 0.746,
-              "controle_por_15min_s": 143.102,
-              "tentativas_finalizacao_por_15min": 0.519,
-              "idade": 36.3,
-              "envergadura_cm": 198
-            },
-            "carreira_mma": {
-              "cartel": "20-8-0",
-              "vitorias": 20,
-              "derrotas": 8,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 8,
-                "finalizacao": 5,
-                "decisao_ou_outro": 7
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 3,
-                "finalizacao": 2,
-                "decisao_ou_outro": 3
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "lutador_b": {
-            "espn_id": "5149961",
-            "nome": "Jacobe Smith",
-            "cartel_espn": "13-0-0",
-            "pais": "USA",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Jacobe Smith",
-              "lutas": 4,
-              "vitorias": 4,
-              "derrotas": 0,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 3,
-                "FINALIZACAO": 1,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2025-01-11",
-              "ultima_luta": "2026-10-03",
-              "ultimos_5": [
-                "V",
-                "V",
-                "V",
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1612,
-              "minutos_com_estatisticas": 14.8,
-              "golpes_sig_por_min": 6.884,
-              "golpes_sig_sofridos_por_min": 3.51,
-              "precisao_golpes": 0.634,
-              "defesa_golpes": 0.49,
-              "quedas_por_15min": 5.062,
-              "precisao_quedas": 0.833,
-              "defesa_quedas": 1.0,
-              "controle_por_15min_s": 408.999,
-              "tentativas_finalizacao_por_15min": 1.012,
-              "idade": 30.8,
-              "envergadura_cm": 183
-            },
-            "carreira_mma": {
-              "cartel": "13-0-0",
-              "vitorias": 13,
-              "derrotas": 0,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 10,
-                "finalizacao": 1,
-                "decisao_ou_outro": 2
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 0,
-                "finalizacao": 0,
-                "decisao_ou_outro": 0
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "avisos": [],
-          "previsao_possivel": true,
-          "previsao": {
-            "a": {
-              "vitoria": {
-                "prob": 0.339357,
-                "odd_justa": 2.95
-              },
-              "ko_tko": {
-                "prob": 0.10714,
-                "odd_justa": 9.33
-              },
-              "finalizacao": {
-                "prob": 0.067491,
-                "odd_justa": 14.82
-              },
-              "decisao": {
-                "prob": 0.164726,
-                "odd_justa": 6.07
-              }
-            },
-            "b": {
-              "vitoria": {
-                "prob": 0.660643,
-                "odd_justa": 1.51
-              },
-              "ko_tko": {
-                "prob": 0.323988,
-                "odd_justa": 3.09
-              },
-              "finalizacao": {
-                "prob": 0.154044,
-                "odd_justa": 6.49
-              },
-              "decisao": {
-                "prob": 0.182611,
-                "odd_justa": 5.48
-              }
-            }
-          },
-          "odds_casa": null
         },
         {
           "id": "401931617",
@@ -4662,7 +4662,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.37,
               "abertura": 1.37
@@ -4857,7 +4857,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.48,
               "abertura": 1.52
@@ -5946,186 +5946,6 @@
           "odds_casa": null
         },
         {
-          "id": "401922644",
-          "numero": 9,
-          "segmento": "preliminar",
-          "categoria": "Middleweight",
-          "status": "STATUS_SCHEDULED",
-          "lutador_a": {
-            "espn_id": "5302831",
-            "nome": "Donte Johnson",
-            "cartel_espn": "9-0-0",
-            "pais": "USA",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Donte Johnson",
-              "lutas": 3,
-              "vitorias": 3,
-              "derrotas": 0,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 1,
-                "FINALIZACAO": 1,
-                "DECISAO": 1,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2025-11-01",
-              "ultima_luta": "2026-08-15",
-              "ultimos_5": [
-                "V",
-                "V",
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1584,
-              "minutos_com_estatisticas": 23.1,
-              "golpes_sig_por_min": 2.863,
-              "golpes_sig_sofridos_por_min": 1.822,
-              "precisao_golpes": 0.426,
-              "defesa_golpes": 0.632,
-              "quedas_por_15min": 1.952,
-              "precisao_quedas": 1.0,
-              "defesa_quedas": 0.769,
-              "controle_por_15min_s": 257.701,
-              "tentativas_finalizacao_por_15min": 0.651,
-              "idade": 27.8,
-              "envergadura_cm": 188
-            },
-            "carreira_mma": {
-              "cartel": "9-0-0",
-              "vitorias": 9,
-              "derrotas": 0,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 7,
-                "finalizacao": 1,
-                "decisao_ou_outro": 1
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 0,
-                "finalizacao": 0,
-                "decisao_ou_outro": 0
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "lutador_b": {
-            "espn_id": "5296753",
-            "nome": "Baisangur Susurkaev",
-            "cartel_espn": "12-0-0",
-            "pais": "Russia",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Baisangur Susurkaev",
-              "lutas": 3,
-              "vitorias": 3,
-              "derrotas": 0,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 1,
-                "FINALIZACAO": 2,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2025-08-16",
-              "ultima_luta": "2026-05-09",
-              "ultimos_5": [
-                "V",
-                "V",
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1588,
-              "minutos_com_estatisticas": 32.9,
-              "golpes_sig_por_min": 5.967,
-              "golpes_sig_sofridos_por_min": 4.658,
-              "precisao_golpes": 0.54,
-              "defesa_golpes": 0.591,
-              "quedas_por_15min": 2.283,
-              "precisao_quedas": 0.263,
-              "defesa_quedas": 1.0,
-              "controle_por_15min_s": 241.096,
-              "tentativas_finalizacao_por_15min": 0.913,
-              "idade": 25.8,
-              "envergadura_cm": 201
-            },
-            "carreira_mma": {
-              "cartel": "12-0-0",
-              "vitorias": 12,
-              "derrotas": 0,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 9,
-                "finalizacao": 2,
-                "decisao_ou_outro": 1
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 0,
-                "finalizacao": 0,
-                "decisao_ou_outro": 0
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "avisos": [],
-          "previsao_possivel": true,
-          "previsao": {
-            "a": {
-              "vitoria": {
-                "prob": 0.398706,
-                "odd_justa": 2.51
-              },
-              "ko_tko": {
-                "prob": 0.147379,
-                "odd_justa": 6.79
-              },
-              "finalizacao": {
-                "prob": 0.100054,
-                "odd_justa": 9.99
-              },
-              "decisao": {
-                "prob": 0.151273,
-                "odd_justa": 6.61
-              }
-            },
-            "b": {
-              "vitoria": {
-                "prob": 0.601294,
-                "odd_justa": 1.66
-              },
-              "ko_tko": {
-                "prob": 0.222264,
-                "odd_justa": 4.5
-              },
-              "finalizacao": {
-                "prob": 0.211022,
-                "odd_justa": 4.74
-              },
-              "decisao": {
-                "prob": 0.168008,
-                "odd_justa": 5.95
-              }
-            }
-          },
-          "odds_casa": null
-        },
-        {
           "id": "401922645",
           "numero": 10,
           "segmento": "preliminar_antecipada",
@@ -6620,6 +6440,372 @@
           ],
           "previsao_possivel": false,
           "previsao": null,
+          "odds_casa": null
+        },
+        {
+          "id": "401931773",
+          "numero": 12,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Middleweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "espn_id": "5302831",
+            "nome": "Donte Johnson",
+            "cartel_espn": "9-0-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Donte Johnson",
+              "lutas": 3,
+              "vitorias": 3,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-11-01",
+              "ultima_luta": "2026-08-15",
+              "ultimos_5": [
+                "V",
+                "V",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1584,
+              "minutos_com_estatisticas": 23.1,
+              "golpes_sig_por_min": 2.863,
+              "golpes_sig_sofridos_por_min": 1.822,
+              "precisao_golpes": 0.426,
+              "defesa_golpes": 0.632,
+              "quedas_por_15min": 1.952,
+              "precisao_quedas": 1.0,
+              "defesa_quedas": 0.769,
+              "controle_por_15min_s": 257.701,
+              "tentativas_finalizacao_por_15min": 0.651,
+              "idade": 27.8,
+              "envergadura_cm": 188
+            },
+            "carreira_mma": {
+              "cartel": "9-0-0",
+              "vitorias": 9,
+              "derrotas": 0,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 7,
+                "finalizacao": 1,
+                "decisao_ou_outro": 1
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 0,
+                "finalizacao": 0,
+                "decisao_ou_outro": 0
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "5144068",
+            "nome": "Cesar Almeida",
+            "cartel_espn": "7-3-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Cesar Almeida",
+              "lutas": 6,
+              "vitorias": 3,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-04-06",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "V",
+                "D"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1490,
+              "minutos_com_estatisticas": 61.2,
+              "golpes_sig_por_min": 3.479,
+              "golpes_sig_sofridos_por_min": 2.32,
+              "precisao_golpes": 0.6,
+              "defesa_golpes": 0.432,
+              "quedas_por_15min": 0.245,
+              "precisao_quedas": 0.333,
+              "defesa_quedas": 0.485,
+              "controle_por_15min_s": 51.947,
+              "tentativas_finalizacao_por_15min": 0.245,
+              "idade": 38.6,
+              "envergadura_cm": 188
+            },
+            "carreira_mma": {
+              "cartel": "7-3-0",
+              "vitorias": 7,
+              "derrotas": 3,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 5,
+                "finalizacao": 0,
+                "decisao_ou_outro": 2
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 1,
+                "finalizacao": 0,
+                "decisao_ou_outro": 2
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "avisos": [],
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.755998,
+                "odd_justa": 1.32
+              },
+              "ko_tko": {
+                "prob": 0.267685,
+                "odd_justa": 3.74
+              },
+              "finalizacao": {
+                "prob": 0.140809,
+                "odd_justa": 7.1
+              },
+              "decisao": {
+                "prob": 0.347505,
+                "odd_justa": 2.88
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.244002,
+                "odd_justa": 4.1
+              },
+              "ko_tko": {
+                "prob": 0.114594,
+                "odd_justa": 8.73
+              },
+              "finalizacao": {
+                "prob": 0.036831,
+                "odd_justa": 27.15
+              },
+              "decisao": {
+                "prob": 0.092577,
+                "odd_justa": 10.8
+              }
+            }
+          },
+          "odds_casa": null
+        },
+        {
+          "id": "401931774",
+          "numero": 13,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "espn_id": "3894823",
+            "nome": "Jared Gordon",
+            "cartel_espn": "21-9-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Jared Gordon",
+              "lutas": 18,
+              "vitorias": 9,
+              "derrotas": 8,
+              "empates": 0,
+              "sem_resultado": 1,
+              "vitorias_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 0,
+                "DECISAO": 6,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 4,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2017-06-25",
+              "ultima_luta": "2026-05-09",
+              "ultimos_5": [
+                "D",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1546,
+              "minutos_com_estatisticas": 188.5,
+              "golpes_sig_por_min": 5.571,
+              "golpes_sig_sofridos_por_min": 4.112,
+              "precisao_golpes": 0.537,
+              "defesa_golpes": 0.555,
+              "quedas_por_15min": 1.91,
+              "precisao_quedas": 0.348,
+              "defesa_quedas": 0.605,
+              "controle_por_15min_s": 304.192,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 38.2,
+              "envergadura_cm": 173
+            },
+            "carreira_mma": {
+              "cartel": "21-9-0",
+              "vitorias": 21,
+              "derrotas": 9,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 8,
+                "finalizacao": 2,
+                "decisao_ou_outro": 11
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 5,
+                "finalizacao": 2,
+                "decisao_ou_outro": 2
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "4425763",
+            "nome": "Melquizael Costa",
+            "cartel_espn": "26-8-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Melquizael Costa",
+              "lutas": 10,
+              "vitorias": 7,
+              "derrotas": 3,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 2,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-01-21",
+              "ultima_luta": "2026-05-16",
+              "ultimos_5": [
+                "D",
+                "V",
+                "V",
+                "V",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1642,
+              "minutos_com_estatisticas": 107.6,
+              "golpes_sig_por_min": 4.294,
+              "golpes_sig_sofridos_por_min": 3.188,
+              "precisao_golpes": 0.47,
+              "defesa_golpes": 0.504,
+              "quedas_por_15min": 1.533,
+              "precisao_quedas": 0.355,
+              "defesa_quedas": 0.509,
+              "controle_por_15min_s": 150.836,
+              "tentativas_finalizacao_por_15min": 0.836,
+              "idade": 30.2,
+              "envergadura_cm": 180
+            },
+            "carreira_mma": {
+              "cartel": "26-8-0",
+              "vitorias": 26,
+              "derrotas": 8,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 9,
+                "finalizacao": 8,
+                "decisao_ou_outro": 9
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 2,
+                "finalizacao": 2,
+                "decisao_ou_outro": 4
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "avisos": [],
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.320609,
+                "odd_justa": 3.12
+              },
+              "ko_tko": {
+                "prob": 0.104507,
+                "odd_justa": 9.57
+              },
+              "finalizacao": {
+                "prob": 0.052628,
+                "odd_justa": 19.0
+              },
+              "decisao": {
+                "prob": 0.163474,
+                "odd_justa": 6.12
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.679391,
+                "odd_justa": 1.47
+              },
+              "ko_tko": {
+                "prob": 0.255542,
+                "odd_justa": 3.91
+              },
+              "finalizacao": {
+                "prob": 0.175055,
+                "odd_justa": 5.71
+              },
+              "decisao": {
+                "prob": 0.248794,
+                "odd_justa": 4.02
+              }
+            }
+          },
           "odds_casa": null
         }
       ]
@@ -8445,7 +8631,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -8642,7 +8828,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.45,
               "abertura": 1.74
@@ -8839,7 +9025,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-10-26T00:02:48.415141+00:00",
+            "consultado_em": "2026-10-26T16:41:51.410289+00:00",
             "a": {
               "atual": 1.5,
               "abertura": 1.52
