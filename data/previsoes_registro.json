@@ -965,22 +965,22 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
-        "atual": 1.8,
+        "atual": 1.83,
         "abertura": 2.02
       },
       "b": {
-        "atual": 2.05,
+        "atual": 2.0,
         "abertura": 1.81
       },
       "total_rounds": {
         "linha": 1.5,
-        "mais": 1.5,
-        "menos": 2.54
+        "mais": 1.47,
+        "menos": 2.6
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1082,7 +1082,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 3.6,
         "abertura": 2.85
@@ -1097,7 +1097,7 @@
         "menos": 3.6
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1249,22 +1249,22 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
-        "atual": 2.3,
+        "atual": 2.24,
         "abertura": 2.7
       },
       "b": {
-        "atual": 1.64,
+        "atual": 1.67,
         "abertura": 1.48
       },
       "total_rounds": {
         "linha": 1.5,
-        "mais": 1.9,
-        "menos": 1.83
+        "mais": 1.95,
+        "menos": 1.8
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1316,7 +1316,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 3.25,
         "abertura": 3.1
@@ -1331,63 +1331,63 @@
         "menos": 3.2
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
   "401911641": {
     "evento_id": "600061268",
-    "evento": "UFC Fight Night: Bonfim vs. Brady",
+    "evento": "UFC Fight Night: Cortes Acosta vs. Walker",
     "data_evento": "2026-11-07T22:00Z",
-    "lutador_a": "Gabriel Bonfim",
-    "lutador_b": "Sean Brady",
-    "categoria": "Welterweight",
+    "lutador_a": "Waldo Cortes Acosta",
+    "lutador_b": "Johnny Walker",
+    "categoria": "Heavyweight",
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.531553,
-          "odd_justa": 1.88
+          "prob": 0.524822,
+          "odd_justa": 1.91
         },
         "ko_tko": {
-          "prob": 0.227499,
-          "odd_justa": 4.4
+          "prob": 0.279517,
+          "odd_justa": 3.58
         },
         "finalizacao": {
-          "prob": 0.124467,
-          "odd_justa": 8.03
+          "prob": 0.015348,
+          "odd_justa": 65.15
         },
         "decisao": {
-          "prob": 0.179587,
-          "odd_justa": 5.57
+          "prob": 0.229956,
+          "odd_justa": 4.35
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.468447,
-          "odd_justa": 2.13
+          "prob": 0.475178,
+          "odd_justa": 2.1
         },
         "ko_tko": {
-          "prob": 0.145455,
-          "odd_justa": 6.87
+          "prob": 0.215422,
+          "odd_justa": 4.64
         },
         "finalizacao": {
-          "prob": 0.122316,
-          "odd_justa": 8.18
+          "prob": 0.040008,
+          "odd_justa": 25.0
         },
         "decisao": {
-          "prob": 0.200676,
-          "odd_justa": 4.98
+          "prob": 0.219748,
+          "odd_justa": 4.55
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
   "401928111": {
     "evento_id": "600061268",
-    "evento": "UFC Fight Night: Bonfim vs. Brady",
+    "evento": "UFC Fight Night: Cortes Acosta vs. Walker",
     "data_evento": "2026-11-07T22:00Z",
     "lutador_a": "Tatiana Suarez",
     "lutador_b": "Virna Jandiroba",
@@ -1433,24 +1433,24 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
-        "atual": 1.52,
+        "atual": 1.54,
         "abertura": 1.52
       },
       "b": {
-        "atual": 2.6,
+        "atual": 2.54,
         "abertura": 2.6
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
   "401928119": {
     "evento_id": "600061268",
-    "evento": "UFC Fight Night: Bonfim vs. Brady",
+    "evento": "UFC Fight Night: Cortes Acosta vs. Walker",
     "data_evento": "2026-11-07T22:00Z",
     "lutador_a": "Davey Grant",
     "lutador_b": "Elijah Smith",
@@ -1494,13 +1494,13 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
   "401928117": {
     "evento_id": "600061268",
-    "evento": "UFC Fight Night: Bonfim vs. Brady",
+    "evento": "UFC Fight Night: Cortes Acosta vs. Walker",
     "data_evento": "2026-11-07T22:00Z",
     "lutador_a": "Seokhyeon Ko",
     "lutador_b": "Wellington Turman",
@@ -1546,7 +1546,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.18,
         "abertura": 1.18
@@ -1557,13 +1557,13 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
   "401928115": {
     "evento_id": "600061268",
-    "evento": "UFC Fight Night: Bonfim vs. Brady",
+    "evento": "UFC Fight Night: Cortes Acosta vs. Walker",
     "data_evento": "2026-11-07T22:00Z",
     "lutador_a": "Karine Silva",
     "lutador_b": "Gabriella Fernandes",
@@ -1609,7 +1609,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.61,
         "abertura": 1.61
@@ -1620,7 +1620,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1672,7 +1672,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.37,
         "abertura": 1.37
@@ -1687,7 +1687,7 @@
         "menos": 1.74
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1739,13 +1739,13 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
-        "atual": 1.5,
+        "atual": 1.52,
         "abertura": 1.52
       },
       "b": {
-        "atual": 2.64,
+        "atual": 2.6,
         "abertura": 2.6
       },
       "total_rounds": {
@@ -1754,7 +1754,7 @@
         "menos": 1.76
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1806,18 +1806,18 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
-        "atual": 1.74,
+        "atual": 1.7,
         "abertura": 1.74
       },
       "b": {
-        "atual": 2.14,
+        "atual": 2.2,
         "abertura": 2.14
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1869,7 +1869,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.61,
         "abertura": 1.61
@@ -1880,7 +1880,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1930,7 +1930,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1980,7 +1980,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2030,7 +2030,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2130,7 +2130,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2180,7 +2180,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2230,7 +2230,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2280,7 +2280,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2330,7 +2330,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2380,7 +2380,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2430,7 +2430,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2480,7 +2480,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2530,7 +2530,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2582,7 +2582,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.67,
         "abertura": 1.55
@@ -2593,7 +2593,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2645,7 +2645,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.5,
         "abertura": 1.74
@@ -2656,7 +2656,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2706,7 +2706,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2756,7 +2756,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2806,7 +2806,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3002,22 +3002,22 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
-        "atual": 1.98,
+        "atual": 2.0,
         "abertura": 1.8
       },
       "b": {
-        "atual": 1.84,
+        "atual": 1.83,
         "abertura": 2.05
       },
       "total_rounds": {
         "linha": 1.5,
-        "mais": 1.57,
-        "menos": 2.35
+        "mais": 1.53,
+        "menos": 2.45
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3069,7 +3069,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 3.15,
         "abertura": 3.25
@@ -3084,7 +3084,7 @@
         "menos": 1.76
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3136,7 +3136,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-10-30T16:38:41.529399+00:00",
+      "consultado_em": "2026-10-31T01:28:55.119004+00:00",
       "a": {
         "atual": 1.23,
         "abertura": 1.32
@@ -3151,7 +3151,7 @@
         "menos": 1.55
       }
     },
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3201,7 +3201,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3251,7 +3251,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-10-30T16:38:41.529399+00:00",
+    "previsto_em": "2026-10-31T01:28:55.119004+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   }

@@ -1,6 +1,6 @@
 {
   "versao_dados": 1,
-  "gerado_em": "2026-10-30T16:38:41.529399+00:00",
+  "gerado_em": "2026-10-31T01:28:55.119004+00:00",
   "historico": {
     "fonte": "UFCStats.com via github.com/Greco1899/scrape_ufc_stats (GPL-3.0)",
     "atualizado_com_sucesso": true,
@@ -12,7 +12,7 @@
   "proximos_eventos": {
     "fonte": "ESPN (API pública não oficial)",
     "atualizado_com_sucesso": true,
-    "atualizado_em": "2026-10-30T16:38:41.529399+00:00",
+    "atualizado_em": "2026-10-31T01:28:55.119004+00:00",
     "total_eventos": 5,
     "total_lutas": 55,
     "lutas_com_dados_suficientes": 35
@@ -34,6 +34,7 @@
     "2 luta(s) do evento 'UFC - Road to UFC 4.6' sem data no arquivo de eventos foram ignoradas.",
     "14 luta(s) do evento 'UFC Fight Night: Lopes vs. Silva' sem data no arquivo de eventos foram ignoradas.",
     "11 luta(s) do evento 'UFC Fight Night: Grasso vs. Shevchenko 2' sem data no arquivo de eventos foram ignoradas.",
-    "21 luta(s) do histórico sem estatísticas de golpes; usadas só no cartel e no Elo."
+    "21 luta(s) do histórico sem estatísticas de golpes; usadas só no cartel e no Elo.",
+    "UFC Fight Night: Cortes Acosta vs. Walker: card principal/preliminar desconhecido em 2 luta(s)."
   ]
 }
