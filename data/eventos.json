@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-01T00:54:58.683386+00:00",
+  "gerado_em": "2026-11-01T16:43:08.435731+00:00",
   "eventos": [
     {
       "id": "600061268",
@@ -192,16 +192,20 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.5,
+              "atual": 1.52,
               "abertura": 1.52
             },
             "b": {
-              "atual": 2.64,
+              "atual": 2.6,
               "abertura": 2.6
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 1.6,
+              "menos": 2.3
+            }
           }
         },
         {
@@ -389,16 +393,20 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.57,
+              "atual": 1.54,
               "abertura": 1.52
             },
             "b": {
-              "atual": 2.45,
+              "atual": 2.54,
               "abertura": 2.6
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 1.26,
+              "menos": 3.7
+            }
           }
         },
         {
@@ -584,7 +592,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 2.85,
               "abertura": 2.85
@@ -779,13 +787,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.18,
+              "atual": 1.15,
               "abertura": 1.18
             },
             "b": {
-              "atual": 5.1,
+              "atual": 5.7,
               "abertura": 5.1
             },
             "total_rounds": null
@@ -949,7 +957,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 3.1,
               "abertura": 3.1
@@ -958,7 +966,11 @@
               "atual": 1.38,
               "abertura": 1.38
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 1.53,
+              "menos": 2.45
+            }
           }
         },
         {
@@ -1120,21 +1132,157 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.33,
+              "atual": 1.35,
               "abertura": 1.35
             },
             "b": {
-              "atual": 3.4,
+              "atual": 3.3,
               "abertura": 3.25
+            },
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 2.4,
+              "menos": 1.55
+            }
+          }
+        },
+        {
+          "id": "401932716",
+          "numero": 7,
+          "segmento": "preliminar",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "espn_id": "5215710",
+            "nome": "Gabriel Lorenço",
+            "cartel_espn": "8-1-0",
+            "pais": "Brazil",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null,
+            "estatisticas": null,
+            "carreira_mma": {
+              "cartel": "8-1-0",
+              "vitorias": 8,
+              "derrotas": 1,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 6,
+                "finalizacao": 1,
+                "decisao_ou_outro": 1
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 1,
+                "finalizacao": 0,
+                "decisao_ou_outro": 0
+              }
+            },
+            "medias_fora_ufc": {
+              "fonte": "ESPN (lutas transmitidas com estatísticas)",
+              "lutas_com_estatisticas": 1,
+              "eventos": [
+                "Dana White's Contender Series: Season 10, Week 4"
+              ],
+              "minutos_com_estatisticas": 2.0,
+              "golpes_sig_por_min": 9.836,
+              "precisao_golpes": 0.465,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "knockdowns_por_15min": 14.754
+            }
+          },
+          "lutador_b": {
+            "espn_id": "4869702",
+            "nome": "Thomas Petersen",
+            "cartel_espn": "11-5-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Thomas Petersen",
+              "lutas": 7,
+              "vitorias": 3,
+              "derrotas": 4,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2024-02-03",
+              "ultima_luta": "2026-07-25",
+              "ultimos_5": [
+                "D",
+                "V",
+                "D",
+                "V",
+                "D"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1493,
+              "minutos_com_estatisticas": 75.2,
+              "golpes_sig_por_min": 2.993,
+              "golpes_sig_sofridos_por_min": 2.581,
+              "precisao_golpes": 0.583,
+              "defesa_golpes": 0.557,
+              "quedas_por_15min": 2.594,
+              "precisao_quedas": 0.371,
+              "defesa_quedas": 0.857,
+              "controle_por_15min_s": 348.027,
+              "tentativas_finalizacao_por_15min": 0.2,
+              "idade": 31.6,
+              "envergadura_cm": 188
+            },
+            "carreira_mma": {
+              "cartel": "11-5-0",
+              "vitorias": 11,
+              "derrotas": 5,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 7,
+                "finalizacao": 1,
+                "decisao_ou_outro": 3
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 3,
+                "finalizacao": 1,
+                "decisao_ou_outro": 1
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "avisos": [
+            "Gabriel Lorenço: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false,
+          "previsao": null,
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
+            "a": {
+              "atual": 2.45,
+              "abertura": 2.42
+            },
+            "b": {
+              "atual": 1.57,
+              "abertura": 1.58
             },
             "total_rounds": null
           }
         },
         {
           "id": "401928115",
-          "numero": 7,
+          "numero": 8,
           "segmento": "preliminar",
           "categoria": "W Flyweight",
           "status": "STATUS_SCHEDULED",
@@ -1317,21 +1465,25 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.61,
+              "atual": 1.6,
               "abertura": 1.61
             },
             "b": {
-              "atual": 2.36,
+              "atual": 2.4,
               "abertura": 2.36
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 1.42,
+              "menos": 2.8
+            }
           }
         },
         {
           "id": "401932012",
-          "numero": 8,
+          "numero": 9,
           "segmento": "preliminar",
           "categoria": "Flyweight",
           "status": "STATUS_SCHEDULED",
@@ -1448,13 +1600,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 3.0,
+              "atual": 2.8,
               "abertura": 3.0
             },
             "b": {
-              "atual": 1.4,
+              "atual": 1.45,
               "abertura": 1.4
             },
             "total_rounds": null
@@ -1462,7 +1614,7 @@
         },
         {
           "id": "401928120",
-          "numero": 9,
+          "numero": 10,
           "segmento": "preliminar",
           "categoria": "Featherweight",
           "status": "STATUS_SCHEDULED",
@@ -1629,13 +1781,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.86,
+              "atual": 1.89,
               "abertura": 1.86
             },
             "b": {
-              "atual": 1.95,
+              "atual": 1.92,
               "abertura": 1.95
             },
             "total_rounds": null
@@ -1643,7 +1795,7 @@
         },
         {
           "id": "401911642",
-          "numero": 10,
+          "numero": 11,
           "segmento": "preliminar",
           "categoria": "Featherweight",
           "status": "STATUS_SCHEDULED",
@@ -1808,13 +1960,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 1.28,
+              "atual": 1.26,
               "abertura": 1.28
             },
             "b": {
-              "atual": 3.8,
+              "atual": 3.95,
               "abertura": 3.75
             },
             "total_rounds": null
@@ -1822,7 +1974,7 @@
         },
         {
           "id": "401928114",
-          "numero": 11,
+          "numero": 12,
           "segmento": "preliminar",
           "categoria": "Featherweight",
           "status": "STATUS_SCHEDULED",
@@ -1977,7 +2129,7 @@
         },
         {
           "id": "401928116",
-          "numero": 12,
+          "numero": 13,
           "segmento": "preliminar",
           "categoria": "W Bantamweight",
           "status": "STATUS_SCHEDULED",
@@ -2133,7 +2285,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 4.4,
               "abertura": 4.5
@@ -2147,7 +2299,7 @@
         },
         {
           "id": "401928118",
-          "numero": 13,
+          "numero": 14,
           "segmento": "preliminar",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
@@ -2276,146 +2428,14 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
-              "atual": 2.45,
+              "atual": 2.54,
               "abertura": 2.5
             },
             "b": {
-              "atual": 1.57,
+              "atual": 1.54,
               "abertura": 1.55
-            },
-            "total_rounds": null
-          }
-        },
-        {
-          "id": "401932716",
-          "numero": 14,
-          "segmento": "preliminar",
-          "categoria": "Heavyweight",
-          "status": "STATUS_SCHEDULED",
-          "lutador_a": {
-            "espn_id": "5215710",
-            "nome": "Gabriel Lorenço",
-            "cartel_espn": "8-1-0",
-            "pais": "Brazil",
-            "status_dados": "nao_encontrado",
-            "historico_ufc": null,
-            "estatisticas": null,
-            "carreira_mma": {
-              "cartel": "8-1-0",
-              "vitorias": 8,
-              "derrotas": 1,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 6,
-                "finalizacao": 1,
-                "decisao_ou_outro": 1
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 1,
-                "finalizacao": 0,
-                "decisao_ou_outro": 0
-              }
-            },
-            "medias_fora_ufc": {
-              "fonte": "ESPN (lutas transmitidas com estatísticas)",
-              "lutas_com_estatisticas": 1,
-              "eventos": [
-                "Dana White's Contender Series: Season 10, Week 4"
-              ],
-              "minutos_com_estatisticas": 2.0,
-              "golpes_sig_por_min": 9.836,
-              "precisao_golpes": 0.465,
-              "quedas_por_15min": 0.0,
-              "precisao_quedas": null,
-              "knockdowns_por_15min": 14.754
-            }
-          },
-          "lutador_b": {
-            "espn_id": "4869702",
-            "nome": "Thomas Petersen",
-            "cartel_espn": "11-5-0",
-            "pais": "USA",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Thomas Petersen",
-              "lutas": 7,
-              "vitorias": 3,
-              "derrotas": 4,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 3,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 2,
-                "FINALIZACAO": 1,
-                "DECISAO": 1,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2024-02-03",
-              "ultima_luta": "2026-07-25",
-              "ultimos_5": [
-                "D",
-                "V",
-                "D",
-                "V",
-                "D"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1493,
-              "minutos_com_estatisticas": 75.2,
-              "golpes_sig_por_min": 2.993,
-              "golpes_sig_sofridos_por_min": 2.581,
-              "precisao_golpes": 0.583,
-              "defesa_golpes": 0.557,
-              "quedas_por_15min": 2.594,
-              "precisao_quedas": 0.371,
-              "defesa_quedas": 0.857,
-              "controle_por_15min_s": 348.027,
-              "tentativas_finalizacao_por_15min": 0.2,
-              "idade": 31.6,
-              "envergadura_cm": 188
-            },
-            "carreira_mma": {
-              "cartel": "11-5-0",
-              "vitorias": 11,
-              "derrotas": 5,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 7,
-                "finalizacao": 1,
-                "decisao_ou_outro": 3
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 3,
-                "finalizacao": 1,
-                "decisao_ou_outro": 1
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "avisos": [
-            "Gabriel Lorenço: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
-          ],
-          "previsao_possivel": false,
-          "previsao": null,
-          "odds_casa": {
-            "casa": "DraftKings",
-            "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
-            "a": {
-              "atual": 2.42,
-              "abertura": 2.42
-            },
-            "b": {
-              "atual": 1.58,
-              "abertura": 1.58
             },
             "total_rounds": null
           }
@@ -2612,7 +2632,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.37,
               "abertura": 1.37
@@ -2811,7 +2831,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.52,
               "abertura": 1.52
@@ -3010,7 +3030,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.74
@@ -3207,7 +3227,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.61,
               "abertura": 1.61
@@ -3378,7 +3398,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.1,
               "abertura": 1.1
@@ -6747,7 +6767,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -6944,7 +6964,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-01T00:54:58.683386+00:00",
+            "consultado_em": "2026-11-01T16:43:08.435731+00:00",
             "a": {
               "atual": 1.5,
               "abertura": 1.74
