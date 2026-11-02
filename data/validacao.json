@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-01T16:43:08.435731+00:00",
+  "gerado_em": "2026-11-02T01:25:04.741722+00:00",
   "versao_modelo": "elo-logistica-v1",
   "periodos": {
     "treino": "até 2023-01-01 (exclusive)",
@@ -15,28 +15,28 @@
   "teste": {
     "criterio": "lutas em que os dois atletas tinham ao menos 2 lutas no UFC antes",
     "modelo": {
-      "n": 1006,
-      "acuracia": 0.6570576540755467,
-      "log_loss": 0.6334189846524066,
-      "brier": 0.2214221413666069
+      "n": 1013,
+      "acuracia": 0.6584402764067128,
+      "log_loss": 0.6327759680775126,
+      "brier": 0.2211130283009819
     },
     "so_elo": {
-      "n": 1006,
-      "acuracia": 0.5506958250497018,
-      "log_loss": 0.679421834610932,
-      "brier": 0.24333795850352916
+      "n": 1013,
+      "acuracia": 0.5508390918065152,
+      "log_loss": 0.6793381751422752,
+      "brier": 0.24329446179818012
     },
     "moeda_50_50": {
-      "n": 1006,
+      "n": 1013,
       "acuracia": 0.5,
       "log_loss": 0.6931471805599453,
       "brier": 0.25
     },
     "todas_as_lutas_modelo": {
-      "n": 1489,
-      "acuracia": 0.6326393552719947,
-      "log_loss": 0.6431432952458986,
-      "brier": 0.22585528254613454
+      "n": 1501,
+      "acuracia": 0.6335776149233844,
+      "log_loss": 0.6431902396931332,
+      "brier": 0.2258755761376403
     },
     "calibracao_todas_as_faixas": [
       {
@@ -47,39 +47,39 @@
       },
       {
         "faixa": "20-30%",
-        "n": 132,
-        "prob_media_prevista": 0.26408508402856107,
-        "frequencia_real": 0.1893939393939394
+        "n": 133,
+        "prob_media_prevista": 0.2639192099347434,
+        "frequencia_real": 0.18796992481203006
       },
       {
         "faixa": "30-40%",
-        "n": 335,
-        "prob_media_prevista": 0.35580066317656767,
-        "frequencia_real": 0.3283582089552239
+        "n": 337,
+        "prob_media_prevista": 0.35592555420794486,
+        "frequencia_real": 0.3264094955489614
       },
       {
         "faixa": "40-50%",
-        "n": 525,
-        "prob_media_prevista": 0.4485410653457464,
-        "frequencia_real": 0.3961904761904762
+        "n": 529,
+        "prob_media_prevista": 0.4486331120380399,
+        "frequencia_real": 0.3950850661625709
       },
       {
         "faixa": "50-60%",
-        "n": 525,
-        "prob_media_prevista": 0.5514589346542536,
-        "frequencia_real": 0.6038095238095238
+        "n": 529,
+        "prob_media_prevista": 0.5513668879619601,
+        "frequencia_real": 0.6049149338374291
       },
       {
         "faixa": "60-70%",
-        "n": 335,
-        "prob_media_prevista": 0.6441993368234323,
-        "frequencia_real": 0.6716417910447762
+        "n": 337,
+        "prob_media_prevista": 0.6440744457920552,
+        "frequencia_real": 0.6735905044510386
       },
       {
         "faixa": "70-80%",
-        "n": 132,
-        "prob_media_prevista": 0.7359149159714389,
-        "frequencia_real": 0.8106060606060606
+        "n": 133,
+        "prob_media_prevista": 0.7360807900652566,
+        "frequencia_real": 0.8120300751879699
       },
       {
         "faixa": "80-90%",
@@ -89,29 +89,29 @@
       }
     ],
     "metodo_dado_vencedor": {
-      "n": 1005,
-      "log_loss_modelo": 0.9360078291928909,
-      "log_loss_media_da_divisao": 0.9901651165430168
+      "n": 1012,
+      "log_loss_modelo": 0.9352831240427414,
+      "log_loss_media_da_divisao": 0.9889814516801017
     }
   },
   "coeficientes": {
-    "elo": 0.1548,
-    "experiencia": 0.0909,
-    "forma_recente": -0.0322,
-    "golpes_por_min": 0.1025,
-    "golpes_sofridos_por_min": -0.1858,
-    "precisao_golpes": 0.0939,
-    "defesa_golpes": 0.1202,
-    "quedas_por_15min": 0.1901,
-    "precisao_quedas": -0.0465,
-    "defesa_quedas": 0.065,
-    "controle": -0.0503,
-    "tentativas_finalizacao_por_15min": -0.0037,
-    "knockdowns_por_15min": -0.0054,
-    "taxa_vitorias_antes_do_fim": 0.0761,
-    "taxa_derrotas_antes_do_fim": -0.1034,
+    "elo": 0.1553,
+    "experiencia": 0.0898,
+    "forma_recente": -0.0318,
+    "golpes_por_min": 0.1048,
+    "golpes_sofridos_por_min": -0.1854,
+    "precisao_golpes": 0.0934,
+    "defesa_golpes": 0.1193,
+    "quedas_por_15min": 0.1892,
+    "precisao_quedas": -0.0456,
+    "defesa_quedas": 0.0649,
+    "controle": -0.0497,
+    "tentativas_finalizacao_por_15min": -0.0023,
+    "knockdowns_por_15min": -0.0055,
+    "taxa_vitorias_antes_do_fim": 0.0754,
+    "taxa_derrotas_antes_do_fim": -0.104,
     "idade": -0.3289,
-    "envergadura": 0.0804,
-    "inatividade": -0.0317
+    "envergadura": 0.0795,
+    "inatividade": -0.033
   }
 }
