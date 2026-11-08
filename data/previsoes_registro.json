@@ -1721,22 +1721,22 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-08T01:15:18.030458+00:00",
+      "consultado_em": "2026-11-08T16:35:47.918084+00:00",
       "a": {
-        "atual": 1.4,
+        "atual": 1.42,
         "abertura": 1.37
       },
       "b": {
-        "atual": 3.0,
+        "atual": 2.95,
         "abertura": 3.15
       },
       "total_rounds": {
         "linha": 3.5,
-        "mais": 2.05,
-        "menos": 1.74
+        "mais": 1.95,
+        "menos": 1.8
       }
     },
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1788,7 +1788,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-08T01:15:18.030458+00:00",
+      "consultado_em": "2026-11-08T16:35:47.918084+00:00",
       "a": {
         "atual": 1.52,
         "abertura": 1.52
@@ -1799,11 +1799,11 @@
       },
       "total_rounds": {
         "linha": 3.5,
-        "mais": 2.0,
-        "menos": 1.76
+        "mais": 1.95,
+        "menos": 1.8
       }
     },
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1855,18 +1855,22 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-08T01:15:18.030458+00:00",
+      "consultado_em": "2026-11-08T16:35:47.918084+00:00",
       "a": {
-        "atual": 1.64,
+        "atual": 1.61,
         "abertura": 1.74
       },
       "b": {
-        "atual": 2.3,
+        "atual": 2.36,
         "abertura": 2.14
       },
-      "total_rounds": null
+      "total_rounds": {
+        "linha": 2.5,
+        "mais": 1.47,
+        "menos": 2.6
+      }
     },
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1918,18 +1922,22 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-08T01:15:18.030458+00:00",
+      "consultado_em": "2026-11-08T16:35:47.918084+00:00",
       "a": {
-        "atual": 1.57,
+        "atual": 1.58,
         "abertura": 1.61
       },
       "b": {
-        "atual": 2.45,
+        "atual": 2.42,
         "abertura": 2.36
       },
-      "total_rounds": null
+      "total_rounds": {
+        "linha": 1.5,
+        "mais": 2.24,
+        "menos": 1.62
+      }
     },
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -1979,7 +1987,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2029,7 +2037,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2079,7 +2087,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2179,7 +2187,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2229,7 +2237,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2279,7 +2287,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2329,7 +2337,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2379,7 +2387,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2429,7 +2437,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2479,7 +2487,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2529,7 +2537,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2579,7 +2587,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2631,7 +2639,7 @@
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-08T01:15:18.030458+00:00",
+      "consultado_em": "2026-11-08T16:35:47.918084+00:00",
       "a": {
         "atual": 1.67,
         "abertura": 1.55
@@ -2642,7 +2650,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2691,21 +2699,8 @@
         }
       }
     },
-    "odds_casa": {
-      "casa": "DraftKings",
-      "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-08T01:15:18.030458+00:00",
-      "a": {
-        "atual": 1.5,
-        "abertura": 1.74
-      },
-      "b": {
-        "atual": 2.64,
-        "abertura": 2.14
-      },
-      "total_rounds": null
-    },
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "odds_casa": null,
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2755,7 +2750,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2805,7 +2800,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2855,7 +2850,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3265,7 +3260,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3315,7 +3310,7 @@
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-08T01:15:18.030458+00:00",
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3383,6 +3378,206 @@
       }
     },
     "previsto_em": "2026-11-07T16:15:46.077978+00:00",
+    "versao_modelo": "elo-logistica-v1",
+    "resultado_real": null
+  },
+  "401933595": {
+    "evento_id": "600062700",
+    "evento": "UFC Fight Night: Adesanya vs Magomedov",
+    "data_evento": "2026-12-05T15:00Z",
+    "lutador_a": "Israel Adesanya",
+    "lutador_b": "Shara Magomedov",
+    "categoria": "Middleweight",
+    "previsao": {
+      "a": {
+        "vitoria": {
+          "prob": 0.490676,
+          "odd_justa": 2.04
+        },
+        "ko_tko": {
+          "prob": 0.157256,
+          "odd_justa": 6.36
+        },
+        "finalizacao": {
+          "prob": 0.042418,
+          "odd_justa": 23.58
+        },
+        "decisao": {
+          "prob": 0.291003,
+          "odd_justa": 3.44
+        }
+      },
+      "b": {
+        "vitoria": {
+          "prob": 0.509324,
+          "odd_justa": 1.96
+        },
+        "ko_tko": {
+          "prob": 0.208129,
+          "odd_justa": 4.8
+        },
+        "finalizacao": {
+          "prob": 0.059351,
+          "odd_justa": 16.85
+        },
+        "decisao": {
+          "prob": 0.241843,
+          "odd_justa": 4.13
+        }
+      }
+    },
+    "odds_casa": null,
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
+    "versao_modelo": "elo-logistica-v1",
+    "resultado_real": null
+  },
+  "401933596": {
+    "evento_id": "600062700",
+    "evento": "UFC Fight Night: Adesanya vs Magomedov",
+    "data_evento": "2026-12-05T15:00Z",
+    "lutador_a": "Ian Machado Garry",
+    "lutador_b": "Yaroslav Amosov",
+    "categoria": "Welterweight",
+    "previsao": {
+      "a": {
+        "vitoria": {
+          "prob": 0.59423,
+          "odd_justa": 1.68
+        },
+        "ko_tko": {
+          "prob": 0.192045,
+          "odd_justa": 5.21
+        },
+        "finalizacao": {
+          "prob": 0.064648,
+          "odd_justa": 15.47
+        },
+        "decisao": {
+          "prob": 0.337538,
+          "odd_justa": 2.96
+        }
+      },
+      "b": {
+        "vitoria": {
+          "prob": 0.40577,
+          "odd_justa": 2.46
+        },
+        "ko_tko": {
+          "prob": 0.068928,
+          "odd_justa": 14.51
+        },
+        "finalizacao": {
+          "prob": 0.139281,
+          "odd_justa": 7.18
+        },
+        "decisao": {
+          "prob": 0.197561,
+          "odd_justa": 5.06
+        }
+      }
+    },
+    "odds_casa": null,
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
+    "versao_modelo": "elo-logistica-v1",
+    "resultado_real": null
+  },
+  "401933597": {
+    "evento_id": "600062700",
+    "evento": "UFC Fight Night: Adesanya vs Magomedov",
+    "data_evento": "2026-12-05T15:00Z",
+    "lutador_a": "Serghei Spivac",
+    "lutador_b": "Mario Pinto",
+    "categoria": "Heavyweight",
+    "previsao": {
+      "a": {
+        "vitoria": {
+          "prob": 0.253681,
+          "odd_justa": 3.94
+        },
+        "ko_tko": {
+          "prob": 0.113258,
+          "odd_justa": 8.83
+        },
+        "finalizacao": {
+          "prob": 0.057138,
+          "odd_justa": 17.5
+        },
+        "decisao": {
+          "prob": 0.083285,
+          "odd_justa": 12.01
+        }
+      },
+      "b": {
+        "vitoria": {
+          "prob": 0.746319,
+          "odd_justa": 1.34
+        },
+        "ko_tko": {
+          "prob": 0.46122,
+          "odd_justa": 2.17
+        },
+        "finalizacao": {
+          "prob": 0.031179,
+          "odd_justa": 32.07
+        },
+        "decisao": {
+          "prob": 0.253919,
+          "odd_justa": 3.94
+        }
+      }
+    },
+    "odds_casa": null,
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
+    "versao_modelo": "elo-logistica-v1",
+    "resultado_real": null
+  },
+  "401933603": {
+    "evento_id": "600062700",
+    "evento": "UFC Fight Night: Adesanya vs Magomedov",
+    "data_evento": "2026-12-05T15:00Z",
+    "lutador_a": "Marco Tulio",
+    "lutador_b": "JunYong Park",
+    "categoria": "Middleweight",
+    "previsao": {
+      "a": {
+        "vitoria": {
+          "prob": 0.537748,
+          "odd_justa": 1.86
+        },
+        "ko_tko": {
+          "prob": 0.265413,
+          "odd_justa": 3.77
+        },
+        "finalizacao": {
+          "prob": 0.093236,
+          "odd_justa": 10.73
+        },
+        "decisao": {
+          "prob": 0.179099,
+          "odd_justa": 5.58
+        }
+      },
+      "b": {
+        "vitoria": {
+          "prob": 0.462252,
+          "odd_justa": 2.16
+        },
+        "ko_tko": {
+          "prob": 0.118381,
+          "odd_justa": 8.45
+        },
+        "finalizacao": {
+          "prob": 0.097091,
+          "odd_justa": 10.3
+        },
+        "decisao": {
+          "prob": 0.246779,
+          "odd_justa": 4.05
+        }
+      }
+    },
+    "odds_casa": null,
+    "previsto_em": "2026-11-08T16:35:47.918084+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   }
