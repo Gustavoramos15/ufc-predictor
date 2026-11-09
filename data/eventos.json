@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-08T16:35:47.918084+00:00",
+  "gerado_em": "2026-11-09T01:35:39.990816+00:00",
   "eventos": [
     {
       "id": "600061400",
@@ -153,45 +153,45 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.622208,
-                "odd_justa": 1.61
+                "prob": 0.623695,
+                "odd_justa": 1.6
               },
               "ko_tko": {
-                "prob": 0.308033,
-                "odd_justa": 3.25
+                "prob": 0.309198,
+                "odd_justa": 3.23
               },
               "finalizacao": {
-                "prob": 0.10185,
-                "odd_justa": 9.82
+                "prob": 0.101957,
+                "odd_justa": 9.81
               },
               "decisao": {
-                "prob": 0.212325,
-                "odd_justa": 4.71
+                "prob": 0.212541,
+                "odd_justa": 4.7
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.377792,
-                "odd_justa": 2.65
+                "prob": 0.376305,
+                "odd_justa": 2.66
               },
               "ko_tko": {
-                "prob": 0.177055,
-                "odd_justa": 5.65
+                "prob": 0.176545,
+                "odd_justa": 5.66
               },
               "finalizacao": {
-                "prob": 0.070899,
-                "odd_justa": 14.1
+                "prob": 0.07056,
+                "odd_justa": 14.17
               },
               "decisao": {
-                "prob": 0.129838,
-                "odd_justa": 7.7
+                "prob": 0.1292,
+                "odd_justa": 7.74
               }
             }
           },
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-08T16:35:47.918084+00:00",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
             "a": {
               "atual": 1.42,
               "abertura": 1.37
@@ -202,8 +202,8 @@
             },
             "total_rounds": {
               "linha": 3.5,
-              "mais": 1.95,
-              "menos": 1.8
+              "mais": 2.1,
+              "menos": 1.71
             }
           }
         },
@@ -352,45 +352,45 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.413864,
+                "prob": 0.414011,
                 "odd_justa": 2.42
               },
               "ko_tko": {
-                "prob": 0.094713,
-                "odd_justa": 10.56
+                "prob": 0.095273,
+                "odd_justa": 10.5
               },
               "finalizacao": {
-                "prob": 0.167384,
-                "odd_justa": 5.97
+                "prob": 0.16732,
+                "odd_justa": 5.98
               },
               "decisao": {
-                "prob": 0.151767,
-                "odd_justa": 6.59
+                "prob": 0.151417,
+                "odd_justa": 6.6
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.586136,
+                "prob": 0.585989,
                 "odd_justa": 1.71
               },
               "ko_tko": {
-                "prob": 0.18912,
-                "odd_justa": 5.29
+                "prob": 0.189993,
+                "odd_justa": 5.26
               },
               "finalizacao": {
-                "prob": 0.106331,
-                "odd_justa": 9.4
+                "prob": 0.106089,
+                "odd_justa": 9.43
               },
               "decisao": {
-                "prob": 0.290685,
-                "odd_justa": 3.44
+                "prob": 0.289907,
+                "odd_justa": 3.45
               }
             }
           },
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-08T16:35:47.918084+00:00",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
             "a": {
               "atual": 1.52,
               "abertura": 1.52
@@ -401,8 +401,8 @@
             },
             "total_rounds": {
               "linha": 3.5,
-              "mais": 1.95,
-              "menos": 1.8
+              "mais": 2.0,
+              "menos": 1.76
             }
           }
         },
@@ -551,37 +551,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.405906,
-                "odd_justa": 2.46
+                "prob": 0.405032,
+                "odd_justa": 2.47
               },
               "ko_tko": {
-                "prob": 0.113951,
+                "prob": 0.113832,
                 "odd_justa": 8.78
               },
               "finalizacao": {
-                "prob": 0.072929,
-                "odd_justa": 13.71
+                "prob": 0.072727,
+                "odd_justa": 13.75
               },
               "decisao": {
-                "prob": 0.219026,
-                "odd_justa": 4.57
+                "prob": 0.218472,
+                "odd_justa": 4.58
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.594094,
+                "prob": 0.594968,
                 "odd_justa": 1.68
               },
               "ko_tko": {
-                "prob": 0.300074,
+                "prob": 0.300682,
                 "odd_justa": 3.33
               },
               "finalizacao": {
-                "prob": 0.068477,
-                "odd_justa": 14.6
+                "prob": 0.068519,
+                "odd_justa": 14.59
               },
               "decisao": {
-                "prob": 0.225543,
+                "prob": 0.225768,
                 "odd_justa": 4.43
               }
             }
@@ -589,7 +589,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-08T16:35:47.918084+00:00",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
             "a": {
               "atual": 1.61,
               "abertura": 1.74
@@ -752,51 +752,51 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.497304,
+                "prob": 0.496606,
                 "odd_justa": 2.01
               },
               "ko_tko": {
-                "prob": 0.263407,
+                "prob": 0.263057,
                 "odd_justa": 3.8
               },
               "finalizacao": {
-                "prob": 0.069182,
-                "odd_justa": 14.45
+                "prob": 0.069063,
+                "odd_justa": 14.48
               },
               "decisao": {
-                "prob": 0.164715,
-                "odd_justa": 6.07
+                "prob": 0.164487,
+                "odd_justa": 6.08
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.502696,
+                "prob": 0.503394,
                 "odd_justa": 1.99
               },
               "ko_tko": {
-                "prob": 0.163734,
-                "odd_justa": 6.11
+                "prob": 0.16399,
+                "odd_justa": 6.1
               },
               "finalizacao": {
-                "prob": 0.208281,
+                "prob": 0.208536,
                 "odd_justa": 4.8
               },
               "decisao": {
-                "prob": 0.130681,
-                "odd_justa": 7.65
+                "prob": 0.130867,
+                "odd_justa": 7.64
               }
             }
           },
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-08T16:35:47.918084+00:00",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
             "a": {
-              "atual": 1.58,
+              "atual": 1.64,
               "abertura": 1.61
             },
             "b": {
-              "atual": 2.42,
+              "atual": 2.3,
               "abertura": 2.36
             },
             "total_rounds": {
@@ -965,7 +965,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-08T16:35:47.918084+00:00",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
             "a": {
               "atual": 1.11,
               "abertura": 1.1
@@ -1128,42 +1128,59 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.414081,
-                "odd_justa": 2.41
+                "prob": 0.413797,
+                "odd_justa": 2.42
               },
               "ko_tko": {
-                "prob": 0.237471,
+                "prob": 0.237338,
                 "odd_justa": 4.21
               },
               "finalizacao": {
-                "prob": 0.024823,
-                "odd_justa": 40.29
+                "prob": 0.024771,
+                "odd_justa": 40.37
               },
               "decisao": {
-                "prob": 0.151788,
+                "prob": 0.151688,
                 "odd_justa": 6.59
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.585919,
+                "prob": 0.586203,
                 "odd_justa": 1.71
               },
               "ko_tko": {
-                "prob": 0.183502,
+                "prob": 0.183622,
                 "odd_justa": 5.45
               },
               "finalizacao": {
-                "prob": 0.094029,
-                "odd_justa": 10.64
+                "prob": 0.094038,
+                "odd_justa": 10.63
               },
               "decisao": {
-                "prob": 0.308388,
+                "prob": 0.308543,
                 "odd_justa": 3.24
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 1.7,
+              "abertura": 1.7
+            },
+            "b": {
+              "atual": 2.2,
+              "abertura": 2.2
+            },
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 1.53,
+              "menos": 2.45
+            }
+          }
         },
         {
           "id": "401922642",
@@ -1312,42 +1329,59 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.392687,
+                "prob": 0.392846,
                 "odd_justa": 2.55
               },
               "ko_tko": {
-                "prob": 0.164454,
+                "prob": 0.164521,
                 "odd_justa": 6.08
               },
               "finalizacao": {
-                "prob": 0.136445,
+                "prob": 0.1365,
                 "odd_justa": 7.33
               },
               "decisao": {
-                "prob": 0.091787,
+                "prob": 0.091825,
                 "odd_justa": 10.89
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.607313,
+                "prob": 0.607154,
                 "odd_justa": 1.65
               },
               "ko_tko": {
-                "prob": 0.107903,
+                "prob": 0.107875,
                 "odd_justa": 9.27
               },
               "finalizacao": {
-                "prob": 0.234327,
+                "prob": 0.234265,
                 "odd_justa": 4.27
               },
               "decisao": {
-                "prob": 0.265083,
+                "prob": 0.265014,
                 "odd_justa": 3.77
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 2.42,
+              "abertura": 2.42
+            },
+            "b": {
+              "atual": 1.58,
+              "abertura": 1.58
+            },
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 1.76,
+              "menos": 2.0
+            }
+          }
         },
         {
           "id": "401922643",
@@ -1496,42 +1530,59 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.349912,
+                "prob": 0.350055,
                 "odd_justa": 2.86
               },
               "ko_tko": {
-                "prob": 0.139559,
-                "odd_justa": 7.17
+                "prob": 0.139617,
+                "odd_justa": 7.16
               },
               "finalizacao": {
-                "prob": 0.137594,
-                "odd_justa": 7.27
+                "prob": 0.13765,
+                "odd_justa": 7.26
               },
               "decisao": {
-                "prob": 0.072759,
+                "prob": 0.072789,
                 "odd_justa": 13.74
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.650088,
+                "prob": 0.649945,
                 "odd_justa": 1.54
               },
               "ko_tko": {
-                "prob": 0.225107,
+                "prob": 0.225057,
                 "odd_justa": 4.44
               },
               "finalizacao": {
-                "prob": 0.167758,
+                "prob": 0.167721,
                 "odd_justa": 5.96
               },
               "decisao": {
-                "prob": 0.257224,
+                "prob": 0.257167,
                 "odd_justa": 3.89
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 2.7,
+              "abertura": 2.8
+            },
+            "b": {
+              "atual": 1.48,
+              "abertura": 1.45
+            },
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 4.0,
+              "menos": 1.23
+            }
+          }
         },
         {
           "id": "401931773",
@@ -1678,42 +1729,59 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.756453,
+                "prob": 0.756443,
                 "odd_justa": 1.32
               },
               "ko_tko": {
-                "prob": 0.267649,
-                "odd_justa": 3.74
+                "prob": 0.267804,
+                "odd_justa": 3.73
               },
               "finalizacao": {
-                "prob": 0.141038,
+                "prob": 0.14098,
                 "odd_justa": 7.09
               },
               "decisao": {
-                "prob": 0.347766,
+                "prob": 0.347659,
                 "odd_justa": 2.88
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.243547,
+                "prob": 0.243557,
                 "odd_justa": 4.11
               },
               "ko_tko": {
-                "prob": 0.114269,
-                "odd_justa": 8.75
+                "prob": 0.114363,
+                "odd_justa": 8.74
               },
               "finalizacao": {
-                "prob": 0.036844,
-                "odd_justa": 27.14
+                "prob": 0.036814,
+                "odd_justa": 27.16
               },
               "decisao": {
-                "prob": 0.092434,
+                "prob": 0.09238,
                 "odd_justa": 10.82
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 1.52,
+              "abertura": 1.58
+            },
+            "b": {
+              "atual": 2.6,
+              "abertura": 2.42
+            },
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 1.71,
+              "menos": 2.1
+            }
+          }
         },
         {
           "id": "401931774",
@@ -1862,42 +1930,59 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.320566,
+                "prob": 0.320523,
                 "odd_justa": 3.12
               },
               "ko_tko": {
-                "prob": 0.104537,
+                "prob": 0.104523,
                 "odd_justa": 9.57
               },
               "finalizacao": {
-                "prob": 0.052607,
+                "prob": 0.052599,
                 "odd_justa": 19.01
               },
               "decisao": {
-                "prob": 0.163422,
+                "prob": 0.163401,
                 "odd_justa": 6.12
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.679434,
+                "prob": 0.679477,
                 "odd_justa": 1.47
               },
               "ko_tko": {
-                "prob": 0.255626,
+                "prob": 0.255642,
                 "odd_justa": 3.91
               },
               "finalizacao": {
-                "prob": 0.175044,
+                "prob": 0.175055,
                 "odd_justa": 5.71
               },
               "decisao": {
-                "prob": 0.248765,
+                "prob": 0.24878,
                 "odd_justa": 4.02
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 3.85,
+              "abertura": 3.85
+            },
+            "b": {
+              "atual": 1.27,
+              "abertura": 1.27
+            },
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 2.1,
+              "menos": 1.71
+            }
+          }
         },
         {
           "id": "401922645",
@@ -2044,42 +2129,59 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.355707,
+                "prob": 0.356006,
                 "odd_justa": 2.81
               },
               "ko_tko": {
-                "prob": 0.10261,
-                "odd_justa": 9.75
+                "prob": 0.1033,
+                "odd_justa": 9.68
               },
               "finalizacao": {
-                "prob": 0.073249,
-                "odd_justa": 13.65
+                "prob": 0.073169,
+                "odd_justa": 13.67
               },
               "decisao": {
-                "prob": 0.179849,
-                "odd_justa": 5.56
+                "prob": 0.179537,
+                "odd_justa": 5.57
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.644293,
+                "prob": 0.643994,
                 "odd_justa": 1.55
               },
               "ko_tko": {
-                "prob": 0.088592,
-                "odd_justa": 11.29
+                "prob": 0.089143,
+                "odd_justa": 11.22
               },
               "finalizacao": {
-                "prob": 0.270523,
+                "prob": 0.270259,
                 "odd_justa": 3.7
               },
               "decisao": {
-                "prob": 0.285178,
+                "prob": 0.284592,
                 "odd_justa": 3.51
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 2.95,
+              "abertura": 2.8
+            },
+            "b": {
+              "atual": 1.42,
+              "abertura": 1.45
+            },
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 2.5,
+              "menos": 1.51
+            }
+          }
         },
         {
           "id": "401922646",
@@ -2356,7 +2458,24 @@
           ],
           "previsao_possivel": false,
           "previsao": null,
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
+            "a": {
+              "atual": 1.95,
+              "abertura": 1.86
+            },
+            "b": {
+              "atual": 1.86,
+              "abertura": 1.95
+            },
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 1.86,
+              "menos": 1.86
+            }
+          }
         }
       ]
     },
@@ -2513,37 +2632,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.244759,
+                "prob": 0.244261,
                 "odd_justa": 4.09
               },
               "ko_tko": {
-                "prob": 0.14741,
-                "odd_justa": 6.78
+                "prob": 0.147019,
+                "odd_justa": 6.8
               },
               "finalizacao": {
-                "prob": 0.042111,
-                "odd_justa": 23.75
+                "prob": 0.04199,
+                "odd_justa": 23.82
               },
               "decisao": {
-                "prob": 0.055238,
+                "prob": 0.055252,
                 "odd_justa": 18.1
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.755241,
+                "prob": 0.755739,
                 "odd_justa": 1.32
               },
               "ko_tko": {
-                "prob": 0.481978,
+                "prob": 0.48215,
                 "odd_justa": 2.07
               },
               "finalizacao": {
-                "prob": 0.043024,
-                "odd_justa": 23.24
+                "prob": 0.042995,
+                "odd_justa": 23.26
               },
               "decisao": {
-                "prob": 0.23024,
+                "prob": 0.230594,
                 "odd_justa": 4.34
               }
             }
@@ -2696,38 +2815,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.514521,
+                "prob": 0.516396,
                 "odd_justa": 1.94
               },
               "ko_tko": {
-                "prob": 0.11389,
-                "odd_justa": 8.78
+                "prob": 0.114016,
+                "odd_justa": 8.77
               },
               "finalizacao": {
-                "prob": 0.102188,
-                "odd_justa": 9.79
+                "prob": 0.102715,
+                "odd_justa": 9.74
               },
               "decisao": {
-                "prob": 0.298443,
-                "odd_justa": 3.35
+                "prob": 0.299665,
+                "odd_justa": 3.34
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.485479,
-                "odd_justa": 2.06
+                "prob": 0.483604,
+                "odd_justa": 2.07
               },
               "ko_tko": {
-                "prob": 0.236601,
-                "odd_justa": 4.23
+                "prob": 0.235536,
+                "odd_justa": 4.25
               },
               "finalizacao": {
-                "prob": 0.025382,
-                "odd_justa": 39.4
+                "prob": 0.025365,
+                "odd_justa": 39.42
               },
               "decisao": {
-                "prob": 0.223497,
-                "odd_justa": 4.47
+                "prob": 0.222704,
+                "odd_justa": 4.49
               }
             }
           },
@@ -2880,38 +2999,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.589582,
-                "odd_justa": 1.7
+                "prob": 0.59106,
+                "odd_justa": 1.69
               },
               "ko_tko": {
-                "prob": 0.250545,
-                "odd_justa": 3.99
+                "prob": 0.251174,
+                "odd_justa": 3.98
               },
               "finalizacao": {
-                "prob": 0.063529,
-                "odd_justa": 15.74
+                "prob": 0.063688,
+                "odd_justa": 15.7
               },
               "decisao": {
-                "prob": 0.275507,
-                "odd_justa": 3.63
+                "prob": 0.276198,
+                "odd_justa": 3.62
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.410418,
-                "odd_justa": 2.44
+                "prob": 0.40894,
+                "odd_justa": 2.45
               },
               "ko_tko": {
-                "prob": 0.162888,
-                "odd_justa": 6.14
+                "prob": 0.162301,
+                "odd_justa": 6.16
               },
               "finalizacao": {
-                "prob": 0.129655,
-                "odd_justa": 7.71
+                "prob": 0.129188,
+                "odd_justa": 7.74
               },
               "decisao": {
-                "prob": 0.117875,
-                "odd_justa": 8.48
+                "prob": 0.11745,
+                "odd_justa": 8.51
               }
             }
           },
@@ -3064,38 +3183,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.436541,
-                "odd_justa": 2.29
+                "prob": 0.435712,
+                "odd_justa": 2.3
               },
               "ko_tko": {
-                "prob": 0.158337,
-                "odd_justa": 6.32
+                "prob": 0.157935,
+                "odd_justa": 6.33
               },
               "finalizacao": {
-                "prob": 0.060039,
-                "odd_justa": 16.66
+                "prob": 0.059834,
+                "odd_justa": 16.71
               },
               "decisao": {
-                "prob": 0.218165,
-                "odd_justa": 4.58
+                "prob": 0.217943,
+                "odd_justa": 4.59
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.563459,
+                "prob": 0.564288,
                 "odd_justa": 1.77
               },
               "ko_tko": {
-                "prob": 0.120855,
+                "prob": 0.120921,
                 "odd_justa": 8.27
               },
               "finalizacao": {
-                "prob": 0.208505,
-                "odd_justa": 4.8
+                "prob": 0.208711,
+                "odd_justa": 4.79
               },
               "decisao": {
-                "prob": 0.2341,
-                "odd_justa": 4.27
+                "prob": 0.234656,
+                "odd_justa": 4.26
               }
             }
           },
@@ -3248,38 +3367,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.297904,
-                "odd_justa": 3.36
+                "prob": 0.29842,
+                "odd_justa": 3.35
               },
               "ko_tko": {
-                "prob": 0.176855,
-                "odd_justa": 5.65
+                "prob": 0.177225,
+                "odd_justa": 5.64
               },
               "finalizacao": {
-                "prob": 0.026413,
-                "odd_justa": 37.86
+                "prob": 0.026436,
+                "odd_justa": 37.83
               },
               "decisao": {
-                "prob": 0.094636,
-                "odd_justa": 10.57
+                "prob": 0.094759,
+                "odd_justa": 10.55
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.702096,
-                "odd_justa": 1.42
+                "prob": 0.70158,
+                "odd_justa": 1.43
               },
               "ko_tko": {
-                "prob": 0.299281,
+                "prob": 0.299144,
                 "odd_justa": 3.34
               },
               "finalizacao": {
-                "prob": 0.034321,
-                "odd_justa": 29.14
+                "prob": 0.034266,
+                "odd_justa": 29.18
               },
               "decisao": {
-                "prob": 0.368494,
-                "odd_justa": 2.71
+                "prob": 0.36817,
+                "odd_justa": 2.72
               }
             }
           },
@@ -3427,37 +3546,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.34412,
-                "odd_justa": 2.91
+                "prob": 0.34247,
+                "odd_justa": 2.92
               },
               "ko_tko": {
-                "prob": 0.054351,
-                "odd_justa": 18.4
+                "prob": 0.054271,
+                "odd_justa": 18.43
               },
               "finalizacao": {
-                "prob": 0.098101,
-                "odd_justa": 10.19
+                "prob": 0.09758,
+                "odd_justa": 10.25
               },
               "decisao": {
-                "prob": 0.191667,
-                "odd_justa": 5.22
+                "prob": 0.190619,
+                "odd_justa": 5.25
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.65588,
+                "prob": 0.65753,
                 "odd_justa": 1.52
               },
               "ko_tko": {
-                "prob": 0.215173,
-                "odd_justa": 4.65
+                "prob": 0.216161,
+                "odd_justa": 4.63
               },
               "finalizacao": {
-                "prob": 0.099855,
-                "odd_justa": 10.01
+                "prob": 0.099979,
+                "odd_justa": 10.0
               },
               "decisao": {
-                "prob": 0.340852,
+                "prob": 0.341389,
                 "odd_justa": 2.93
               }
             }
@@ -3610,37 +3729,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.273626,
-                "odd_justa": 3.65
+                "prob": 0.273401,
+                "odd_justa": 3.66
               },
               "ko_tko": {
-                "prob": 0.196643,
+                "prob": 0.196617,
                 "odd_justa": 5.09
               },
               "finalizacao": {
-                "prob": 0.017147,
-                "odd_justa": 58.32
+                "prob": 0.01709,
+                "odd_justa": 58.51
               },
               "decisao": {
-                "prob": 0.059836,
-                "odd_justa": 16.71
+                "prob": 0.059694,
+                "odd_justa": 16.75
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.726374,
+                "prob": 0.726599,
                 "odd_justa": 1.38
               },
               "ko_tko": {
-                "prob": 0.480242,
+                "prob": 0.48078,
                 "odd_justa": 2.08
               },
               "finalizacao": {
-                "prob": 0.049161,
-                "odd_justa": 20.34
+                "prob": 0.049051,
+                "odd_justa": 20.39
               },
               "decisao": {
-                "prob": 0.196971,
+                "prob": 0.196767,
                 "odd_justa": 5.08
               }
             }
@@ -3794,38 +3913,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.427974,
+                "prob": 0.427826,
                 "odd_justa": 2.34
               },
               "ko_tko": {
-                "prob": 0.152527,
+                "prob": 0.152394,
                 "odd_justa": 6.56
               },
               "finalizacao": {
-                "prob": 0.092987,
-                "odd_justa": 10.75
+                "prob": 0.092882,
+                "odd_justa": 10.77
               },
               "decisao": {
-                "prob": 0.18246,
+                "prob": 0.18255,
                 "odd_justa": 5.48
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.572026,
+                "prob": 0.572174,
                 "odd_justa": 1.75
               },
               "ko_tko": {
-                "prob": 0.219125,
+                "prob": 0.219059,
                 "odd_justa": 4.56
               },
               "finalizacao": {
-                "prob": 0.089634,
-                "odd_justa": 11.16
+                "prob": 0.089546,
+                "odd_justa": 11.17
               },
               "decisao": {
-                "prob": 0.263266,
-                "odd_justa": 3.8
+                "prob": 0.263569,
+                "odd_justa": 3.79
               }
             }
           },
@@ -4143,38 +4262,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.490676,
-                "odd_justa": 2.04
+                "prob": 0.491638,
+                "odd_justa": 2.03
               },
               "ko_tko": {
-                "prob": 0.157256,
-                "odd_justa": 6.36
+                "prob": 0.157667,
+                "odd_justa": 6.34
               },
               "finalizacao": {
-                "prob": 0.042418,
-                "odd_justa": 23.58
+                "prob": 0.042464,
+                "odd_justa": 23.55
               },
               "decisao": {
-                "prob": 0.291003,
-                "odd_justa": 3.44
+                "prob": 0.291507,
+                "odd_justa": 3.43
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.509324,
-                "odd_justa": 1.96
+                "prob": 0.508362,
+                "odd_justa": 1.97
               },
               "ko_tko": {
-                "prob": 0.208129,
-                "odd_justa": 4.8
+                "prob": 0.207803,
+                "odd_justa": 4.81
               },
               "finalizacao": {
-                "prob": 0.059351,
-                "odd_justa": 16.85
+                "prob": 0.059215,
+                "odd_justa": 16.89
               },
               "decisao": {
-                "prob": 0.241843,
-                "odd_justa": 4.13
+                "prob": 0.241344,
+                "odd_justa": 4.14
               }
             }
           },
@@ -4324,37 +4443,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.59423,
+                "prob": 0.594326,
                 "odd_justa": 1.68
               },
               "ko_tko": {
-                "prob": 0.192045,
-                "odd_justa": 5.21
+                "prob": 0.192154,
+                "odd_justa": 5.2
               },
               "finalizacao": {
-                "prob": 0.064648,
-                "odd_justa": 15.47
+                "prob": 0.064566,
+                "odd_justa": 15.49
               },
               "decisao": {
-                "prob": 0.337538,
+                "prob": 0.337605,
                 "odd_justa": 2.96
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.40577,
-                "odd_justa": 2.46
+                "prob": 0.405674,
+                "odd_justa": 2.47
               },
               "ko_tko": {
-                "prob": 0.068928,
-                "odd_justa": 14.51
+                "prob": 0.068958,
+                "odd_justa": 14.5
               },
               "finalizacao": {
-                "prob": 0.139281,
+                "prob": 0.139194,
                 "odd_justa": 7.18
               },
               "decisao": {
-                "prob": 0.197561,
+                "prob": 0.197522,
                 "odd_justa": 5.06
               }
             }
@@ -4507,37 +4626,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.253681,
-                "odd_justa": 3.94
+                "prob": 0.254277,
+                "odd_justa": 3.93
               },
               "ko_tko": {
-                "prob": 0.113258,
-                "odd_justa": 8.83
+                "prob": 0.113703,
+                "odd_justa": 8.79
               },
               "finalizacao": {
-                "prob": 0.057138,
-                "odd_justa": 17.5
+                "prob": 0.057215,
+                "odd_justa": 17.48
               },
               "decisao": {
-                "prob": 0.083285,
-                "odd_justa": 12.01
+                "prob": 0.083359,
+                "odd_justa": 12.0
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.746319,
+                "prob": 0.745723,
                 "odd_justa": 1.34
               },
               "ko_tko": {
-                "prob": 0.46122,
+                "prob": 0.461099,
                 "odd_justa": 2.17
               },
               "finalizacao": {
-                "prob": 0.031179,
-                "odd_justa": 32.07
+                "prob": 0.031076,
+                "odd_justa": 32.18
               },
               "decisao": {
-                "prob": 0.253919,
+                "prob": 0.253549,
                 "odd_justa": 3.94
               }
             }
@@ -5371,38 +5490,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.537748,
+                "prob": 0.538326,
                 "odd_justa": 1.86
               },
               "ko_tko": {
-                "prob": 0.265413,
-                "odd_justa": 3.77
+                "prob": 0.265816,
+                "odd_justa": 3.76
               },
               "finalizacao": {
-                "prob": 0.093236,
-                "odd_justa": 10.73
+                "prob": 0.093294,
+                "odd_justa": 10.72
               },
               "decisao": {
-                "prob": 0.179099,
+                "prob": 0.179216,
                 "odd_justa": 5.58
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.462252,
-                "odd_justa": 2.16
+                "prob": 0.461674,
+                "odd_justa": 2.17
               },
               "ko_tko": {
-                "prob": 0.118381,
+                "prob": 0.118316,
                 "odd_justa": 8.45
               },
               "finalizacao": {
-                "prob": 0.097091,
-                "odd_justa": 10.3
+                "prob": 0.096941,
+                "odd_justa": 10.32
               },
               "decisao": {
-                "prob": 0.246779,
-                "odd_justa": 4.05
+                "prob": 0.246417,
+                "odd_justa": 4.06
               }
             }
           },
@@ -5949,45 +6068,45 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.604597,
+                "prob": 0.605249,
                 "odd_justa": 1.65
               },
               "ko_tko": {
-                "prob": 0.088993,
-                "odd_justa": 11.24
+                "prob": 0.089089,
+                "odd_justa": 11.22
               },
               "finalizacao": {
-                "prob": 0.221917,
-                "odd_justa": 4.51
+                "prob": 0.222156,
+                "odd_justa": 4.5
               },
               "decisao": {
-                "prob": 0.293688,
+                "prob": 0.294004,
                 "odd_justa": 3.4
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.395403,
+                "prob": 0.394751,
                 "odd_justa": 2.53
               },
               "ko_tko": {
-                "prob": 0.186841,
-                "odd_justa": 5.35
+                "prob": 0.186533,
+                "odd_justa": 5.36
               },
               "finalizacao": {
-                "prob": 0.099182,
-                "odd_justa": 10.08
+                "prob": 0.099018,
+                "odd_justa": 10.1
               },
               "decisao": {
-                "prob": 0.10938,
-                "odd_justa": 9.14
+                "prob": 0.1092,
+                "odd_justa": 9.16
               }
             }
           },
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-08T16:35:47.918084+00:00",
+            "consultado_em": "2026-11-09T01:35:39.990816+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -6146,38 +6265,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.544726,
+                "prob": 0.544832,
                 "odd_justa": 1.84
               },
               "ko_tko": {
-                "prob": 0.365426,
-                "odd_justa": 2.74
+                "prob": 0.365686,
+                "odd_justa": 2.73
               },
               "finalizacao": {
-                "prob": 0.023833,
-                "odd_justa": 41.96
+                "prob": 0.023777,
+                "odd_justa": 42.06
               },
               "decisao": {
-                "prob": 0.155467,
-                "odd_justa": 6.43
+                "prob": 0.155368,
+                "odd_justa": 6.44
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.455274,
+                "prob": 0.455168,
                 "odd_justa": 2.2
               },
               "ko_tko": {
-                "prob": 0.310506,
+                "prob": 0.310587,
                 "odd_justa": 3.22
               },
               "finalizacao": {
-                "prob": 0.019401,
-                "odd_justa": 51.54
+                "prob": 0.019347,
+                "odd_justa": 51.69
               },
               "decisao": {
-                "prob": 0.125367,
-                "odd_justa": 7.98
+                "prob": 0.125234,
+                "odd_justa": 7.99
               }
             }
           },
@@ -6330,38 +6449,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.437817,
-                "odd_justa": 2.28
+                "prob": 0.437166,
+                "odd_justa": 2.29
               },
               "ko_tko": {
-                "prob": 0.245091,
+                "prob": 0.244827,
                 "odd_justa": 4.08
               },
               "finalizacao": {
-                "prob": 0.0907,
-                "odd_justa": 11.03
+                "prob": 0.090528,
+                "odd_justa": 11.05
               },
               "decisao": {
-                "prob": 0.102027,
-                "odd_justa": 9.8
+                "prob": 0.10181,
+                "odd_justa": 9.82
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.562183,
+                "prob": 0.562834,
                 "odd_justa": 1.78
               },
               "ko_tko": {
-                "prob": 0.204496,
-                "odd_justa": 4.89
+                "prob": 0.204868,
+                "odd_justa": 4.88
               },
               "finalizacao": {
-                "prob": 0.125959,
-                "odd_justa": 7.94
+                "prob": 0.126057,
+                "odd_justa": 7.93
               },
               "decisao": {
-                "prob": 0.231728,
-                "odd_justa": 4.32
+                "prob": 0.231909,
+                "odd_justa": 4.31
               }
             }
           },
@@ -6514,38 +6633,38 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.612868,
+                "prob": 0.613752,
                 "odd_justa": 1.63
               },
               "ko_tko": {
-                "prob": 0.127436,
-                "odd_justa": 7.85
+                "prob": 0.127559,
+                "odd_justa": 7.84
               },
               "finalizacao": {
-                "prob": 0.123994,
+                "prob": 0.124117,
                 "odd_justa": 8.06
               },
               "decisao": {
-                "prob": 0.361438,
-                "odd_justa": 2.77
+                "prob": 0.362076,
+                "odd_justa": 2.76
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.387132,
-                "odd_justa": 2.58
+                "prob": 0.386248,
+                "odd_justa": 2.59
               },
               "ko_tko": {
-                "prob": 0.093679,
-                "odd_justa": 10.67
+                "prob": 0.093423,
+                "odd_justa": 10.7
               },
               "finalizacao": {
-                "prob": 0.034572,
-                "odd_justa": 28.93
+                "prob": 0.034454,
+                "odd_justa": 29.02
               },
               "decisao": {
-                "prob": 0.258882,
-                "odd_justa": 3.86
+                "prob": 0.258371,
+                "odd_justa": 3.87
               }
             }
           },
@@ -6698,37 +6817,37 @@
           "previsao": {
             "a": {
               "vitoria": {
-                "prob": 0.489903,
+                "prob": 0.490358,
                 "odd_justa": 2.04
               },
               "ko_tko": {
-                "prob": 0.119348,
+                "prob": 0.119336,
                 "odd_justa": 8.38
               },
               "finalizacao": {
-                "prob": 0.040567,
-                "odd_justa": 24.65
+                "prob": 0.040468,
+                "odd_justa": 24.71
               },
               "decisao": {
-                "prob": 0.329988,
+                "prob": 0.330554,
                 "odd_justa": 3.03
               }
             },
             "b": {
               "vitoria": {
-                "prob": 0.510097,
+                "prob": 0.509642,
                 "odd_justa": 1.96
               },
               "ko_tko": {
-                "prob": 0.213075,
-                "odd_justa": 4.69
+                "prob": 0.212773,
+                "odd_justa": 4.7
               },
               "finalizacao": {
-                "prob": 0.037171,
-                "odd_justa": 26.9
+                "prob": 0.037013,
+                "odd_justa": 27.02
               },
               "decisao": {
-                "prob": 0.259851,
+                "prob": 0.259857,
                 "odd_justa": 3.85
               }
             }
