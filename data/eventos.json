@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-11T17:49:28.970815+00:00",
+  "gerado_em": "2026-11-12T02:48:00.623714+00:00",
   "eventos": [
     {
       "id": "600061400",
@@ -191,13 +191,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 1.45,
+              "atual": 1.48,
               "abertura": 1.37
             },
             "b": {
-              "atual": 2.8,
+              "atual": 2.7,
               "abertura": 3.15
             },
             "total_rounds": {
@@ -390,13 +390,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 1.54,
+              "atual": 1.55,
               "abertura": 1.52
             },
             "b": {
-              "atual": 2.54,
+              "atual": 2.5,
               "abertura": 2.6
             },
             "total_rounds": {
@@ -589,7 +589,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
               "atual": 1.64,
               "abertura": 1.74
@@ -790,19 +790,19 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 1.67,
+              "atual": 1.64,
               "abertura": 1.61
             },
             "b": {
-              "atual": 2.24,
+              "atual": 2.3,
               "abertura": 2.36
             },
             "total_rounds": {
               "linha": 1.5,
-              "mais": 2.35,
-              "menos": 1.57
+              "mais": 2.2,
+              "menos": 1.64
             }
           }
         },
@@ -965,19 +965,19 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 1.09,
+              "atual": 1.08,
               "abertura": 1.1
             },
             "b": {
-              "atual": 8.0,
+              "atual": 8.5,
               "abertura": 7.25
             },
             "total_rounds": {
               "linha": 1.5,
-              "mais": 2.45,
-              "menos": 1.53
+              "mais": 2.3,
+              "menos": 1.6
             }
           }
         },
@@ -1166,13 +1166,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 1.64,
+              "atual": 1.7,
               "abertura": 1.7
             },
             "b": {
-              "atual": 2.3,
+              "atual": 2.2,
               "abertura": 2.2
             },
             "total_rounds": {
@@ -1367,13 +1367,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 2.3,
+              "atual": 2.54,
               "abertura": 2.42
             },
             "b": {
-              "atual": 1.64,
+              "atual": 1.54,
               "abertura": 1.58
             },
             "total_rounds": {
@@ -1568,7 +1568,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
               "atual": 2.64,
               "abertura": 2.8
@@ -1767,13 +1767,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 1.58,
+              "atual": 1.61,
               "abertura": 1.58
             },
             "b": {
-              "atual": 2.42,
+              "atual": 2.36,
               "abertura": 2.42
             },
             "total_rounds": {
@@ -1968,13 +1968,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 3.95,
+              "atual": 4.1,
               "abertura": 3.85
             },
             "b": {
-              "atual": 1.26,
+              "atual": 1.25,
               "abertura": 1.27
             },
             "total_rounds": {
@@ -2167,19 +2167,194 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
-              "atual": 3.15,
+              "atual": 3.1,
               "abertura": 2.8
             },
             "b": {
-              "atual": 1.37,
+              "atual": 1.38,
               "abertura": 1.45
             },
             "total_rounds": {
               "linha": 2.5,
               "mais": 2.5,
               "menos": 1.51
+            }
+          }
+        },
+        {
+          "id": "401933936",
+          "numero": 12,
+          "segmento": "preliminar_antecipada",
+          "categoria": "Bantamweight",
+          "status": "STATUS_SCHEDULED",
+          "lutador_a": {
+            "espn_id": "3154389",
+            "nome": "Alatengheili",
+            "cartel_espn": "18-10-2",
+            "pais": "China",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Alatengheili",
+              "lutas": 10,
+              "vitorias": 6,
+              "derrotas": 3,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 5,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 3,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-08-31",
+              "ultima_luta": "2026-09-26",
+              "ultimos_5": [
+                "V",
+                "D",
+                "V",
+                "D",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1574,
+              "minutos_com_estatisticas": 135.8,
+              "golpes_sig_por_min": 2.71,
+              "golpes_sig_sofridos_por_min": 4.964,
+              "precisao_golpes": 0.319,
+              "defesa_golpes": 0.565,
+              "quedas_por_15min": 1.878,
+              "precisao_quedas": 0.425,
+              "defesa_quedas": 0.75,
+              "controle_por_15min_s": 140.076,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 34.9,
+              "envergadura_cm": 168
+            },
+            "carreira_mma": {
+              "cartel": "18-10-2",
+              "vitorias": 18,
+              "derrotas": 10,
+              "empates": 2,
+              "vitorias_por_metodo": {
+                "ko_tko": 5,
+                "finalizacao": 3,
+                "decisao_ou_outro": 10
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 3,
+                "finalizacao": 1,
+                "decisao_ou_outro": 6
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "5310574",
+            "nome": "Juan Diaz",
+            "cartel_espn": "16-1-1",
+            "pais": "Peru",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Juan Diaz",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-05-16",
+              "ultima_luta": "2026-05-16",
+              "ultimos_5": [
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1534,
+              "minutos_com_estatisticas": 9.1,
+              "golpes_sig_por_min": 1.423,
+              "golpes_sig_sofridos_por_min": 1.642,
+              "precisao_golpes": 0.52,
+              "defesa_golpes": 0.545,
+              "quedas_por_15min": 8.212,
+              "precisao_quedas": 0.625,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 374.453,
+              "tentativas_finalizacao_por_15min": 1.642,
+              "idade": 28.4,
+              "envergadura_cm": null
+            },
+            "carreira_mma": {
+              "cartel": "16-1-1",
+              "vitorias": 16,
+              "derrotas": 1,
+              "empates": 1,
+              "vitorias_por_metodo": {
+                "ko_tko": 5,
+                "finalizacao": 3,
+                "decisao_ou_outro": 8
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 0,
+                "finalizacao": 0,
+                "decisao_ou_outro": 1
+              }
+            },
+            "medias_fora_ufc": {
+              "fonte": "ESPN (lutas transmitidas com estatísticas)",
+              "lutas_com_estatisticas": 2,
+              "eventos": [
+                "UFC Fight Night: Allen vs. Costa",
+                "Dana White's Contender Series: Season 9, Week 10"
+              ],
+              "minutos_com_estatisticas": 19.1,
+              "golpes_sig_por_min": 3.717,
+              "precisao_golpes": 0.415,
+              "quedas_por_15min": 5.497,
+              "precisao_quedas": 0.5,
+              "knockdowns_por_15min": 0.785
+            }
+          },
+          "avisos": [
+            "Juan Diaz: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false,
+          "previsao": null,
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
+            "a": {
+              "atual": 4.2,
+              "abertura": 3.6
+            },
+            "b": {
+              "atual": 1.24,
+              "abertura": 1.3
+            },
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 1.43,
+              "menos": 2.45
             }
           }
         },
@@ -2303,7 +2478,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
               "atual": 2.0,
               "abertura": 1.86
@@ -2317,177 +2492,6 @@
               "mais": 1.86,
               "menos": 1.86
             }
-          }
-        },
-        {
-          "id": "401933936",
-          "numero": 13,
-          "segmento": "preliminar_antecipada",
-          "categoria": "Bantamweight",
-          "status": "STATUS_SCHEDULED",
-          "lutador_a": {
-            "espn_id": "5310574",
-            "nome": "Juan Diaz",
-            "cartel_espn": "16-1-1",
-            "pais": "Peru",
-            "status_dados": "insuficiente",
-            "historico_ufc": {
-              "nome_ufcstats": "Juan Diaz",
-              "lutas": 1,
-              "vitorias": 1,
-              "derrotas": 0,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 1,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2026-05-16",
-              "ultima_luta": "2026-05-16",
-              "ultimos_5": [
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1534,
-              "minutos_com_estatisticas": 9.1,
-              "golpes_sig_por_min": 1.423,
-              "golpes_sig_sofridos_por_min": 1.642,
-              "precisao_golpes": 0.52,
-              "defesa_golpes": 0.545,
-              "quedas_por_15min": 8.212,
-              "precisao_quedas": 0.625,
-              "defesa_quedas": null,
-              "controle_por_15min_s": 374.453,
-              "tentativas_finalizacao_por_15min": 1.642,
-              "idade": 28.4,
-              "envergadura_cm": null
-            },
-            "carreira_mma": {
-              "cartel": "16-1-1",
-              "vitorias": 16,
-              "derrotas": 1,
-              "empates": 1,
-              "vitorias_por_metodo": {
-                "ko_tko": 5,
-                "finalizacao": 3,
-                "decisao_ou_outro": 8
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 0,
-                "finalizacao": 0,
-                "decisao_ou_outro": 1
-              }
-            },
-            "medias_fora_ufc": {
-              "fonte": "ESPN (lutas transmitidas com estatísticas)",
-              "lutas_com_estatisticas": 2,
-              "eventos": [
-                "UFC Fight Night: Allen vs. Costa",
-                "Dana White's Contender Series: Season 9, Week 10"
-              ],
-              "minutos_com_estatisticas": 19.1,
-              "golpes_sig_por_min": 3.717,
-              "precisao_golpes": 0.415,
-              "quedas_por_15min": 5.497,
-              "precisao_quedas": 0.5,
-              "knockdowns_por_15min": 0.785
-            }
-          },
-          "lutador_b": {
-            "espn_id": "3154389",
-            "nome": "Alatengheili",
-            "cartel_espn": "18-10-2",
-            "pais": "China",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Alatengheili",
-              "lutas": 10,
-              "vitorias": 6,
-              "derrotas": 3,
-              "empates": 1,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 1,
-                "FINALIZACAO": 0,
-                "DECISAO": 5,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 3,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2019-08-31",
-              "ultima_luta": "2026-09-26",
-              "ultimos_5": [
-                "V",
-                "D",
-                "V",
-                "D",
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1574,
-              "minutos_com_estatisticas": 135.8,
-              "golpes_sig_por_min": 2.71,
-              "golpes_sig_sofridos_por_min": 4.964,
-              "precisao_golpes": 0.319,
-              "defesa_golpes": 0.565,
-              "quedas_por_15min": 1.878,
-              "precisao_quedas": 0.425,
-              "defesa_quedas": 0.75,
-              "controle_por_15min_s": 140.076,
-              "tentativas_finalizacao_por_15min": 0.0,
-              "idade": 34.9,
-              "envergadura_cm": 168
-            },
-            "carreira_mma": {
-              "cartel": "18-10-2",
-              "vitorias": 18,
-              "derrotas": 10,
-              "empates": 2,
-              "vitorias_por_metodo": {
-                "ko_tko": 5,
-                "finalizacao": 3,
-                "decisao_ou_outro": 10
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 3,
-                "finalizacao": 1,
-                "decisao_ou_outro": 6
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "avisos": [
-            "Juan Diaz: menos de 2 lutas no UFC registradas."
-          ],
-          "previsao_possivel": false,
-          "previsao": null,
-          "odds_casa": {
-            "casa": "DraftKings",
-            "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
-            "a": {
-              "atual": 1.28,
-              "abertura": 1.3
-            },
-            "b": {
-              "atual": 3.8,
-              "abertura": 3.6
-            },
-            "total_rounds": null
           }
         }
       ]
@@ -6119,7 +6123,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-11T17:49:28.970815+00:00",
+            "consultado_em": "2026-11-12T02:48:00.623714+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
