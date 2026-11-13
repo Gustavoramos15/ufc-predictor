@@ -165,6 +165,30 @@ def adicionar_dados_espn(eventos: list[dict], baixar_json_fn, agora: datetime) -
     return [f"ESPN: falha ao buscar {nomes[k]} em {n} caso(s)." for k, n in falhas.items() if n]
 
 
+def congelar_previsoes(eventos: list[dict], caminho_registro: Path, agora: datetime) -> None:
+    """Depois que o evento começa, mostra a previsão registrada ANTES do início, sem recalcular.
+
+    Assim o app nunca exibe uma previsão calculada já "sabendo" o resultado (o histórico do
+    UFCStats pode incluir a luta enquanto o evento ainda aparece no app).
+    """
+    registro = json.loads(caminho_registro.read_text(encoding="utf-8")) if caminho_registro.exists() else {}
+    for ev in eventos:
+        if agora < datetime.fromisoformat(ev["data"].replace("Z", "+00:00")):
+            continue
+        ev["previsoes_congeladas"] = True
+        for luta in ev["lutas"]:
+            reg = registro.get(luta["id"])
+            if reg and reg.get("previsao"):
+                luta["previsao"] = reg["previsao"]
+                luta["previsao_possivel"] = True
+            elif luta.get("previsao"):
+                luta["previsao"] = None
+                luta["previsao_possivel"] = False
+                luta["avisos"] = luta.get("avisos", []) + [
+                    "Previsão indisponível: o evento começou antes de uma previsão ser registrada."
+                ]
+
+
 def registrar_previsoes(caminho: Path, eventos: list[dict], agora: datetime,
                         lutas_historico: list[dict] | None = None) -> int:
     """Guarda a última previsão feita ANTES de cada evento, para comparar com o resultado real depois.
@@ -338,6 +362,8 @@ def executar(raiz: Path = RAIZ, baixar=baixar_bytes, baixar_json_fn=baixar_json,
         for bruto in proximos.buscar_eventos_brutos(baixar_json_fn, agora.date()):
             detalhes, falhas = proximos.buscar_detalhes_lutas(baixar_json_fn, bruto)
             ev = proximos.converter_evento(bruto, detalhes)
+            if not proximos.evento_ainda_visivel(ev, agora):
+                continue  # terminou há mais de 24h
             if falhas:
                 avisos.append(f"{ev['nome']}: card principal/preliminar desconhecido em {falhas} luta(s).")
             eventos.append(enriquecer_evento(ev, resumos, ambiguos, modelo_final))
@@ -354,11 +380,15 @@ def executar(raiz: Path = RAIZ, baixar=baixar_bytes, baixar_json_fn=baixar_json,
             + f" ({e})"
         )
 
-    total_lutas = sum(len(e["lutas"]) for e in eventos)
-    com_previsao = sum(l["previsao_possivel"] for e in eventos for l in e["lutas"])
+    # Vale também para os dados antigos mantidos quando a ESPN falha.
+    eventos = [e for e in eventos if proximos.evento_ainda_visivel(e, agora)]
     # Só registra previsões recém-calculadas (se a ESPN falhou, os eventos são cópias antigas).
     n_registradas = registrar_previsoes(pasta_dados / "previsoes_registro.json", eventos if espn_ok else [], agora,
                                         lutas)
+    if espn_ok:
+        congelar_previsoes(eventos, pasta_dados / "previsoes_registro.json", agora)
+    total_lutas = sum(len(e["lutas"]) for e in eventos)
+    com_previsao = sum(l["previsao_possivel"] for e in eventos for l in e["lutas"])
     meta = {
         "versao_dados": 1,
         "gerado_em": agora.isoformat(),

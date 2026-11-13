@@ -16,6 +16,7 @@ import {
   s,
 } from "../componentes";
 import { useDados } from "../dados";
+import { eventosVisiveis, situacaoEvento } from "../eventos";
 import { categoria, dataEvento, odd, pct, sobrenome } from "../formatar";
 import type { Navegacao } from "../navegacao";
 import { LIMITE_VALOR, melhorValor } from "../odds";
@@ -65,7 +66,7 @@ export function TelaEventos({
   aoMudarAba: (a: Aba) => void;
 }) {
   const { dados, atualizando, atualizar } = useDados();
-  const eventos = [...dados.eventos.eventos].sort((a, b) => a.data.localeCompare(b.data));
+  const eventos = eventosVisiveis(dados.eventos.eventos);
   const ev = eventos.find((e) => e.id === eventoId) ?? eventos[0];
 
   if (!ev) {
@@ -87,14 +88,27 @@ export function TelaEventos({
   const abaAtual = abas.includes(aba) ? aba : abas[0] ?? "principal";
   const daAba = lutas.filter((l) => abaDaLuta(l.segmento) === abaAtual && l.id !== principal?.id);
   const indice = eventos.indexOf(ev);
+  const situacao = situacaoEvento(ev);
 
   return (
     <ScrollView
       contentContainerStyle={{ paddingBottom: 24 }}
       refreshControl={<RefreshControl refreshing={atualizando} onRefresh={atualizar} tintColor={cores.texto} />}
     >
-      <CabecalhoTela rotulo={indice === 0 ? "Próximo card" : "Card futuro"} titulo={ev.nome} />
-      <TextoSuave estilo={{ paddingHorizontal: 20, marginTop: -2 }}>{dataEvento(ev.data)}</TextoSuave>
+      <CabecalhoTela
+        rotulo={situacao === "ao_vivo" ? "Acontecendo agora" : situacao === "encerrado" ? "Card encerrado" : indice === 0 ? "Próximo card" : "Card futuro"}
+        titulo={ev.nome}
+      />
+      <View style={{ flexDirection: "row", alignItems: "center", gap: 8, paddingHorizontal: 20, marginTop: -2 }}>
+        <TextoSuave>{dataEvento(ev.data)}</TextoSuave>
+        {situacao === "ao_vivo" && <Selo texto="AO VIVO" cor={cores.vermelhoClaro} ponto />}
+        {situacao === "encerrado" && <Selo texto="ENCERRADO" cor={cores.textoSuave} />}
+      </View>
+      {ev.previsoes_congeladas && (
+        <TextoSuave estilo={{ paddingHorizontal: 20, marginTop: 4, fontSize: 12 }}>
+          Previsões registradas antes do início do evento. Este card sai do app 24h depois de terminar.
+        </TextoSuave>
+      )}
 
       {eventos.length > 1 && (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={st.chips}>
@@ -229,11 +243,11 @@ function CartaoLuta({ luta, aoTocar }: { luta: Luta; aoTocar: () => void }) {
           </View>
 
           <View style={[s.linha, { alignItems: "center", gap: 6 }]}>
-            <LadoLista l={a} odd={o?.a.atual} />
+            <LadoLista l={a} odd={o?.a.atual} resultado={resultadoDoLado(luta.vencedor, "a")} />
             <View style={{ alignItems: "center", paddingHorizontal: 2 }}>
               <Text style={[st.vs, { fontSize: 12 }]}>VS</Text>
             </View>
-            <LadoLista l={b} odd={o?.b.atual} direita />
+            <LadoLista l={b} odd={o?.b.atual} direita resultado={resultadoDoLado(luta.vencedor, "b")} />
           </View>
 
           {p && (
@@ -254,7 +268,24 @@ function CartaoLuta({ luta, aoTocar }: { luta: Luta; aoTocar: () => void }) {
   );
 }
 
-function LadoLista({ l, odd: oddCasa, direita }: { l: Lutador; odd?: number | null; direita?: boolean }) {
+type ResultadoLado = "venceu" | "perdeu" | null;
+
+function resultadoDoLado(vencedor: Luta["vencedor"], lado: "a" | "b"): ResultadoLado {
+  if (vencedor !== "a" && vencedor !== "b") return null;
+  return vencedor === lado ? "venceu" : "perdeu";
+}
+
+function LadoLista({
+  l,
+  odd: oddCasa,
+  direita,
+  resultado,
+}: {
+  l: Lutador;
+  odd?: number | null;
+  direita?: boolean;
+  resultado?: ResultadoLado;
+}) {
   const semDados = l.status_dados !== "ok";
   const sub = semDados
     ? l.status_dados === "nao_encontrado"
@@ -264,12 +295,19 @@ function LadoLista({ l, odd: oddCasa, direita }: { l: Lutador; odd?: number | nu
         : "< 2 lutas UFC"
     : cartel(l);
   return (
-    <View style={[{ flex: 1, flexDirection: "row", alignItems: "center", gap: 8 }, direita && { flexDirection: "row-reverse" }]}>
+    <View
+      style={[
+        { flex: 1, flexDirection: "row", alignItems: "center", gap: 8 },
+        direita && { flexDirection: "row-reverse" },
+        resultado === "perdeu" && { opacity: 0.45 },
+      ]}
+    >
       <Avatar nome={l.nome} tamanho={34} />
       <View style={{ flex: 1, alignItems: direita ? "flex-end" : "flex-start" }}>
         <Text style={[s.forte, { fontSize: 13, textAlign: direita ? "right" : "left" }]} numberOfLines={2}>
           {l.nome}
         </Text>
+        {resultado === "venceu" && <Text style={st.venceu}>✔ VENCEU</Text>}
         <Text style={[st.sub, semDados && { color: cores.ambarClaro }]} numberOfLines={1}>
           {sub}
           {oddCasa != null ? ` • ${odd(oddCasa)}` : ""}
@@ -280,6 +318,7 @@ function LadoLista({ l, odd: oddCasa, direita }: { l: Lutador; odd?: number | nu
 }
 
 const st = StyleSheet.create({
+  venceu: { color: cores.verdeClaro, fontFamily: fontes.negrito, fontSize: 11 },
   chips: { gap: 8, paddingHorizontal: espaco.l, paddingVertical: espaco.m },
   brilho: {
     position: "absolute",

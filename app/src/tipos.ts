@@ -119,12 +119,17 @@ export interface Luta {
   previsao_possivel: boolean;
   previsao: Previsao | null;
   odds_casa?: OddsCasa | null;
+  /** Resultado informado pela ESPN quando a luta termina ("nenhum" = empate/sem resultado/cancelada). */
+  vencedor?: "a" | "b" | "nenhum" | null;
 }
 
 export interface Evento {
   id: string;
   nome: string;
   data: string;
+  fim_estimado?: string | null;
+  /** true quando o evento já começou: as previsões são as registradas antes do início. */
+  previsoes_congeladas?: boolean;
   status: string | null;
   lutas: Luta[];
 }

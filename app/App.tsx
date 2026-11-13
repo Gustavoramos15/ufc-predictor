@@ -14,6 +14,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 import { Icone, NomeIcone } from "./src/componentes";
 import { ProvedorDados, useDados } from "./src/dados";
+import { eventosVisiveis } from "./src/eventos";
 import type { Navegacao, Rota } from "./src/navegacao";
 import { cores, fontes } from "./src/tema";
 import { TelaConfronto } from "./src/telas/Confronto";
@@ -102,7 +103,7 @@ function Conteudo() {
   const abrirLuta = () => {
     let alvo = ultimaLuta;
     if (!alvo) {
-      const eventos = [...dados.eventos.eventos].sort((a, b) => a.data.localeCompare(b.data));
+      const eventos = eventosVisiveis(dados.eventos.eventos);
       const ev = eventos.find((e) => e.id === eventoId) ?? eventos[0];
       const luta = ev ? ev.lutas.find((l) => l.numero === 1) ?? ev.lutas[0] : null;
       if (ev && luta) alvo = { eventoId: ev.id, lutaId: luta.id };

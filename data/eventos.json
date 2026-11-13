@@ -1,10 +1,11 @@
 {
-  "gerado_em": "2026-11-13T17:36:55.503059+00:00",
+  "gerado_em": "2026-11-13T21:10:51.946581+00:00",
   "eventos": [
     {
       "id": "600061400",
       "nome": "UFC 334: Gane vs. Hokit",
       "data": "2026-11-14T22:00Z",
+      "fim_estimado": "2026-11-15T06:00:00+00:00",
       "status": "STATUS_SCHEDULED",
       "lutas": [
         {
@@ -13,6 +14,7 @@
           "segmento": "principal",
           "categoria": "Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4426000",
             "nome": "Ciryl Gane",
@@ -191,7 +193,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.44,
               "abertura": 1.37
@@ -213,6 +215,7 @@
           "segmento": "principal",
           "categoria": "W Bantamweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4332765",
             "nome": "Kayla Harrison",
@@ -390,7 +393,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.6,
               "abertura": 1.52
@@ -412,6 +415,7 @@
           "segmento": "principal",
           "categoria": "Middleweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4835137",
             "nome": "Caio Borralho",
@@ -589,7 +593,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.61,
               "abertura": 1.74
@@ -611,6 +615,7 @@
           "segmento": "principal",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4685870",
             "nome": "Uroš Medić",
@@ -790,7 +795,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.64,
               "abertura": 1.61
@@ -812,6 +817,7 @@
           "segmento": "principal",
           "categoria": "Flyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5264405",
             "nome": "Bilal Hasan",
@@ -965,7 +971,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.1,
               "abertura": 1.1
@@ -987,6 +993,7 @@
           "segmento": "preliminar",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "2615077",
             "nome": "Stephen Thompson",
@@ -1166,7 +1173,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.7
@@ -1188,6 +1195,7 @@
           "segmento": "preliminar",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "2951202",
             "nome": "Drew Dober",
@@ -1367,7 +1375,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 2.5,
               "abertura": 2.42
@@ -1389,6 +1397,7 @@
           "segmento": "preliminar",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "2335718",
             "nome": "Jim Miller",
@@ -1568,7 +1577,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 2.7,
               "abertura": 2.8
@@ -1590,6 +1599,7 @@
           "segmento": "preliminar",
           "categoria": "Catch Weight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5302831",
             "nome": "Donte Johnson",
@@ -1767,7 +1777,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.54,
               "abertura": 1.58
@@ -1789,6 +1799,7 @@
           "segmento": "preliminar_antecipada",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3894823",
             "nome": "Jared Gordon",
@@ -1968,7 +1979,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 4.0,
               "abertura": 3.85
@@ -1990,6 +2001,7 @@
           "segmento": "preliminar_antecipada",
           "categoria": "W Bantamweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4334306",
             "nome": "Macy Chiasson",
@@ -2167,13 +2179,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
-              "atual": 3.05,
+              "atual": 3.1,
               "abertura": 2.8
             },
             "b": {
-              "atual": 1.4,
+              "atual": 1.38,
               "abertura": 1.45
             },
             "total_rounds": {
@@ -2189,6 +2201,7 @@
           "segmento": "preliminar_antecipada",
           "categoria": "Bantamweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3154389",
             "nome": "Alatengheili",
@@ -2342,7 +2355,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 4.2,
               "abertura": 3.6
@@ -2364,6 +2377,7 @@
           "segmento": "preliminar_antecipada",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5037883",
             "nome": "Evan Elder",
@@ -2478,7 +2492,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.98,
               "abertura": 1.86
@@ -2500,6 +2514,7 @@
       "id": "600061665",
       "nome": "UFC Fight Night: Procházka vs. Stirling",
       "data": "2026-11-21T15:00Z",
+      "fim_estimado": "2026-11-21T22:00:00+00:00",
       "status": "STATUS_SCHEDULED",
       "lutas": [
         {
@@ -2508,6 +2523,7 @@
           "segmento": "principal",
           "categoria": "Light Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3156612",
             "nome": "Jiří Procházka",
@@ -2687,7 +2703,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 2.24,
               "abertura": 2.24
@@ -2705,6 +2721,7 @@
           "segmento": "principal",
           "categoria": "Featherweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3031559",
             "nome": "Aljamain Sterling",
@@ -2883,13 +2900,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
-              "atual": 2.02,
+              "atual": 2.1,
               "abertura": 2.02
             },
             "b": {
-              "atual": 1.81,
+              "atual": 1.76,
               "abertura": 1.81
             },
             "total_rounds": null
@@ -2901,6 +2918,7 @@
           "segmento": "principal",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3109135",
             "nome": "Dan Hooker",
@@ -3080,7 +3098,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.61,
               "abertura": 1.61
@@ -3098,6 +3116,7 @@
           "segmento": "principal",
           "categoria": "Flyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "2613374",
             "nome": "Kyoji Horiguchi",
@@ -3277,7 +3296,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.48,
               "abertura": 1.48
@@ -3295,6 +3314,7 @@
           "segmento": "principal",
           "categoria": "Middleweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3154860",
             "nome": "Jared Cannonier",
@@ -3474,7 +3494,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 3.8,
               "abertura": 3.8
@@ -3492,6 +3512,7 @@
           "segmento": "principal",
           "categoria": "Bantamweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5185662",
             "nome": "Aleksandre Topuria",
@@ -3671,6 +3692,7 @@
           "segmento": "preliminar",
           "categoria": "Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5145498",
             "nome": "Shamil Gaziev",
@@ -3849,7 +3871,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.44,
               "abertura": 1.44
@@ -3867,6 +3889,7 @@
           "segmento": "preliminar",
           "categoria": "Flyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4684848",
             "nome": "Amir Albazi",
@@ -4046,7 +4069,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 2.3,
               "abertura": 2.3
@@ -4064,6 +4087,7 @@
           "segmento": "preliminar",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3089915",
             "nome": "Jake Matthews",
@@ -4216,7 +4240,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.6,
               "abertura": 1.6
@@ -4234,6 +4258,7 @@
       "id": "600062700",
       "nome": "UFC Fight Night: Adesanya vs Magomedov",
       "data": "2026-12-05T15:00Z",
+      "fim_estimado": "2026-12-05T22:00:00+00:00",
       "status": "STATUS_SCHEDULED",
       "lutas": [
         {
@@ -4242,6 +4267,7 @@
           "segmento": "principal",
           "categoria": "Middleweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4285679",
             "nome": "Israel Adesanya",
@@ -4421,7 +4447,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.64,
               "abertura": 1.64
@@ -4439,6 +4465,7 @@
           "segmento": "principal",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4738092",
             "nome": "Ian Machado Garry",
@@ -4615,7 +4642,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.58,
               "abertura": 1.58
@@ -4633,6 +4660,7 @@
           "segmento": "principal",
           "categoria": "Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4421246",
             "nome": "Serghei Spivac",
@@ -4816,6 +4844,7 @@
           "segmento": "preliminar",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4867651",
             "nome": "Levan Chokheli",
@@ -4983,6 +5012,7 @@
           "segmento": "preliminar",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4914573",
             "nome": "Mairon Santos",
@@ -5101,6 +5131,7 @@
           "segmento": "preliminar",
           "categoria": "Light Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5360467",
             "nome": "Magomed Tuchalov",
@@ -5258,6 +5289,7 @@
           "segmento": "preliminar",
           "categoria": "Flyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3895544",
             "nome": "Bruno Silva",
@@ -5393,6 +5425,7 @@
           "segmento": "preliminar",
           "categoria": "Light Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5206516",
             "nome": "Uran Satybaldiev",
@@ -5497,6 +5530,7 @@
           "segmento": "preliminar",
           "categoria": "Middleweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5138111",
             "nome": "Marco Tulio",
@@ -5680,6 +5714,7 @@
           "segmento": "preliminar",
           "categoria": "Bantamweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5445620",
             "nome": "Pavel Andrusca",
@@ -5808,6 +5843,7 @@
           "segmento": "preliminar",
           "categoria": "Middleweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5364355",
             "nome": "Modestino Rodrigues",
@@ -5899,6 +5935,7 @@
           "segmento": "preliminar",
           "categoria": "Bantamweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4905308",
             "nome": "Abdul Hussein",
@@ -6066,6 +6103,7 @@
       "id": "600061401",
       "nome": "UFC 335: Oliveira vs. Lopes",
       "data": "2026-12-12T22:00Z",
+      "fim_estimado": "2026-12-13T06:00:00+00:00",
       "status": "STATUS_SCHEDULED",
       "lutas": [
         {
@@ -6074,6 +6112,7 @@
           "segmento": "principal",
           "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "2504169",
             "nome": "Charles Oliveira",
@@ -6253,7 +6292,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-13T17:36:55.503059+00:00",
+            "consultado_em": "2026-11-13T21:10:51.946581+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -6271,6 +6310,7 @@
           "segmento": "principal",
           "categoria": "Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4217395",
             "nome": "Sergei Pavlovich",
@@ -6455,6 +6495,7 @@
           "segmento": "principal",
           "categoria": "Middleweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4684135",
             "nome": "Joe Pyfer",
@@ -6639,6 +6680,7 @@
           "segmento": "principal",
           "categoria": "Flyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "3027545",
             "nome": "Brandon Moreno",
@@ -6823,6 +6865,7 @@
           "segmento": "preliminar",
           "categoria": "W Flyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "4246307",
             "nome": "Maycee Barber",
@@ -7007,6 +7050,7 @@
           "segmento": "preliminar_antecipada",
           "categoria": "Light Heavyweight",
           "status": "STATUS_SCHEDULED",
+          "vencedor": null,
           "lutador_a": {
             "espn_id": "5307124",
             "nome": "Quentin Pasley",

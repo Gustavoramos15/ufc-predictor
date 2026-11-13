@@ -2,6 +2,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 
 import { Aviso, CabecalhoTela, CartaoVidro, Pilula, Segmentado, Selo, TextoSuave, s } from "../componentes";
 import { useDados } from "../dados";
+import { eventosVisiveis } from "../eventos";
 import { dataEvento, odd, pct } from "../formatar";
 import { lutasComPrevisao, montarMultipla, Tamanho, TipoPalpite } from "../multipla";
 import type { Navegacao } from "../navegacao";
@@ -40,7 +41,7 @@ export function TelaMultipla({
   aoMudar: (e: EstadoMultipla) => void;
 }) {
   const { dados } = useDados();
-  const eventos = [...dados.eventos.eventos].sort((a, b) => a.data.localeCompare(b.data));
+  const eventos = eventosVisiveis(dados.eventos.eventos);
   const ev = eventos.find((e) => e.id === eventoId) ?? eventos[0];
 
   if (!ev) {
