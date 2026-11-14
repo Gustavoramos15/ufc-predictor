@@ -1,10 +1,10 @@
 {
   "versao_dados": 1,
-  "gerado_em": "2026-11-14T02:10:55.813857+00:00",
+  "gerado_em": "2026-11-14T16:29:22.968345+00:00",
   "historico": {
     "fonte": "UFCStats.com via github.com/Greco1899/scrape_ufc_stats (GPL-3.0)",
     "atualizado_com_sucesso": true,
-    "atualizacao_da_fonte": null,
+    "atualizacao_da_fonte": "2026-11-08T18:04:23Z",
     "luta_mais_recente": "2026-11-07",
     "total_lutas": 8988,
     "total_atletas": 2781
@@ -12,10 +12,10 @@
   "proximos_eventos": {
     "fonte": "ESPN (API pública não oficial)",
     "atualizado_com_sucesso": true,
-    "atualizado_em": "2026-11-14T02:10:55.813857+00:00",
+    "atualizado_em": "2026-11-14T16:29:22.968345+00:00",
     "total_eventos": 4,
-    "total_lutas": 40,
-    "lutas_com_dados_suficientes": 27
+    "total_lutas": 42,
+    "lutas_com_dados_suficientes": 28
   },
   "modelo": {
     "versao": "elo-logistica-v1",
@@ -27,7 +27,7 @@
       "log_loss": 0.6319962870827216,
       "brier": 0.22074061035827455
     },
-    "previsoes_registradas": 60,
+    "previsoes_registradas": 61,
     "aviso": "Probabilidades estimadas por modelo estatístico. Odds justas = 1 / probabilidade; não são cotações de casas de apostas e não garantem resultado."
   },
   "avisos": [
