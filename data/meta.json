@@ -1,10 +1,10 @@
 {
   "versao_dados": 1,
-  "gerado_em": "2026-11-16T20:14:33.027165+00:00",
+  "gerado_em": "2026-11-17T04:24:51.810123+00:00",
   "historico": {
     "fonte": "UFCStats.com via github.com/Greco1899/scrape_ufc_stats (GPL-3.0)",
     "atualizado_com_sucesso": true,
-    "atualizacao_da_fonte": null,
+    "atualizacao_da_fonte": "2026-11-15T18:03:06Z",
     "luta_mais_recente": "2026-11-14",
     "total_lutas": 9001,
     "total_atletas": 2782
@@ -12,10 +12,10 @@
   "proximos_eventos": {
     "fonte": "ESPN (API pública não oficial)",
     "atualizado_com_sucesso": true,
-    "atualizado_em": "2026-11-16T20:14:33.027165+00:00",
-    "total_eventos": 3,
-    "total_lutas": 28,
-    "lutas_com_dados_suficientes": 17
+    "atualizado_em": "2026-11-17T04:24:51.810123+00:00",
+    "total_eventos": 4,
+    "total_lutas": 32,
+    "lutas_com_dados_suficientes": 19
   },
   "modelo": {
     "versao": "elo-logistica-v1",
@@ -27,13 +27,14 @@
       "log_loss": 0.6325469185822017,
       "brier": 0.22098770719407976
     },
-    "previsoes_registradas": 61,
+    "previsoes_registradas": 63,
     "aviso": "Probabilidades estimadas por modelo estatístico. Odds justas = 1 / probabilidade; não são cotações de casas de apostas e não garantem resultado."
   },
   "avisos": [
     "2 luta(s) do evento 'UFC - Road to UFC 4.6' sem data no arquivo de eventos foram ignoradas.",
     "14 luta(s) do evento 'UFC Fight Night: Lopes vs. Silva' sem data no arquivo de eventos foram ignoradas.",
     "11 luta(s) do evento 'UFC Fight Night: Grasso vs. Shevchenko 2' sem data no arquivo de eventos foram ignoradas.",
-    "21 luta(s) do histórico sem estatísticas de golpes; usadas só no cartel e no Elo."
+    "21 luta(s) do histórico sem estatísticas de golpes; usadas só no cartel e no Elo.",
+    "ESPN: falha ao buscar cartel completo no MMA em 2 caso(s)."
   ]
 }
