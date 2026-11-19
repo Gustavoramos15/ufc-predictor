@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-19T03:06:23.178250+00:00",
+  "gerado_em": "2026-11-19T18:56:53.935600+00:00",
   "eventos": [
     {
       "id": "600061665",
@@ -194,7 +194,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 2.45,
               "abertura": 2.24
@@ -395,7 +395,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 2.1,
               "abertura": 2.02
@@ -597,7 +597,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.52,
               "abertura": 1.61
@@ -799,13 +799,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.54,
               "abertura": 1.48
             },
             "b": {
-              "atual": 2.7,
+              "atual": 2.54,
               "abertura": 2.7
             },
             "total_rounds": {
@@ -1001,7 +1001,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 3.4,
               "abertura": 3.8
@@ -1198,7 +1198,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.35,
               "abertura": 1.34
@@ -1399,7 +1399,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.5,
               "abertura": 1.44
@@ -1601,7 +1601,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.92,
               "abertura": 2.3
@@ -1776,13 +1776,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
-              "atual": 1.42,
+              "atual": 1.4,
               "abertura": 1.6
             },
             "b": {
-              "atual": 2.95,
+              "atual": 3.0,
               "abertura": 2.4
             },
             "total_rounds": {
@@ -1975,13 +1975,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
-              "atual": 2.4,
+              "atual": 2.42,
               "abertura": 2.45
             },
             "b": {
-              "atual": 1.6,
+              "atual": 1.58,
               "abertura": 1.57
             },
             "total_rounds": {
@@ -2112,7 +2112,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.4,
               "abertura": 1.4
@@ -2127,6 +2127,73 @@
               "menos": 1.53
             }
           }
+        },
+        {
+          "id": "401935762",
+          "numero": 12,
+          "segmento": "preliminar",
+          "categoria": "Lightweight",
+          "status": "STATUS_SCHEDULED",
+          "vencedor": null,
+          "lutador_a": {
+            "espn_id": "4712356",
+            "nome": "Shoaib Yousaf",
+            "cartel_espn": "10-3-0",
+            "pais": "England",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null,
+            "estatisticas": null,
+            "carreira_mma": {
+              "cartel": "10-3-0",
+              "vitorias": 10,
+              "derrotas": 3,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 5,
+                "finalizacao": 2,
+                "decisao_ou_outro": 3
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 0,
+                "finalizacao": 0,
+                "decisao_ou_outro": 3
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "5080723",
+            "nome": "John Mitchell",
+            "cartel_espn": "11-3-0",
+            "pais": "Ireland",
+            "status_dados": "nao_encontrado",
+            "historico_ufc": null,
+            "estatisticas": null,
+            "carreira_mma": {
+              "cartel": "11-3-0",
+              "vitorias": 11,
+              "derrotas": 3,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 4,
+                "finalizacao": 2,
+                "decisao_ou_outro": 5
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 1,
+                "finalizacao": 1,
+                "decisao_ou_outro": 1
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "avisos": [
+            "Shoaib Yousaf: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome).",
+            "John Mitchell: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome)."
+          ],
+          "previsao_possivel": false,
+          "previsao": null,
+          "odds_casa": null
         }
       ]
     },
@@ -2323,13 +2390,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
-              "atual": 1.64,
+              "atual": 1.6,
               "abertura": 1.64
             },
             "b": {
-              "atual": 2.3,
+              "atual": 2.4,
               "abertura": 2.3
             },
             "total_rounds": null
@@ -2518,7 +2585,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.57,
               "abertura": 1.58
@@ -4168,7 +4235,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-19T03:06:23.178250+00:00",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -4363,7 +4430,20 @@
               }
             }
           },
-          "odds_casa": null
+          "odds_casa": {
+            "casa": "DraftKings",
+            "fonte": "ESPN (API não oficial)",
+            "consultado_em": "2026-11-19T18:56:53.935600+00:00",
+            "a": {
+              "atual": 2.64,
+              "abertura": 2.14
+            },
+            "b": {
+              "atual": 1.5,
+              "abertura": 1.74
+            },
+            "total_rounds": null
+          }
         },
         {
           "id": "401913651",
