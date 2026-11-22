@@ -1,24 +1,24 @@
 {
-  "gerado_em": "2026-11-21T17:17:44.403168+00:00",
+  "gerado_em": "2026-11-22T02:01:50.603785+00:00",
   "eventos": [
     {
       "id": "600061665",
       "nome": "UFC Fight Night: Procházka vs. Stirling",
       "data": "2026-11-21T15:00Z",
       "fim_estimado": "2026-11-21T22:00:00+00:00",
-      "status": "STATUS_IN_PROGRESS",
+      "status": "STATUS_FINAL",
       "lutas": [
         {
           "id": "401922277",
           "numero": 1,
           "segmento": "principal",
           "categoria": "Light Heavyweight",
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "b",
           "lutador_a": {
             "espn_id": "3156612",
             "nome": "Jiří Procházka",
-            "cartel_espn": "32-6-1",
+            "cartel_espn": "32-7-1",
             "pais": "Czechia",
             "status_dados": "ok",
             "historico_ufc": {
@@ -66,9 +66,9 @@
               "envergadura_cm": 203
             },
             "carreira_mma": {
-              "cartel": "32-6-1",
+              "cartel": "32-7-1",
               "vitorias": 32,
-              "derrotas": 6,
+              "derrotas": 7,
               "empates": 1,
               "vitorias_por_metodo": {
                 "ko_tko": 28,
@@ -76,7 +76,7 @@
                 "decisao_ou_outro": 1
               },
               "derrotas_por_metodo": {
-                "ko_tko": 5,
+                "ko_tko": 6,
                 "finalizacao": 1,
                 "decisao_ou_outro": 0
               }
@@ -86,7 +86,7 @@
           "lutador_b": {
             "espn_id": "5216713",
             "nome": "Navajo Stirling",
-            "cartel_espn": "11-0-0",
+            "cartel_espn": "12-0-0",
             "pais": "New Zealand",
             "status_dados": "ok",
             "historico_ufc": {
@@ -134,12 +134,12 @@
               "envergadura_cm": 201
             },
             "carreira_mma": {
-              "cartel": "11-0-0",
-              "vitorias": 11,
+              "cartel": "12-0-0",
+              "vitorias": 12,
               "derrotas": 0,
               "empates": 0,
               "vitorias_por_metodo": {
-                "ko_tko": 7,
+                "ko_tko": 8,
                 "finalizacao": 0,
                 "decisao_ou_outro": 4
               },
@@ -194,19 +194,19 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
-              "atual": 2.6,
+              "atual": 2.8,
               "abertura": 2.24
             },
             "b": {
-              "atual": 1.52,
+              "atual": 1.45,
               "abertura": 1.67
             },
             "total_rounds": {
               "linha": 2.5,
-              "mais": 2.3,
-              "menos": 1.6
+              "mais": 2.24,
+              "menos": 1.62
             }
           }
         },
@@ -215,12 +215,12 @@
           "numero": 2,
           "segmento": "principal",
           "categoria": "Featherweight",
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "b",
           "lutador_a": {
             "espn_id": "3031559",
             "nome": "Aljamain Sterling",
-            "cartel_espn": "26-5-0",
+            "cartel_espn": "26-6-0",
             "pais": "USA",
             "status_dados": "ok",
             "historico_ufc": {
@@ -268,9 +268,9 @@
               "envergadura_cm": 180
             },
             "carreira_mma": {
-              "cartel": "26-5-0",
+              "cartel": "26-6-0",
               "vitorias": 26,
-              "derrotas": 5,
+              "derrotas": 6,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 3,
@@ -280,7 +280,7 @@
               "derrotas_por_metodo": {
                 "ko_tko": 2,
                 "finalizacao": 0,
-                "decisao_ou_outro": 3
+                "decisao_ou_outro": 4
               }
             },
             "medias_fora_ufc": null
@@ -288,7 +288,7 @@
           "lutador_b": {
             "espn_id": "5145681",
             "nome": "Kevin Vallejos",
-            "cartel_espn": "18-1-0",
+            "cartel_espn": "19-1-0",
             "pais": "Argentina",
             "status_dados": "ok",
             "historico_ufc": {
@@ -335,14 +335,14 @@
               "envergadura_cm": 173
             },
             "carreira_mma": {
-              "cartel": "18-1-0",
-              "vitorias": 18,
+              "cartel": "19-1-0",
+              "vitorias": 19,
               "derrotas": 1,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 13,
                 "finalizacao": 2,
-                "decisao_ou_outro": 3
+                "decisao_ou_outro": 4
               },
               "derrotas_por_metodo": {
                 "ko_tko": 0,
@@ -395,19 +395,19 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
-              "atual": 2.0,
+              "atual": 2.05,
               "abertura": 2.02
             },
             "b": {
-              "atual": 1.83,
+              "atual": 1.8,
               "abertura": 1.81
             },
             "total_rounds": {
               "linha": 2.5,
-              "mais": 1.57,
-              "menos": 2.35
+              "mais": 1.5,
+              "menos": 2.54
             }
           }
         },
@@ -416,12 +416,12 @@
           "numero": 3,
           "segmento": "principal",
           "categoria": "Lightweight",
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "a",
           "lutador_a": {
             "espn_id": "3109135",
             "nome": "Dan Hooker",
-            "cartel_espn": "24-15-0",
+            "cartel_espn": "25-15-0",
             "pais": "New Zealand",
             "status_dados": "ok",
             "historico_ufc": {
@@ -469,14 +469,14 @@
               "envergadura_cm": 190
             },
             "carreira_mma": {
-              "cartel": "24-15-0",
-              "vitorias": 24,
+              "cartel": "25-15-0",
+              "vitorias": 25,
               "derrotas": 15,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 11,
                 "finalizacao": 7,
-                "decisao_ou_outro": 6
+                "decisao_ou_outro": 7
               },
               "derrotas_por_metodo": {
                 "ko_tko": 5,
@@ -489,7 +489,7 @@
           "lutador_b": {
             "espn_id": "3045737",
             "nome": "Brian Ortega",
-            "cartel_espn": "16-5-0",
+            "cartel_espn": "16-6-0",
             "pais": "USA",
             "status_dados": "ok",
             "historico_ufc": {
@@ -537,9 +537,9 @@
               "envergadura_cm": 175
             },
             "carreira_mma": {
-              "cartel": "16-5-0",
+              "cartel": "16-6-0",
               "vitorias": 16,
-              "derrotas": 5,
+              "derrotas": 6,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 3,
@@ -549,7 +549,7 @@
               "derrotas_por_metodo": {
                 "ko_tko": 2,
                 "finalizacao": 0,
-                "decisao_ou_outro": 3
+                "decisao_ou_outro": 4
               }
             },
             "medias_fora_ufc": null
@@ -597,7 +597,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 1.48,
               "abertura": 1.61
@@ -608,8 +608,8 @@
             },
             "total_rounds": {
               "linha": 2.5,
-              "mais": 1.76,
-              "menos": 2.0
+              "mais": 1.8,
+              "menos": 1.95
             }
           }
         },
@@ -618,12 +618,12 @@
           "numero": 4,
           "segmento": "principal",
           "categoria": "Flyweight",
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "a",
           "lutador_a": {
             "espn_id": "2613374",
             "nome": "Kyoji Horiguchi",
-            "cartel_espn": "36-6-0",
+            "cartel_espn": "37-6-0",
             "pais": "Japan",
             "status_dados": "ok",
             "historico_ufc": {
@@ -671,14 +671,14 @@
               "envergadura_cm": 168
             },
             "carreira_mma": {
-              "cartel": "36-6-0",
-              "vitorias": 36,
+              "cartel": "37-6-0",
+              "vitorias": 37,
               "derrotas": 6,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 15,
                 "finalizacao": 6,
-                "decisao_ou_outro": 15
+                "decisao_ou_outro": 16
               },
               "derrotas_por_metodo": {
                 "ko_tko": 3,
@@ -691,7 +691,7 @@
           "lutador_b": {
             "espn_id": "4294926",
             "nome": "Asu Almabayev",
-            "cartel_espn": "24-3-0",
+            "cartel_espn": "24-4-0",
             "pais": "Kazakhstan",
             "status_dados": "ok",
             "historico_ufc": {
@@ -739,9 +739,9 @@
               "envergadura_cm": 165
             },
             "carreira_mma": {
-              "cartel": "24-3-0",
+              "cartel": "24-4-0",
               "vitorias": 24,
-              "derrotas": 3,
+              "derrotas": 4,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 3,
@@ -751,7 +751,7 @@
               "derrotas_por_metodo": {
                 "ko_tko": 2,
                 "finalizacao": 0,
-                "decisao_ou_outro": 1
+                "decisao_ou_outro": 2
               }
             },
             "medias_fora_ufc": null
@@ -799,19 +799,19 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
-              "atual": 1.54,
+              "atual": 1.55,
               "abertura": 1.48
             },
             "b": {
-              "atual": 2.54,
+              "atual": 2.5,
               "abertura": 2.7
             },
             "total_rounds": {
               "linha": 2.5,
-              "mais": 1.35,
-              "menos": 3.1
+              "mais": 1.33,
+              "menos": 3.2
             }
           }
         },
@@ -820,12 +820,12 @@
           "numero": 5,
           "segmento": "principal",
           "categoria": "Middleweight",
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "b",
           "lutador_a": {
             "espn_id": "3154860",
             "nome": "Jared Cannonier",
-            "cartel_espn": "18-10-0",
+            "cartel_espn": "18-11-0",
             "pais": "USA",
             "status_dados": "ok",
             "historico_ufc": {
@@ -873,9 +873,9 @@
               "envergadura_cm": 196
             },
             "carreira_mma": {
-              "cartel": "18-10-0",
+              "cartel": "18-11-0",
               "vitorias": 18,
-              "derrotas": 10,
+              "derrotas": 11,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 11,
@@ -885,7 +885,7 @@
               "derrotas_por_metodo": {
                 "ko_tko": 3,
                 "finalizacao": 0,
-                "decisao_ou_outro": 7
+                "decisao_ou_outro": 8
               }
             },
             "medias_fora_ufc": null
@@ -893,7 +893,7 @@
           "lutador_b": {
             "espn_id": "4684776",
             "nome": "Ikram Aliskerov",
-            "cartel_espn": "18-2-0",
+            "cartel_espn": "19-2-0",
             "pais": "Russia",
             "status_dados": "ok",
             "historico_ufc": {
@@ -941,14 +941,14 @@
               "envergadura_cm": 193
             },
             "carreira_mma": {
-              "cartel": "18-2-0",
-              "vitorias": 18,
+              "cartel": "19-2-0",
+              "vitorias": 19,
               "derrotas": 2,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 7,
                 "finalizacao": 5,
-                "decisao_ou_outro": 6
+                "decisao_ou_outro": 7
               },
               "derrotas_por_metodo": {
                 "ko_tko": 2,
@@ -1001,19 +1001,19 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
-              "atual": 3.75,
+              "atual": 3.85,
               "abertura": 3.8
             },
             "b": {
-              "atual": 1.28,
+              "atual": 1.27,
               "abertura": 1.28
             },
             "total_rounds": {
               "linha": 2.5,
-              "mais": 1.76,
-              "menos": 2.0
+              "mais": 1.74,
+              "menos": 2.05
             }
           }
         },
@@ -1022,12 +1022,12 @@
           "numero": 6,
           "segmento": "preliminar",
           "categoria": "Bantamweight",
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "b",
           "lutador_a": {
             "espn_id": "5185662",
             "nome": "Aleksandre Topuria",
-            "cartel_espn": "7-1-0",
+            "cartel_espn": "7-2-0",
             "pais": "Georgia",
             "status_dados": "ok",
             "historico_ufc": {
@@ -1072,9 +1072,9 @@
               "envergadura_cm": 173
             },
             "carreira_mma": {
-              "cartel": "7-1-0",
+              "cartel": "7-2-0",
               "vitorias": 7,
-              "derrotas": 1,
+              "derrotas": 2,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 3,
@@ -1084,7 +1084,7 @@
               "derrotas_por_metodo": {
                 "ko_tko": 1,
                 "finalizacao": 0,
-                "decisao_ou_outro": 0
+                "decisao_ou_outro": 1
               }
             },
             "medias_fora_ufc": null
@@ -1092,7 +1092,7 @@
           "lutador_b": {
             "espn_id": "5307799",
             "nome": "Santiago Luna",
-            "cartel_espn": "8-1-0",
+            "cartel_espn": "9-1-0",
             "pais": "Mexico",
             "status_dados": "ok",
             "historico_ufc": {
@@ -1138,14 +1138,14 @@
               "envergadura_cm": 188
             },
             "carreira_mma": {
-              "cartel": "8-1-0",
-              "vitorias": 8,
+              "cartel": "9-1-0",
+              "vitorias": 9,
               "derrotas": 1,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 3,
                 "finalizacao": 4,
-                "decisao_ou_outro": 1
+                "decisao_ou_outro": 2
               },
               "derrotas_por_metodo": {
                 "ko_tko": 0,
@@ -1198,7 +1198,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 1.35,
               "abertura": 1.34
@@ -1219,12 +1219,12 @@
           "numero": 7,
           "segmento": "preliminar",
           "categoria": "Heavyweight",
-          "status": "STATUS_IN_PROGRESS_2",
-          "vencedor": null,
+          "status": "STATUS_FINAL",
+          "vencedor": "b",
           "lutador_a": {
             "espn_id": "5145498",
             "nome": "Shamil Gaziev",
-            "cartel_espn": "15-3-0",
+            "cartel_espn": "15-4-0",
             "pais": "Bahrain",
             "status_dados": "ok",
             "historico_ufc": {
@@ -1272,9 +1272,9 @@
               "envergadura_cm": 198
             },
             "carreira_mma": {
-              "cartel": "15-3-0",
+              "cartel": "15-4-0",
               "vitorias": 15,
-              "derrotas": 3,
+              "derrotas": 4,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 10,
@@ -1284,7 +1284,7 @@
               "derrotas_por_metodo": {
                 "ko_tko": 3,
                 "finalizacao": 0,
-                "decisao_ou_outro": 0
+                "decisao_ou_outro": 1
               }
             },
             "medias_fora_ufc": null
@@ -1292,7 +1292,7 @@
           "lutador_b": {
             "espn_id": "5212856",
             "nome": "Tallison Teixeira",
-            "cartel_espn": "9-2-0",
+            "cartel_espn": "10-2-0",
             "pais": "Brazil",
             "status_dados": "ok",
             "historico_ufc": {
@@ -1339,14 +1339,14 @@
               "envergadura_cm": 211
             },
             "carreira_mma": {
-              "cartel": "9-2-0",
-              "vitorias": 9,
+              "cartel": "10-2-0",
+              "vitorias": 10,
               "derrotas": 2,
               "empates": 0,
               "vitorias_por_metodo": {
                 "ko_tko": 7,
                 "finalizacao": 1,
-                "decisao_ou_outro": 1
+                "decisao_ou_outro": 2
               },
               "derrotas_por_metodo": {
                 "ko_tko": 2,
@@ -1399,7 +1399,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 1.54,
               "abertura": 1.44
@@ -1425,7 +1425,7 @@
           "lutador_a": {
             "espn_id": "4684848",
             "nome": "Amir Albazi",
-            "cartel_espn": "17-3-0",
+            "cartel_espn": "18-3-0",
             "pais": "Iraq",
             "status_dados": "ok",
             "historico_ufc": {
@@ -1601,7 +1601,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 2.0,
               "abertura": 2.3
@@ -1756,15 +1756,16 @@
             },
             "medias_fora_ufc": {
               "fonte": "ESPN (lutas transmitidas com estatísticas)",
-              "lutas_com_estatisticas": 1,
+              "lutas_com_estatisticas": 2,
               "eventos": [
+                "UFC Fight Night: Procházka vs. Stirling",
                 "UFC Fight Night: Fiziev vs. Torres"
               ],
-              "minutos_com_estatisticas": 14.5,
-              "golpes_sig_por_min": 2.558,
-              "precisao_golpes": 0.425,
-              "quedas_por_15min": 2.074,
-              "precisao_quedas": 0.333,
+              "minutos_com_estatisticas": 29.5,
+              "golpes_sig_por_min": 2.342,
+              "precisao_golpes": 0.434,
+              "quedas_por_15min": 3.563,
+              "precisao_quedas": 0.538,
               "knockdowns_por_15min": 0.0
             }
           },
@@ -1776,7 +1777,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 1.4,
               "abertura": 1.6
@@ -1975,7 +1976,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 2.45,
               "abertura": 2.45
@@ -2091,17 +2092,18 @@
             },
             "medias_fora_ufc": {
               "fonte": "ESPN (lutas transmitidas com estatísticas)",
-              "lutas_com_estatisticas": 2,
+              "lutas_com_estatisticas": 3,
               "eventos": [
+                "UFC Fight Night: Procházka vs. Stirling",
                 "Dana White's Contender Series: Season 10, Week 2",
                 "Dana White's Contender Series: Season 9, Week 3"
               ],
-              "minutos_com_estatisticas": 2.9,
-              "golpes_sig_por_min": 9.711,
-              "precisao_golpes": 0.549,
+              "minutos_com_estatisticas": 8.3,
+              "golpes_sig_por_min": 5.553,
+              "precisao_golpes": 0.511,
               "quedas_por_15min": 0.0,
               "precisao_quedas": 0.0,
-              "knockdowns_por_15min": 5.202
+              "knockdowns_por_15min": 1.811
             }
           },
           "avisos": [
@@ -2112,7 +2114,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 1.37,
               "abertura": 1.4
@@ -2159,7 +2161,19 @@
                 "decisao_ou_outro": 3
               }
             },
-            "medias_fora_ufc": null
+            "medias_fora_ufc": {
+              "fonte": "ESPN (lutas transmitidas com estatísticas)",
+              "lutas_com_estatisticas": 1,
+              "eventos": [
+                "UFC Fight Night: Procházka vs. Stirling"
+              ],
+              "minutos_com_estatisticas": 3.8,
+              "golpes_sig_por_min": 4.174,
+              "precisao_golpes": 0.421,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "knockdowns_por_15min": 0.0
+            }
           },
           "lutador_b": {
             "espn_id": "5080723",
@@ -2185,7 +2199,19 @@
                 "decisao_ou_outro": 1
               }
             },
-            "medias_fora_ufc": null
+            "medias_fora_ufc": {
+              "fonte": "ESPN (lutas transmitidas com estatísticas)",
+              "lutas_com_estatisticas": 1,
+              "eventos": [
+                "UFC Fight Night: Procházka vs. Stirling"
+              ],
+              "minutos_com_estatisticas": 3.8,
+              "golpes_sig_por_min": 6.783,
+              "precisao_golpes": 0.743,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "knockdowns_por_15min": 3.913
+            }
           },
           "avisos": [
             "Shoaib Yousaf: sem histórico no UFCStats (provável estreia no UFC ou grafia diferente do nome).",
@@ -2196,7 +2222,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 2.24,
               "abertura": 2.1
@@ -2408,13 +2434,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
-              "atual": 1.58,
+              "atual": 1.61,
               "abertura": 1.64
             },
             "b": {
-              "atual": 2.42,
+              "atual": 2.36,
               "abertura": 2.3
             },
             "total_rounds": null
@@ -2603,13 +2629,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
-              "atual": 1.57,
+              "atual": 1.58,
               "abertura": 1.58
             },
             "b": {
-              "atual": 2.45,
+              "atual": 2.42,
               "abertura": 2.42
             },
             "total_rounds": null
@@ -2800,29 +2826,29 @@
           "odds_casa": null
         },
         {
-          "id": "401933598",
+          "id": "401936244",
           "numero": 4,
           "segmento": "principal",
-          "categoria": "Welterweight",
+          "categoria": "Featherweight",
           "status": "STATUS_SCHEDULED",
           "vencedor": null,
           "lutador_a": {
-            "espn_id": "4867651",
-            "nome": "Levan Chokheli",
-            "cartel_espn": "15-3-0",
-            "pais": "Georgia",
-            "status_dados": "insuficiente",
+            "espn_id": "5146696",
+            "nome": "Luke Riley",
+            "cartel_espn": "14-0-0",
+            "pais": "England",
+            "status_dados": "ok",
             "historico_ufc": {
-              "nome_ufcstats": "Levan Chokheli",
-              "lutas": 1,
-              "vitorias": 1,
+              "nome_ufcstats": "Luke Riley",
+              "lutas": 3,
+              "vitorias": 3,
               "derrotas": 0,
               "empates": 0,
               "sem_resultado": 0,
               "vitorias_por_metodo": {
-                "KO/TKO": 1,
+                "KO/TKO": 2,
                 "FINALIZACAO": 0,
-                "DECISAO": 0,
+                "DECISAO": 1,
                 "OUTRO": 0
               },
               "derrotas_por_metodo": {
@@ -2831,140 +2857,154 @@
                 "DECISAO": 0,
                 "OUTRO": 0
               },
-              "primeira_luta": "2026-06-20",
-              "ultima_luta": "2026-06-20",
+              "primeira_luta": "2025-11-22",
+              "ultima_luta": "2026-07-11",
               "ultimos_5": [
+                "V",
+                "V",
                 "V"
               ]
             },
             "estatisticas": {
-              "elo": 1532,
-              "minutos_com_estatisticas": 0.4,
-              "golpes_sig_por_min": 15.652,
-              "golpes_sig_sofridos_por_min": 0.0,
-              "precisao_golpes": 0.545,
-              "defesa_golpes": 1.0,
+              "elo": 1591,
+              "minutos_com_estatisticas": 23.6,
+              "golpes_sig_por_min": 6.667,
+              "golpes_sig_sofridos_por_min": 3.864,
+              "precisao_golpes": 0.588,
+              "defesa_golpes": 0.611,
               "quedas_por_15min": 0.0,
               "precisao_quedas": null,
-              "defesa_quedas": null,
-              "controle_por_15min_s": 39.13,
+              "defesa_quedas": 0.375,
+              "controle_por_15min_s": 10.828,
               "tentativas_finalizacao_por_15min": 0.0,
-              "idade": 30.2,
-              "envergadura_cm": 183
+              "idade": 27.4,
+              "envergadura_cm": null
             },
             "carreira_mma": {
-              "cartel": "15-3-0",
-              "vitorias": 15,
-              "derrotas": 3,
+              "cartel": "14-0-0",
+              "vitorias": 14,
+              "derrotas": 0,
               "empates": 0,
               "vitorias_por_metodo": {
-                "ko_tko": 12,
+                "ko_tko": 10,
                 "finalizacao": 0,
-                "decisao_ou_outro": 3
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 1,
-                "finalizacao": 1,
-                "decisao_ou_outro": 1
-              }
-            },
-            "medias_fora_ufc": {
-              "fonte": "ESPN (lutas transmitidas com estatísticas)",
-              "lutas_com_estatisticas": 1,
-              "eventos": [
-                "UFC Fight Night: Kape vs. Horiguchi 2"
-              ],
-              "minutos_com_estatisticas": 0.4,
-              "golpes_sig_por_min": 15.652,
-              "precisao_golpes": 0.545,
-              "quedas_por_15min": 0.0,
-              "precisao_quedas": null,
-              "knockdowns_por_15min": 39.13
-            }
-          },
-          "lutador_b": {
-            "espn_id": "5212748",
-            "nome": "Islam Dulatov",
-            "cartel_espn": "12-1-0",
-            "pais": "Germany",
-            "status_dados": "insuficiente",
-            "historico_ufc": {
-              "nome_ufcstats": "Islam Dulatov",
-              "lutas": 1,
-              "vitorias": 1,
-              "derrotas": 0,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 1,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2025-07-19",
-              "ultima_luta": "2025-07-19",
-              "ultimos_5": [
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1533,
-              "minutos_com_estatisticas": 4.1,
-              "golpes_sig_por_min": 5.122,
-              "golpes_sig_sofridos_por_min": 3.415,
-              "precisao_golpes": 0.512,
-              "defesa_golpes": 0.481,
-              "quedas_por_15min": 0.0,
-              "precisao_quedas": null,
-              "defesa_quedas": 1.0,
-              "controle_por_15min_s": 7.317,
-              "tentativas_finalizacao_por_15min": 0.0,
-              "idade": 28.3,
-              "envergadura_cm": 190
-            },
-            "carreira_mma": {
-              "cartel": "12-1-0",
-              "vitorias": 12,
-              "derrotas": 1,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 8,
-                "finalizacao": 4,
-                "decisao_ou_outro": 0
+                "decisao_ou_outro": 4
               },
               "derrotas_por_metodo": {
                 "ko_tko": 0,
                 "finalizacao": 0,
+                "decisao_ou_outro": 0
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "5109762",
+            "nome": "Gabriel Santos",
+            "cartel_espn": "12-2-0",
+            "pais": "Brazil",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Gabriel Santos",
+              "lutas": 4,
+              "vitorias": 2,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2023-03-18",
+              "ultima_luta": "2025-02-08",
+              "ultimos_5": [
+                "V",
+                "V",
+                "D",
+                "D"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1520,
+              "minutos_com_estatisticas": 51.3,
+              "golpes_sig_por_min": 4.346,
+              "golpes_sig_sofridos_por_min": 4.307,
+              "precisao_golpes": 0.606,
+              "defesa_golpes": 0.454,
+              "quedas_por_15min": 3.8,
+              "precisao_quedas": 0.542,
+              "defesa_quedas": 0.875,
+              "controle_por_15min_s": 322.994,
+              "tentativas_finalizacao_por_15min": 1.169,
+              "idade": 30.0,
+              "envergadura_cm": 178
+            },
+            "carreira_mma": {
+              "cartel": "12-2-0",
+              "vitorias": 12,
+              "derrotas": 2,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 3,
+                "finalizacao": 5,
+                "decisao_ou_outro": 4
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 1,
+                "finalizacao": 0,
                 "decisao_ou_outro": 1
               }
             },
-            "medias_fora_ufc": {
-              "fonte": "ESPN (lutas transmitidas com estatísticas)",
-              "lutas_com_estatisticas": 2,
-              "eventos": [
-                "UFC 318: Holloway vs. Poirier 3",
-                "Dana White's Contender Series: Season 8, Week 9"
-              ],
-              "minutos_com_estatisticas": 6.8,
-              "golpes_sig_por_min": 8.78,
-              "precisao_golpes": 0.545,
-              "quedas_por_15min": 2.195,
-              "precisao_quedas": 1.0,
-              "knockdowns_por_15min": 4.39
+            "medias_fora_ufc": null
+          },
+          "avisos": [],
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.621321,
+                "odd_justa": 1.61
+              },
+              "ko_tko": {
+                "prob": 0.287007,
+                "odd_justa": 3.48
+              },
+              "finalizacao": {
+                "prob": 0.047377,
+                "odd_justa": 21.11
+              },
+              "decisao": {
+                "prob": 0.286937,
+                "odd_justa": 3.49
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.378679,
+                "odd_justa": 2.64
+              },
+              "ko_tko": {
+                "prob": 0.086421,
+                "odd_justa": 11.57
+              },
+              "finalizacao": {
+                "prob": 0.09546,
+                "odd_justa": 10.48
+              },
+              "decisao": {
+                "prob": 0.196798,
+                "odd_justa": 5.08
+              }
             }
           },
-          "avisos": [
-            "Levan Chokheli: menos de 2 lutas no UFC registradas.",
-            "Islam Dulatov: menos de 2 lutas no UFC registradas."
-          ],
-          "previsao_possivel": false,
-          "previsao": null,
           "odds_casa": null
         },
         {
@@ -4057,6 +4097,174 @@
           "previsao_possivel": false,
           "previsao": null,
           "odds_casa": null
+        },
+        {
+          "id": "401933598",
+          "numero": 13,
+          "segmento": "preliminar",
+          "categoria": "Welterweight",
+          "status": "STATUS_SCHEDULED",
+          "vencedor": null,
+          "lutador_a": {
+            "espn_id": "4867651",
+            "nome": "Levan Chokheli",
+            "cartel_espn": "15-3-0",
+            "pais": "Georgia",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Levan Chokheli",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2026-06-20",
+              "ultima_luta": "2026-06-20",
+              "ultimos_5": [
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1532,
+              "minutos_com_estatisticas": 0.4,
+              "golpes_sig_por_min": 15.652,
+              "golpes_sig_sofridos_por_min": 0.0,
+              "precisao_golpes": 0.545,
+              "defesa_golpes": 1.0,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": null,
+              "controle_por_15min_s": 39.13,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 30.2,
+              "envergadura_cm": 183
+            },
+            "carreira_mma": {
+              "cartel": "15-3-0",
+              "vitorias": 15,
+              "derrotas": 3,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 12,
+                "finalizacao": 0,
+                "decisao_ou_outro": 3
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 1,
+                "finalizacao": 1,
+                "decisao_ou_outro": 1
+              }
+            },
+            "medias_fora_ufc": {
+              "fonte": "ESPN (lutas transmitidas com estatísticas)",
+              "lutas_com_estatisticas": 1,
+              "eventos": [
+                "UFC Fight Night: Kape vs. Horiguchi 2"
+              ],
+              "minutos_com_estatisticas": 0.4,
+              "golpes_sig_por_min": 15.652,
+              "precisao_golpes": 0.545,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "knockdowns_por_15min": 39.13
+            }
+          },
+          "lutador_b": {
+            "espn_id": "5212748",
+            "nome": "Islam Dulatov",
+            "cartel_espn": "12-1-0",
+            "pais": "Germany",
+            "status_dados": "insuficiente",
+            "historico_ufc": {
+              "nome_ufcstats": "Islam Dulatov",
+              "lutas": 1,
+              "vitorias": 1,
+              "derrotas": 0,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 1,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-07-19",
+              "ultima_luta": "2025-07-19",
+              "ultimos_5": [
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1533,
+              "minutos_com_estatisticas": 4.1,
+              "golpes_sig_por_min": 5.122,
+              "golpes_sig_sofridos_por_min": 3.415,
+              "precisao_golpes": 0.512,
+              "defesa_golpes": 0.481,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": null,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 7.317,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 28.3,
+              "envergadura_cm": 190
+            },
+            "carreira_mma": {
+              "cartel": "12-1-0",
+              "vitorias": 12,
+              "derrotas": 1,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 8,
+                "finalizacao": 4,
+                "decisao_ou_outro": 0
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 0,
+                "finalizacao": 0,
+                "decisao_ou_outro": 1
+              }
+            },
+            "medias_fora_ufc": {
+              "fonte": "ESPN (lutas transmitidas com estatísticas)",
+              "lutas_com_estatisticas": 2,
+              "eventos": [
+                "UFC 318: Holloway vs. Poirier 3",
+                "Dana White's Contender Series: Season 8, Week 9"
+              ],
+              "minutos_com_estatisticas": 6.8,
+              "golpes_sig_por_min": 8.78,
+              "precisao_golpes": 0.545,
+              "quedas_por_15min": 2.195,
+              "precisao_quedas": 1.0,
+              "knockdowns_por_15min": 4.39
+            }
+          },
+          "avisos": [
+            "Levan Chokheli: menos de 2 lutas no UFC registradas.",
+            "Islam Dulatov: menos de 2 lutas no UFC registradas."
+          ],
+          "previsao_possivel": false,
+          "previsao": null,
+          "odds_casa": null
         }
       ]
     },
@@ -4253,7 +4461,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -4451,7 +4659,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-21T17:17:44.403168+00:00",
+            "consultado_em": "2026-11-22T02:01:50.603785+00:00",
             "a": {
               "atual": 2.64,
               "abertura": 2.14
