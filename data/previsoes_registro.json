@@ -2389,7 +2389,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "b",
+      "metodo": "KO/TKO",
+      "metodo_original": "KO/TKO",
+      "round": "2"
+    }
   },
   "401927850": {
     "evento_id": "600061665",
@@ -2456,7 +2461,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "b",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Unanimous",
+      "round": "3"
+    }
   },
   "401922278": {
     "evento_id": "600061665",
@@ -2523,7 +2533,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "a",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Unanimous",
+      "round": "3"
+    }
   },
   "401927851": {
     "evento_id": "600061665",
@@ -2590,7 +2605,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "b",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Unanimous",
+      "round": "3"
+    }
   },
   "401927852": {
     "evento_id": "600061665",
@@ -2657,7 +2677,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "b",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Unanimous",
+      "round": "3"
+    }
   },
   "401927854": {
     "evento_id": "600061665",
@@ -2724,7 +2749,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "b",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Split",
+      "round": "3"
+    }
   },
   "401927855": {
     "evento_id": "600061665",
@@ -2791,7 +2821,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "a",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Unanimous",
+      "round": "3"
+    }
   },
   "401927856": {
     "evento_id": "600061665",
@@ -2858,7 +2893,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "a",
+      "metodo": "FINALIZACAO",
+      "metodo_original": "Submission",
+      "round": "3"
+    }
   },
   "401913649": {
     "evento_id": "600061401",
@@ -2870,45 +2910,45 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.606517,
+          "prob": 0.604706,
           "odd_justa": 1.65
         },
         "ko_tko": {
-          "prob": 0.089253,
-          "odd_justa": 11.2
+          "prob": 0.088993,
+          "odd_justa": 11.24
         },
         "finalizacao": {
-          "prob": 0.222536,
-          "odd_justa": 4.49
+          "prob": 0.221808,
+          "odd_justa": 4.51
         },
         "decisao": {
-          "prob": 0.294728,
-          "odd_justa": 3.39
+          "prob": 0.293905,
+          "odd_justa": 3.4
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.393483,
-          "odd_justa": 2.54
+          "prob": 0.395294,
+          "odd_justa": 2.53
         },
         "ko_tko": {
-          "prob": 0.185922,
-          "odd_justa": 5.38
+          "prob": 0.186782,
+          "odd_justa": 5.35
         },
         "finalizacao": {
-          "prob": 0.098656,
-          "odd_justa": 10.14
+          "prob": 0.099077,
+          "odd_justa": 10.09
         },
         "decisao": {
-          "prob": 0.108905,
-          "odd_justa": 9.18
+          "prob": 0.109435,
+          "odd_justa": 9.14
         }
       }
     },
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-22T17:44:04.486663+00:00",
+      "consultado_em": "2026-11-23T02:26:47.642330+00:00",
       "a": {
         "atual": 1.67,
         "abertura": 1.55
@@ -2919,7 +2959,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -2933,45 +2973,45 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.456172,
-          "odd_justa": 2.19
+          "prob": 0.455342,
+          "odd_justa": 2.2
         },
         "ko_tko": {
-          "prob": 0.311188,
-          "odd_justa": 3.21
+          "prob": 0.310537,
+          "odd_justa": 3.22
         },
         "finalizacao": {
-          "prob": 0.019365,
-          "odd_justa": 51.64
+          "prob": 0.019305,
+          "odd_justa": 51.8
         },
         "decisao": {
-          "prob": 0.125619,
-          "odd_justa": 7.96
+          "prob": 0.1255,
+          "odd_justa": 7.97
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.543828,
+          "prob": 0.544658,
           "odd_justa": 1.84
         },
         "ko_tko": {
-          "prob": 0.364908,
+          "prob": 0.365361,
           "odd_justa": 2.74
         },
         "finalizacao": {
-          "prob": 0.023704,
-          "odd_justa": 42.19
+          "prob": 0.02371,
+          "odd_justa": 42.18
         },
         "decisao": {
-          "prob": 0.155216,
-          "odd_justa": 6.44
+          "prob": 0.155587,
+          "odd_justa": 6.43
         }
       }
     },
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-22T17:44:04.486663+00:00",
+      "consultado_em": "2026-11-23T02:26:47.642330+00:00",
       "a": {
         "atual": 2.64,
         "abertura": 2.14
@@ -2982,7 +3022,7 @@
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3046,43 +3086,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.612277,
+          "prob": 0.611669,
           "odd_justa": 1.63
         },
         "ko_tko": {
-          "prob": 0.12719,
-          "odd_justa": 7.86
+          "prob": 0.126941,
+          "odd_justa": 7.88
         },
         "finalizacao": {
-          "prob": 0.123765,
+          "prob": 0.123782,
           "odd_justa": 8.08
         },
         "decisao": {
-          "prob": 0.361322,
+          "prob": 0.360946,
           "odd_justa": 2.77
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.387723,
+          "prob": 0.388331,
           "odd_justa": 2.58
         },
         "ko_tko": {
-          "prob": 0.093736,
-          "odd_justa": 10.67
+          "prob": 0.093797,
+          "odd_justa": 10.66
         },
         "finalizacao": {
-          "prob": 0.034548,
-          "odd_justa": 28.95
+          "prob": 0.0347,
+          "odd_justa": 28.82
         },
         "decisao": {
-          "prob": 0.25944,
+          "prob": 0.259834,
           "odd_justa": 3.85
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3722,56 +3762,56 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.491995,
-          "odd_justa": 2.03
+          "prob": 0.490934,
+          "odd_justa": 2.04
         },
         "ko_tko": {
-          "prob": 0.157717,
-          "odd_justa": 6.34
+          "prob": 0.157313,
+          "odd_justa": 6.36
         },
         "finalizacao": {
-          "prob": 0.042459,
-          "odd_justa": 23.55
+          "prob": 0.042331,
+          "odd_justa": 23.62
         },
         "decisao": {
-          "prob": 0.291819,
+          "prob": 0.291291,
           "odd_justa": 3.43
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.508005,
-          "odd_justa": 1.97
+          "prob": 0.509066,
+          "odd_justa": 1.96
         },
         "ko_tko": {
-          "prob": 0.207615,
-          "odd_justa": 4.82
+          "prob": 0.208007,
+          "odd_justa": 4.81
         },
         "finalizacao": {
-          "prob": 0.059151,
-          "odd_justa": 16.91
+          "prob": 0.05925,
+          "odd_justa": 16.88
         },
         "decisao": {
-          "prob": 0.241239,
-          "odd_justa": 4.15
+          "prob": 0.241808,
+          "odd_justa": 4.14
         }
       }
     },
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-22T17:44:04.486663+00:00",
+      "consultado_em": "2026-11-23T02:26:47.642330+00:00",
       "a": {
-        "atual": 1.57,
+        "atual": 1.54,
         "abertura": 1.64
       },
       "b": {
-        "atual": 2.45,
+        "atual": 2.54,
         "abertura": 2.3
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3785,56 +3825,56 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.594909,
+          "prob": 0.594123,
           "odd_justa": 1.68
         },
         "ko_tko": {
-          "prob": 0.192503,
-          "odd_justa": 5.19
+          "prob": 0.192166,
+          "odd_justa": 5.2
         },
         "finalizacao": {
-          "prob": 0.064584,
-          "odd_justa": 15.48
+          "prob": 0.064453,
+          "odd_justa": 15.52
         },
         "decisao": {
-          "prob": 0.337821,
+          "prob": 0.337505,
           "odd_justa": 2.96
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.405091,
-          "odd_justa": 2.47
+          "prob": 0.405877,
+          "odd_justa": 2.46
         },
         "ko_tko": {
-          "prob": 0.068953,
-          "odd_justa": 14.5
+          "prob": 0.069038,
+          "odd_justa": 14.48
         },
         "finalizacao": {
-          "prob": 0.138968,
-          "odd_justa": 7.2
+          "prob": 0.13921,
+          "odd_justa": 7.18
         },
         "decisao": {
-          "prob": 0.197171,
-          "odd_justa": 5.07
+          "prob": 0.197629,
+          "odd_justa": 5.06
         }
       }
     },
     "odds_casa": {
       "casa": "DraftKings",
       "fonte": "ESPN (API não oficial)",
-      "consultado_em": "2026-11-22T17:44:04.486663+00:00",
+      "consultado_em": "2026-11-23T02:26:47.642330+00:00",
       "a": {
         "atual": 1.57,
         "abertura": 1.58
       },
       "b": {
-        "atual": 2.5,
+        "atual": 2.45,
         "abertura": 2.42
       },
       "total_rounds": null
     },
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3848,43 +3888,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.254115,
-          "odd_justa": 3.94
+          "prob": 0.253348,
+          "odd_justa": 3.95
         },
         "ko_tko": {
-          "prob": 0.113532,
-          "odd_justa": 8.81
+          "prob": 0.113091,
+          "odd_justa": 8.84
         },
         "finalizacao": {
-          "prob": 0.05715,
-          "odd_justa": 17.5
+          "prob": 0.056949,
+          "odd_justa": 17.56
         },
         "decisao": {
-          "prob": 0.083433,
-          "odd_justa": 11.99
+          "prob": 0.083308,
+          "odd_justa": 12.0
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.745885,
+          "prob": 0.746652,
           "odd_justa": 1.34
         },
         "ko_tko": {
-          "prob": 0.461062,
+          "prob": 0.4614,
           "odd_justa": 2.17
         },
         "finalizacao": {
-          "prob": 0.031043,
-          "odd_justa": 32.21
+          "prob": 0.031036,
+          "odd_justa": 32.22
         },
         "decisao": {
-          "prob": 0.253779,
-          "odd_justa": 3.94
+          "prob": 0.254216,
+          "odd_justa": 3.93
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -3898,43 +3938,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.537852,
-          "odd_justa": 1.86
+          "prob": 0.540135,
+          "odd_justa": 1.85
         },
         "ko_tko": {
-          "prob": 0.265508,
-          "odd_justa": 3.77
+          "prob": 0.266562,
+          "odd_justa": 3.75
         },
         "finalizacao": {
-          "prob": 0.093171,
-          "odd_justa": 10.73
+          "prob": 0.093525,
+          "odd_justa": 10.69
         },
         "decisao": {
-          "prob": 0.179173,
-          "odd_justa": 5.58
+          "prob": 0.180048,
+          "odd_justa": 5.55
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.462148,
-          "odd_justa": 2.16
+          "prob": 0.459865,
+          "odd_justa": 2.17
         },
         "ko_tko": {
-          "prob": 0.118386,
-          "odd_justa": 8.45
+          "prob": 0.11775,
+          "odd_justa": 8.49
         },
         "finalizacao": {
-          "prob": 0.097011,
-          "odd_justa": 10.31
+          "prob": 0.096503,
+          "odd_justa": 10.36
         },
         "decisao": {
-          "prob": 0.246751,
-          "odd_justa": 4.05
+          "prob": 0.245612,
+          "odd_justa": 4.07
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4003,7 +4043,12 @@
     },
     "previsto_em": "2026-11-21T03:04:04.811165+00:00",
     "versao_modelo": "elo-logistica-v1",
-    "resultado_real": null
+    "resultado_real": {
+      "vencedor": "b",
+      "metodo": "DECISAO",
+      "metodo_original": "Decision - Unanimous",
+      "round": "3"
+    }
   },
   "401932014": {
     "evento_id": "600062421",
@@ -4015,43 +4060,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.391574,
-          "odd_justa": 2.55
+          "prob": 0.389616,
+          "odd_justa": 2.57
         },
         "ko_tko": {
-          "prob": 0.171553,
-          "odd_justa": 5.83
+          "prob": 0.170658,
+          "odd_justa": 5.86
         },
         "finalizacao": {
-          "prob": 0.033435,
-          "odd_justa": 29.91
+          "prob": 0.033247,
+          "odd_justa": 30.08
         },
         "decisao": {
-          "prob": 0.186586,
-          "odd_justa": 5.36
+          "prob": 0.18571,
+          "odd_justa": 5.38
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.608426,
+          "prob": 0.610384,
           "odd_justa": 1.64
         },
         "ko_tko": {
-          "prob": 0.363724,
-          "odd_justa": 2.75
+          "prob": 0.364839,
+          "odd_justa": 2.74
         },
         "finalizacao": {
-          "prob": 0.078195,
-          "odd_justa": 12.79
+          "prob": 0.078416,
+          "odd_justa": 12.75
         },
         "decisao": {
-          "prob": 0.166508,
-          "odd_justa": 6.01
+          "prob": 0.16713,
+          "odd_justa": 5.98
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4065,43 +4110,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.371995,
+          "prob": 0.372135,
           "odd_justa": 2.69
         },
         "ko_tko": {
-          "prob": 0.106685,
+          "prob": 0.106699,
           "odd_justa": 9.37
         },
         "finalizacao": {
-          "prob": 0.020192,
-          "odd_justa": 49.52
+          "prob": 0.020185,
+          "odd_justa": 49.54
         },
         "decisao": {
-          "prob": 0.245118,
+          "prob": 0.24525,
           "odd_justa": 4.08
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.628005,
+          "prob": 0.627865,
           "odd_justa": 1.59
         },
         "ko_tko": {
-          "prob": 0.248679,
+          "prob": 0.248585,
           "odd_justa": 4.02
         },
         "finalizacao": {
-          "prob": 0.144318,
+          "prob": 0.144265,
           "odd_justa": 6.93
         },
         "decisao": {
-          "prob": 0.235008,
+          "prob": 0.235015,
           "odd_justa": 4.26
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4115,43 +4160,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.605109,
+          "prob": 0.604915,
           "odd_justa": 1.65
         },
         "ko_tko": {
-          "prob": 0.244527,
+          "prob": 0.244414,
           "odd_justa": 4.09
         },
         "finalizacao": {
-          "prob": 0.057605,
-          "odd_justa": 17.36
+          "prob": 0.057567,
+          "odd_justa": 17.37
         },
         "decisao": {
-          "prob": 0.302977,
+          "prob": 0.302935,
           "odd_justa": 3.3
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.394891,
+          "prob": 0.395085,
           "odd_justa": 2.53
         },
         "ko_tko": {
-          "prob": 0.157012,
+          "prob": 0.157065,
           "odd_justa": 6.37
         },
         "finalizacao": {
-          "prob": 0.043053,
-          "odd_justa": 23.23
+          "prob": 0.043061,
+          "odd_justa": 23.22
         },
         "decisao": {
-          "prob": 0.194826,
+          "prob": 0.194958,
           "odd_justa": 5.13
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4165,43 +4210,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.735819,
+          "prob": 0.736611,
           "odd_justa": 1.36
         },
         "ko_tko": {
-          "prob": 0.491927,
+          "prob": 0.492426,
           "odd_justa": 2.03
         },
         "finalizacao": {
-          "prob": 0.088458,
+          "prob": 0.088513,
           "odd_justa": 11.3
         },
         "decisao": {
-          "prob": 0.155434,
-          "odd_justa": 6.43
+          "prob": 0.155672,
+          "odd_justa": 6.42
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.264181,
-          "odd_justa": 3.79
+          "prob": 0.263389,
+          "odd_justa": 3.8
         },
         "ko_tko": {
-          "prob": 0.09871,
-          "odd_justa": 10.13
+          "prob": 0.098395,
+          "odd_justa": 10.16
         },
         "finalizacao": {
-          "prob": 0.061742,
-          "odd_justa": 16.2
+          "prob": 0.061532,
+          "odd_justa": 16.25
         },
         "decisao": {
-          "prob": 0.103728,
-          "odd_justa": 9.64
+          "prob": 0.103461,
+          "odd_justa": 9.67
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4215,43 +4260,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.499588,
+          "prob": 0.498886,
           "odd_justa": 2.0
         },
         "ko_tko": {
-          "prob": 0.207581,
-          "odd_justa": 4.82
+          "prob": 0.207196,
+          "odd_justa": 4.83
         },
         "finalizacao": {
-          "prob": 0.204391,
-          "odd_justa": 4.89
+          "prob": 0.204076,
+          "odd_justa": 4.9
         },
         "decisao": {
-          "prob": 0.087616,
+          "prob": 0.087613,
           "odd_justa": 11.41
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.500412,
+          "prob": 0.501114,
           "odd_justa": 2.0
         },
         "ko_tko": {
-          "prob": 0.228034,
-          "odd_justa": 4.39
+          "prob": 0.228208,
+          "odd_justa": 4.38
         },
         "finalizacao": {
-          "prob": 0.088924,
-          "odd_justa": 11.25
+          "prob": 0.089006,
+          "odd_justa": 11.24
         },
         "decisao": {
-          "prob": 0.183453,
-          "odd_justa": 5.45
+          "prob": 0.1839,
+          "odd_justa": 5.44
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4265,43 +4310,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.57218,
+          "prob": 0.572777,
           "odd_justa": 1.75
         },
         "ko_tko": {
-          "prob": 0.356547,
+          "prob": 0.356835,
           "odd_justa": 2.8
         },
         "finalizacao": {
-          "prob": 0.055551,
+          "prob": 0.055561,
           "odd_justa": 18.0
         },
         "decisao": {
-          "prob": 0.160083,
-          "odd_justa": 6.25
+          "prob": 0.160382,
+          "odd_justa": 6.24
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.42782,
+          "prob": 0.427223,
           "odd_justa": 2.34
         },
         "ko_tko": {
-          "prob": 0.159636,
-          "odd_justa": 6.26
+          "prob": 0.15935,
+          "odd_justa": 6.28
         },
         "finalizacao": {
-          "prob": 0.191272,
-          "odd_justa": 5.23
+          "prob": 0.19097,
+          "odd_justa": 5.24
         },
         "decisao": {
-          "prob": 0.076912,
+          "prob": 0.076903,
           "odd_justa": 13.0
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4315,43 +4360,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.382007,
+          "prob": 0.381976,
           "odd_justa": 2.62
         },
         "ko_tko": {
-          "prob": 0.141412,
+          "prob": 0.141411,
           "odd_justa": 7.07
         },
         "finalizacao": {
-          "prob": 0.077819,
-          "odd_justa": 12.85
+          "prob": 0.077715,
+          "odd_justa": 12.87
         },
         "decisao": {
-          "prob": 0.162775,
+          "prob": 0.162849,
           "odd_justa": 6.14
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.617993,
+          "prob": 0.618024,
           "odd_justa": 1.62
         },
         "ko_tko": {
-          "prob": 0.241758,
+          "prob": 0.241779,
           "odd_justa": 4.14
         },
         "finalizacao": {
-          "prob": 0.037726,
-          "odd_justa": 26.51
+          "prob": 0.037652,
+          "odd_justa": 26.56
         },
         "decisao": {
-          "prob": 0.338509,
+          "prob": 0.338594,
           "odd_justa": 2.95
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4365,43 +4410,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.686845,
+          "prob": 0.686753,
           "odd_justa": 1.46
         },
         "ko_tko": {
-          "prob": 0.122208,
+          "prob": 0.122191,
           "odd_justa": 8.18
         },
         "finalizacao": {
-          "prob": 0.128717,
+          "prob": 0.128698,
           "odd_justa": 7.77
         },
         "decisao": {
-          "prob": 0.43592,
+          "prob": 0.435863,
           "odd_justa": 2.29
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.313155,
+          "prob": 0.313247,
           "odd_justa": 3.19
         },
         "ko_tko": {
-          "prob": 0.029988,
-          "odd_justa": 33.35
+          "prob": 0.029996,
+          "odd_justa": 33.34
         },
         "finalizacao": {
-          "prob": 0.027725,
-          "odd_justa": 36.07
+          "prob": 0.027733,
+          "odd_justa": 36.06
         },
         "decisao": {
-          "prob": 0.255442,
+          "prob": 0.255518,
           "odd_justa": 3.91
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4415,43 +4460,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.442836,
+          "prob": 0.442231,
           "odd_justa": 2.26
         },
         "ko_tko": {
-          "prob": 0.102773,
-          "odd_justa": 9.73
+          "prob": 0.102539,
+          "odd_justa": 9.75
         },
         "finalizacao": {
-          "prob": 0.08372,
-          "odd_justa": 11.94
+          "prob": 0.083535,
+          "odd_justa": 11.97
         },
         "decisao": {
-          "prob": 0.256344,
+          "prob": 0.256157,
           "odd_justa": 3.9
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.557164,
+          "prob": 0.557769,
           "odd_justa": 1.79
         },
         "ko_tko": {
-          "prob": 0.132634,
+          "prob": 0.1327,
           "odd_justa": 7.54
         },
         "finalizacao": {
-          "prob": 0.047007,
-          "odd_justa": 21.27
+          "prob": 0.046999,
+          "odd_justa": 21.28
         },
         "decisao": {
-          "prob": 0.377522,
+          "prob": 0.378069,
           "odd_justa": 2.65
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4465,43 +4510,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.454402,
+          "prob": 0.455396,
           "odd_justa": 2.2
         },
         "ko_tko": {
-          "prob": 0.258702,
-          "odd_justa": 3.87
+          "prob": 0.259164,
+          "odd_justa": 3.86
         },
         "finalizacao": {
-          "prob": 0.068625,
-          "odd_justa": 14.57
+          "prob": 0.068716,
+          "odd_justa": 14.55
         },
         "decisao": {
-          "prob": 0.127075,
-          "odd_justa": 7.87
+          "prob": 0.127516,
+          "odd_justa": 7.84
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.545598,
-          "odd_justa": 1.83
+          "prob": 0.544604,
+          "odd_justa": 1.84
         },
         "ko_tko": {
-          "prob": 0.201503,
-          "odd_justa": 4.96
+          "prob": 0.201011,
+          "odd_justa": 4.97
         },
         "finalizacao": {
-          "prob": 0.191517,
-          "odd_justa": 5.22
+          "prob": 0.191098,
+          "odd_justa": 5.23
         },
         "decisao": {
-          "prob": 0.152578,
-          "odd_justa": 6.55
+          "prob": 0.152495,
+          "odd_justa": 6.56
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   },
@@ -4515,43 +4560,43 @@
     "previsao": {
       "a": {
         "vitoria": {
-          "prob": 0.621321,
+          "prob": 0.621967,
           "odd_justa": 1.61
         },
         "ko_tko": {
-          "prob": 0.287007,
+          "prob": 0.287211,
           "odd_justa": 3.48
         },
         "finalizacao": {
-          "prob": 0.047377,
+          "prob": 0.047373,
           "odd_justa": 21.11
         },
         "decisao": {
-          "prob": 0.286937,
-          "odd_justa": 3.49
+          "prob": 0.287383,
+          "odd_justa": 3.48
         }
       },
       "b": {
         "vitoria": {
-          "prob": 0.378679,
-          "odd_justa": 2.64
+          "prob": 0.378033,
+          "odd_justa": 2.65
         },
         "ko_tko": {
-          "prob": 0.086421,
-          "odd_justa": 11.57
+          "prob": 0.086178,
+          "odd_justa": 11.6
         },
         "finalizacao": {
-          "prob": 0.09546,
-          "odd_justa": 10.48
+          "prob": 0.095243,
+          "odd_justa": 10.5
         },
         "decisao": {
-          "prob": 0.196798,
-          "odd_justa": 5.08
+          "prob": 0.196612,
+          "odd_justa": 5.09
         }
       }
     },
     "odds_casa": null,
-    "previsto_em": "2026-11-22T17:44:04.486663+00:00",
+    "previsto_em": "2026-11-23T02:26:47.642330+00:00",
     "versao_modelo": "elo-logistica-v1",
     "resultado_real": null
   }
