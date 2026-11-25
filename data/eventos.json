@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T20:35:28.431309+00:00",
+  "gerado_em": "2026-11-25T04:50:37.960346+00:00",
   "eventos": [
     {
       "id": "600062700",
@@ -194,7 +194,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.58,
               "abertura": 1.64
@@ -203,7 +203,11 @@
               "atual": 2.42,
               "abertura": 2.3
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 3.5,
+              "mais": 1.6,
+              "menos": 2.3
+            }
           }
         },
         {
@@ -389,7 +393,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.55,
               "abertura": 1.58
@@ -398,7 +402,11 @@
               "atual": 2.5,
               "abertura": 2.42
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 4.5,
+              "mais": 1.45,
+              "menos": 2.7
+            }
           }
         },
         {
@@ -586,7 +594,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 3.75,
               "abertura": 3.75
@@ -595,7 +603,11 @@
               "atual": 1.28,
               "abertura": 1.28
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 1.51,
+              "menos": 2.5
+            }
           }
         },
         {
@@ -767,7 +779,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 2.64,
               "abertura": 2.8
@@ -776,7 +788,11 @@
               "atual": 1.5,
               "abertura": 1.45
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 2.4,
+              "menos": 1.55
+            }
           }
         },
         {
@@ -962,7 +978,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.67
@@ -1094,7 +1110,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 3.45,
               "abertura": 3.45
@@ -1103,7 +1119,11 @@
               "atual": 1.32,
               "abertura": 1.32
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 2.5,
+              "mais": 2.6,
+              "menos": 1.47
+            }
           }
         },
         {
@@ -1265,7 +1285,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.52,
               "abertura": 1.52
@@ -1274,7 +1294,11 @@
               "atual": 2.6,
               "abertura": 2.6
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 1.71,
+              "menos": 2.1
+            }
           }
         },
         {
@@ -1519,16 +1543,20 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
-              "atual": 1.84,
+              "atual": 1.81,
               "abertura": 1.9
             },
             "b": {
-              "atual": 1.98,
+              "atual": 2.02,
               "abertura": 1.9
             },
-            "total_rounds": null
+            "total_rounds": {
+              "linha": 1.5,
+              "mais": 2.0,
+              "menos": 1.76
+            }
           }
         },
         {
@@ -1845,7 +1873,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.74,
               "abertura": 1.76
@@ -1950,13 +1978,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
-              "atual": 2.2,
+              "atual": 2.14,
               "abertura": 2.2
             },
             "b": {
-              "atual": 1.7,
+              "atual": 1.74,
               "abertura": 1.7
             },
             "total_rounds": null
@@ -2131,7 +2159,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.67
@@ -2329,13 +2357,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
-              "atual": 1.74,
+              "atual": 1.7,
               "abertura": 1.67
             },
             "b": {
-              "atual": 2.14,
+              "atual": 2.2,
               "abertura": 2.24
             },
             "total_rounds": null
@@ -2536,7 +2564,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -2734,7 +2762,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-24T20:35:28.431309+00:00",
+            "consultado_em": "2026-11-25T04:50:37.960346+00:00",
             "a": {
               "atual": 2.64,
               "abertura": 2.14
@@ -3993,7 +4021,7 @@
         },
         {
           "id": "401936033",
-          "numero": 5,
+          "numero": 4,
           "segmento": "principal",
           "categoria": "Welterweight",
           "status": "STATUS_SCHEDULED",
@@ -4177,190 +4205,8 @@
           "odds_casa": null
         },
         {
-          "id": "401932035",
-          "numero": 6,
-          "segmento": "preliminar",
-          "categoria": null,
-          "status": "STATUS_SCHEDULED",
-          "vencedor": null,
-          "lutador_a": {
-            "espn_id": "4245094",
-            "nome": "Kennedy Nzechukwu",
-            "cartel_espn": "14-7-1",
-            "pais": "Nigeria",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Kennedy Nzechukwu",
-              "lutas": 16,
-              "vitorias": 8,
-              "derrotas": 7,
-              "empates": 1,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 6,
-                "FINALIZACAO": 1,
-                "DECISAO": 1,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 3,
-                "FINALIZACAO": 2,
-                "DECISAO": 2,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2019-03-30",
-              "ultima_luta": "2026-08-22",
-              "ultimos_5": [
-                "D",
-                "E",
-                "D",
-                "V",
-                "V"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1497,
-              "minutos_com_estatisticas": 134.8,
-              "golpes_sig_por_min": 4.652,
-              "golpes_sig_sofridos_por_min": 4.489,
-              "precisao_golpes": 0.496,
-              "defesa_golpes": 0.512,
-              "quedas_por_15min": 0.557,
-              "precisao_quedas": 0.455,
-              "defesa_quedas": 0.808,
-              "controle_por_15min_s": 160.388,
-              "tentativas_finalizacao_por_15min": 0.223,
-              "idade": 34.6,
-              "envergadura_cm": 211
-            },
-            "carreira_mma": {
-              "cartel": "14-7-1",
-              "vitorias": 14,
-              "derrotas": 7,
-              "empates": 1,
-              "vitorias_por_metodo": {
-                "ko_tko": 10,
-                "finalizacao": 1,
-                "decisao_ou_outro": 3
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 3,
-                "finalizacao": 2,
-                "decisao_ou_outro": 2
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "lutador_b": {
-            "espn_id": "5293987",
-            "nome": "Elisha Ellison",
-            "cartel_espn": "5-3-0",
-            "pais": "USA",
-            "status_dados": "ok",
-            "historico_ufc": {
-              "nome_ufcstats": "Elisha Ellison",
-              "lutas": 2,
-              "vitorias": 0,
-              "derrotas": 2,
-              "empates": 0,
-              "sem_resultado": 0,
-              "vitorias_por_metodo": {
-                "KO/TKO": 0,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "derrotas_por_metodo": {
-                "KO/TKO": 2,
-                "FINALIZACAO": 0,
-                "DECISAO": 0,
-                "OUTRO": 0
-              },
-              "primeira_luta": "2025-09-27",
-              "ultima_luta": "2026-07-11",
-              "ultimos_5": [
-                "D",
-                "D"
-              ]
-            },
-            "estatisticas": {
-              "elo": 1439,
-              "minutos_com_estatisticas": 4.4,
-              "golpes_sig_por_min": 3.609,
-              "golpes_sig_sofridos_por_min": 15.789,
-              "precisao_golpes": 0.381,
-              "defesa_golpes": 0.34,
-              "quedas_por_15min": 0.0,
-              "precisao_quedas": 0.0,
-              "defesa_quedas": 1.0,
-              "controle_por_15min_s": 43.985,
-              "tentativas_finalizacao_por_15min": 0.0,
-              "idade": 29.9,
-              "envergadura_cm": 198
-            },
-            "carreira_mma": {
-              "cartel": "5-3-0",
-              "vitorias": 5,
-              "derrotas": 3,
-              "empates": 0,
-              "vitorias_por_metodo": {
-                "ko_tko": 4,
-                "finalizacao": 1,
-                "decisao_ou_outro": 0
-              },
-              "derrotas_por_metodo": {
-                "ko_tko": 2,
-                "finalizacao": 1,
-                "decisao_ou_outro": 0
-              }
-            },
-            "medias_fora_ufc": null
-          },
-          "avisos": [],
-          "previsao_possivel": true,
-          "previsao": {
-            "a": {
-              "vitoria": {
-                "prob": 0.736611,
-                "odd_justa": 1.36
-              },
-              "ko_tko": {
-                "prob": 0.492426,
-                "odd_justa": 2.03
-              },
-              "finalizacao": {
-                "prob": 0.088513,
-                "odd_justa": 11.3
-              },
-              "decisao": {
-                "prob": 0.155672,
-                "odd_justa": 6.42
-              }
-            },
-            "b": {
-              "vitoria": {
-                "prob": 0.263389,
-                "odd_justa": 3.8
-              },
-              "ko_tko": {
-                "prob": 0.098395,
-                "odd_justa": 10.16
-              },
-              "finalizacao": {
-                "prob": 0.061532,
-                "odd_justa": 16.25
-              },
-              "decisao": {
-                "prob": 0.103461,
-                "odd_justa": 9.67
-              }
-            }
-          },
-          "odds_casa": null
-        },
-        {
           "id": "401936034",
-          "numero": 6,
+          "numero": 5,
           "segmento": "principal",
           "categoria": "Heavyweight",
           "status": "STATUS_SCHEDULED",
@@ -4537,6 +4383,188 @@
               "decisao": {
                 "prob": 0.1839,
                 "odd_justa": 5.44
+              }
+            }
+          },
+          "odds_casa": null
+        },
+        {
+          "id": "401932035",
+          "numero": 6,
+          "segmento": "preliminar",
+          "categoria": "Heavyweight",
+          "status": "STATUS_SCHEDULED",
+          "vencedor": null,
+          "lutador_a": {
+            "espn_id": "4245094",
+            "nome": "Kennedy Nzechukwu",
+            "cartel_espn": "14-7-1",
+            "pais": "Nigeria",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Kennedy Nzechukwu",
+              "lutas": 16,
+              "vitorias": 8,
+              "derrotas": 7,
+              "empates": 1,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 6,
+                "FINALIZACAO": 1,
+                "DECISAO": 1,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 3,
+                "FINALIZACAO": 2,
+                "DECISAO": 2,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2019-03-30",
+              "ultima_luta": "2026-08-22",
+              "ultimos_5": [
+                "D",
+                "E",
+                "D",
+                "V",
+                "V"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1497,
+              "minutos_com_estatisticas": 134.8,
+              "golpes_sig_por_min": 4.652,
+              "golpes_sig_sofridos_por_min": 4.489,
+              "precisao_golpes": 0.496,
+              "defesa_golpes": 0.512,
+              "quedas_por_15min": 0.557,
+              "precisao_quedas": 0.455,
+              "defesa_quedas": 0.808,
+              "controle_por_15min_s": 160.388,
+              "tentativas_finalizacao_por_15min": 0.223,
+              "idade": 34.6,
+              "envergadura_cm": 211
+            },
+            "carreira_mma": {
+              "cartel": "14-7-1",
+              "vitorias": 14,
+              "derrotas": 7,
+              "empates": 1,
+              "vitorias_por_metodo": {
+                "ko_tko": 10,
+                "finalizacao": 1,
+                "decisao_ou_outro": 3
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 3,
+                "finalizacao": 2,
+                "decisao_ou_outro": 2
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "lutador_b": {
+            "espn_id": "5293987",
+            "nome": "Elisha Ellison",
+            "cartel_espn": "5-3-0",
+            "pais": "USA",
+            "status_dados": "ok",
+            "historico_ufc": {
+              "nome_ufcstats": "Elisha Ellison",
+              "lutas": 2,
+              "vitorias": 0,
+              "derrotas": 2,
+              "empates": 0,
+              "sem_resultado": 0,
+              "vitorias_por_metodo": {
+                "KO/TKO": 0,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "derrotas_por_metodo": {
+                "KO/TKO": 2,
+                "FINALIZACAO": 0,
+                "DECISAO": 0,
+                "OUTRO": 0
+              },
+              "primeira_luta": "2025-09-27",
+              "ultima_luta": "2026-07-11",
+              "ultimos_5": [
+                "D",
+                "D"
+              ]
+            },
+            "estatisticas": {
+              "elo": 1439,
+              "minutos_com_estatisticas": 4.4,
+              "golpes_sig_por_min": 3.609,
+              "golpes_sig_sofridos_por_min": 15.789,
+              "precisao_golpes": 0.381,
+              "defesa_golpes": 0.34,
+              "quedas_por_15min": 0.0,
+              "precisao_quedas": 0.0,
+              "defesa_quedas": 1.0,
+              "controle_por_15min_s": 43.985,
+              "tentativas_finalizacao_por_15min": 0.0,
+              "idade": 29.9,
+              "envergadura_cm": 198
+            },
+            "carreira_mma": {
+              "cartel": "5-3-0",
+              "vitorias": 5,
+              "derrotas": 3,
+              "empates": 0,
+              "vitorias_por_metodo": {
+                "ko_tko": 4,
+                "finalizacao": 1,
+                "decisao_ou_outro": 0
+              },
+              "derrotas_por_metodo": {
+                "ko_tko": 2,
+                "finalizacao": 1,
+                "decisao_ou_outro": 0
+              }
+            },
+            "medias_fora_ufc": null
+          },
+          "avisos": [],
+          "previsao_possivel": true,
+          "previsao": {
+            "a": {
+              "vitoria": {
+                "prob": 0.736611,
+                "odd_justa": 1.36
+              },
+              "ko_tko": {
+                "prob": 0.540399,
+                "odd_justa": 1.85
+              },
+              "finalizacao": {
+                "prob": 0.075409,
+                "odd_justa": 13.26
+              },
+              "decisao": {
+                "prob": 0.120803,
+                "odd_justa": 8.28
+              }
+            },
+            "b": {
+              "vitoria": {
+                "prob": 0.263389,
+                "odd_justa": 3.8
+              },
+              "ko_tko": {
+                "prob": 0.128346,
+                "odd_justa": 7.79
+              },
+              "finalizacao": {
+                "prob": 0.053351,
+                "odd_justa": 18.74
+              },
+              "decisao": {
+                "prob": 0.081691,
+                "odd_justa": 12.24
               }
             }
           },
@@ -5073,7 +5101,7 @@
           "id": "401936038",
           "numero": 10,
           "segmento": "preliminar",
-          "categoria": "Light Heavyweight",
+          "categoria": "Lightweight",
           "status": "STATUS_SCHEDULED",
           "vencedor": null,
           "lutador_a": {
