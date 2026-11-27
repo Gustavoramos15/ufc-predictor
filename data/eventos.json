@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-27T04:01:53.456802+00:00",
+  "gerado_em": "2026-11-27T19:24:50.770969+00:00",
   "eventos": [
     {
       "id": "600062700",
@@ -194,7 +194,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.6,
               "abertura": 1.64
@@ -393,7 +393,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.58,
               "abertura": 1.58
@@ -594,13 +594,13 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
-              "atual": 3.8,
+              "atual": 3.5,
               "abertura": 3.75
             },
             "b": {
-              "atual": 1.28,
+              "atual": 1.32,
               "abertura": 1.28
             },
             "total_rounds": {
@@ -779,7 +779,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 2.54,
               "abertura": 2.8
@@ -915,7 +915,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 3.35,
               "abertura": 3.45
@@ -926,8 +926,8 @@
             },
             "total_rounds": {
               "linha": 2.5,
-              "mais": 2.6,
-              "menos": 1.47
+              "mais": 2.54,
+              "menos": 1.5
             }
           }
         },
@@ -1090,7 +1090,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.54,
               "abertura": 1.52
@@ -1348,7 +1348,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.8,
               "abertura": 1.9
@@ -1678,7 +1678,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.7,
               "abertura": 1.76
@@ -1787,7 +1787,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 2.2,
               "abertura": 2.2
@@ -1972,7 +1972,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.55,
               "abertura": 1.67
@@ -2171,7 +2171,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.74,
               "abertura": 1.67
@@ -2373,7 +2373,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.76,
               "abertura": 1.67
@@ -2584,7 +2584,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 1.67,
               "abertura": 1.55
@@ -2782,7 +2782,7 @@
           "odds_casa": {
             "casa": "DraftKings",
             "fonte": "ESPN (API não oficial)",
-            "consultado_em": "2026-11-27T04:01:53.456802+00:00",
+            "consultado_em": "2026-11-27T19:24:50.770969+00:00",
             "a": {
               "atual": 2.64,
               "abertura": 2.14
